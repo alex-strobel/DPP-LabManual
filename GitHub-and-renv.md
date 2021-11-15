@@ -45,7 +45,7 @@ During the next weeks ...
 - collaborator D's analysis scripts give an error message because the folder names have changed on the group drive but not in the code
 - It is agreed upon that a readme file  will be used to document all changes made to the group drive.
 - Everyone including yourself forgets to add a new comment to the readme after making changes.
-- Even after all this mess has been cleaned up and all analysis code runs with the correct files, collaborator C still cannot reproduce your multilevel modeling results. It turns out that C uses a newer `lme4` package version than you did.    
+- Even after all this mess has been cleaned up and all analysis code runs with the correct files, collaborator D still cannot reproduce your multilevel modeling results. It turns out that D uses a newer `lme4` package version than you did.    
 
 It is clear that such a situation not only demands for a coherent research data management system where all data and code is stored and updated in a traceable manner. 
 This system should also make collaboration as effective and efficient as possible by having version control and the necessity to comment on changes built right into the system. 
