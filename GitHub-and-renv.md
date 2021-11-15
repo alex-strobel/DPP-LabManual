@@ -145,5 +145,8 @@ When doing so, there still extists the *main* "timeline", but also an altered "t
 The team member can then *commit* whatever to this alternative "timeline" without changing the *main* timeline. 
 Once done, the team member creates a so-called *pull request*: 
 All other team members are informed that a change to the *main* "timeline" is suggested, they can review all the changes, comment on them, accept or reject them. 
-When eventually a common consensus has been reached on whether and how to change the *main* "timeline" to accept, the new *branch* is merged with the *main". 
+When eventually a common consensus has been reached on whether and how to change the *main* "timeline" to accept, the new *branch* is merged with the *main*. 
+
+
+
 
