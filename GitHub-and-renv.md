@@ -11,6 +11,7 @@ You are working on a psychological research project that involves collecting que
 You are collaborating with two team members. 
 Your task is to supervise data collection, to analyze the questionnaire data and to merge it with the behavioral and the psychophysiological data, perform statistical analyses, and write the majority of the research report.
 Let us call you collaborator A.
+
 The task of collaborator B is to preprocess the behavioral data, while collaborator C will analyze the EDA data.
 Both will be involved in writing the research report, as they will contribute parts of the Methods and Results sections and will revise your first version of the report.
 There are also two further persons involved: collaborator D originally had the research idea and acquired funding while collaborator E programmed the experimental paradigm and also supported data collection.
