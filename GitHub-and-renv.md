@@ -8,7 +8,7 @@ You are collaborating with two team members.
 Your task is to supervise data collection, to analyze the questionnaire data and to merge it with the behavioral and the psychophysiological data, perform statistical analyses, and write the majority of the research report.
 Let us call you collaborator A.
 The task of collaborator B is to preprocess the behavioral data, while collaborator C will analyze the EDA data.
-Both will be involved in writing the research report, as they will contribute parts of the Methods and Results sections and will revise your first version of the report.  
+Both will be involved in writing the research report, as they will contribute parts of the Methods and Results sections and will revise your first version of the report.
 Also, collaborator C will finally try to reproduce your statistical analyses based on the preprocessed data and your analysis code.
 This shall ensure that the data and code you want to openly share with the scientific community together with your research report indeed allow for reproduction of your analyses.
 
