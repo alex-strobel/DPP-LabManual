@@ -185,14 +185,14 @@ This option may even pay in a given workgroup where certain members tend to upda
 
 ### Why you should use the `here` package
 
-The `here` package has not been mentioned so far, but it is an important add-on to the collaboration routine suggested here. Say, you are working on a Mac and have your data stored locally in a folder "/Users/alex/R/ProjectX" 
+The `here` package has not been mentioned so far, but it is an important add-on to the collaboration routine suggested here. Say, you are working on a Mac and have your data stored locally in a folder "/Users/alex/R/ProjectX".
 If you then put some file "QuestionnaireData.csv" in a subfolder named "/Data", normally your analysis script located in the subfolder "/Code" would include something like
 
 `df <- read.csv("/Users/alex/R/ProjectX/Data/QuestionnaireData.csv")`
 
 to read the data. When you clone the repository on a machine that runs on Windows, the folder structure would be located at a different place and with a different syntax, say "D:\\Projects\Cloned\ProjectX". You would therefore need to edit the above syntax to 
 
-`df <- read.csv("D:\\Projects\Cloned\ProjectX\Data\QuestionnaireData.csv")` 
+`df <- read.csv("D:\\\Projects\Cloned\ProjectX\Data\QuestionnaireData.csv")` 
 
 or otherwise get an error message that the data cannot be found. With the `here` package, you place a flagging file into the root folder, name it, say "flag_root.txt", and in your analysis script, you write
 
