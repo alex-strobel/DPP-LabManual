@@ -59,7 +59,7 @@ Ah, and it would be great if all authors could revise and comment your R Markdow
 
 In this tutorial you will learn how to use GitHub and the R package `renv` for efficient collaboration on research projects including version control and a common R environment.
 This will also allow other researchers to reproduce your research results using your data and code even if they use different R and R package versions.
-Yet, this is only one solution, and most likely not the best.
+Yet, this is only *one* solution, and most likely not the best.
 While the `renv` package enables one to have a common R environment, it does not ensure that all analyses are carried out as if they were run on the same machine and the same operating system.
 For this purpose, a solution involving the `docker` approach would perhaps be superior.
 But for now, collaborating via GitHub and using R and RStudio together with the `renv` package will provide a major improvement. 
