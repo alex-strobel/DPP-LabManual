@@ -70,7 +70,7 @@ Before coming to details on *how* to do so, some remarks on *why* one should use
 ### Why you should use R and R Studio
 
 As mentioned in other documents in ths manual: 
-R is a software environment that is mainly used for statistical computing, but in fact, it is an all-purpose computing environment that is quite similar to MATLAB although the syntax is somewhat different. 
+R is a software environment that is mainly used for statistical computing, but in fact, it is an all-purpose computing environment that is quite similar to MATLAB although the syntax is somewhat but not entirely different. 
 That is, you can do a lot of other things than statistical computing with R. 
 Yet, *if* you mainly want to do statistical computing, R will in most cases outperform MATLAB (plus, the community is nicer to newbies) because for literally every purpose you can imagine for statistical computing, there is at least one R package (there is even one for [playing a beep](https://cran.r-project.org/web/packages/beepr/index.html) which is nice for analysis routines that take some time so that meanwhile you can do something else but get notified when the analyses are done). 
 
