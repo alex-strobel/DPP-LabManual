@@ -1,6 +1,6 @@
 # Version control and collaboration using GitHub and the `renv` package
 
-## Background 
+## The problem
 
 Consider yourself in the following situation: 
 You are working on a psychological research project that involves collecting questionnaire data, behavioral data such as response times and error rates from an experiment, and physiological data, say, electrodermal activity (EDA).
@@ -35,15 +35,18 @@ You then discover that while you used the most recent behavioral data, you accid
 In a short meeting, all collaborators agree that it would be wise to have a group drive for storing all the data, making it transparent for others when something changes on that drive.
 You create such a group drive, upload the most recent data and code and give all collaborators access rights.
 
-During the next week ...
+During the next weeks ...
 - collaborator B has read a new paper on handling outliers in reaction time data and uploads the improved analyses to the group drive by creating a new folder "RT_preprocessed_final", but then reads yet another even more recent paper, reanalyzes the data and creates another folder "RT_preprocessed_final2" 
 - collaborator C (for reasons of consistency) renames the folder with the EDA data from "EDA-data" to "EDA_preprocessed"
 - collaborator D's analysis scripts give an error message because the folder names have changed on the group drive but not in the code
 - It is agreed upon that a readme file  will be used to document all changes made to the group drive.
-- Everyone including yourself forgets to add a new comment to the readme after their changes.
-- Even after all this mess has been cleaned up and all analysis code runs with the correct files, collaborator C still cannot reproduce your multilevel modeling results. It turns out that C used a newer `lme4` package version than you did.    
+- Everyone including yourself forgets to add a new comment to the readme after making changes.
+- Even after all this mess has been cleaned up and all analysis code runs with the correct files, collaborator C still cannot reproduce your multilevel modeling results. It turns out that C uses a newer `lme4` package version than you did.    
+
+It is clear that such a situation not only demands for a coherent research data management system where all data and code is stored and updated in a traceable manner. This system should also make collaboration as effective and efficient as possible by having version control and the necessity to comment on changes built right into the system. Finally, the system should allow for having a common R environment for all analyses, even when individual collaborators either do not have certain packages installed or use other package versions. Ah, and it would be great if all authors could revise and comment your R Markdown file directly ...
+
+## One solution
+
+In this tutorial you will learn how to use GitHub and the R package `renv` for efficient collaboration on research projects including version control and a common R environment. This will also allow to enable researchers to reproduce your research results using your data and code even if they use different R and R package versions. Yet, this is only one solution, and most likely not the best. While the `renv` package enables one to have a common R environment, it does not ensure that all analyses are carried out as if they were run on the same machine and the same operating system. For this purpose, a solution involving the `docker`approach would perhaps be superior. But for now, collaborating via GitHub and using R and RStudio together with the `renv` package will provide a major improvement.
 
 
-
-
-In this tutorial you will learn how to use GitHub and the R package `renv` for efficient collaboration on research projects including version control and a stable R environment. This will also allow to enable researchers to reproduce your research results using your data and code even if they use different R and R package versions.
