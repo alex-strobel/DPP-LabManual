@@ -132,7 +132,7 @@ When you create a GitHub project (also called a repository), you create a main b
 In GitHub terms, this main branch is called *main*, one could also call it the main "timeline". 
 You upload files (or *push*) to that main "timeline". 
 This change or alteration is called a *commit*. 
-Each *commit* is stored in a file's history and needs to be at least to be named, but can (ideally) also be commented. 
+Each *commit* is stored in a file's history and at least needs to be labeled, but can (ideally) also be commented on. 
 Others may also alter the "timeline" (in GitHub terms: *commit* to the *main*) and you can download (or *pull*) these changes to your local mirror of your research project, have an overview of the history of all *commits*, their summary and perhaps also comments on the *commits*.
 
 You can compare this process to a collaborative work on a Google Document: 
