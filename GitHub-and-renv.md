@@ -206,7 +206,7 @@ And given that you have a more complex subfolder structure, you would simply wri
 
 `df <- read.csv(here("Data", "PrimaryData", "data.csv"))` 
 
-It may be wise to put the project name into the flagging file to make sure that `here` captures the corrects project directory in case you are concurrently working on more than one project with the `here` package, i.e.:
+It may be wise to put the project name into the flagging file to make sure that `here` captures the correct project directory in case you are concurrently working on more than one project with the `here` package, i.e.:
 
 `here::i_am("flag_root_for_ProjectX.txt")` 
 
