@@ -212,11 +212,11 @@ It may be wise to put the project name into the flagging file to make sure that 
 
 ## How to use the workflow suggested here
 
-After your will hopefully be convinced to use the solutuons outlines above, you may ask how to do so. Her is how:
+After you will hopefully be convinced to use the solutuons outlined above, you may ask how to do so. Here is how:
 
 ### Install R and RStudio
 
-It has alread mentioned above.
+This has already mentioned above.
 
 ### Install Git/GitHub
 
@@ -227,7 +227,7 @@ To install Git, there are several ways to do so.
 On Windows ... 
 <!-- @Christopph/Josephien: please add instructions -->
 
-On a Mac, the recommended way is as follows:
+On Mac, the recommended way is as follows:
 
 1. Install [Homebrew](https://brew.sh/index_de) as a general purpose tool to manage missing packages on macOS (this step may take some time, so get yourself another coffee)
 2. Install Git from the terminal via the command `brew install git` (this step is quite fast)
@@ -237,12 +237,13 @@ Whether on a Windows machine or a Mac, then sign up to GitHub via
 
 [GitHub](https://github.com)
 
-You have to enter an email address, upon which you will receive a confirmation email. This may take some time. Do not try to create anoteraccount using a secondary email address because it seems that all this takes too long. Make yourself a coffee instead while you wait. When the email has arrived and you finished the process of signing up, you can create a new project (called repository) via clicking the *plus* bottun top right on the GitHub page. You can manage most if not all of your project via the browser, but some tasks (such as adding data to a project) may be easier to implement if you have a local mirror (or *clone*) of your repository. A convenient tool to manage your GitHub projects locally is GitHub Desktop.
+You have to enter an email address, upon which you will receive a confirmation email. This may take some time. Do not try to create another account using a secondary email address because it seems that all this takes too long. Make yourself a coffee instead while you wait. When the email has arrived and you finished the process of signing up, you can create a new project (called repository) via clicking the *plus* button top right on the GitHub page. You can manage most if not all of your project via the browser, but some tasks (such as adding data to a project) may be easier to implement if you have a local mirror (or *clone*) of your repository. A convenient tool to manage your GitHub projects locally is GitHub Desktop.
 
 [GitHub Desktop](https://desktop.github.com)
 
-GitHub Desktop is - from my experience - not well organized, i.e., you have no immediate access to your folder structure and cannot edit documents right away. Yet, judging from my Mac experience and having the [Sublime text editor](https://www.sublimetext.com) installed, you can open any GitHub project in the editor and edit *ad libitum* and then *push* the changes to update everything on the server. If you have an R project attached to the GitHub repository (for details see below), GitHub Desktop will automatically detect changes made to your R code and will require you to *push* it onto the GitHub server and will also require you to at least label and ideally comment on your *commit*. Unless, your *commit* is labeled, it cannot be *pushed*. This is one great advantage of GitHub over what I outlined initially in the "The Problem" section: You cannot *commit* anything whithout at least give your *commit* a label.
+GitHub Desktop is - from my experience - not well organized, i.e., you have no immediate access to your folder structure and cannot edit documents right away. Yet, judging from my (Mac) experience and having the [Sublime text editor](https://www.sublimetext.com) installed, you can open any GitHub project in the editor and edit *ad libitum* and then *push* the changes via GitHub Desktop to update everything on the server. If you have an R project attached to the GitHub repository (for details see below), GitHub Desktop will automatically detect changes made to your R code and will require you to *push* it onto the GitHub server and will also require you to at least label and ideally comment on your *commit*. Unless your *commit* is labeled, it cannot be *pushed*. This is one great advantage of GitHub over what I outlined initially in the "The Problem" section: You cannot *commit* anything whithout at least give your *commit* a label.
 
+In an ideal world, you can even *commit* changes to your GitHUb project via RStudio itself, as it comes with a Git integration (more on that below). Yet, this requires some sort of authetication, but (at leasst on my Mac) a user name/password does not work. Instead, GitHub required a so-called *personal access token*, the creation of which goes beyond my level of understanding. Which is why I continue to use GitHub Desktop.
 
 
 
