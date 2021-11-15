@@ -1,5 +1,9 @@
 # Version control and collaboration using GitHub and the `renv` package
 
+[Alexander Strobel](mailto:alexander.strobel@tu-dresden.de)<br>
+Faculty of Psychology<br>
+TU Dresden
+
 ## The problem
 
 Consider yourself in the following situation: 
@@ -51,4 +55,32 @@ In this tutorial you will learn how to use GitHub and the R package `renv` for e
 
 ## Some background
 
-I
+### Why you should use R and R Studio
+
+As mentioned in other documents in ths manual: R is a software environment that is mainly used for statistical computing, but in fact, it is an all-purpose computing environment that is quite similar to MATLAB although the syntax is somewhat different. That is, you can do a lot of other things than statistical computing with R. Yet, *if* you mainly want to do statistical computing, R will in most cases outperform MATLAB (plus, the community is nicer to newbies) because for literally every purpose you can imagine for statistical computing, there is at least one R pakcage (there is even one for [playing a beep](https://cran.r-project.org/web/packages/beepr/index.html) which is nice for analysis routines that take some time so that meanwhile you can do something else but get notified when the analyses are done). 
+
+Also, R enables you to use R Markdown for writing dynamic reports (see below). It can be linked to GitHub for version control (see further below) and it enables you to use the `renv` package for having a common R environment for a given project (see at the bottom of this document).
+
+R is best used together with RStudio as frontend that comes with a number of benefits that stand-alone R may not provide (I cannot tell because I have never used stand-alone R). To install R and RStudio, go to: 
+
+- [The R Project for Statistical Computing](https://www.r-project.org)
+- [RStudio](https://www.rstudio.com/products/rstudio/download/) 
+
+The R Project provides an _Introduction to R_, but it is not a short read. For a denser overview on the basics of R, you may want to use the cheat sheet below:
+
+- [Introduction to R](https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf)
+- [Base R Cheat Sheet](https://iqss.github.io/dss-workshops/R/Rintro/base-r-cheat-sheet.pdf)
+
+So far, I could not find a both useful *and* visually appealing introduction, just ask the internet if you do not find RStudio's GUI self-explaining.
+
+## Helpful guides
+
+While we try our best to provide you with our knowledge on R Markdown, we consider us still as novices ourselves. So, it may pay to read the R Markdown Guide, and often enough, you may want to refer to the R Markdown Cheat Sheet:
+
+- [R Markdown Guide](https://bookdown.org/yihui/bookdown/)
+- [R Markdown Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+
+Because later on in this course, we will also use the R package *papaja* dedicated to use R Markdown for writing psychological articles in APA style (so far only available for its 6th edition), one needs to install it as described on the author's GitHub site. It may also pay to familiarize yourself with the manual.
+
+- [*papaja* Download](https://github.com/crsh/papaja)
+- [*papaja* Manual](http://frederikaust.com/papaja_man/)
