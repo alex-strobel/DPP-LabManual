@@ -147,18 +147,60 @@ Once done, the team member creates a so-called *pull request*:
 All other team members are informed that a change to the *main* "timeline" is suggested, they can review all the changes, comment on them, accept or reject them. 
 When eventually a common consensus has been reached on whether and how to change the *main* "timeline" to accept, the new *branch* is merged with the *main*. When later on, this change of the "timeline" end up in a dead end street, one simply restores to earlier versions of the timeline ...
 
-Importantly, all team members work with the same project or repository all the time, they will do so mostly locally on their mirror (or in GitHub terms: *clone* of the project), but every change is then uploaded to the repository and will be available to all collaborators. In the example given above under the section "The problem", collaborator A would create a project repository in GitHub with the following folder structure:
+Importantly, all team members work with the same project or repository all the time, they will do so mostly locally on their mirror (or in GitHub terms: *clone* of the project), but every change is then uploaded to the repository and will be available to all collaborators. 
+In the example given above under the section "The problem", collaborator A would create a project repository in GitHub with the following folder structure for the primary data:
 
-- Primary
-+ Data 
-+ Questionnaire Data
-+ Behavioral Data
-+ EDA Data
+PrimaryData 
++ QuestionnaireData
++ BehavioralData
++ EDAData
 
-- Preprocessed Data
-+ Questionnaire Data
-+ Behavioral Data
-+ EDA Data
+All other collaborators would then have immediate access to all the primary data collected in the project including possible additions or deletiond (e.g., because some participants revoked consent to use their data). 
+They would do their preprocessing in another folder with the structure:
+
+PreprocessedData
++ QuestionnaireData
++ BehavioralData
++ EDAData
+
+Any changes to this folder would be recorded in the folders history. 
+Also, all analysis scripts referring to this folder would be using the possibly updated data in case one collaborator decides to preprocess the data in a different way (in this case, this collaborator should ideally first create a *branch* to do so). 
+Best of all: if you eventually choose to share your data and code openly, other researchers do not have to download single files from you, say, OSF project, but can simply *clone* your GitHub project locally.
+
+### Why you should use the `renv` package
+
+So far, so good. 
+But when it comes to what, e.g., Russ Poldrack calls *Computational Reproducibility*, you may face the problem that your collaborators not only use different machines and operating systems, but also different R packages to perform some statistical procedure. 
+This may result in different outcomes. 
+Not so much with regard to the statistical inference itself, i.e., does a hypothesis have to be rejected, but with regard to the exact numbers, i.e., *p* < .011 vs. *p* < .013 or *BF10* = 3.56 vs. *BF10* = 3.59.
+This is because R packages evolve and may introduce refined algorithms for their computations in newer versions or introduce new defaults, whatever.
+
+Here, the `renv` package comes into play: 
+It stores the R environment individual researchers were using when analyzing their data together with the data and the code. 
+When researcher Z clones a project of researcher A that A has had managed by `renv`, Z will be using the exact R environment that A was using, regardless of whether Z has packages required for reproducing A's analyses at all or has different versions of that packages installed.
+This option may even pay in a given workgroup where certain members update their R packages all the time and others do not.  
+
+### Why you should use the `here` package
+
+The `here` package has not been mentioned so far, but it is an important add-on to the collaboration routine suggested here. Say, you are working on a Mac and have your data locally stored in the folder "/Users/ales/R/ProjectX" 
+If you then put some file "QuestionnaireData.csv" in a subfolder named "/Data", normally your analysis script located in the subfolder "/Code" would include something like
+
+`df <- read.csv("/Users/alex/R/ProjectX/Data/QuestionnaireData.csv")`
+
+to read the data. When you clone the repository on a machine that runs on Windows, the folder structure would be located at a different place and with a different syntax, say "D:\\Projects\Cloned\ProjectX". You would therefore need to edit the above syntax to 
+
+`df <- read.csv("D:\\Projects\Cloned\ProjectX\Data\QuestionnaireData.csv")` 
+
+
+or otherwise get an error message that the data cannot be found. With the `here` package, you place a flagging file into the root folder, name it, say "flag_root.txt", and in your analysis script, you write
+
+```
+here::i_am("flag_root.txt")
+df <- read.csv("/Data/QuestionnaireData.csv")
+``` 
+
+Based on the location of the flagging file, the `here` package automatically locates the root folder and sets it as working directory. 
+
 
 
 
