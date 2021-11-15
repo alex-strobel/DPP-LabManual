@@ -106,4 +106,12 @@ For psychological research reports, there exists a template that renders your R 
 - [*papaja* Download](https://github.com/crsh/papaja)
 - [*papaja* Manual](http://frederikaust.com/papaja_man/)
 
-### Why 
+### Why you should use GitHub
+
+While when using R/RStudio and R Markdown, you are already on a good way, collaborating with others on R projects requires to have some common environment. You can set up a group drive, but as outlined above, if something changes on that drive, it may not be easy to keep track of these changes. Also, if some change eventually results in a dead end, you may want to go back to a previous point in the "timeline" of your analysis, but it may be not that easy to restore it because you do not know whether all changes since then have to be abandoned or only certain ones. 
+
+Here, version control is really helpful. If there was a system that tracked all changes to the files on your repository and would easily allow for reviewing what has changed when by whom, this would be of great benefit. GitHub allows for such a version control. In fact, it has been *made* for it (among other purposes). 
+
+When you create a GitHub project (also called a repository), you create a main branch of your project that is stored both on the GitHub server and locally (just as in nextcloud that is stored on some server, but mirrored locally). In GitHub terms, this main branch is called *main*, one could also call it the main "timeline". You upload files (or *push*) to that main "timeline". This change or alteration is called a *commit*. Each *commit* is stored in a file's history. Others may also alter the "timeline" (in GitHub terms: *commit* to the *main*) and you can download (or *pull*) these changes to your local mirror of your research project. 
+
+Importantly, if someone in your team wants to *commit* changes to the *main* "timeline" (e.g., introduce a new analysis routine or change major parts of a research report), one can create a *branch* of the *main*. When doing so, there still extists the *main* "timeline", but also an altered "timeline", the *branch*. The team member can then *commit* whatever they want to this alternative "timeline" without changing the *main* timeline. 
