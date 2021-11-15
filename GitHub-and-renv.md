@@ -1,4 +1,4 @@
-# Version control and collaboration using GitHub and the `renv` package
+	# Version control and collaboration using GitHub and the `renv` package
 
 [Alexander Strobel](mailto:alexander.strobel@tu-dresden.de)<br>
 Faculty of Psychology<br>
@@ -191,15 +191,60 @@ to read the data. When you clone the repository on a machine that runs on Window
 
 `df <- read.csv("D:\\Projects\Cloned\ProjectX\Data\QuestionnaireData.csv")` 
 
-
 or otherwise get an error message that the data cannot be found. With the `here` package, you place a flagging file into the root folder, name it, say "flag_root.txt", and in your analysis script, you write
 
-```
-here::i_am("flag_root.txt")
-df <- read.csv("/Data/QuestionnaireData.csv")
-``` 
+`here::i_am("flag_root.txt")` 
 
-Based on the location of the flagging file, the `here` package automatically locates the root folder and sets it as working directory. 
+Based on the location of the flagging file, the `here` package automatically locates the root folder and sets it as working directory. To circumvent the problem that Windows uses backslashes for file paths while Mac uses forward slashes, `here` simply wants to know the directory where the data are located as a first argument and then the file name as a second argument:
+
+`df <- read.csv(here("Data", "data.csv"))`  
+
+And given that you have a more complex subfolder structure, you would simply write, e.g.,   
+
+`df <- read.csv(here("Data", "PrimaryData", "data.csv"))` 
+
+It may be wise to put the project name into the flagging file to make sure that `here` captures the corrects project directory in case you are concurrently working on more than one project with the `here` package, i.e.:
+
+`here::i_am("flag_root_for_ProjectX.txt")` 
+
+## How to use the workflow suggested here
+
+After your will hopefully be convinced to use the solutuons outlines above, you may ask how to do so. Her is how:
+
+### Install R and RStudio
+
+It has alread mentioned above.
+
+### Install Git/GitHub
+
+There seems to exist a difference between Git and GitHub, I guess the former refers to some tool for collaboration and the latter for the platform that uses this tool, but for our purposes, this is not important. For a start, first install Git and then sign up to GitHub.
+
+To install Git, there are several ways to do so.
+
+On Windows ... 
+<!-- @Christopph/Josephien: please add instructions -->
+
+On a Mac, the recommended way is as follows:
+
+1. Install [Homebrew](https://brew.sh/index_de) as a general purpose tool to manage missing packages on macOS (this step may take some time, so get yourself another coffee)
+2. Install Git from the terminal via the command `brew install git` (this step is quite fast)
+3. To check whether it worked,, type `git version` into your terminal, it should return some meaningful info. If not, well, then I do not know what to do ...
+
+Whether on a Windows machine or a Mac, then sign up to GitHub via  
+
+[GitHub](https://github.com)
+
+You have to enter an email address, upon which you will receive a confirmation email. This may take some time. Do not try to create anoteraccount using a secondary email address because it seems that all this takes too long. Make yourself a coffee instead while you wait. When the email has arrived and you finished the process of signing up, you can create a new project (called repository) via clicking the *plus* bottun top right on the GitHub page. You can manage most if not all of your project via the browser, but some tasks (such as adding data to a project) may be easier to implement if you have a local mirror (or *clone*) of your repository. A convenient tool to manage your GitHub projects locally is GitHub Desktop.
+
+[GitHub Desktop](https://desktop.github.com)
+
+GitHub Desktop is - from my experience - not well organized, i.e., you have no immediate access to your folder structure and cannot edit documents right away. Yet, judging from my Mac experience and having the [Sublime text editor](https://www.sublimetext.com) installed, you can open any GitHub project in the editor and edit *ad libitum* and then *push* the changes to update everything on the server. If you have an R project attached to the GitHub repository (for details see below), GitHub Desktop will automatically detect changes made to your R code and will require you to *push* it onto the GitHub server and will also require you to at least label and ideally comment on your *commit*. Unless, your *commit* is labeled, it cannot be *pushed*. This is one great advantage of GitHub over what I outlined initially in the "The Problem" section: You cannot *commit* anything whithout at least give your *commit* a label.
+
+
+
+
+
+
 
 
 
