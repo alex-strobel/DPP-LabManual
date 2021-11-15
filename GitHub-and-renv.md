@@ -100,7 +100,7 @@ But even if you are a novice who does not see oneself fit to anticipate all the 
 If you, say, have collected answers to ten variables in a sample of 250 individuals and have performed a correlation analysis only, you will come up with a correlation table with a number of asterisks that denote the level of significance of an individual correlation coefficent. 
 You then do a final quality check of the data (you should have done that initially, of course, but sometimes, one forgets ...) and find out that one participant stated *Boba Fett* as gender and *Kauderwelsch* as mother tongue (actually an empirical example, fantasy rarely beats empirical evidence!). 
 You need to remove this individual from the analyses, but then every single correlation coefficient will change to some extent. 
-Using R for analysis and Word for reporting, you will need to check every single coefficient in your table and whether the number of asterisks attached to each coefficient is still valid). 
+Using R for analysis and Word for reporting, you would be required to check every single coefficient in your table and whether the number of asterisks attached to each coefficient is still valid). 
 Using R Markdown, you simply update your document, and every coefficient will be the correct one and assigned with the correct number of asterisks.  
 
 We have written a [course/tutorial on how to use R Markdown](https://github.com/alex-strobel/R-Markdown.git). 
