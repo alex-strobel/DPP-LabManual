@@ -47,21 +47,36 @@ During the next weeks ...
 - Everyone including yourself forgets to add a new comment to the readme after making changes.
 - Even after all this mess has been cleaned up and all analysis code runs with the correct files, collaborator C still cannot reproduce your multilevel modeling results. It turns out that C uses a newer `lme4` package version than you did.    
 
-It is clear that such a situation not only demands for a coherent research data management system where all data and code is stored and updated in a traceable manner. This system should also make collaboration as effective and efficient as possible by having version control and the necessity to comment on changes built right into the system. Finally, the system should allow for having a common R environment for all analyses, even when individual collaborators either do not have certain packages installed or use other package versions. Ah, and it would be great if all authors could revise and comment your R Markdown file directly ...
+It is clear that such a situation not only demands for a coherent research data management system where all data and code is stored and updated in a traceable manner. 
+This system should also make collaboration as effective and efficient as possible by having version control and the necessity to comment on changes built right into the system. 
+Finally, the system should allow for having a common R environment for all analyses, even when individual collaborators either do not have certain packages installed or use other package versions. 
+
+Ah, and it would be great if all authors could revise and comment your R Markdown file directly ...
 
 ## One solution
 
-In this tutorial you will learn how to use GitHub and the R package `renv` for efficient collaboration on research projects including version control and a common R environment. This will also allow to enable researchers to reproduce your research results using your data and code even if they use different R and R package versions. Yet, this is only one solution, and most likely not the best. While the `renv` package enables one to have a common R environment, it does not ensure that all analyses are carried out as if they were run on the same machine and the same operating system. For this purpose, a solution involving the `docker`approach would perhaps be superior. But for now, collaborating via GitHub and using R and RStudio together with the `renv` package will provide a major improvement. Before coming to details on how to do so, some remarks on why one should use these software tools.
+In this tutorial you will learn how to use GitHub and the R package `renv` for efficient collaboration on research projects including version control and a common R environment.
+This will also allow to enable researchers to reproduce your research results using your data and code even if they use different R and R package versions.
+Yet, this is only one solution, and most likely not the best.
+While the `renv` package enables one to have a common R environment, it does not ensure that all analyses are carried out as if they were run on the same machine and the same operating system.
+For this purpose, a solution involving the `docker` approach would perhaps be superior.
+But for now, collaborating via GitHub and using R and RStudio together with the `renv` package will provide a major improvement. 
+Before coming to details on how to do so, some remarks on why one should use these software tools.
 
 ## Some background
 
 ### Why you should use R and R Studio
 
-As mentioned in other documents in ths manual: R is a software environment that is mainly used for statistical computing, but in fact, it is an all-purpose computing environment that is quite similar to MATLAB although the syntax is somewhat different. That is, you can do a lot of other things than statistical computing with R. Yet, *if* you mainly want to do statistical computing, R will in most cases outperform MATLAB (plus, the community is nicer to newbies) because for literally every purpose you can imagine for statistical computing, there is at least one R pakcage (there is even one for [playing a beep](https://cran.r-project.org/web/packages/beepr/index.html) which is nice for analysis routines that take some time so that meanwhile you can do something else but get notified when the analyses are done). 
+As mentioned in other documents in ths manual: 
+R is a software environment that is mainly used for statistical computing, but in fact, it is an all-purpose computing environment that is quite similar to MATLAB although the syntax is somewhat different. 
+That is, you can do a lot of other things than statistical computing with R. 
+Yet, *if* you mainly want to do statistical computing, R will in most cases outperform MATLAB (plus, the community is nicer to newbies) because for literally every purpose you can imagine for statistical computing, there is at least one R package (there is even one for [playing a beep](https://cran.r-project.org/web/packages/beepr/index.html) which is nice for analysis routines that take some time so that meanwhile you can do something else but get notified when the analyses are done). 
 
-Also, R enables you to use R Markdown for writing dynamic reports (see below). It can be linked to GitHub for version control (see further below) and it enables you to use the `renv` package for having a common R environment for a given project (see at the bottom of this document).
+Also, R enables you to use R Markdown for writing dynamic reports (see below).
+It can be linked to GitHub for version control (see further below) and it enables you to use the `renv` package for having a common R environment for a given project (see at the bottom of this document).
 
-R is best used together with RStudio as frontend that comes with a number of benefits that stand-alone R may not provide (I cannot tell because I have never used stand-alone R). To install R and RStudio, go to: 
+R is best used together with RStudio as frontend that comes with a number of benefits that stand-alone R may not provide (I cannot tell because I have never used stand-alone R). 
+To install R and RStudio, go to: 
 
 - [The R Project for Statistical Computing](https://www.r-project.org)
 - [RStudio](https://www.rstudio.com/products/rstudio/download/) 
@@ -73,14 +88,22 @@ The R Project provides an _Introduction to R_, but it is not a short read. For a
 
 So far, I could not find a both useful *and* visually appealing introduction, just ask the internet if you do not find RStudio's GUI self-explaining.
 
-## Helpful guides
+### Why you should use R Markdown
 
-While we try our best to provide you with our knowledge on R Markdown, we consider us still as novices ourselves. So, it may pay to read the R Markdown Guide, and often enough, you may want to refer to the R Markdown Cheat Sheet:
+R Markdown is a simple and easy to learn formatting syntax for authoring HTML, PDF, and MS Word documents. R Markdown allows to create updatable and reproducible reports because one analyzes data and reports the results in one instance and in a dynamic manner. 
+
+In principle, having a handful of data from a pilot study, you can write the Introduction and Methods section of a scientifc manuscript in R Markdown language (with a little help from LaTeX), all analysis routines in R code, and by placing references to objects generated by this code (such as a linear model) in the text body of the Results section, you can even write up the whole Results section without even having started to collect the actual data. Once data collection (and possible preprocessing outside of R) is finished, your report will be ready in an instance, and all that remains to be done is the Discussion. 
+
+But even if you are a novice you does not see oneself fit to anticipate all the possible routines one could take during data analysis, you will benefit from R Markdown. If you, say, have collected answers to ten variables of a sample of 250 individuals and have performed a correlation analysis only, you will come up with a correlation table with a number of asterisks that denote the level of significance of an individual correlation coefficent. You then do a final quality check of the data (that you should have done initially, of course, but sometimes, one forgets ...) and find out that one participant stated *Boba Fett* as gender and *Kauderwelsch* as mother tongue (indeed an emirical example!). You need to remove this individual from the analyses, but then every single correlation coefficient will change to some extent. Using R for analysis and Word for reporting, you will need to check every singel coefficient in your table and whether the number of asterisks attached to each coefficient is still valid). Using R Markdown, you simply update your document, and every coefficient will be the correct one and assigned with the correct number of asterisks.  
+
+We have written a [course/tutorial on how to use R Markdown](https://github.com/alex-strobel/R-Markdown.git). While we have tried our best to provide you with our knowledge on R Markdown, we consider us still as novices ourselves. So, it may pay to read the R Markdown Guide, and often enough, you may want to refer to the R Markdown Cheat Sheet:
 
 - [R Markdown Guide](https://bookdown.org/yihui/bookdown/)
 - [R Markdown Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
 
-Because later on in this course, we will also use the R package *papaja* dedicated to use R Markdown for writing psychological articles in APA style (so far only available for its 6th edition), one needs to install it as described on the author's GitHub site. It may also pay to familiarize yourself with the manual.
+For psychological research reports, there exists a template that renders your R Markdown document in APA style (so far only available for its 6th edition). This template is included in the `papaja` package and you need to install it as described on the author's GitHub site. It may also pay to familiarize yourself with the manual.
 
 - [*papaja* Download](https://github.com/crsh/papaja)
 - [*papaja* Manual](http://frederikaust.com/papaja_man/)
+
+### Why 
