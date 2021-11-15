@@ -185,7 +185,7 @@ This option may even pay in a given workgroup where certain members tend to upda
 
 ### Why you should use the `here` package
 
-The `here` package has not been mentioned so far, but it is an important add-on to the collaboration routine suggested here. Say, you are working on a Mac and have your data stored locally in a folder "/Users/ales/R/ProjectX" 
+The `here` package has not been mentioned so far, but it is an important add-on to the collaboration routine suggested here. Say, you are working on a Mac and have your data stored locally in a folder "/Users/alex/R/ProjectX" 
 If you then put some file "QuestionnaireData.csv" in a subfolder named "/Data", normally your analysis script located in the subfolder "/Code" would include something like
 
 `df <- read.csv("/Users/alex/R/ProjectX/Data/QuestionnaireData.csv")`
