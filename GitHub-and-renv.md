@@ -144,12 +144,13 @@ GitHub helps you to keep track on changes made to the project *as a whole*.
 Also, GitHub offers a unique feature that you cannot have using Google: 
 If someone in your team wants to *commit* changes to the *main* "timeline" (e.g., introduce a new analysis routine or change major parts of a research report), one can create a *branch* of the *main*. 
 When doing so, there still extists the *main* "timeline", but also an altered "timeline", the *branch*. 
-The team member can then *commit* whatever to this alternative "timeline" without changing the *main* timeline. 
+The team member can then *commit* whatever to this alternative "timeline" without changing the *main* "timeline". 
 Once done, the team member creates a so-called *pull request*: 
 All other team members are informed that a change to the *main* "timeline" is suggested, they can review all the changes, comment on them, accept or reject them. 
-When eventually a common consensus has been reached on whether and how to change the *main* "timeline" to accept, the new *branch* is merged with the *main*. When later on, this change of the "timeline" end up in a dead end street, one simply restores to earlier versions of the timeline ...
+When eventually a common consensus has been reached on whether and how to change the *main* "timeline", the new *branch* is merged with the *main*. Howeevr, when later on, this change of the "timeline" may end up in a dead end street, one simply restores to earlier versions of the "timeline" ...
 
 Importantly, all team members work with the same project or repository all the time, they will do so mostly locally on their mirror (or in GitHub terms: *clone* of the project), but every change is then uploaded to the repository and will be available to all collaborators. 
+
 In the example given above under the section "The problem", collaborator A would create a project repository in GitHub with the following folder structure for the primary data:
 
 PrimaryData 
@@ -157,7 +158,7 @@ PrimaryData
 + BehavioralData
 + EDAData
 
-All other collaborators would then have immediate access to all the primary data collected in the project including possible additions or deletiond (e.g., because some participants revoked consent to use their data). 
+All other collaborators would then have immediate access to all the primary data collected in the project including possible additions or deletions (e.g., because some participants revoked consent to use their data). 
 They would do their preprocessing in another folder with the structure:
 
 PreprocessedData
@@ -165,9 +166,9 @@ PreprocessedData
 + BehavioralData
 + EDAData
 
-Any changes to this folder would be recorded in the folders history. 
+Any changes to this folder would be recorded in the folder's history. 
 Also, all analysis scripts referring to this folder would be using the possibly updated data in case one collaborator decides to preprocess the data in a different way (in this case, this collaborator should ideally first create a *branch* to do so). 
-Best of all: if you eventually choose to share your data and code openly, other researchers do not have to download single files from you, say, OSF project, but can simply *clone* your GitHub project locally.
+Best of all: if you eventually choose to share your data and code openly, other researchers do not have to download single files from your, say, OSF project, but can simply *clone* your GitHub project as a whole and store it locally.
 
 ### Why you should use the `renv` package
 
@@ -179,12 +180,12 @@ This is because R packages evolve and may introduce refined algorithms for their
 
 Here, the `renv` package comes into play: 
 It stores the R environment individual researchers were using when analyzing their data together with the data and the code. 
-When researcher Z clones a project of researcher A that A has had managed by `renv`, Z will be using the exact R environment that A was using, regardless of whether Z has packages required for reproducing A's analyses at all or has different versions of that packages installed.
-This option may even pay in a given workgroup where certain members update their R packages all the time and others do not.  
+When researcher Z clones a project of researcher A that A has had managed using `renv`, Z will be using the exact R environment that A was using, regardless of whether Z has packages required for reproducing A's analyses at all or has different versions of that packages installed.
+This option may even pay in a given workgroup where certain members tend to update their R packages all the time and others tend to do not.  
 
 ### Why you should use the `here` package
 
-The `here` package has not been mentioned so far, but it is an important add-on to the collaboration routine suggested here. Say, you are working on a Mac and have your data locally stored in the folder "/Users/ales/R/ProjectX" 
+The `here` package has not been mentioned so far, but it is an important add-on to the collaboration routine suggested here. Say, you are working on a Mac and have your data stored locally in a folder "/Users/ales/R/ProjectX" 
 If you then put some file "QuestionnaireData.csv" in a subfolder named "/Data", normally your analysis script located in the subfolder "/Code" would include something like
 
 `df <- read.csv("/Users/alex/R/ProjectX/Data/QuestionnaireData.csv")`
