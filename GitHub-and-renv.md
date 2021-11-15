@@ -18,7 +18,7 @@ After data collection is finished, you share a cloud folder of the data with B a
 One week later, collaborator B sends you a link to another cloud folder where the preprocessed results can be downloaded. 
 A couple of days later, collaborator C gives you an USB stick with the preprocessed EDA data.
 You put all the data on your hard drive, merge it and analyze the data using the R software for statistical computing together with RStudio as frontend.
-You write your report in R Markdown to have an easily to be updated manuscript in case your co-authors have suggestions how to improve the analysis pipeline.  
+You write your report in R Markdown to have an easily to be updated manuscript in case your co-authors have suggestions how to improve the analysis pipeline.
 Again a few days later, B sends and email late in the evening and notes that there was an error in the preprocessing script for the behavioral data and that the correctly preprocessed data are to be found in a new cloud folder.   
 One month later, you are done with the first draft of the research report. 
 As it is not that straightforward to edit and comment R Markdown documents and also collaborators C and E are not familiar with it, you convert your R Markdown document into a Word document and send it to your collaborators via email. 
