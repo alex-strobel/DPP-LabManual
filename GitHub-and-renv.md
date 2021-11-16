@@ -275,7 +275,43 @@ There are several ways to do so, the one that works best for me (Alex) is descri
 3. Install the project-specific packages, e.g. `psych`, either via `Tools > Install Packages...` or from the editor/console via `install.packages("psych")`. The echo on the console will look a bit different like the one you would normally expect when you install a package, and if you read `OK [linked cache]`, this means everything worked well: the newly installed packages are attached to the `Project Library`. You will also find folders for these packages under the `Files` tab in the `renv/library` folder.
 4. As so far, your project isn't on GitHub yet, add it via GitHub Desktop by clicking on `Current Repository` (top left), click `Add` and then `Add Existing Repository...` and select the repository you created under 1. Click on the project in the left pane, then on `Publish repository` at the top of the GitHub Desktop window. Add a short description of your project and unselect `Keep this code private` (the default) if you want your project to be immediately accessible to everyone else on GitHub. You normally do not want that, and you can still invite collaborators later on even if you keep your project private for now. Click `Publish repository` upon which you may be asked for your GitHub user name and password. After a few secunds, the project has been *pushed* to the GitHub server and you can see it in your browser as well. It is recommended to add a README file to your project as GitHub will suggest below the files list of your project. You can describe your project shortly or in detail using Markdown syntax.
 5. As said, in principle, you should be able to *pull* from and *push* to your project directly via RStudio (see the `Git` tab in the top right pane of RStudio). Yet, as also said, this may require you to have a *personal access token*, and this is something that I haven't done yet. So, meanwhile, *pull* from and *push* to your project via GitHub Desktop. Anytime something changes in your project (e.g., you create a first script and save it in the project root), GitHub Desktop will automatically detect that change together with all other changes you may have made outside of RStudio (e.g., you created a subfolder `Data`), list them in the left pane, and will require you to label these changes aka *commits* (if you change only one thing at a time, GitHub Desktop sometimes will come up with a suggestion how to label the *commit*). After clicking `Commit to master` at the bottom of the left pane, hit `Push origin` in the right pane, and you are done and can see the changes made on the server, i.e., via your browser (wait, you cannot see the folder you created ... this is because they are not visible as long as they are empty. So to make them visible, you can simply put an empty file in it).
-6. It is highly recommended to commit every change made separately so that the commit is labeled appropriately. So if you, e.g., make a change in a script: commit it and label it "Update My-Script.R" 8in fact, GitHub Desktop will suggest exactly this label). You put some data in a newly created folder: commit it and label it. If commit both things at once before committing them, it may be hard to find an appropriate label because the label will be attached to both the script and the folder.
+6. It is highly recommended to commit every change made separately so that the commit is labeled appropriately. So if you, e.g., make a change in a script: commit it and label it "Update My-Script.R" (in fact, GitHub Desktop will suggest exactly this label). You put some data in a newly created folder: commit it and label it. If commit both things at once before committing them, it may be hard to find an appropriate label because the label will be attached to both the script and the folder.
+
+### Collaborative writing with RMarkdown scripts
+
+In this section I want to show you one way how collaborative writing works with your reproducible manuscripts.
+
+#### Branching
+
+Branching is great for working on a project as a team.
+In short, a branch is a copy of the whole project.
+You can try out ideas in your branch, or comment texts, without affecting the \textsc{main} project.
+After all comments have been edited, you can merge your branch into the main branch.
+Once merged, pull requests preserve a record of the historical changes of your code.
+
+
+More detailed information on branching can be found here: https://guides.github.com/introduction/flow/ .
+
+
+#### Recommended workflow
+
+1. Author A writes the first draft of the manuscript.
+2. Author B branches the project in GitHub, checks the code and makes edits.
+3. Author B pushes the changes only in the seperate branch and adds comments in the commit log.
+4. After author B is done, a pull request is created to merge the edits of the seperate branch to the main branch.
+Author A can see all changes and comments in the commit log.
+5. Author A implements edits and responds to comments. 
+
+#### Tips and tricks
+Lastly here are some tips and tricks that that can facilitate collaborative writing:
+
+1. In your RMarkdown file, use a new line for each sentence (as you can see in this _.Rmd_ document). 
+Otherwise, GitHub will mark the whole paragraph although a co-worker only changed one sentence, because all sentences were in the same line.
+2. Work with small commits! For every change or comment you make, commit the change. 
+If you do all your changes and pull the whole file at the end, it gets very chaotic.
+3. Everything gets a lot easier if you split you manuscript in several _.Rmd_ files. 
+I would recommend using an own _.Rmd_ file for each section.
+
 
 
 
