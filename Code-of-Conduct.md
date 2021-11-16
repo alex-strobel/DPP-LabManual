@@ -3,7 +3,7 @@
 [Alexander Strobel](mailto:alexander.strobel@tu-dresden.de)
 
 It should not be necessary to have a file like this because all of us will agree upon what will be outlined below. 
-Yet, what comprises the *all of us* may change over time so that have a written *code of conduct* might be necessary in the future.
+Yet, what comprises the *all of us* may change over time so that have a written *code of conduct* might be useful in the future.
 
 To put it simple:
 
@@ -17,6 +17,8 @@ To put it simple:
 8. We always comment our code.
 9. We always label and ideally comment our commits.
 10. We embrace open science principles and act accordingly.
+
+<!-- and God said: Uhm, err, I don't know ... Metratron, do you think this is a good set of rules? And Gabriel ... You are always so pathetic ... am I in the right path? -->  
 
 So, these are the ten commandments of our team, of which 2 to 4 plus 6 are also known as the *four excuses*. 
 
