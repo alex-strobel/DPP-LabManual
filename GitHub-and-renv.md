@@ -198,7 +198,7 @@ or otherwise get an error message that the data cannot be found. With the `here`
 
 `here::i_am("flag_root.txt")` 
 
-Based on the location of the flagging file, the `here` package automatically locates the root folder and sets it as working directory. To circumvent the problem that Windows uses backslashes for file paths while Mac uses forward slashes, `here` simply wants to know the directory where the data are located as a first argument and then the file name as a second argument:
+Based on the location of the flagging file, the `here` package automatically locates the root folder and sets it as working directory. To circumvent the problem that Windows uses backslashes for file paths while Mac uses forward slashes, `here` simply wants to know the directory where the data is located as a first argument and then the file name as a second argument:
 
 `df <- read.csv(here("Data", "data.csv"))`  
 
@@ -229,9 +229,9 @@ On Windows ...
 
 On Mac, the recommended way is as follows:
 
-1. Install [Homebrew](https://brew.sh/index_de) as a general purpose tool to manage missing packages on macOS (this step may take some time, so get yourself another coffee)
+1. Install [Homebrew](https://brew.sh/index_de) as a general purpose tool to manage missing packages on macOS (this step may take some time)
 2. Install Git from the terminal via the command `brew install git` (this step is quite fast)
-3. To check whether it worked, type `git version` into your terminal, it should return some meaningful info. If not, well, then I do not know what to do ...
+3. To check whether it worked, type `git version` into your terminal, it should return some meaningful info. If not, well, then I do not know ...
 
 Whether on a Windows machine or a Mac, then sign up to GitHub via  
 
@@ -241,9 +241,11 @@ You have to enter an email address, upon which you will receive a confirmation e
 
 [GitHub Desktop](https://desktop.github.com)
 
-GitHub Desktop is - from my experience - not well organized, i.e., you have no immediate access to your folder structure and cannot edit documents right away. Yet, judging from my (Mac) experience and having the [Sublime text editor](https://www.sublimetext.com) installed, you can open any GitHub project in the editor and edit *ad libitum* and then *push* the changes via GitHub Desktop to update everything on the server. If you have an R project attached to the GitHub repository (for details see below), GitHub Desktop will automatically detect changes made to your R code and will require you to *push* it onto the GitHub server and will also require you to at least label and ideally comment on your *commit*. Unless your *commit* is labeled, it cannot be *pushed*. This is one great advantage of GitHub over what I outlined initially in the "The Problem" section: You cannot *commit* anything without at least give your *commit* a label.
+GitHub Desktop is - from my experience - not well organized, i.e., you have no immediate access to your folder structure and cannot edit documents right away. Yet, judging from my (Mac) experience and having the [Sublime text editor](https://www.sublimetext.com) installed, you can open any GitHub project in the editor and edit *ad libitum* and then *push* the changes via GitHub Desktop to update everything on the server. If you have an R project attached to the GitHub repository (for details see below), GitHub Desktop will automatically detect changes made to your R code and will require you to *push* it onto the GitHub server and will also require you to at least label and ideally comment on your *commit*. Unless your *commit* is labeled, it cannot be *pushed*. This is one great advantage of GitHub over what I outlined initially in the "The Problem" section: You cannot *commit* anything without at least give it a label.
 
 In an ideal world, you can even *commit* changes to your GitHub project via RStudio itself, as it comes with a Git integration (more on that below). Yet, this requires some sort of authentication, but (at least on my Mac) a user name/password authentication does not work. Instead, GitHub requires a so-called *personal access token*, the creation of which goes beyond my level of understanding. Which is why I continue to use GitHub Desktop to *push* changes to my repository.
+
+### 
 
 
 
