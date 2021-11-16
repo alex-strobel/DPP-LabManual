@@ -370,5 +370,7 @@ It is recommended that you exercise what you have just learnt right now. Assumin
 - Have the collaborator clone the repository and check whether it worked.
 - Initialize a R Markdown script and try out branching and merging.
 - And don't forget to *commit* every change, label and (if necessarey) comment on it.
-- Keep on *pushing* and *pulling*!
+
+
+And then keep on *pushing* and *pulling*!
 
