@@ -359,15 +359,6 @@ output: pdf_document
 ``` {r child = "Introduction.Rmd"}
 ```
 
-```{r child = "Methods.Rmd"}
-```
-
-```{r child = "Results.Rmd"}
-```
-
-```{r child = "Discussion.Rmd"}
-```
-
 ```
 
 
