@@ -229,7 +229,7 @@ After you will hopefully be convinced to use the solutions outlined above, you m
 
 ### Install R and RStudio
 
-This has already mentioned [above](Why-you-should-use-R-and-RStudio).
+This has already mentioned [above](#Why-you-should-use-R-and-RStudio).
 
 ### Install Git/GitHub
 
