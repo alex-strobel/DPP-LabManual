@@ -279,7 +279,14 @@ There are several ways to do so, the one that works best for me (Alex) is descri
 
 ### Install and setup the `here` package
 
-Simply install the `here` package via `install.packages("here")`. Then (as said [above](#Why-you-should-use-the-here-package))
+Simply install the `here` package via `install.packages("here")`. Then (as said [above](#Why-you-should-use-the-here-package)) place a file named "flag_root_for_My-Project.txt" in the root directory of your project. Then create a folder called `Data` and put some data in it, say, a file named "df.csv". Also, create a folder called `Code` and save an R script in it with the following commands:
+
+```
+library(here)                           # loads here package
+i_am("flag_root_for_My-Project.txt")    # locates the root folder
+df <- read.csv(here("Data", "df.csv"))  # reads data from folder in that root
+
+```
 
 ### Collaborative writing with RMarkdown scripts
 
