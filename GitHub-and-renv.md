@@ -88,7 +88,7 @@ The R Project provides an _Introduction to R_, but it is not a short read. For a
 - [Introduction to R](https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf)
 - [Base R Cheat Sheet](https://iqss.github.io/dss-workshops/R/Rintro/base-r-cheat-sheet.pdf)
 
-So far, I could not find a both useful *and* visually appealing introduction, just ask the internet if you do not find RStudio's GUI self-explaining.
+So far, I could not find a both useful *and* visually appealing introduction to RStudio, just ask the internet if you do not find RStudio's GUI self-explaining.
 
 ### Why you should use R Markdown
 
@@ -258,7 +258,12 @@ GitHub Desktop is - from my experience - not well organized, i.e., you have no i
 
 In an ideal world, you can even *commit* changes to your GitHub project via RStudio itself, as it comes with a Git integration (more on that below). Yet, this requires some sort of authentication, but (at least on my Mac) a user name/password authentication does not work. Instead, GitHub requires a so-called *personal access token*, the creation of which goes beyond my level of understanding. Which is why I continue to use GitHub Desktop to *push* changes to my repository.
 
-### 
+### Integrate Git in RStudio
+
+Now that Git is installed, you need to link it to RStudio. 
+Open RStudio and go to `Tools > Global Options`. 
+Navigate to \textsc{Git/SVN}, check \textsc{Enable version control interface for RStudio projects} and paste the path to your Git executable in the corresponding field and klick \textsc{OK}.
+
 
 
 
