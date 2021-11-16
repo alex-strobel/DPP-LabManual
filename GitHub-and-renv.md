@@ -248,11 +248,11 @@ On Mac, the recommended way is as follows:
 
 Whether on a Windows machine or a Mac, then sign up to GitHub via  
 
-[GitHub](https://github.com)
+- [GitHub](https://github.com)
 
 You have to enter an email address, upon which you will receive a confirmation email. This may take some time. Do not try to create another account using a secondary email address because it seems that all this takes too long. Make yourself a coffee instead while you wait. When the email has arrived and you finished the process of signing up, you can create a new project (called repository) via clicking the *plus* button top right on the GitHub page. You can manage most if not all of your project via the browser, but some tasks (such as adding data to a project) may be easier to implement if you have a local mirror (or *clone*) of your repository. A convenient tool to manage your GitHub projects locally is GitHub Desktop.
 
-[GitHub Desktop](https://desktop.github.com)
+- [GitHub Desktop](https://desktop.github.com)
 
 GitHub Desktop is - from my experience - not well organized, i.e., you have no immediate access to your folder structure and cannot edit documents right away. Yet, judging from my (Mac) experience and having the [Sublime text editor](https://www.sublimetext.com) installed, you can open any GitHub project in the editor and edit *ad libitum* and then *push* the changes via GitHub Desktop to update everything on the server. If you have an R project attached to the GitHub repository (for details see below), GitHub Desktop will automatically detect changes made to your R code and will require you to *push* it onto the GitHub server and will also require you to at least label and ideally comment on your *commit*. Unless your *commit* is labeled, it cannot be *pushed*. This is one great advantage of GitHub over what I outlined initially in the "The Problem" section: You cannot *commit* anything without at least give it a label.
 
@@ -313,40 +313,64 @@ Execute that code, and the data will be loaded.
 If you now would move your directory to somewhere else, it would still work.
 And if someone else clones your project, it will work as well, and that is exactly what we use the `here` package for. 
 
-### Collaborative writing with RMarkdown scripts
+### Collaboratively work on projects
 
-In this section I want to show you one way how collaborative writing works with your reproducible manuscripts.
+So, once you are done with the steps above, invite collaborators to work together with you on the project. In the example given in the outset of this tutorial, collaborator A would add collaborators C to E as collaborators and would do so in the browser via the `Settings` tab on top of the project and via choosing `Manage access` (potential collaborators of course need to have a GitHub account as well). 
+Collaborator A would then assign tasks to the collaborators, e.g., via the `Issues` tab on top of the project or define steps of a project's workflow via `Projects` and make some of the steps `Issues` that can then be assigned to collaborators. 
+For example, A would upload the raw data to the project, would assign the task "Preprocess behavioral data" to B and "Preprocess EDA data" to C. 
+B and C would then do as requested, upload their preprocessed data onto the project, and A would then merge and analyze the data, committing all code to the project including the manuscript as R Markdown file. 
+For details on using R Markdown, see:        
 
-#### Branching
+- https://github.com/alex-strobel/R-Markdown.git
 
-Branching is great for working on a project as a team.
-In short, a branch is a copy of the whole project.
-You can try out ideas in your branch, or comment texts, without affecting the \textsc{main} project.
-After all comments have been edited, you can merge your branch into the main branch.
+When A is done and wants to have feedback on the manuscript draft from the collaborators, it is recommended to create branches of the *main* "timeline" for each collaborator.    
+As said, a branch is a copy of the whole project and is great for working on a project as a team:
+You can try out ideas in your branch, or comment texts, without affecting the *main* "timeline".
+After all comments have been edited, you can merge your branch into the *main*.
 Once merged, pull requests preserve a record of the historical changes of your code.
+More detailed information on branching can be found here: 
 
+- https://guides.github.com/introduction/flow/
 
-More detailed information on branching can be found here: https://guides.github.com/introduction/flow/ .
+After all collaborators are done with their revision and comments, a pull request is created to merge the edits of the seperate branch to the main branch.
+Collaborator A can now see all changes and comments in the commit log, implement them and respond comments. 
+Then, the branches are merged with the *main*, creating an updated and agreed upon version of the project's "timeline"  
 
+Finally, here are some suggestions for facilitating collaborative writing:
 
-#### Recommended workflow
-
-1. Author A writes the first draft of the manuscript.
-2. Author B branches the project in GitHub, checks the code and makes edits.
-3. Author B pushes the changes only in the seperate branch and adds comments in the commit log.
-4. After author B is done, a pull request is created to merge the edits of the seperate branch to the main branch.
-Author A can see all changes and comments in the commit log.
-5. Author A implements edits and responds to comments. 
-
-#### Tips and tricks
-Lastly here are some tips and tricks that that can facilitate collaborative writing:
-
-1. In your RMarkdown file, use a new line for each sentence (as you can see in this _.Rmd_ document). 
-Otherwise, GitHub will mark the whole paragraph although a co-worker only changed one sentence, because all sentences were in the same line.
-2. Work with small commits! For every change or comment you make, commit the change. 
+1. In your R Markdown file, use a new line for each sentence. 
+Otherwise, GitHub will mark the whole paragraph although a collaborator only changed one sentence, because all sentences were in the same line.
+2. As said: Work with small commits! For every change or comment you make, commit the change. 
+3. If you just corrected a typo, your commit can be labeled as "Update Manuscript.Rmd" without any comment. 
+If you however rewrote a sentence and want to elaborate on why you did so, add a comment to your commit.
+If you just want to add a comment without changing anything, you still need to change something (e.g., simply overwrite the period at the end of the sentence or paragraph with a period), so you will have the opportunity to comment of that sentence or paragraph. 
 If you do all your changes and pull the whole file at the end, it gets very chaotic.
-3. Everything gets a lot easier if you split you manuscript in several _.Rmd_ files. 
-I would recommend using an own _.Rmd_ file for each section.
+4. Everything gets a lot easier if you split your manuscript into several _.Rmd_ files. 
+It is recommended using an own *.Rmd* file for each section.
+This may not be possible using the `papaja` package, but for other R Markdown projects this option should work well. As an example, you have four files *Introduction.Rmd*, *Methods.Rmd*, *Results.Rmd*, and *Discussion.Rmd*. To put them together, your *Manuscript.Rmd* file would look like:
+
+```
+---
+title: "Manuscript"
+author: "Alexander Strobel, Christoph Scheffel and Jospehine Zerna"
+output: pdf_document
+---
+
+``` {r child = "Introduction.Rmd"}
+```
+
+```{r child = "Methods.Rmd"}
+```
+
+```{r child = "Results.Rmd"}
+```
+
+```{r child = "Discussion.Rmd"}
+```
+
+```
+
+
 
 
 
