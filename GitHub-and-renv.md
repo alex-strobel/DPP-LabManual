@@ -272,7 +272,7 @@ There are several ways to do so, the one that works best for me (Alex) is descri
 
 1. In RStudio, go to `File > New Project...`, then choose `New Directory > New Project`. Select `Create a Git repository` and `use renv with this project`. Enter a directory name (this will also be the name of your repository on GitHub) and you may also want to provide a path where to create your project as subdirectory of. Then hit `Create Project`.
 2. Take some time to notice that at the RStudio console, after the usual startup messsage, you should read something like<br> ` Project '~/Documents/R/My-Project' loaded. [renv 0.14.0]` and thatunder the `Packages` tab, you now find a separation into `Project Library` (that for now should contain the `renv`package only) and `System Library` (with only the base installation that R comes with and all of your favorite packages seemingly gone). This means that everything worked as it should and you are ready to ... 
-3. Install the project-specific packages, e.g. `psych`, either via `Tools > Install Packages...` or from the editor/console via `install.packages("psych")`. The echo on the console will look a bit different like the one you would normally expect when you install a package, somehow like this<br>
+3. Install the project-specific packages, e.g. `psych`, either via `Tools > Install Packages...` or from the editor/console via `install.packages("psych")`. The echo on the console will look a bit different like the one you would normally expect when you install a package, somehow like this
 ```
 Installing tmvnsim [1.0-2] ...
 	OK [linked cache]
@@ -281,11 +281,10 @@ Installing mnormt [2.0.2] ...
 Installing psych [2.1.9] ...
 	OK [linked cache]
 ```
-<br>
-Now, in the `Project Library`, you will see `psych` and its dependecies that are now linked to your project. You can also find folders for these packages under the `Files` tab in the `renv/library` folder.
-4. As so far, your project isn't on GitHub yet, add it via GitHub Desktop by clicking on `Current Repository` (top left), click `Add` and then `Add Existing Repository...` and select the repository you created under 1. Click on the project in the left pane, then on `Publish repository` at the top of the GitHub Desktop window. Add a short description of your project and unselect `Keep this code private` (the default) if you want your project to be immediately accessible to everyone else on GitHub. You normally do not want that, and you can still invite collaborators later on even if you keep your project private for now. Click `Publish repository` upon which you may be asked for your GitHub user name and password. After a few secunds, the project has been *pushed* to the GiutHub server and you can see it in your browser as well.
-5. In the browser, it is recommended to add a README file to your project as GitHub will suggest below the files overview of your project. You can describe your project shortly or in detail using Markdown syntax.
-5. As said, in principle, you should be able to *pull* from and *push* to your project directly via RStudio (see the `Git` tab in the top right pane of RStudio). Yet, as also said, this may require you to have a *personal access token*, and this is something that I haven't done yet. So, meanwhile, *pull* from and *push* to your project via GitHub Desktop.
+4. Now, in the `Project Library`, you will see `psych` and its dependecies that are now linked to your project. You can also find folders for these packages under the `Files` tab in the `renv/library` folder.
+5. As so far, your project isn't on GitHub yet, add it via GitHub Desktop by clicking on `Current Repository` (top left), click `Add` and then `Add Existing Repository...` and select the repository you created under 1. Click on the project in the left pane, then on `Publish repository` at the top of the GitHub Desktop window. Add a short description of your project and unselect `Keep this code private` (the default) if you want your project to be immediately accessible to everyone else on GitHub. You normally do not want that, and you can still invite collaborators later on even if you keep your project private for now. Click `Publish repository` upon which you may be asked for your GitHub user name and password. After a few secunds, the project has been *pushed* to the GiutHub server and you can see it in your browser as well.
+6. In the browser, it is recommended to add a README file to your project as GitHub will suggest below the files overview of your project. You can describe your project shortly or in detail using Markdown syntax.
+7. As said, in principle, you should be able to *pull* from and *push* to your project directly via RStudio (see the `Git` tab in the top right pane of RStudio). Yet, as also said, this may require you to have a *personal access token*, and this is something that I haven't done yet. So, meanwhile, *pull* from and *push* to your project via GitHub Desktop.
 
 
 
