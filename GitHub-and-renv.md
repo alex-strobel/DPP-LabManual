@@ -358,7 +358,7 @@ and so on for Methods, Results, and Discussion.
 
 ## Final remark
 
-It is recommended that you exercise what you have just learnt right now. Assuming, you have already installed R and RStudio
+It is recommended that you exercise what you have just learnt right now. Assuming, you have already installed R and RStudio ...
 - Sign up to GitHub and install Git and GitHub Desktop right now. 
 - Create a new project called "My-Project" as Git repository and use the `renv` package.
 - Add the project to your GitHub account using GitHub Desktop.
@@ -372,4 +372,3 @@ It is recommended that you exercise what you have just learnt right now. Assumin
 - And don't forget to *commit* every change, label and (if necessarey) comment on it.
 - Keep on *pushing* and *pulling*!
 
-  
