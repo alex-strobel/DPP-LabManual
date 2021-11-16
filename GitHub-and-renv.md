@@ -279,7 +279,7 @@ There are several ways to do so, the one that works best for me (Alex) is descri
 
 ### Install and setup the `here` package
 
-Simply install the `here` package via `install.packages("here")`. Then (as said [above](#Why-you-should-use-the-`here`-package))
+Simply install the `here` package via `install.packages("here")`. Then (as said [above](#Why-you-should-use-the-here-package))
 
 ### Collaborative writing with RMarkdown scripts
 
