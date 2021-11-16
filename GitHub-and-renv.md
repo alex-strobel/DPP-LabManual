@@ -356,17 +356,17 @@ author: "Alexander Strobel, Christoph Scheffel and Josephine Zerna"
 output: pdf_document
 ---
 
-\``` {r child = "Introduction.Rmd"}
-\```
+``` {r child = "Introduction.Rmd"}
+```
 
-\```{r child = "Methods.Rmd"}
-\```
+```{r child = "Methods.Rmd"}
+```
 
-\```{r child = "Results.Rmd"}
-\```
+```{r child = "Results.Rmd"}
+```
 
-\```{r child = "Discussion.Rmd"}
-\```
+```{r child = "Discussion.Rmd"}
+```
 
 ```
 
