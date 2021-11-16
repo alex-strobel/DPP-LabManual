@@ -312,6 +312,7 @@ df <- read.csv(here("Data", "df.csv"))  # reads data from folder in that root
 Execute that code, and the data will be loaded.
 If you now would move your directory to somewhere else, it would still work.
 And if someone else clones your project, it will work as well, and that is exactly what we use the `here` package for. 
+It is important that you put the `i_am` flag into every single file whre you reference to project files. 
 
 ### Collaboratively work on projects
 
@@ -355,3 +356,20 @@ This may not be possible using the `papaja` package, but for other R Markdown pr
 
 and so on for Methods, Results, and Discussion.
 
+## Final remark
+
+It is recommended that you exercise what you have just learnt right now. Assuming, you have already installed R and RStudio
+- Sign up to GitHub and install Git and GitHub Desktop right now. 
+- Create a new project called "My-Project" as Git repository and use the `renv` package.
+- Add the project to your GitHub account using GitHub Desktop.
+- Place a flagging file in the root folder of your project.
+- Add two folders `Data` and `Code` to your project.
+- Place some data in the `Data` folder.
+- Save an R script in the `Code` folder and use the code [above](#Install-and-setup-the-here-package) to resort to the `here` package.
+- Invite a collaborator via `Settings` and `Manage access` 
+- Have the collaborator clone the repository and check whether it worked.
+- Initialize a R Markdown script and try out branching and merging.
+- And don't forget to *commit* every change, label and (if necessarey) comment on it.
+- Keep on *pushing* and *pulling*!
+
+  
