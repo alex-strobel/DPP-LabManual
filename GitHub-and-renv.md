@@ -149,7 +149,7 @@ Once done, the team member creates a so-called *pull request*:
 All other team members are informed that a change to the *main* "timeline" is suggested, they can review all the changes, comment on them, accept or reject them. 
 When eventually a common consensus has been reached on whether and how to change the *main* "timeline", the new *branch* is merged with the *main*. However, when later on, this change of the "timeline" may end up in a dead end street, one simply restores to earlier versions of the "timeline" ...
 
-Importantly, all team members work with the same project or repository all the time, they will do so mostly locally on their mirror (or in GitHub terms: *clone* of the project), but every change is then uploaded to the repository and will be available to all collaborators. 
+Importantly, all team members work with the same project or repository all the time, they will do so mostly locally on their mirror (or in GitHub terms: *clone*) of the project, but every change is then uploaded to the repository and will be available to all collaborators. 
 
 In the example given above under the section "The problem", collaborator A would create a project repository in GitHub with the following folder structure for the primary data:
 
