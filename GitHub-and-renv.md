@@ -67,7 +67,7 @@ Before coming to details on *how* to do so, some remarks on *why* one should use
 
 ## Some background
 
-### Why you should use R and R Studio
+### Why you should use R and RStudio
 
 As mentioned in other documents in this manual: 
 R is a software environment that is mainly used for statistical computing, but in fact, it is an all-purpose computing environment that is quite similar to MATLAB although the syntax is somewhat but not entirely different. 
@@ -170,6 +170,11 @@ Any changes to this folder would be recorded in the folder's history.
 Also, all analysis scripts referring to this folder would be using the possibly updated data in case one collaborator decides to preprocess the data in a different way (in this case, this collaborator should ideally first create a *branch* to do so). 
 Best of all: if you eventually choose to share your data and code openly, other researchers do not have to download single files from your, say, OSF project, but can simply *clone* your GitHub project as a whole and store it locally.
 
+Here are some helpful guides for using GitHub:
+
+- [GitHub's Git Guides](https://github.com/git-guides/install-git)
+- [Happy Git With R](https://happygitwithr.com/install-git.html) 
+
 ### Why you should use the `renv` package
 
 So far, so good. 
@@ -181,7 +186,11 @@ This is because R packages evolve and may introduce refined algorithms for their
 Here, the `renv` package comes into play: 
 It stores the R environment individual researchers were using when analyzing their data together with the data and the code. 
 When researcher Z clones a project of researcher A that A has had managed using `renv`, Z will be using the exact R environment that A was using, regardless of whether Z has packages required for reproducing A's analyses at all or has different versions of that packages installed.
-This option may even pay in a given workgroup where certain members tend to update their R packages all the time and others tend to do not.  
+This option may even pay in a given workgroup where certain members tend to update their R packages all the time and others tend to do not.
+
+Learn more about the `renv` package here:
+
+- [`renv` Reference](https://rstudio.github.io/renv/index.html)
 
 ### Why you should use the `here` package
 
@@ -210,13 +219,17 @@ It may be wise to put the project name into the flagging file to make sure that 
 
 `here::i_am("flag_root_for_ProjectX.txt")` 
 
+See the `here` vignette for more details:
+
+- [`here` Vignette](https://cran.r-project.org/web/packages/here/vignettes/here.html)
+
 ## How to use the workflow suggested here
 
 After you will hopefully be convinced to use the solutions outlined above, you may ask how to do so. Here is how:
 
 ### Install R and RStudio
 
-This has already mentioned above.
+This has already mentioned [above](Why-you-should-use-R-and-RStudio).
 
 ### Install Git/GitHub
 
