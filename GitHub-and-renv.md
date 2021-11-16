@@ -277,6 +277,10 @@ There are several ways to do so, the one that works best for me (Alex) is descri
 5. As said, in principle, you should be able to *pull* from and *push* to your project directly via RStudio (see the `Git` tab in the top right pane of RStudio). Yet, as also said, this may require you to have a *personal access token*, and this is something that I haven't done yet. So, meanwhile, *pull* from and *push* to your project via GitHub Desktop. Anytime something changes in your project (e.g., you create a first script and save it in the project root), GitHub Desktop will automatically detect that change together with all other changes you may have made outside of RStudio (e.g., you created a subfolder `Data`), list them in the left pane, and will require you to label these changes aka *commits* (if you change only one thing at a time, GitHub Desktop sometimes will come up with a suggestion how to label the *commit*). After clicking `Commit to master` at the bottom of the left pane, hit `Push origin` in the right pane, and you are done and can see the changes made on the server, i.e., via your browser (wait, you cannot see the folder you created ... this is because they are not visible as long as they are empty. So to make them visible, you can simply put an empty file in it).
 6. It is highly recommended to commit every change made separately so that the commit is labeled appropriately. So if you, e.g., make a change in a script: commit it and label it "Update My-Script.R" (in fact, GitHub Desktop will suggest exactly this label). You put some data in a newly created folder: commit it and label it. If commit both things at once before committing them, it may be hard to find an appropriate label because the label will be attached to both the script and the folder.
 
+### Install and setup the `here` package
+
+Simply install the `here` package via `install.packages("here")`. Then (as said [above](#Why-you-should-use-the-`here`-package))
+
 ### Collaborative writing with RMarkdown scripts
 
 In this section I want to show you one way how collaborative writing works with your reproducible manuscripts.
