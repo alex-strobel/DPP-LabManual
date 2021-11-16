@@ -231,14 +231,14 @@ After you will hopefully be convinced to use the solutions outlined above, you m
 
 This has already mentioned [above](#Why-you-should-use-R-and-RStudio).
 
-### Install Git/GitHub
+### Install Git
 
 There seems to exist a difference between Git and GitHub, I guess the former refers to some tool for collaboration and the latter for the platform that uses this tool, but for our purposes, this is not important. For a start, first install Git and then sign up to GitHub.
 
 To install Git, there are several ways to do so.
 
 On Windows ... 
-<!-- @Christopph/Josephien: please add instructions -->
+<!-- @Christopph/Josephine: please add instructions -->
 
 On Mac, the recommended way is as follows:
 
@@ -262,7 +262,9 @@ In an ideal world, you can even *commit* changes to your GitHub project via RStu
 
 Now that Git is installed, you need to link it to RStudio. 
 Open RStudio and go to `Tools > Global Options`. 
-Navigate to \textsc{Git/SVN}, check \textsc{Enable version control interface for RStudio projects} and paste the path to your Git executable in the corresponding field and klick \textsc{OK}.
+Navigate to `Git/SVN`, check `Enable version control interface for RStudio projects` and paste the path to your Git executable in the corresponding field, then click `OK`.
+
+On a Mac, the Git executable will most likely be located at `usr/bin/git`, under Windows, it will be located in the path you installed Git to (see [above](#Install-Git)).  
 
 
 
