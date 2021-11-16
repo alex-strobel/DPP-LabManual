@@ -349,7 +349,8 @@ If you do all your changes and pull the whole file at the end, it gets very chao
 It is recommended using an own *.Rmd* file for each section.
 This may not be possible using the `papaja` package, but for other R Markdown projects this option should work well. You simply add code chunks that "import" the different R Markdown files such as 
 
-``` {r child = "Introduction.Rmd"}
+``` 
+{r child = "Introduction.Rmd"}
 ```
 
 and so on for Methods, Results, and Discussion.
