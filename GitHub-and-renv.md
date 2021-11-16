@@ -347,33 +347,10 @@ If you just want to add a comment without changing anything, you still need to c
 If you do all your changes and pull the whole file at the end, it gets very chaotic.
 4. Everything gets a lot easier if you split your manuscript into several _.Rmd_ files. 
 It is recommended using an own *.Rmd* file for each section.
-This may not be possible using the `papaja` package, but for other R Markdown projects this option should work well. As an example, you have four files *Introduction.Rmd*, *Methods.Rmd*, *Results.Rmd*, and *Discussion.Rmd*. To put them together, your *Manuscript.Rmd* file would look like:
-
-```
----
-title: "Manuscript"
-author: "Alexander Strobel, Christoph Scheffel and Josephine Zerna"
-output: pdf_document
----
+This may not be possible using the `papaja` package, but for other R Markdown projects this option should work well. You simply add code chunks that "import" the different R Markdown files such as 
 
 ``` {r child = "Introduction.Rmd"}
 ```
 
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+and so on for Methods, Results, and Discussion.
 
