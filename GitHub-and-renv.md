@@ -272,7 +272,7 @@ There are several ways to do so, the one that works best for me (Alex) is descri
 
 1. In RStudio, go to `File > New Project...`, then choose `New Directory > New Project`. Select `Create a Git repository` and `use renv with this project`. Enter a directory name (this will also be the name of your repository on GitHub) and you may also want to provide a path where to create your project as subdirectory of. Then hit `Create Project`.
 2. Take some time to notice that at the RStudio console, after the usual startup messsage, you should read something like<br> ` Project '~/Documents/R/My-Project' loaded. [renv 0.14.0]` and thatunder the `Packages` tab, you now find a separation into `Project Library` (that for now should contain the `renv`package only) and `System Library` (with only the base installation that R comes with and all of your favorite packages seemingly gone). This means that everything worked as it should and you are ready to ... 
-3. Install the project-specific packages, e.g. `psych`, either via `Tools > Install Packages...` or from the editor/console via `install.packages("psych")`. The echo on the console will look a bit different like the one you would normally expect when you install a package, somehow like this<br>
+3. Install the project-specific packages, e.g. `psych`, either via `Tools > Install Packages...` or from the editor/console via `install.packages("psych")`. The echo on the console will look a bit different like the one you would normally expect when you install a package, somehow like this
 ```
 Installing tmvnsim [1.0-2] ...
 	OK [linked cache]
@@ -281,7 +281,6 @@ Installing mnormt [2.0.2] ...
 Installing psych [2.1.9] ...
 	OK [linked cache]
 ```
-<br>
 Now, in the `Project Library`, you will see psych and its dependecies that are now linked to your project. You can also find folders for these packages under the `Files` tab in the `renv/library` folder. 
 
 3. As so far, your project isn't on GitHub yet, add it via GitHub Desktop by clicking on `Current Repository` (top left), click `Add` and then `Add Existing Repository...` and select the repository you created under 1.      
