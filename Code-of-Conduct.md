@@ -18,7 +18,7 @@ To put it simple:
 9. We always label and ideally comment our commits.
 10. We embrace open science principles and act accordingly.
 
-<!-- and God said: Uhm, err, I don't know ... Metratron, do you think this is a good set of rules? And Gabriel ... You are always so pathetic ... am I in the right path? -->  
+<!-- and God said: Uhm, err, I don't know ... Meratron, do you think this is a good set of rules? And Gabriel ... You are always so pathetic ... am I on the right path? -->  
 
 So, these are the ten commandments of our team, of which 2 to 4 plus 6 are also known as the *four excuses*. 
 
