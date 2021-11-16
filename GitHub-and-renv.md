@@ -266,7 +266,15 @@ Navigate to `Git/SVN`, check `Enable version control interface for RStudio proje
 
 On a Mac, the Git executable will most likely be located at `usr/bin/git`, under Windows, it will be located in the path you installed Git to (see [above](#Install-Git)).  
 
+### Create new R project using Git and `renv`  
 
+There are several ways to do so, the one that works best for me (Alex) is described below:
+
+1. In RStudio, go to `File > New Project...`, then choose `New Directory > New Project`. Select `Create a Git repository` and `use renv with this project`. Enter a directory name (this will also be the name of your repository on GitHub) and you may also want to provide a path where to create your project as subdirectory of. Then hit `Create Project`.
+2. Take some time to notice that 
++ at the RStudio console, after the usual startup messsage, you should read something like ` Project '~/Documents/R/My-Project' loaded. [renv 0.14.0]`
++ under the `Packages` tab, you now find a separation into `Project library` and `System library` 
+3. As so far, your project isn't on GitHub yet, add it via GitHub Desktop by clicking on `Current Repository` (top left), click `Add` and then `Add Existing Repository...` and select the repository you created under 1.      
 
 
 
