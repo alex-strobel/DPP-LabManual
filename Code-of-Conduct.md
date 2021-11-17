@@ -3,7 +3,7 @@
 [Alexander Strobel](mailto:alexander.strobel@tu-dresden.de)
 
 It should not be necessary to have a file like this because all of us will agree upon what will be outlined below. 
-Yet, what we might think to agree upon may change over time and who comprises the *all of us* may change as well so that have a written *code of conduct* might be useful in the future.
+Yet, what we might think to agree upon may change over time and who comprises the *all of us* may change as well so that having a written *code of conduct* might be useful in the future.
 
 To put it simple:
 
