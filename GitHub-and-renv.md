@@ -242,7 +242,7 @@ There seems to exist a difference between Git and GitHub, I guess the former ref
 To install Git, there are several ways to do so.
 
 On Windows ... 
-<!-- @Christopph/Josephine: please add instructions -->
+<!-- @Christoph/Josephine: please add instructions -->
 
 On Mac, the recommended way is as follows:
 
