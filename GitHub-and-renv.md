@@ -4,8 +4,8 @@
 Faculty of Psychology<br>
 TU Dresden
 
-Credit goes to
-Philippe Jawinski (HU Berlin)
+Credit goes to<br>
+Philippe Jawinski (HU Berlin)<br>
 Christoph Scheffel and Josephine Zerna (TU Dresden)
 
 ## The problem
