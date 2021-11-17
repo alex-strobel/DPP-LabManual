@@ -171,6 +171,8 @@ PrimaryData<br>
 
 A would then add collaborators C to E as collaborators and would do so in the browser via the `Settings` tab on top of the project and via choosing `Manage access` (potential collaborators of course need to have a GitHub account as well).
 All other collaborators would then have immediate access to all the primary data collected in the project including possible additions or deletions (e.g., because some participants revoked consent to use their data). 
+Collaborator A would then assign tasks to the collaborators, e.g., via the `Issues` tab on top of the project or define steps of a project's workflow via `Projects` and make some of the steps `Issues` that can then be assigned to collaborators. 
+For example, A would upload the raw data to the project, would assign the task "Preprocess behavioral data" to B and "Preprocess EDA data" to C. 
 They would do their preprocessing in another folder with the structure:
 
 PreprocessedData<br>
@@ -179,18 +181,13 @@ PreprocessedData<br>
 + EDAData
 
 Any changes to this folder would be recorded in the folder's history. 
-Also, all analysis scripts referring to this folder would be using the possibly updated data in case one collaborator decides to preprocess the data in a different way (in this case, this collaborator should ideally first create a *branch* to do so). 
-Best of all: if you eventually choose to share your data and code openly, other researchers do not have to download single files from your, say, OSF project, but can simply *clone* your GitHub project as a whole and store it locally.
-
-
-Collaborator A would then assign tasks to the collaborators, e.g., via the `Issues` tab on top of the project or define steps of a project's workflow via `Projects` and make some of the steps `Issues` that can then be assigned to collaborators. 
-For example, A would upload the raw data to the project, would assign the task "Preprocess behavioral data" to B and "Preprocess EDA data" to C. 
-B and C would then do as requested, upload their preprocessed data onto the project, and A would then merge and analyze the data, committing all code to the project including the manuscript as R Markdown file. 
+Also, all analysis scripts referring to this folder would be using the possibly updated data in case one collaborator decides to preprocess the data in a different way (in this case, this collaborator should ideally first create a *branch* of the projects *main* "timeline" to do so). 
+A would then analyze the data, committing all code to the project including the manuscript as R Markdown file. 
 For details on using R Markdown, see:        
 
 - https://github.com/alex-strobel/R-Markdown.git
 
-When A is done and wants to have feedback on the manuscript draft from the collaborators, it is recommended to create branches of the *main* "timeline" for each collaborator.    
+When A is done and wants to have feedback on the manuscript draft from the collaborators, it is recommended to create branches of the *main* "timeline" for each collaborator.     
 As said, a branch is a copy of the whole project and is great for working on a project as a team:
 You can try out ideas in your branch, or comment texts, without affecting the *main* "timeline".
 After all comments have been edited, you can merge your branch into the *main*.
@@ -201,7 +198,9 @@ More detailed information on branching can be found here:
 
 After all collaborators are done with their revision and comments, a pull request is created to merge the edits of the seperate branch to the main branch.
 Collaborator A can now see all changes and comments in the commit log, implement them and respond comments. 
-Then, the branches are merged with the *main*, creating an updated and agreed upon version of the project's "timeline"  
+Then, the branches are merged with the *main*, creating an updated and agreed upon version of the project's "timeline".
+
+Best of all: If you eventually choose to share your data and code openly, other researchers do not have to download single files from your, say, OSF project, but can simply *clone* your GitHub project as a whole,  store it locally and can try to reproduce your results (or of course use your data and code otherwise).
 
 Finally, here are some suggestions for facilitating collaborative writing:
 
@@ -235,8 +234,8 @@ It is recommended that you exercise what you have just learnt right now. Assumin
 - Invite a collaborator via `Settings` and `Manage access` 
 - Have the collaborator clone the repository and check whether it worked.
 - Initialize a R Markdown script and try out branching and merging.
-- And don't forget to *commit* every change, label and (if necessarey) comment on it.
+- And don't forget to *commit* every change, label and (if necessary) comment on it.
 
 
-And then keep on *pushing* and *pulling*!
+**And then keep on *pushing* and *pulling*!**
 
