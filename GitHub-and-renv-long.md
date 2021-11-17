@@ -4,9 +4,14 @@
 Faculty of Psychology<br>
 TU Dresden
 
-Credit goes to<br>
-Philippe Jawinski (HU Berlin)<br>
-Christoph Scheffel and Josephine Zerna (TU Dresden)
+---
+
+**Please note!**
+
+This is the long version (approx. 5500 Words, reading time 20-30 min unless you are trying out what is described here in parallel) of the description on how to use GitHub and the `renv` package cor collaboratively working on R projects. 
+For readers who are relatively familiar with certain topics covered such as relatively R/RStudio, R Markdown and GitHub, it may be more convenient to read the [short version](https://github.com/alex-strobel/DPP-LabManual/blob/main/GitHub-and-renv-short.md) (approx. 3200 words, reading time 10-15 min unless trying out things).
+
+---
 
 ## The problem
 
