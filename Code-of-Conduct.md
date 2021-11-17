@@ -9,19 +9,13 @@ To put it simple:
 
 1. We are a team. 
 2. There is a team head (Alex) that eventually may have to decide on how to proceed. 
-3. The team head would rather not have to decide. 
-4. But he must, so don't blame him later on because ...
-5. All team members can take part in any decision but should also be prepared to do so. 
-6. The team head is known for postponing decisons, so keep him reminded of his duty. 
+3. The team head would rather not have to decide and tends to postpone decisons, so keep him reminded of his duty.
+4. All team members can take part in any decision, but should also be prepared to do so. 
+5. We embrace open science principles and act accordingly.
+6. We always comment our code.
 7. We adhere to common principles when using language, i.e., everything said and written should be as accessible and inclusive as possible. 
-8. We always comment our code.
-9. We always label and ideally comment our commits.
-10. We embrace open science principles and act accordingly.
+8. ...
 
-<!-- and God said: Uhm, err, I don't know ... Meratron, do you think this is a good set of rules? And Gabriel ... You are always so pathetic ... am I on the right path? -->  
-
-So, these are the ten commandments of our team, of which 2 to 4 plus 6 are also known as the *four excuses*. 
-
-To elaborate on these commandments:
+To elaborate :
 
 ...
