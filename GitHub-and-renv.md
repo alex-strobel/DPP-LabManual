@@ -4,6 +4,10 @@
 Faculty of Psychology<br>
 TU Dresden
 
+Credit goes to
+Philippe Jawinski (HU Berlin)
+Christoph Scheffel and Josephine Zerna (TU Dresden)
+
 ## The problem
 
 Consider yourself in the following situation: 
