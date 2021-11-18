@@ -6,7 +6,7 @@ So far, this manual is still under development. Its structure and content are su
 
 One major feature of this manual also will be to pinpoint on what we as a group agree upon when it comes to [organize a research project](https://github.com/alex-strobel/DPP-LabManual/blob/main/Manual/Research-projects.md). Further issues to be implemented comprise 
 
-- information management (e.g., how to use common printer/scanner, whom to contact for which purpose, where to find study documents etc.)
+- information management (e.g., how to use the central printer/scanner, whom to contact for which purpose, where to find study documents etc.)
 - administrative tasks (e.g., what to do if one hires a student assistant, how to create an OPAL course, how to have your seminars evaluated etc.)
 - recommended workflows (e.g., how to set up a workspace in BrainVision Analyzer, how to handle outliers, how to analyze reaction time data)
 
