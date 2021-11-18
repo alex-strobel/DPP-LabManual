@@ -19,27 +19,25 @@ For statistics, there are free alternatives to R such as [JASP](https://jasp-sta
 This manual is organized in a way that it reflects the typical work flow of a research project. After having pondered and discussed your research idea, you have to
 
 1.  [Pinpoint your research question and formulate your hypotheses](#Research-question)
-2.  [Write the theoretical part of your manuscript](#theoretical-part)
-3.  [Develop and refine the study design](#study-design)
-4.  [Create a REDCap project](#redcap-project)
-5.  [Develop an - ideally fully scripted - analysis plan](#analysis-plan)
-6.  [Write the methods part of your manuscript](#methods-part)
-7.  [Apply for ethical approval](#ethical-approval)
-8.  [Preregister your hypotheses and analysis plan](#preregistration)
-9.  [Collect data](#data-collection)
-10. [Preprocess and merge data](#preprocessing)
-11. [Run your analysis scripts](#data-analysis)
-12. [Write the results and discussion part of your manuscript](#results-and-discussion-part)
-13. [Openly provide all data, analysis scripts and ideally material](#open-data-and-code)
-14. [Submit your manuscript along with a preprint](#manuscript-submission)
-15. [Revise your manuscript](#manuscript%20revision)
-16. [Archive your project](#project-archiving)
+2.  [Write the theoretical part of your manuscript](#Theoretical-part)
+3.  [Develop and refine the study design](#Study-design)
+4.  [Create a REDCap project](#REDCap-project)
+5.  [Develop an - ideally fully scripted - analysis plan](#Analysis-plan)
+6.  [Write the methods part of your manuscript](#Methods-part)
+7.  [Apply for ethical approval](#Ethical-approval)
+8.  [Preregister your hypotheses and analysis plan](#Preregistration)
+9.  [Collect data](#Data-collection)
+10. [Preprocess and merge data](#Preprocessing)
+11. [Run your analysis scripts](#Data-analysis)
+12. [Write the results and discussion part of your manuscript](#Results-and-discussion)
+13. [Openly provide all data, analysis scripts and ideally material](#Open-data-and-code)
+14. [Submit your manuscript along with a preprint](#Manuscript-submission)
+15. [Revise your manuscript](#Manuscript-revision)
+16. [Archive your project](#Project-archiving)
 
 This list roughly reflects the steps that are to be taken throughout a research project, although not necessarily in exactly that order. In the following, decisions to be made, things to do and issues to consider at each step are outlined and - where necessary - elaborated on. Just click on any of the elements of the list to go directly to the respective section.
 
 ## Workflow of a research project
-
-[up](#Organization-of-this-manual)
 
 ### Research Question
 
@@ -63,11 +61,13 @@ To put it simple: *There is no honorary authorship at AG.DPP*! Yet, it is import
 -   further persons are to be involved in the project (e.g. because of methodological expertise or similar)
 -   content-related and formal aspects of the manuscript preparation are affected (e.g. focus of the manuscript)
 
-### Theoretical part {#theoretical-part}
+[[up](#Organization-of-this-manual)]
+
+### Theoretical part
 
 Take care of clarity and conciseness and get comments of your co-authors! ...
 
-### Study design {#study-design}
+### Study design
 
 Parallel to writing down the rationale of your study, develop a study plan and a protocol. Try to anticipate as many details as possible! Specifically, follow the points below:
 
@@ -114,11 +114,11 @@ A pilot study does not only help in estimating the effect size you can expect, i
 Bayesian sequential testing allows you to collect your data most effectively. Basically, one regularly checks the incoming data using Bayesian statistics and stops data collection if some prespecified Bayes Factor is achieved. For details, see [Schönbrodt et al. (2018)](https://osf.io/w3s3s/).
 
 
-### REDCap project {#redcap-project}
+### REDCap project
 
 ...
 
-### Analysis plan {#analysis-plan}
+### Analysis plan
 
 Develop analysis plan (ideally fully scripted)! Prefer open analysis software (e.g. R, JASP)!
 
@@ -128,39 +128,43 @@ and [RStudio](https://www.rstudio.com) and read the [R-Intro](https://cran.r-pro
 JASP is an open-source project developed by Eric-Jan Wagenmakers and his team. It is supported by the University of Amsterdam and the Center for Open Science. It has a user-friendly interface and offers standard analysis routines for both frequentist and Bayesian statistics. Yet, for a number of more advanced statistics such as structural equation modeling or mixed models, you have to rely on integrated modules which often are R-based, so one will still have to learn R. Just install [JASP](https://jasp-stats.org) and make sure to regularly check for updates.
 
 
-### Methods part {#methods-part}
+### Methods part
 
 ...
 
-### Ethical approval {#ethical-approval}
+### Ethical approval
 
 ...
 
-### Preregistration {#preregistration}
+### Preregistration
 
 ...
 
-### Data collection {#data-collection}
+### Data collection
 
 ...
 
-### Preprocessing {#preprocessing}
+### Preprocessing
 
 ...
 
-### Data analysis {#data-analysis}
+### Data analysis
 
 ...
 
-### Results and discussion part {#results-and-discussion-part}
+### Results and discussion
 
 ...
 
-### Open data and code {#open-data-and-code}
+### Open data and code
 
 ...
 
-### Manuscript submission {#manuscript-submission}
+### Manuscript submission
+
+...
+
+### Manuscript revision
 
 ...
 
