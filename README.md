@@ -1,2 +1,2 @@
 # DPP-LabManual
-Lab Manual of the Differential and Personality Psychology group at TU Dresden
+Lab Manual of the Differential and Personality Psychology group (AG.DPP) at TU Dresden
