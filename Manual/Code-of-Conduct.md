@@ -30,7 +30,11 @@ This means that all team members should adhere to the principles stated in the [
 - provide open data, code, and study materials
 - request or remind to adhere to open science principles as reviewers or committee members 
 
-As yet, we have not arrived at a common framework how to do so, i.e., preregister at AsPredicted or at OSF) <!-- insert links -->, provide open data, code and materials via OSF, OpARA or GitHub <!-- insert links -->, or how to ideally request open data and code - for a start - when reviewing papers <!-- add template -->. Still, everyone of us should try their best to adhere to the principles outlined above and detailed in the OSIP Statement by whatever means.    
+As yet, we have not arrived at a common framework for how to do so, i.e., preregister at AsPredicted or at OSF) <!-- insert links -->, provide open data, code and materials via OSF, OpARA or GitHub <!-- insert links -->, or how to ideally request open data and code - for a start - when reviewing papers <!-- add template -->. Still, everyone of us should try their best to adhere to the principles outlined above and detailed in the OSIP Statement by whatever means.  
+
+## We always comment our code.
+
+To elaborate on this issue: we do!
 
 ## We adhere to common principles when using language.
 
