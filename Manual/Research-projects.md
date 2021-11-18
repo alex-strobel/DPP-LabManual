@@ -97,13 +97,17 @@ It is therefore most of the time wise to reduce the number of potential outcome 
 
 ...
 
-**Estimate required sample size!^[For details see presentation DPP_LM_PowerAnalyses.pptx]**
+**Estimate required sample size!**
 
-If the literature tells you what effect size to expect, this effect size is most likely inflated due to publication bias, so divide it by 2^[This may be too conservative if you ground your power calculation on meta-analytically derived effect sizes and use that estimate for your power analysis. Yet, also meta-analyses suffer from publication bias and may overestimate effect sizes. Thus, it is perhaps a good idea to use the lower bound of the confidence interval as estimate for your power analysis.] and calculate the required sample size with a desired power of at least 80% and a significance level that accounts for possible multiple testing.
+If the literature tells you what effect size to expect, this effect size is most likely inflated due to publication bias, so divide it by 2. This may be too conservative if you ground your power calculation on meta-analytically derived effect sizes and use that estimate for your power analysis. Yet, also meta-analyses suffer from publication bias and may overestimate effect sizes. Thus, it is perhaps a good idea to use the lower bound of the confidence interval as estimate for your power analysis. Calculate the required sample size with a desired power of at least 80% and a significance level that accounts for possible multiple testing.
 
 If you have no idea what effect size to expect, Cohen‘s classification most likely will not reflect the typical effect sizes in your area of research. If there are no established guidelines (such as those of [Gignac & Szodorai, 2016](http://dx.doi.org/10.1016/j.paid.2016.06.069), for individual differences research), assume a correlation of r = .20 (or any derivative such as an explained variance of .04, see [Fraley & Vazire, 2014](https://doi.org/10.1371/journal.pone.0109019)). A small to medium effect is more likely than a large one.
 
 The software used for power analysis makes no difference. Yet, [G*Power](https://www.psychologie.hhu.de/arbeitsgruppen/allgemeine-psychologie-und-arbeitspsychologie/gpower) is more powerful than other software such as jamovi or the [*pwr* package](https://cran.r-project.org/web/packages/pwr/index.html) under R. If there is no power analysis software for your specific effect size, run simulations.
+
+For details on power analysis, see the following presentation:
+
+- ^[For details see presentation DPP_LM_PowerAnalyses.pptx]**
 
 **Run a pilot study!**
 
