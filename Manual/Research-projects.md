@@ -22,7 +22,7 @@ For statistics, there are free alternatives to R such as [JASP](https://jasp-sta
 
 This manual is organized in a way that it reflects the typical work flow of a research project. After having pondered and discussed your research idea, you have to
 
-1.  [Pinpoint your research question and formulate your hypotheses](#research-question)
+1.  [Pinpoint your research question and formulate your hypotheses](#Research-question)
 2.  [Write the theoretical part of your manuscript](#theoretical-part)
 3.  [Develop and refine the study design](#study-design)
 4.  [Create a REDCap project](#redcap-project)
@@ -43,7 +43,7 @@ This list roughly reflects the steps that are to be taken throughout a research 
 
 ## Workflow of a research project
 
-### Research Question {#research-question}
+### Research Question
 
 You may have some research interest and perhaps already some research idea, but it is essential that before you really start engaging in planning and conducting a study you have to have a specific research question that ideally allows you to derive hypotheses. *How does Need for Cognition (NFC) develop?* is a research interest, and *life events may shape NFC* is a research idea. So you could go on, use some life event questionnaire together with the NFC scale in a convenience sample and correlate the resulting scores with each other. You may find that NFC is positively correlated with the number of positive life events reported, but not with the number of negative life events. Does this result confirm your notion that life events shape NFC? Or couldn't it be that NFC shapes the experience or the recall of specific life events? Your research design does not allow to decide for or against any of these alternative explanations.
 
