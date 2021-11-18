@@ -22,24 +22,24 @@ For statistics, there are free alternatives to R such as [JASP](https://jasp-sta
 
 This manual is organized in a way that it reflects the typical work flow of a research project. After having pondered and discussed your research idea, you have to
 
--   [pinpoint your research question and formulate your hypotheses](#research-question)
--   [write down the theoretical part of your manuscript](#theoretical-part)
--   [develop and refine the study design](#study-design)
--   [create a REDCap project](#redcap-project)
--   [develop an - ideally fully scripted - analysis plan](#analysis-plan)
--   [write the methods part of your manuscript](#methods-part)
--   [apply for ethical approval](#ethical-approval)
--   [preregister your hypotheses and analysis plan](#preregistration)
--   [collect data](#data-collection)
--   [preprocess and merge data](#preprocessing)
--   [run your analysis scripts](#data-analysis)
--   [write the results and discussion part of your manuscript](#results-and-discussion-part)
--   [openly provide all data, analysis scripts and ideally material](#open-data-and-code)
--   [submit your manuscript along with a preprint](#manuscript-submission)
--   [revise your manuscript](#manuscript%20revision)
--   [archive your project](#project-archiving)
+1.  [Pinpoint your research question and formulate your hypotheses](#research-question)
+2.  [Write the theoretical part of your manuscript](#theoretical-part)
+3.  [Develop and refine the study design](#study-design)
+4.  [Create a REDCap project](#redcap-project)
+5.  [Develop an - ideally fully scripted - analysis plan](#analysis-plan)
+6.  [Write the methods part of your manuscript](#methods-part)
+7.  [Apply for ethical approval](#ethical-approval)
+8.  [Preregister your hypotheses and analysis plan](#preregistration)
+9.  [Collect data](#data-collection)
+10. [Preprocess and merge data](#preprocessing)
+11. [Run your analysis scripts](#data-analysis)
+12. [Write the results and discussion part of your manuscript](#results-and-discussion-part)
+13. [Openly provide all data, analysis scripts and ideally material](#open-data-and-code)
+14. [Submit your manuscript along with a preprint](#manuscript-submission)
+15. [Revise your manuscript](#manuscript%20revision)
+16. [Archive your project](#project-archiving)
 
-This list roughly reflects the steps that are to be taken throughout a research project, although not necessarily in exactly that order. In the following, decisions to be made, things to do and issues to consider at each step are outlined and -- where necessary -- elaborated on. Just click on any of the elements of the list to go directly to the respective section.
+This list roughly reflects the steps that are to be taken throughout a research project, although not necessarily in exactly that order. In the following, decisions to be made, things to do and issues to consider at each step are outlined and - where necessary - elaborated on. Just click on any of the elements of the list to go directly to the respective section.
 
 ## Workflow of a research project
 
