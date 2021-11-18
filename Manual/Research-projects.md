@@ -43,9 +43,9 @@ This list roughly reflects the steps that are to be taken throughout a research 
 
 You may have some research interest and perhaps already some research idea, but it is essential that before you really start engaging in planning and conducting a study you have to have a specific research question that ideally allows you to derive hypotheses. *How does Need for Cognition (NFC) develop?* is a research interest, and *life events may shape NFC* is a research idea. So you could go on, use some life event questionnaire together with the NFC scale in a convenience sample and correlate the resulting scores with each other. You may find that NFC is positively correlated with the number of positive life events reported, but not with the number of negative life events. Does this result confirm your notion that life events shape NFC? Or couldn't it be that NFC shapes the experience or the recall of specific life events? Your research design does not allow to decide for or against any of these alternative explanations.
 
-Therefore, it pays to ponder your research idea over and over, to carefully read the literature on the relationship of life events and NFC, perhaps even to write a short review that you can submit as a stand-alone paper or that can be of use for the theoretical part of your manuscript. Also present your idea to colleagues -- be it in your lab or at other occasions such as conferences -- and discuss your thoughts on the matter! This will also help to identify potential collaborators and/or co-authors. During this process, you should also find someone who will act as what we provisionally call here *Research Transparency Advisor (RTA)*: Someone who is double-checking your routines and your code. It is strongly recommended that you have a RTA for every project you run! It not only reassures you that you are still on the right path, it also supports the transparency and reproducibility of your research.
+Therefore, it pays to ponder your research idea over and over, to carefully read the literature on the relationship of life events and NFC, perhaps even to write a short review that you can submit as a stand-alone paper or that can be of use for the theoretical part of your manuscript. Also present your idea to colleagues - be it in your lab or at other occasions such as conferences - and discuss your thoughts on the matter! This will also help to identify potential collaborators and/or co-authors. During this process, you should also find someone who will act as what we provisionally call here *Research Transparency Advisor (RTA)*: Someone who is double-checking your routines and your code. It is strongly recommended that you have a RTA for every project you run! It not only reassures you that you are still on the right path, it also supports the transparency and reproducibility of your research.
 
-The RTA will put considerable effort in your paper, so co-authorship of the RTA is justified by all means. But what essentially does define authorship?
+The RTA will put considerable effort in your paper, so co-authorship of the RTA is justified by all means. But what essentially does define authorship? A discussion of this issue can be found in the Wiki, for the present purpose it may be sufficient to state
 
 Authors are persons who ...
 
@@ -53,7 +53,7 @@ Authors are persons who ...
 2.  participate in manuscript preparation or revise a manuscript critically and with significant intellectual contribution; and
 3.  give their final approval of the manuscript version submitted for publication.
 
-These desiderata may be subject to change, so inform about possible updates (APA, DFG, etc.)
+These desiderata may be subject to discussion and change, so inform about possible updates at your relevant institution (APA, DFG, DGPs etc.)
 
 To put it simple: *There is no honorary authorship at AG.DPP*! Yet, it is important to keep in mind that all who in principle qualify for authorship should have at least the opportunity to contribute according to the points 1. to 3. above. This means that they are to be informed if
 
