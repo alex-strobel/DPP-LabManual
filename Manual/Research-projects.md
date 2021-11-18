@@ -45,21 +45,21 @@ You may have some research interest and perhaps already some research idea, but 
 
 Therefore, it pays to ponder your research idea over and over, to carefully read the literature on the relationship of life events and NFC, perhaps even to write a short review that you can submit as a stand-alone paper or that can be of use for the theoretical part of your manuscript. Also present your idea to colleagues - be it in your lab or at other occasions such as conferences - and discuss your thoughts on the matter! This will also help to identify potential collaborators and/or co-authors. During this process, you should also find someone who will act as what we provisionally call here *Research Transparency Advisor (RTA)*: Someone who is double-checking your routines and your code. It is strongly recommended that you have a RTA for every project you run! It not only reassures you that you are still on the right path, it also supports the transparency and reproducibility of your research.
 
-The RTA will put considerable effort in your paper, so co-authorship of the RTA is justified by all means. But what essentially does define authorship? A discussion of this issue can be found in the Wiki, for the present purpose it may be sufficient to state
+The RTA will put considerable effort in your paper, so co-authorship of the RTA is justified by all means. But what essentially does define authorship? A discussion of this issue can be found in our [Wiki entry on authorship](https://github.com/alex-strobel/DPP-LabManual/wiki/Authorship), for the present purpose it may be sufficient to state
 
 Authors are persons who ...
 
-1.  contribute substantially to conception and design and data collection or analysis and interpretation; and
-2.  participate in manuscript preparation or revise a manuscript critically and with significant intellectual contribution; and
-3.  give their final approval of the manuscript version submitted for publication.
+1. contribute substantially to conception and design and data collection or analysis and interpretation; and
+2. participate in manuscript preparation or revise a manuscript critically and with significant intellectual contribution; and
+3. give their final approval of the manuscript version submitted for publication.
 
 These desiderata may be subject to discussion and change, so inform about possible updates at your relevant institution (APA, DFG, DGPs etc.)
 
-To put it simple: *There is no honorary authorship at AG.DPP*! Yet, it is important to keep in mind that all who in principle qualify for authorship should have at least the opportunity to contribute according to the points 1. to 3. above. This means that they are to be informed if
+To put it simple: *There is no honorary authorship at AG.DPP*! Yet, it is important to keep in mind that all who in principle qualify for authorship - be it students, junior or senior collaborators - should have at least the *opportunity* to contribute according to the points 1. to 3. above. **This means that they are to be informed when a manuscript on a research project they were involved in substantially is about to be written.** If they want to be involved in writing the manuscript and all other collaborators agree, then they are also to be involved if 
 
--   significant changes are made to the study design and/or analysis plan
--   further persons are to be involved in the project (e.g. because of methodological expertise or similar)
--   content-related and formal aspects of the manuscript preparation are affected (e.g. focus of the manuscript)
+- significant changes are made to the study design and/or analysis plan
+- further persons are to be involved in the project (e.g. because of methodological expertise or similar)
+- content-related and formal aspects of the manuscript preparation are affected (e.g. focus of the manuscript)
 
 [[up](#Organization-of-this-manual)]
 
