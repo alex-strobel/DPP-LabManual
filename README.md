@@ -2,12 +2,12 @@
 
 Lab Manual of the Differential and Personality Psychology group (AG.DPP) at TU Dresden
 
-So far, this manual is still under development. Its structure and content are subject to change and addition. Still, it may already now be used for instructing new team members (e.g., master students) on how to use certain tools (see the [Wiki](https://github.com/alex-strobel/DPP-LabManual/wiki)) or perform certain routines (e.g., [creating a reproducible environment for collaborative work on research projects](https://github.com/alex-strobel/DPP-LabManual/blob/main/Routines/GitHub-and-renv-long.md)). One major feature of this manual also will be to pinpoint on what we as a group agree upon when it comes to [organize a research project](https://github.com/alex-strobel/DPP-LabManual/blob/main/Manual/Research-projects.md). 
+So far, this manual is still under development. Its structure and content are subject to change and addition. Still, it may already now be used for instructing new team members (e.g., master students) on how to use certain tools (see the [Wiki](https://github.com/alex-strobel/DPP-LabManual/wiki)) or perform certain routines (e.g., [creating a reproducible environment for collaborative work on research projects](https://github.com/alex-strobel/DPP-LabManual/blob/main/Routines/GitHub-and-renv-long.md)). One major feature of this manual also will be to elaborate on what we as a group agree upon when it comes to [organize a research project](https://github.com/alex-strobel/DPP-LabManual/blob/main/Manual/Research-projects.md). 
 
 Further issues to be implemented comprise 
 
-- information management (e.g., how to use the central printer/scanner, whom to contact for which purpose, where to find study documents etc.)
-- administrative tasks (e.g., what to do if one hires a student assistant, how to create an OPAL course, how to have your seminars evaluated etc.)
-- recommended workflows (e.g., how to set up a workspace in BrainVision Analyzer, how to handle outliers, how to analyze reaction time data)
+- **information management** (e.g., how to use the central printer/scanner, whom to contact for which purpose, where to find study documents etc.)
+- **administrative tasks** (e.g., what to do if one hires a student assistant, how to create an OPAL course, how to have your seminars evaluated etc.)
+- **recommended workflows** (e.g., how to set up a workspace in BrainVision Analyzer, how to handle outliers, how to analyze reaction time data)
 
 So if you are a team member and know something about a certain work process, feel free to describe it here! And if your aren't a team member but want to comment on what is written here, please contact [Alexander Strobel](mailto:alexander.strobel@tu-dresden.de). 
