@@ -2,9 +2,9 @@
 
 Lab Manual of the Differential and Personality Psychology group (AG.DPP) at TU Dresden
 
-So far, this manual is still under development. Its structure and content are subject to change and addition. Still, it may already now be used for instructing new team members (e.g., master students) on how to use certain tools (see the [Wiki](https://github.com/alex-strobel/DPP-LabManual/wiki)) or perform certain routines (e.g., [creating a reproducible environment for collaborative work on research projects](https://github.com/alex-strobel/DPP-LabManual/blob/main/Routines/GitHub-and-renv-long.md)). 
+So far, this manual is still under development. Its structure and content are subject to change and addition. Still, it may already now be used for instructing new team members (e.g., master students) on how to use certain tools (see the [Wiki](https://github.com/alex-strobel/DPP-LabManual/wiki)) or perform certain routines (e.g., [creating a reproducible environment for collaborative work on research projects](https://github.com/alex-strobel/DPP-LabManual/blob/main/Routines/GitHub-and-renv-long.md)). One major feature of this manual also will be to pinpoint on what we as a group agree upon when it comes to [organize a research project](https://github.com/alex-strobel/DPP-LabManual/blob/main/Manual/Research-projects.md). 
 
-One major feature of this manual also will be to pinpoint on what we as a group agree upon when it comes to [organize a research project](https://github.com/alex-strobel/DPP-LabManual/blob/main/Manual/Research-projects.md). Further issues to be implemented comprise 
+Further issues to be implemented comprise 
 
 - information management (e.g., how to use the central printer/scanner, whom to contact for which purpose, where to find study documents etc.)
 - administrative tasks (e.g., what to do if one hires a student assistant, how to create an OPAL course, how to have your seminars evaluated etc.)
