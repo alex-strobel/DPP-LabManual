@@ -22,6 +22,16 @@ This does not necessarily need but eventually often enough will be Alex.
 As Alex tends to postpone decisons, keep him reminded of his duty.
 Still, all team members can take part in any decision, but should also be prepared to do so.
 
+## We embrace open science principles and act accordingly.
+
+This means that all team members should adhere to the principles stated in the [OSIP Research Transparency Statement](https://tu-dresden.de/mn/psychologie/die-fakultaet/open-science/osip-research-transparency-statement) devised by the Open Science Initiative of the Faculty of Psychology (and ideally should sign it). At its core, this means that whenever possible, we 
+
+- preregister our hypotheses
+- provide open data, code, and study materials
+- request or remind to adhere to open science principles as reviewers or committee members 
+
+As yet, we have not arrived at a common framework how to do so, i.e., preregister at AsPredicted or at OSF) <!-- insert links -->, provide open data, code and materials via OSF, OpARA or GitHub <!-- insert links -->, or how to ideally request open data and code - for a start - when reviewing papers <!-- add template -->. Still, everyone of us should try their best to adhere to the principles outlined above and detailed in the OSIP Statement by whatever means.    
+
 ## We adhere to common principles when using language.
 
 These common principles include that everything said and written should be as accessible and inclusive as possible.
