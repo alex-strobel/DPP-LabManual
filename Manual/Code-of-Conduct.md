@@ -38,4 +38,5 @@ Then, the gender-sensitive way to do so is (in accordance with the TU Dresden Gu
 As the usage of the : may annoy some participants (not so much in student samples, but in samples from the general population) and may prompt them to cancel their participation in a, say, online questionnaire, try to use constructions like "Die Projektleitung liegt bei ..." or "Alle, die an der Untersuchung teilnehmen ...".
 This does not mean that we should give in to people who oppose to the usage of gender-sensitive language, but we also should try to include them as well by using gender-neutral language where possible. 
 After all, we want to have representative samples. 
-Yet, where it is impossible to use gender-neutral language, we will of course to use the : construction.  
+Yet, where it is impossible to use gender-neutral language, we will of course use the : construction instead of using the generic masculinum.
+
