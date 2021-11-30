@@ -164,7 +164,8 @@ df <- read.csv(here("Data", "df.csv"))  # reads data from folder in that root
 Execute that code, and the data will be loaded.
 If you now would move your directory to somewhere else, it would still work.
 And if someone else clones your project, it will work as well, and that is exactly what we use the `here` package for. 
-It is important that you put the `i_am` flag into every single file where you reference to project files. 
+It is important that you put a flag file to be found by the `i_am` function into every single R script where you reference to project files.
+It is even more important to have unqiue names for the flag files in every single repository, which you can easily implement by putting the project name into the file name.
 
 ### Collaboratively work on projects
 
