@@ -81,7 +81,7 @@ Before coming to details on *how* to do so, some remarks on *why* one should use
 
 ## Some background
 
-You of course need to be familiar with *R* and *RStudio* and ideally also with *R Markdown*. Also, having *Git* and *GitHub Desktop* already installed and having signed up to GitHub will speed up the setup process for creating and collaboratively working in a reproducible environment. Also, it may help to hace some general idea of what the R packages `renv` and `here` are good for. 
+You of course need to be familiar with *R* and *RStudio* and ideally also with *R Markdown*. Also, having *Git* and *GitHub Desktop* already installed and having signed up to GitHub will speed up the setup process for creating and collaboratively working in a reproducible environment. Also, it may help to have some general idea of what the R packages `renv` and `here` are good for. 
 
 If you aren't (that) familiar with these tools, it is recommended to read these Wiki entries (and perhapt also the documents linked there):
 
