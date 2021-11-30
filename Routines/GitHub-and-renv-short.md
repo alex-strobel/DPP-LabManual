@@ -165,7 +165,7 @@ Execute that code, and the data will be loaded.
 If you now would move your directory to somewhere else, it would still work.
 And if someone else clones your project, it will work as well, and that is exactly what we use the `here` package for. 
 It is important that you put a flag file to be found by the `i_am` function into every single R script where you reference to project files.
-It is even more important to have unqiue names for the flag files in every single repository, which you can easily implement by putting the project name into the file name.
+It is even more important to have unique names for the flag files in every single repository, which you can easily achieve by putting the project name into the flag file name.
 
 ### Collaboratively work on projects
 
