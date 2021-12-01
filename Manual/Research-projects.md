@@ -54,7 +54,7 @@ During this process, you should also find someone who will act as what we provis
 
 #### Authorship
 
-The RTA will put considerable effort in your paper, so co-authorship of the RTA is justified by all means. But what essentially does define authorship? A discussion of this issue can be found in our [Wiki entry on authorship](https://github.com/alex-strobel/DPP-LabManual/wiki/Authorship). In short.
+The RTA will put considerable effort in your paper, so co-authorship of the RTA is justified by all means. But what essentially does define authorship? A discussion of this issue can be found in our [Wiki entry on authorship](https://github.com/alex-strobel/DPP-LabManual/wiki/Authorship). In short:
 
 Authorship requires that someone has contributed *substantially* to
 
@@ -64,11 +64,11 @@ Authorship requires that someone has contributed *substantially* to
 - in the development of scientific results, or
 - in the writing of the manuscript
 
-and gave final approval to the submission of a manuscript and bear joint responsibility for the work. In addition,
+and gave final approval to the submission of a manuscript and bears joint responsibility for the work. In addition,
 
-- all who have substantially contributed along the lines above must be considered in the decision who will be credited as author or who will be acknowledged for - their contribution
+- all who have substantially contributed along the lines above must be considered in the decision who will be credited as author or who will be acknowledged for their contribution
 - there are no honorary authorships
-- obstruction of the publication of scientific results is against the rules of good scientific practice
+- obstruction of the publication of scientific results (be it intentionally or just out of laziness such as when not responding to the main author's mail that asks for final approval of the manuscript) is against the rules of good scientific practice
 
 Already early in any research project conducted at AG.DPP, all who are or get to be involved should be asked if they want to be authors of an eventually resulting publication. And if they do, they should do their best to make their contribution substantial.
 
