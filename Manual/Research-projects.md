@@ -78,9 +78,13 @@ Already early in any research project conducted at AG.DPP, all who are or get to
 
 Take care of clarity and conciseness and get comments of your co-authors! ...
 
+[[up](#Organization-of-this-manual)]
+
 ### Study design
 
 Parallel to writing down the rationale of your study, develop a study plan and a protocol. Try to anticipate as many details as possible! Specifically, follow the points below:
+
+[[up](#Organization-of-this-manual)]
 
 #### Consider only variables that are really necessary and assess them in a detail that is justified!
 
@@ -104,9 +108,13 @@ When planning a study with a large sample you may be tempted to assess as many v
 
 It is therefore most of the time wise to reduce the number of potential outcome variables and *a priori* covariates to a minimum **or** to write a Data/Project paper ahead of beginning data collection where you describe the larger project, the data collected and the intended use for different research questions and, thus, different research papers. 
 
+[[up](#Organization-of-this-manual)]
+
 #### Prefer open materials (e.g. questionnaires, stimuli) or ask for permission!
 
 ...
+
+[[up](#Organization-of-this-manual)]
 
 #### Estimate required sample size!
 
@@ -120,9 +128,13 @@ For details on power analysis, see the following presentation:
 
 - [Power Analyses](https://github.com/alex-strobel/DPP-LabManual/blob/main/Manual/Presentations/DPP_LM_PowerAnalyses.pdf)
 
+[[up](#Organization-of-this-manual)]
+
 #### Run a pilot study!
 
 A pilot study does not only help in estimating the effect size you can expect, it also helps to streamline the study protocol, detect unforeseen obstacles, develop an analysis plan using real data etc. Yet, to really get a glimpse what you might expect from the final data set, you should have enough pilot data. Collect as many participants as feasible, as a rule of thumb: at least 16 for experiments, at least 64 for questionnaire studies!
+
+[[up](#Organization-of-this-manual)]
 
 #### Consider to use Bayesian sequential testing and Bayesian statistics!
 
@@ -154,6 +166,8 @@ Importantly, you should not take these thresholds as strict rules, they are simp
 
 Bayesian analyses can be performed with, e.g., [JASP](https://jasp-stats.org) and the [R package `BayesFactor`](https://github.com/alex-strobel/DPP-LabManual/wiki/R-package-BayesFactor).
 
+[[up](#Organization-of-this-manual)]
+
 ### REDCap project
 
 ...
@@ -165,12 +179,16 @@ Bayesian analyses can be performed with, e.g., [JASP](https://jasp-stats.org) an
 - Test data export and data labelling
 - Switch to production mode!
 
+[[up](#Organization-of-this-manual)]
+
 ### GitHub project
 
 ...
 
 - https://github.com/alex-strobel/DPP-LabManual/wiki/GitHub
 - https://github.com/alex-strobel/DPP-LabManual/blob/main/Routines/GitHub-and-renv-long.md
+
+[[up](#Organization-of-this-manual)]
 
 ### Analysis plan
 
@@ -182,21 +200,31 @@ JASP is an open-source project developed by Eric-Jan Wagenmakers and his team. I
 
 Your analysis plan should ideally be fully scripted. When programming in R, adhere to the [tidyverse style guide](https://github.com/alex-strobel/DPP-LabManual/wiki/R-programming-style-guide)!
 
+[[up](#Organization-of-this-manual)]
+
 ### Methods part
 
 ...
+
+[[up](#Organization-of-this-manual)]
 
 ### Ethical approval
 
 ...
 
+[[up](#Organization-of-this-manual)]
+
 ### Preregistration
 
-In line with the [OSIP Research Transparency Statement](https://tu-dresden.de/mn/psychologie/die-fakultaet/open-science/osip-research-transparency-statement), whenever possible and sensible, we preregister our main hypotheses on a reliable platform (e.g., Open Science Framework, as.predicted.org). A very useful resource for learning about why and how to do preregistration is provided by the [SLUB](https://www.slub-dresden.de/):
+In line with the [OSIP Research Transparency Statement](https://tu-dresden.de/mn/psychologie/die-fakultaet/open-science/osip-research-transparency-statement), whenever possible and sensible, we preregister our main hypotheses on a reliable platform (e.g., Open Science Framework (OSF)](https://osf.io/repregistration), as.predicted.org). A very useful resource for learning about why and how to do preregistration is provided by the [SLUB](https://www.slub-dresden.de/):
 
 - [Preregistration of scientifc studies](https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/31574065165/CourseNode/1628044732527501003)
 
-It's an [OPAL](https://bildungsportal.sachsen.de/opal/shiblogin) course for which you need a login from a university in Saxony (for our team the [ZIH](https://tu-dresden.de/zih) login). There seems to be an option for a guest account, I haven't tried yet because of no need to have one ...
+It's an [OPAL](https://bildungsportal.sachsen.de/opal/shiblogin) course for which you need a login from a university in Saxony (for our team the [ZIH](https://tu-dresden.de/zih) login). There seems to be an option for a guest account, I haven't tried yet because of no need to have one ... 
+
+At AG.DPP, we usually prefer preregistration via OSF over asPredicted. 
+
+[[up](#Organization-of-this-manual)]
 
 ### Data collection
 
