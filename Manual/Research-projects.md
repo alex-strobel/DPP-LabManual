@@ -42,9 +42,17 @@ This list roughly reflects the steps that are to be taken throughout a research 
 
 ### Research Question
 
+#### Starting point
+
 You may have some research interest and perhaps already some research idea, but it is essential that before you really start engaging in planning and conducting a study you have to have a specific research question that ideally allows you to derive hypotheses. *How does Need for Cognition (NFC) develop?* is a research interest, and *life events may shape NFC* is a research idea. So you could go on, use some life event questionnaire together with the NFC scale in a convenience sample and correlate the resulting scores with each other. You may find that NFC is positively correlated with the number of positive life events reported, but not with the number of negative life events. Does this result confirm your notion that life events shape NFC? Or couldn't it be that NFC shapes the experience or the recall of specific life events? Your research design does not allow to decide for or against any of these alternative explanations.
 
-Therefore, it pays to ponder your research idea over and over, to carefully read the literature on the relationship of life events and NFC, perhaps even to write a short review that you can submit as a stand-alone paper or that can be of use for the theoretical part of your manuscript. Also present your idea to colleagues - be it in your lab or at other occasions such as conferences - and discuss your thoughts on the matter! This will also help to identify potential collaborators and/or co-authors. During this process, you should also find someone who will act as what we provisionally call here *Research Transparency Advisor (RTA)*: Someone who is double-checking your routines and your code. It is strongly recommended that you have a RTA for every project you run! It not only reassures you that you are still on the right path, it also supports the transparency and reproducibility of your research.
+Therefore, it pays to ponder your research idea over and over, to carefully read the literature on the relationship of life events and NFC, perhaps even to write a short review that you can submit as a stand-alone paper or that can be of use for the theoretical part of your manuscript. Also present your idea to colleagues - be it in your lab or at other occasions such as conferences - and discuss your thoughts on the matter! This will also help to identify potential collaborators and/or co-authors. 
+
+#### Research Transparency Advisor
+
+During this process, you should also find someone who will act as what we provisionally call here *Research Transparency Advisor (RTA)*: Someone who is double-checking your routines and your code. It is strongly recommended that you have a RTA for every project you run! It not only reassures you that you are still on the right path, it also supports the transparency and reproducibility of your research.
+
+#### Authorship
 
 The RTA will put considerable effort in your paper, so co-authorship of the RTA is justified by all means. But what essentially does define authorship? A discussion of this issue can be found in our [Wiki entry on authorship](https://github.com/alex-strobel/DPP-LabManual/wiki/Authorship). In short.
 
@@ -74,7 +82,7 @@ Take care of clarity and conciseness and get comments of your co-authors! ...
 
 Parallel to writing down the rationale of your study, develop a study plan and a protocol. Try to anticipate as many details as possible! Specifically, follow the points below:
 
-**Consider only variables that are really necessary and assess them in a detail that is justified!**
+#### Consider only variables that are really necessary and assess them in a detail that is justified!
 
 Regarding what variables are really neccesary ...
 
@@ -90,17 +98,17 @@ Regarding the detail of assessment ...
 
 When planning a study with a large sample you may be tempted to assess as many variables you can in order to exploit the data set for a number of publications. What sounds like a good idea, may haunt you later on because
 
-- you will need to report all measures in the study in every article based on the study (because we always use the 21-word solution ([Simmons et al., 2012](http://dx.doi.org/10.2139/ssrn.2160588)), which may be tiresome
+- you will need to report all measures in the study in every article based on the study (because in line with the [OSIP Research Transparency Statement](https://tu-dresden.de/mn/psychologie/die-fakultaet/open-science/osip-research-transparency-statement), we always use the 21-word solution ([Simmons et al., 2012](http://dx.doi.org/10.2139/ssrn.2160588)), which may be tiresome
 - reviewers will ask why you only used a certain portion of the data for a given paper or may even suspect piecemeal publication
 - having so many variables at hand may also be confusing and may tempt you run exploratory analyses or use covariates that were not planned to be included in the analysis
 
 It is therefore most of the time wise to reduce the number of potential outcome variables and *a priori* covariates to a minimum **or** to write a Data/Project paper ahead of beginning data collection where you describe the larger project, the data collected and the intended use for different research questions and, thus, different research papers. 
 
-**Prefer open materials (e.g. questionnaires, stimuli) or ask for permission!**
+#### Prefer open materials (e.g. questionnaires, stimuli) or ask for permission!
 
 ...
 
-**Estimate required sample size!**
+#### Estimate required sample size!
 
 If the literature tells you what effect size to expect, this effect size is most likely inflated due to publication bias, so divide it by 2. This may be too conservative if you ground your power calculation on meta-analytically derived effect sizes and use that estimate for your power analysis. Yet, also meta-analyses suffer from publication bias and may overestimate effect sizes. Thus, it is perhaps a good idea to use the lower bound of the confidence interval as estimate for your power analysis. Calculate the required sample size with a desired power of at least 80% and a significance level that accounts for possible multiple testing.
 
@@ -112,11 +120,11 @@ For details on power analysis, see the following presentation:
 
 - [Power Analyses](https://github.com/alex-strobel/DPP-LabManual/blob/main/Manual/Presentations/DPP_LM_PowerAnalyses.pdf)
 
-**Run a pilot study!**
+#### Run a pilot study!
 
 A pilot study does not only help in estimating the effect size you can expect, it also helps to streamline the study protocol, detect unforeseen obstacles, develop an analysis plan using real data etc. Yet, to really get a glimpse what you might expect from the final data set, you should have enough pilot data. Collect as many participants as feasible, as a rule of thumb: at least 16 for experiments, at least 64 for questionnaire studies!
 
-**Consider to use Bayesian sequential testing and Bayesian statistics!**
+#### Consider to use Bayesian sequential testing and Bayesian statistics!
 
 Bayesian sequential testing allows you to collect your data most effectively. Basically, one regularly checks the incoming data using Bayesian statistics and stops data collection if some prespecified Bayes Factor is achieved. For details, see [Schönbrodt et al. (2018)](https://osf.io/w3s3s/).
 
@@ -149,6 +157,13 @@ Bayesian analyses can be performed with, e.g., [JASP](https://jasp-stats.org) an
 ### REDCap project
 
 ...
+
+- Create new project in development mode and ask for approval
+- Use templates either in REDCap data base or custom questionnaire collection
+- Review project setup and test functionality 
+- Check all possible combinations of data
+- Test data export and data labelling
+- Switch to production mode!
 
 ### GitHub project
 
