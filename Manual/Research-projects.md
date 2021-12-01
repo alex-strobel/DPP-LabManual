@@ -216,7 +216,7 @@ Your analysis plan should ideally be fully scripted. When programming in R, adhe
 
 ### Preregistration
 
-In line with the [OSIP Research Transparency Statement](https://tu-dresden.de/mn/psychologie/die-fakultaet/open-science/osip-research-transparency-statement), whenever possible and sensible, we preregister our main hypotheses on a reliable platform (e.g., Open Science Framework (OSF)](https://osf.io/repregistration), as.predicted.org). A very useful resource for learning about why and how to do preregistration is provided by the [SLUB](https://www.slub-dresden.de/):
+In line with the [OSIP Research Transparency Statement](https://tu-dresden.de/mn/psychologie/die-fakultaet/open-science/osip-research-transparency-statement), whenever possible and sensible, we preregister our main hypotheses on a reliable platform (e.g., Open Science Framework (OSF)](https://osf.io/preregistration), as.predicted.org). A very useful resource for learning about why and how to do preregistration is provided by the [SLUB](https://www.slub-dresden.de/):
 
 - [Preregistration of scientifc studies](https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/31574065165/CourseNode/1628044732527501003)
 
