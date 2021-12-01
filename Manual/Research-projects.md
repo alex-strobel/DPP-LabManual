@@ -27,7 +27,7 @@ This manual is organized in a way that it reflects the typical work flow of a re
 7.  [Write the methods part of your manuscript](#Methods-part)
 8.  [Apply for ethical approval](#Ethical-approval)
 9.  [Preregister your hypotheses and analysis plan](#Preregistration)
-10.  [Collect data](#Data-collection)
+10. [Collect data](#Data-collection)
 11. [Preprocess and merge data](#Preprocessing)
 12. [Run your analysis scripts](#Data-analysis)
 13. [Write the results and discussion part of your manuscript](#Results-and-discussion)
@@ -46,21 +46,23 @@ You may have some research interest and perhaps already some research idea, but 
 
 Therefore, it pays to ponder your research idea over and over, to carefully read the literature on the relationship of life events and NFC, perhaps even to write a short review that you can submit as a stand-alone paper or that can be of use for the theoretical part of your manuscript. Also present your idea to colleagues - be it in your lab or at other occasions such as conferences - and discuss your thoughts on the matter! This will also help to identify potential collaborators and/or co-authors. During this process, you should also find someone who will act as what we provisionally call here *Research Transparency Advisor (RTA)*: Someone who is double-checking your routines and your code. It is strongly recommended that you have a RTA for every project you run! It not only reassures you that you are still on the right path, it also supports the transparency and reproducibility of your research.
 
-The RTA will put considerable effort in your paper, so co-authorship of the RTA is justified by all means. But what essentially does define authorship? A discussion of this issue can be found in our [Wiki entry on authorship](https://github.com/alex-strobel/DPP-LabManual/wiki/Authorship), for the present purpose it may be sufficient to state
+The RTA will put considerable effort in your paper, so co-authorship of the RTA is justified by all means. But what essentially does define authorship? A discussion of this issue can be found in our [Wiki entry on authorship](https://github.com/alex-strobel/DPP-LabManual/wiki/Authorship). In short.
 
-Authors are persons who ...
+Authorship requires that someone has contributed *substantially* to
 
-1. contribute substantially to conception and design and data collection or analysis and interpretation; and
-2. participate in manuscript preparation or revise a manuscript critically and with significant intellectual contribution; and
-3. give their final approval of the manuscript version submitted for publication.
+- the development and conception of the research project or
+- the development, collection, acquisition, provision of the data, software, sources or
+- the analysis/evaluation or interpretation of the data, sources and the conclusions drawn therefrom, or
+- in the development of scientific results, or
+- in the writing of the manuscript
 
-These desiderata may be subject to discussion and change, so inform about possible updates at your relevant institution (APA, DFG, DGPs etc.)
+and gave final approval to the submission of a manuscript and bear joint responsibility for the work. In addition,
 
-To put it simple: *There is no honorary authorship at AG.DPP*! Yet, it is important to keep in mind that all who in principle qualify for authorship - be it students, junior or senior collaborators - should have at least the *opportunity* to contribute according to the points 1. to 3. above. **This means that they are to be informed when a manuscript on a research project they were involved in substantially is about to be written.** If they want to be involved in writing the manuscript and all other collaborators agree, then they are also to be involved if 
+- all who have substantially contributed along the lines above must be considered in the decision who will be credited as author or who will be acknowledged for - their contribution
+- there are no honorary authorships
+- obstruction of the publication of scientific results is against the rules of good scientific practice
 
-- significant changes are made to the study design and/or analysis plan
-- further persons are to be involved in the project (e.g. because of methodological expertise or similar)
-- content-related and formal aspects of the manuscript preparation are affected (e.g. focus of the manuscript)
+Already early in any research project conducted at AG.DPP, all who are or get to be involved should be asked if they want to be authors of an eventually resulting publication. And if they do, they should do their best to make their contribution substantial.
 
 [[up](#Organization-of-this-manual)]
 
@@ -104,7 +106,7 @@ If the literature tells you what effect size to expect, this effect size is most
 
 If you have no idea what effect size to expect, Cohen‘s classification most likely will not reflect the typical effect sizes in your area of research. If there are no established guidelines (such as those of [Gignac & Szodorai, 2016](http://dx.doi.org/10.1016/j.paid.2016.06.069), for individual differences research), assume a correlation of r = .20 (or any derivative such as an explained variance of .04, see [Fraley & Vazire, 2014](https://doi.org/10.1371/journal.pone.0109019)). A small to medium effect is more likely than a large one.
 
-The software used for power analysis makes no difference. Yet, [G\*Power](https://www.psychologie.hhu.de/arbeitsgruppen/allgemeine-psychologie-und-arbeitspsychologie/gpower) is more powerful than other software such as jamovi or the [R package `pwr?`](https://github.com/alex-strobel/DPP-LabManual/wiki/R-package-pwr) under R. If there is no power analysis software for your specific effect size, run simulations.
+The software used for power analysis makes no difference. Yet, [G\*Power](https://www.psychologie.hhu.de/arbeitsgruppen/allgemeine-psychologie-und-arbeitspsychologie/gpower) is more powerful than other software such as jamovi or the [R package `pwr`](https://github.com/alex-strobel/DPP-LabManual/wiki/R-package-pwr) under R. If there is no power analysis software for your specific effect size, run simulations.
 
 For details on power analysis, see the following presentation:
 
@@ -114,10 +116,32 @@ For details on power analysis, see the following presentation:
 
 A pilot study does not only help in estimating the effect size you can expect, it also helps to streamline the study protocol, detect unforeseen obstacles, develop an analysis plan using real data etc. Yet, to really get a glimpse what you might expect from the final data set, you should have enough pilot data. Collect as many participants as feasible, as a rule of thumb: at least 16 for experiments, at least 64 for questionnaire studies!
 
-**Consider to use Bayesian sequential testing!**
+**Consider to use Bayesian sequential testing and Bayesian statistics!**
 
 Bayesian sequential testing allows you to collect your data most effectively. Basically, one regularly checks the incoming data using Bayesian statistics and stops data collection if some prespecified Bayes Factor is achieved. For details, see [Schönbrodt et al. (2018)](https://osf.io/w3s3s/).
 
+Bayesian statistics are usually more adequate to address a research question than standard (so-called frequentist) statistics because 
+
+- just like the frequentist approach, they allow for quantifying the evidence for the H1 
+- unlike the frequentist approach, they allow for quantifying the evidence for the H0
+
+Bayes Factors (BF10) are used for this purpose and given a certain BF10, one would conclude …
+
+- BF10 > 100   = extreme evidence for H1
+- BF10 > 30    = very strong evidence for H1
+- BF10 > 10    = strong evidence for H1
+- BF10 > 3 	   = moderate evidence for H1
+- BF10 > 1	   = anecdotal evidence for H1 if BF10 < 3 
+- BF10 = 1	   = no evidence
+- BF10 < 1	   = anecdotal evidence for H0 if BF10 > 1/3
+- BF10 < 1/3	 = moderate evidence for H0
+- BF10 < 1/10  = strong evidence for H0
+- BF10 < 1/30  = very strong evidence for H0
+- BF10 < 1/100 = very strong evidence for H0
+
+Bayesian analyses can be performed with, e.g., JASP and the R package `BayesFactor`
+
+<img width="755" alt="image" src="https://user-images.githubusercontent.com/87649655/144229293-352f59cc-b5d4-43ca-911e-32a497df903d.png">
 
 ### REDCap project
 
