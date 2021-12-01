@@ -93,7 +93,7 @@ When planning a study with a large sample you may be tempted to assess as many v
 
 It is therefore most of the time wise to reduce the number of potential outcome variables and *a priori* covariates to a minimum **or** to write a Data/Project paper ahead of beginning data collection where you describe the larger project, the data collected and the intended use for different research questions and, thus, different research papers. 
 
-**Prefer open materials (e.g. questionnaires, stimuli) and/or ask for permission!**
+**Prefer open materials (e.g. questionnaires, stimuli) or ask for permission!**
 
 ...
 
@@ -103,7 +103,7 @@ If the literature tells you what effect size to expect, this effect size is most
 
 If you have no idea what effect size to expect, Cohen‘s classification most likely will not reflect the typical effect sizes in your area of research. If there are no established guidelines (such as those of [Gignac & Szodorai, 2016](http://dx.doi.org/10.1016/j.paid.2016.06.069), for individual differences research), assume a correlation of r = .20 (or any derivative such as an explained variance of .04, see [Fraley & Vazire, 2014](https://doi.org/10.1371/journal.pone.0109019)). A small to medium effect is more likely than a large one.
 
-The software used for power analysis makes no difference. Yet, [G*Power](https://www.psychologie.hhu.de/arbeitsgruppen/allgemeine-psychologie-und-arbeitspsychologie/gpower) is more powerful than other software such as jamovi or the [*pwr* package](https://cran.r-project.org/web/packages/pwr/index.html) under R. If there is no power analysis software for your specific effect size, run simulations.
+The software used for power analysis makes no difference. Yet, [G\*Power](https://www.psychologie.hhu.de/arbeitsgruppen/allgemeine-psychologie-und-arbeitspsychologie/gpower) is more powerful than other software such as jamovi or the [R package `pwr?`](https://github.com/alex-strobel/DPP-LabManual/wiki/R-package-pwr) under R. If there is no power analysis software for your specific effect size, run simulations.
 
 For details on power analysis, see the following presentation:
 
@@ -122,15 +122,21 @@ Bayesian sequential testing allows you to collect your data most effectively. Ba
 
 ...
 
+### GitHub project
+
+...
+https://github.com/alex-strobel/DPP-LabManual/wiki/GitHub
+https://github.com/alex-strobel/DPP-LabManual/blob/main/Routines/GitHub-and-renv-long.md
+
 ### Analysis plan
 
-Develop analysis plan (ideally fully scripted)! Prefer open analysis software (e.g. R, JASP)!
+Develop an analysis plan! Prefer open analysis software (e.g. R, JASP)!
 
-R is certainly the most frequently used open software environment for (not only) statistical computing and graphics. It comes with several pre-installed packages for basic statistical routines and plotting, but one can also install dedicated packages for more advanced statistics (e.g., psych, lavaan, lme4) and graphics (e.g., ggplot2). The downside is that it has no GUI. Yet, working with R is considerably facilitated if you run it with RStudio. Just install [R](https://www.r-project.org)
-and [RStudio](https://www.rstudio.com) and read the [R-Intro](https://cran.r-project.org/manuals.html).
+R is certainly the most frequently used open software environment for (not only) statistical computing and graphics. It comes with several pre-installed packages for basic statistical routines and plotting, but one can also install dedicated packages for more advanced statistics (e.g., psych, lavaan, lme4) and graphics (e.g., ggplot2). The downside is that it has no GUI. Yet, working with R is considerably facilitated if you run it with RStudio. Just install [R](https://www.r-project.org) and [RStudio](https://www.rstudio.com) and read the [R-Intro](https://cran.r-project.org/manuals.html).
 
 JASP is an open-source project developed by Eric-Jan Wagenmakers and his team. It is supported by the University of Amsterdam and the Center for Open Science. It has a user-friendly interface and offers standard analysis routines for both frequentist and Bayesian statistics. Yet, for a number of more advanced statistics such as structural equation modeling or mixed models, you have to rely on integrated modules which often are R-based, so one will still have to learn R. Just install [JASP](https://jasp-stats.org) and make sure to regularly check for updates.
 
+Your analysis plan should ideally be fully scripted. When programming in R, adhere to the [tidyverse style guide](https://github.com/alex-strobel/DPP-LabManual/wiki/R-programming-style-guide)!
 
 ### Methods part
 
