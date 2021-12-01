@@ -125,7 +125,9 @@ Bayesian statistics are usually more adequate to address a research question tha
 - just like the frequentist approach, they allow for quantifying the evidence for the H1 
 - unlike the frequentist approach, they allow for quantifying the evidence for the H0
 
-Bayes Factors (BF10) are used for this purpose and given a certain BF10, one would conclude …
+Bayes Factors (BF10) are used for this purpose. A BF10 of less than 1 indicates evidence in favor of the null hypothesis, and values greater than 1 indicate evidence in favor of the alternative hypothesis. As an example, a BF10 of 5 would indicate that the data are five times more probable if the alternative hypothesis was true than if the null model was true.
+
+According to, e.g., [Wetzels et al. (2011)](http://dx.doi.org/10.1177/1745691611406923), given a certain BF10, one would conclude …
 
 - BF10 > 100   = extreme evidence for H1
 - BF10 > 30    = very strong evidence for H1
@@ -138,6 +140,9 @@ Bayes Factors (BF10) are used for this purpose and given a certain BF10, one wou
 - BF10 < 1/10  = strong evidence for H0
 - BF10 < 1/30  = very strong evidence for H0
 - BF10 < 1/100 = very strong evidence for H0
+
+Sometimes, you might see also a BF01. This is simply 1/BF10, and the above thresholds would reverse, i.e., a BF01 > 10 would be strong evidence for the H0. 
+Importantly, you should not take these thresholds as strict rules, they are simply conventions such as *p* < .05. Using Bayesian statistics, we should not make the same mistakes as are often made when employing the frequentist approach. A BF10 = 3.1 is no better BF10 than a BF10 = 2.9 (and never ever state that BF10 = 2.9 is *marginally* moderate evidence for the alternative hypothesis).   
 
 Bayesian analyses can be performed with, e.g., [JASP](https://jasp-stats.org) and the [R package `BayesFactor`](https://github.com/alex-strobel/DPP-LabManual/wiki/R-package-BayesFactor).
 
