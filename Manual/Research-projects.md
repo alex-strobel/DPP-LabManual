@@ -110,9 +110,21 @@ It is therefore most of the time wise to reduce the number of potential outcome 
 
 [[up](#Organization-of-this-manual)]
 
-#### Prefer open materials (e.g. questionnaires, stimuli) or ask for permission!
+#### Prefer open materials!
 
-...
+To foster replicability of our studies, we try to provide open materials, e.g. questionnaires, stimuli etc. This is much easier if we use open materials. For questionnaires and tests, a useful resource for open material is:
+
+- [ZIS](https://zis.gesis.org)
+
+Commercially available materials must not be used for teaching and research unless one has acquired a license to do so, i.e., has bought enough test books/answering sheets for the number of participants in a given study. If you want to use, say, the [*NEO Five Factor Inventory (NEO-FFI)*](https://www.testzentrale.de/shop/neo-fuenf-faktoren-inventar-nach-costa-und-mc-crae.html) in a study where you aim at *N* = 500 participants: Even if you have bought the test from Hogrefe for about 200 €, you cannot simply make 500 copies of the questionnaire. You need to buy the respective number of copies of the questionnaire as well, amounting (as of end 2021) to about 1000 €. For third-party funded research, you should therefore always apply for funding of the respective number of copies of a commercially availabe questionnaire or test. Or, as said, go for free material. 
+
+You might say "Well, I do not use commercially available questionnaires, all questionnaires I use have been provided openly in scientific publications." I wish you would be right, but in most cases you won't. Read here about the respective regulations for Germany (**strongly reccomended reading**):
+
+- [Tests in Lehre und Forschung](https://www.bdp-verband.de/binaries/content/assets/beruf/testrezensionen/dtk_tests_in_lehre_und_forschung.pdf)
+
+So if you want to use some questionnaire that has been published in a journal, the copyright still lies either with the authors or the publisher (or both). In this case, contact both the author(s) and the publisher to ask for permission to use this questionnaire. Ideally, you ask for a broad permission to use the questionnaire in your research and teaching, hopefully, it is granted.
+
+To avoid buying material or asking for permission, open materials can be an option, given, there are some that are appropriate for your research question (see above at ZIS).
 
 [[up](#Organization-of-this-manual)]
 
