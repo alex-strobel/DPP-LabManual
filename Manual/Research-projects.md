@@ -139,9 +139,7 @@ Bayes Factors (BF10) are used for this purpose and given a certain BF10, one wou
 - BF10 < 1/30  = very strong evidence for H0
 - BF10 < 1/100 = very strong evidence for H0
 
-Bayesian analyses can be performed with, e.g., JASP and the R package `BayesFactor`
-
-<img width="755" alt="image" src="https://user-images.githubusercontent.com/87649655/144229293-352f59cc-b5d4-43ca-911e-32a497df903d.png">
+Bayesian analyses can be performed with, e.g., [JASP](https://jasp-stats.org) and the [R package `BayesFactor`](https://github.com/alex-strobel/DPP-LabManual/wiki/R-package-BayesFactor).
 
 ### REDCap project
 
