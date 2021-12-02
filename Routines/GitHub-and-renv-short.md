@@ -81,19 +81,15 @@ Before coming to details on *how* to do so, some remarks on *why* one should use
 
 ## Some background
 
-You of course need to be familiar with *R* and *RStudio* and ideally also with *R Markdown*. Also, having *Git* and *GitHub Desktop* already installed and having signed up to GitHub will speed up the setup process for creating and collaboratively working in a reproducible environment. Also, it may help to hace some general idea of what the R packages `renv` and `here` are good for. 
+You of course need to be familiar with *R* and *RStudio* and ideally also with *R Markdown*. Also, having *Git* and *GitHub Desktop* already installed and having signed up to GitHub will speed up the setup process for creating and collaboratively working in a reproducible environment. Also, it may help to have some general idea of what the R packages `renv` and `here` are good for. 
 
-If you aren't (that) familiar with these tools, it is recommended to read these Wiki entries (and perhapt also the documents linked there):
+If you aren't (that) familiar with these tools, it is recommended to read these Wiki entries (and perhaps also the documents linked there):
 
 - [R and RStudio](https://github.com/alex-strobel/DPP-LabManual/wiki/R-and-RStudio)
 - [R Markdown](https://github.com/alex-strobel/DPP-LabManual/wiki/R-Markdown)
 - [GitHub](https://github.com/alex-strobel/DPP-LabManual/wiki/GitHub)
 - [R package renv](https://github.com/alex-strobel/DPP-LabManual/wiki/R-package-renv)
 - [R package here](https://github.com/alex-strobel/DPP-LabManual/wiki/R-package-here)
-
-<!--
-In the example given above under the section "The problem", 
--->
 
 ## How to use the workflow suggested here
 
@@ -168,7 +164,8 @@ df <- read.csv(here("Data", "df.csv"))  # reads data from folder in that root
 Execute that code, and the data will be loaded.
 If you now would move your directory to somewhere else, it would still work.
 And if someone else clones your project, it will work as well, and that is exactly what we use the `here` package for. 
-It is important that you put the `i_am` flag into every single file where you reference to project files. 
+It is important that you put a flag file to be found by the `i_am` function into every single R script where you reference to project files.
+It is even more important to have unique names for the flag files in every single repository, which you can easily achieve by putting the project name into the flag file name.
 
 ### Collaboratively work on projects
 
