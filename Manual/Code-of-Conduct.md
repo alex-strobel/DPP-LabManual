@@ -49,8 +49,9 @@ Inclusivity involves that we usually should use a gender-sensitive or gender-neu
 This is easy in English where we speak of a "project leader" or a "participant". 
 Yet, you will have to write informed consent forms or applications for ethical approval in German. 
 Then, the gender-sensitive way to do so is (in accordance with the TU Dresden Guidelines) <!-- add link --> to use "Projektleiter:innen" and "Versuchsteilnehmer:innen". 
-If we fear the usage of the : may annoy some participants (not so much in student samples, but in samples from the general population) and may prompt them to cancel their participation in a, say, online questionnaire, try to use constructions like "Die Projektleitung liegt bei ..." or "Alle, die an der Untersuchung teilnehmen ...".
+If we fear the usage of the : may annoy some participants (not so much in student samples, but in samples from the general population) and may prompt them to cancel their participation in a, say, online questionnaire, we may consider to use constructions like "Die Projektleitung liegt bei ..." or "Alle, die an der Untersuchung teilnehmen ...".
 This does not mean that we should give in to people who oppose to the usage of gender-sensitive language, but we also should try to include them as well by using gender-neutral language where possible. 
 After all, we want to have representative samples. 
 Yet, where it is impossible to use gender-neutral language, we will of course use the : construction instead of using the generic masculinum.
 
+tbc ...
