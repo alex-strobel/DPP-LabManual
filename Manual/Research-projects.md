@@ -90,9 +90,9 @@ Parallel to writing down the rationale of your study, develop a study plan and a
 
 Regarding what variables are really neccesary ...
 
-- those relevant to characterize your sample (age, gender, education) to enable an estimation of the level of generalizability
+- those relevant to characterize your sample (age, gender, education will in most cases do) to enable an estimation of the level of generalizability
 - those relevant to answer your research question
-- potential confounders
+- potential confounders (read this [interresting blog post on confounders](https://towardsdatascience.com/get-a-grip-when-to-add-covariates-in-a-linear-regression-f6a5a47930e5))
 
 Regarding the detail of assessment ...
 
