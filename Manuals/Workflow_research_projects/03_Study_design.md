@@ -53,7 +53,7 @@ The software used for power analysis makes no difference. Yet, [G\*Power](https:
 
 For details on power analysis, see the following presentation:
 
-- [Power Analyses](https://github.com/alex-strobel/DPP-LabManual/blob/main/Manual/Presentations/DPP_LM_PowerAnalyses.pdf)
+- [Power Analyses](https://github.com/alex-strobel/DPP-LabManual/blob/main/Manuals/Presentations/DPP_LM_PowerAnalyses.pdf)
 
 #### Run a pilot study!
 
