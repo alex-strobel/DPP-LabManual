@@ -72,6 +72,28 @@ and gave final approval to the submission of a manuscript and bears joint respon
 
 Already early in any research project conducted at AG.DPP, all who are or get to be involved should be asked if they want to be authors of an eventually resulting publication. And if they do, they should do their best to make their contribution substantial.
 
+#### Formulation of hypotheses
+
+All authors should finally agree on the research questions posed and the hypotheses formulated. Hypotheses should be stated clearly and must be translatable into a statistical test. In the above example: you expect that past positive but not negative life events would be related to NFC. So you might think that your hypotheses could read:
+
+- H1: Positive life events correlate with NFC.
+- H2: Negative life events do not correlate with NFC.
+
+H1 translates into a correlation analysis. If *p* < .05, you would *reject* the null hypothesis. H2, however, does not directly translate into a testable hypothesis, because in the frequentist approach you cannot *accept* the null hypothesis. You could state that if the correlation (= effect size) is very small, say, *r* < .10, hypothesis H2 would be confirmed (but still, also rather small effects might be of relevance in your field of study). Another option would be that you use Bayesian statistics that allow to quantify the evidence for or against the null hypothesis. A further aspect why the above hypotheses are not well-formulated is that it is not clear how you operationalize *positive* and *negative life events* on the one hand and *NFC* on the other hand. 
+
+Taking these issues into account, it would be better to be precise and state:
+
+*for a frequentist approach*
+
+- H1: The self-reported number of positive life events significantly correlates with the scores on the NFC scale, with a medium to large effect size (*r* ≥ .30).
+- H2: The self-reported number of Negative life events insignificantly correlates with the scores on the NFC scale, with a negligible effect size (*r* < .10).
+
+
+*for a Bayesian approach*
+
+- H1: There is at least moderate evidence for a correlation of the self-reported number of positive life events with the scores on the NFC scale (BF10 > 3).
+- H2: There is at least moderate evidence for no correlation of the self-reported number of negative life events correlates with the scores on the NFC scale (BF10 < 1/3).
+
 [[up](#Organization-of-this-manual)]
 
 ### Theoretical part
@@ -148,9 +170,53 @@ A pilot study does not only help in estimating the effect size you can expect, i
 
 [[up](#Organization-of-this-manual)]
 
-#### Consider to use Bayesian sequential testing and Bayesian statistics!
+#### Consider to use Bayesian sequential testing!
 
 Bayesian sequential testing allows you to collect your data most effectively. Basically, one regularly checks the incoming data using Bayesian statistics and stops data collection if some prespecified Bayes Factor is achieved. For details, see [Schönbrodt et al. (2018)](https://osf.io/w3s3s/).
+
+[[up](#Organization-of-this-manual)]
+
+### REDCap project
+
+- Create new project in development mode and ask for approval
+- Use templates either in REDCap data base or custom questionnaire collection
+- Review project setup and test functionality 
+- Check all possible combinations of data
+- Test data export and data labelling
+- Switch to production mode!
+
+...
+
+<!-- @Christoph/Josephine: Please elaborate on this issue (here and/or in the Wiki)! -->
+
+[[up](#Organization-of-this-manual)]
+
+### GitHub project
+
+In order to effiencently organize collaboration on your research project, setup a GitHub project and a reproducible R environment using the `renv` package (with a little help from the `here` package). Read these pages to learn how to use GitHub and how to create a reproducible workflow:  
+
+- [Setup GitHub](https://github.com/alex-strobel/DPP-LabManual/wiki/GitHub)
+- [Version control and collaboration using GitHub and the `renv` package](https://github.com/alex-strobel/DPP-LabManual/blob/main/Routines/GitHub-and-renv-short.md)
+
+Now invite all collaborators to join the GitHub project via `Settings > Manage Access`. 
+
+[[up](#Organization-of-this-manual)]
+
+### Analysis plan
+
+#### Develop an analysis plan! 
+
+You sh
+
+#### Prefer open analysis software (e.g. R, JASP)!
+
+R is certainly the most frequently used open software environment for (not only) statistical computing and graphics. It comes with several pre-installed packages for basic statistical routines and plotting, but one can also install dedicated packages for more advanced statistics (e.g., psych, lavaan, lme4) and graphics (e.g., ggplot2). The downside is that it has no GUI. Yet, working with R is considerably facilitated if you run it with RStudio. Just install [R](https://www.r-project.org) and [RStudio](https://www.rstudio.com) and read the [R-Intro](https://cran.r-project.org/manuals.html).
+
+JASP is an open-source project developed by Eric-Jan Wagenmakers and his team. It is supported by the University of Amsterdam and the Center for Open Science. It has a user-friendly interface and offers standard analysis routines for both frequentist and Bayesian statistics. Yet, for a number of more advanced statistics such as structural equation modeling or mixed models, you have to rely on integrated modules which often are R-based, so one will still have to learn R. Just install [JASP](https://jasp-stats.org) and make sure to regularly check for updates.
+
+Your analysis plan should ideally be fully scripted. When programming in R, adhere to the [tidyverse style guide](https://github.com/alex-strobel/DPP-LabManual/wiki/R-programming-style-guide)!
+
+#### Consider to use Bayesian statistics!
 
 Bayesian statistics are usually more adequate to address a research question than standard (so-called frequentist) statistics because 
 
@@ -159,7 +225,7 @@ Bayesian statistics are usually more adequate to address a research question tha
 
 Bayes Factors (BF10) are used for this purpose. A BF10 of less than 1 indicates evidence in favor of the null hypothesis, and values greater than 1 indicate evidence in favor of the alternative hypothesis. As an example, a BF10 of 5 would indicate that the data are five times more probable if the alternative hypothesis was true than if the null model was true.
 
-According to, e.g., [Wetzels et al. (2011)](http://dx.doi.org/10.1177/1745691611406923), given a certain BF10, one would conclude …
+According to, e.g., [Wetzels et al. (2015)](https://doi.org/10.1002/9781118625392.wbecp453), given a certain BF10, one would conclude …
 
 - BF10 > 100   = extreme evidence for H1
 - BF10 > 30    = very strong evidence for H1
@@ -178,39 +244,6 @@ Importantly, you should not take these thresholds as strict rules, they are simp
 
 Bayesian analyses can be performed with, e.g., [JASP](https://jasp-stats.org) and the [R package `BayesFactor`](https://github.com/alex-strobel/DPP-LabManual/wiki/R-package-BayesFactor).
 
-[[up](#Organization-of-this-manual)]
-
-### REDCap project
-
-...
-
-- Create new project in development mode and ask for approval
-- Use templates either in REDCap data base or custom questionnaire collection
-- Review project setup and test functionality 
-- Check all possible combinations of data
-- Test data export and data labelling
-- Switch to production mode!
-
-[[up](#Organization-of-this-manual)]
-
-### GitHub project
-
-...
-
-- https://github.com/alex-strobel/DPP-LabManual/wiki/GitHub
-- https://github.com/alex-strobel/DPP-LabManual/blob/main/Routines/GitHub-and-renv-long.md
-
-[[up](#Organization-of-this-manual)]
-
-### Analysis plan
-
-Develop an analysis plan! Prefer open analysis software (e.g. R, JASP)!
-
-R is certainly the most frequently used open software environment for (not only) statistical computing and graphics. It comes with several pre-installed packages for basic statistical routines and plotting, but one can also install dedicated packages for more advanced statistics (e.g., psych, lavaan, lme4) and graphics (e.g., ggplot2). The downside is that it has no GUI. Yet, working with R is considerably facilitated if you run it with RStudio. Just install [R](https://www.r-project.org) and [RStudio](https://www.rstudio.com) and read the [R-Intro](https://cran.r-project.org/manuals.html).
-
-JASP is an open-source project developed by Eric-Jan Wagenmakers and his team. It is supported by the University of Amsterdam and the Center for Open Science. It has a user-friendly interface and offers standard analysis routines for both frequentist and Bayesian statistics. Yet, for a number of more advanced statistics such as structural equation modeling or mixed models, you have to rely on integrated modules which often are R-based, so one will still have to learn R. Just install [JASP](https://jasp-stats.org) and make sure to regularly check for updates.
-
-Your analysis plan should ideally be fully scripted. When programming in R, adhere to the [tidyverse style guide](https://github.com/alex-strobel/DPP-LabManual/wiki/R-programming-style-guide)!
 
 [[up](#Organization-of-this-manual)]
 
