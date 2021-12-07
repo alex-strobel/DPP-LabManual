@@ -23,7 +23,7 @@ This manual is organized in a way that it reflects the typical work flow of a re
 3.  [Develop and refine the study design](03_Study_design.md)
 4.  [Create a REDCap project](04_REDCap_project.md)
 5.  [Create a GitHub project](05_GitHub_project.md)
-6.  [Develop an - ideally fully scripted - analysis plan](06_Analysis_plan)
+6.  [Develop an - ideally fully scripted - analysis plan](06_Analysis_plan.md)
 7.  [Write the methods part of your manuscript](07_Methods_part.md)
 8.  [Apply for ethical approval](08_Ethical_approval.md)
 9.  [Preregister your hypotheses and analysis plan](09_Preregistration.md)
