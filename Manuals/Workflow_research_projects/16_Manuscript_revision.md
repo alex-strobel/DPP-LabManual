@@ -14,7 +14,11 @@ Your rebuttal letter eventually should address all issues raised by the reviewer
 
 Thank the reviewers for valid points and begin your answer to such a point by, e.g.: 
 
-> We thank the reviewer for directing out attention to this important issue,
+> We thank the reviewer for directing our attention to this important issue ...
+
+or
+
+> Thank you very much for your suggestion! Accordingly, we changed ...
 
 Yet, don't thank for bullshit! If you think, a reviewer is wrong with their comments, be polite, but determined, e.g.:
 
