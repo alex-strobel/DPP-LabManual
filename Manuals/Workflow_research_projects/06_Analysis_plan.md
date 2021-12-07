@@ -44,5 +44,23 @@ Importantly, you should not take these thresholds as strict rules, they are simp
 
 Bayesian analyses can be performed with, e.g., [JASP](https://jasp-stats.org) and the [R package `BayesFactor`](https://github.com/alex-strobel/DPP-LabManual/wiki/R-package-BayesFactor).
 
+## Plan how to merge your data
+
+You will be collecting data via a variety of software, e.g.,
+
+- questionnaire data via REDCap
+- Reaction time data via Presentation, PsychoPy or the PsychToolbox
+- EEG and ECG data via BrainVision Recoder
+
+You will then have to preprocess your data using, in the above example,
+
+- questionnaire and reaction time data using R
+- EEG data using BrainVidion Analyzer or eeglab 
+- ECG data via Kubios
+
+These data will have to be merged via a unified identifier (an ID). Often enough, this ID will be a participant-generated code (consisting of ...) to identify a participant. Yet, also often enough, not all data sources will be identifed by this ID, but by a running number, and there will be a separate file where the ID is associated with the running number.
+
+This is not a good idea. Rather, have a unique ID for every participant via ... <!-- ZEP? pls someone elaborate on that, I have no clue -->
+This means that all separate strands of data (such as, e.g., questionnaire, reaction time  data,  
 [[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
 
