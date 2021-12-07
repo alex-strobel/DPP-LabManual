@@ -12,7 +12,11 @@ Your rebuttal letter eventually should address all issues raised by the reviewer
 
 <!-- add template for rebuttal letter -->
 
-Thank the reviewers for valid points, but don't thank for bullshit! If you think, a reviewer is wrong with their comments, be polite, but determined, e.g.:
+Thank the reviewers for valid points and begin your answer to such a point by, e.g.: 
+
+> We thank the reviewer for directing out attention to this important issue,
+
+Yet, don't thank for bullshit! If you think, a reviewer is wrong with their comments, be polite, but determined, e.g.:
 
 > In our initial version of the manuscript, we obviously failed to make clear that ...
 
