@@ -18,7 +18,7 @@ For statistics, there are free alternatives to R such as [JASP](https://jasp-sta
 
 This manual is organized in a way that it reflects the typical work flow of a research project. After having pondered and discussed your research idea, you have to
 
-1.  [Pinpoint your research question and formulate your hypotheses](/01_Research_question.md)
+1.  [Pinpoint your research question and formulate your hypotheses](01_Research_question.md)
 2.  [Write the theoretical part of your manuscript](https://github.com/alex-strobel/DPP-LabManual/blob/main/Manuals/Workflow_research_projects/02_Theoretical_part.md)
 3.  [Develop and refine the study design](https://github.com/alex-strobel/DPP-LabManual/blob/main/Manuals/Workflow_research_projects/03_Study_design.md)
 4.  [Create a REDCap project](#REDCap-project)
