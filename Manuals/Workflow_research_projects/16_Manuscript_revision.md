@@ -1,6 +1,6 @@
 # Manuscript revision
 
-Don’t be too upset or angry about the reviews of your manuscript that will arrive after way too long timne since submission! 
+Don’t be too upset or angry about the reviews of your manuscript that will arrive after way too long time since you submitted your manuscript! 
 They will most likely be not as positive as you expected.
 Adressing the reviewers' issues most of the time will indeed help you strengthen your manuscript!
 Discuss the issues raised by the reviewers with your co-authors!
@@ -30,8 +30,7 @@ or
 
 > While we value the thorough reading of our manuscript and the helpful comments by this reviewer, we disagree in this point. {add elaborate justification why you disagree}    
 
-Also, often enough, reviewers raise minor concerns on issues that you can easily address and some major concern on an issue you cannot easily address (such as collecting more data). Then try to address as many minor concerns as thoroughly as possible, even if you might see not point in doing so (e.g., adding some seemingly irrelevant demographic detail) as long as that does not weaken your manuscript (e.g., running a statistical analysis that does not make sense at all). If you preregistered your analysis plan, you are safe anyway: all what goes beyond this plan, would be exploratory (and thus, some detail).   
-
+<!-- Also, often enough, reviewers raise minor concerns on issues that you can easily address and some major concern on an issue you cannot (such as collecting more data). Then try to address as many minor concerns as thoroughly as possible, even if you might see not point in doing so (e.g., adding some seemingly irrelevant demographic detail) as long as that does not weaken your manuscript (e.g., running a statistical analysis that does not make sense at all), and if you preregistered your analysis plan, you are safe anyway: all what goes beyond this plan, would be an exploratory analysis. ... -->
 
 ...
 
