@@ -159,7 +159,7 @@ Bayesian statistics are usually more adequate to address a research question tha
 
 Bayes Factors (BF10) are used for this purpose. A BF10 of less than 1 indicates evidence in favor of the null hypothesis, and values greater than 1 indicate evidence in favor of the alternative hypothesis. As an example, a BF10 of 5 would indicate that the data are five times more probable if the alternative hypothesis was true than if the null model was true.
 
-According to, e.g., [Wetzels et al. (2011)](http://dx.doi.org/10.1177/1745691611406923), given a certain BF10, one would conclude …
+According to, e.g., [Wetzels et al. (2015)](https://doi.org/10.1002/9781118625392.wbecp453), given a certain BF10, one would conclude …
 
 - BF10 > 100   = extreme evidence for H1
 - BF10 > 30    = very strong evidence for H1
@@ -182,8 +182,6 @@ Bayesian analyses can be performed with, e.g., [JASP](https://jasp-stats.org) an
 
 ### REDCap project
 
-...
-
 - Create new project in development mode and ask for approval
 - Use templates either in REDCap data base or custom questionnaire collection
 - Review project setup and test functionality 
@@ -191,14 +189,20 @@ Bayesian analyses can be performed with, e.g., [JASP](https://jasp-stats.org) an
 - Test data export and data labelling
 - Switch to production mode!
 
+...
+
+<!-- @Christoph/Josephine: Please elaborate on this issue (here and/or in the Wiki)! -->
+
 [[up](#Organization-of-this-manual)]
 
 ### GitHub project
 
-...
+In order to effiencently organize collaboration on a research project, setup a GitHub project and a reproducible R environment using the `renv` package (with a little help from the `here` package). Read these pages to learn how to use GitHub and how to implement a reproducible workflow  
 
-- https://github.com/alex-strobel/DPP-LabManual/wiki/GitHub
-- https://github.com/alex-strobel/DPP-LabManual/blob/main/Routines/GitHub-and-renv-long.md
+- [Setup GitHub](https://github.com/alex-strobel/DPP-LabManual/wiki/GitHub)
+- [Version control and collaboration using GitHub and the `renv` package](https://github.com/alex-strobel/DPP-LabManual/blob/main/Routines/GitHub-and-renv-short.md)
+
+...
 
 [[up](#Organization-of-this-manual)]
 
