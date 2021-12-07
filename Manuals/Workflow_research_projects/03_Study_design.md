@@ -62,3 +62,5 @@ A pilot study does not only help in estimating the effect size you can expect, i
 ## Consider to use Bayesian sequential testing!
 
 Bayesian sequential testing allows you to collect your data most effectively. Basically, one regularly checks the incoming data using Bayesian statistics and stops data collection if some prespecified Bayes Factor is achieved. For details, see [Schönbrodt et al. (2018)](https://osf.io/w3s3s/).
+
+[[back](https://github.com/alex-strobel/DPP-LabManual/blob/main/Manuals/Workflow_research_projects/00_How_to_organize_a_research_project.md#organization-of-this-manual)]
