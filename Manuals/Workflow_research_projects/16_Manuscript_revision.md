@@ -8,11 +8,17 @@ Pre-structure the revision process and then assign tasks to the other authors! D
 
 > Reviewer 1 asks us to perform analysis X. I guess, A has the most experience in performing X, so dear A, please perform these analyses and answer this point in the manuscript and the rebuttal letter by {insert date at least two weeks before you have to submit the revision}.   
 
-Your rebuttal letter eventually should address all issues in a structured manner!
+Your rebuttal letter eventually should address all issues raised by the reviewers in a structured manner!
 
 <!-- add template for rebuttal letter -->
 
-Thank reviewers for valid points, but don't thank for bullshit!
+Thank the reviewers for valid points, but don't thank for bullshit! If you think, a reviewer is wrong with their comments, be polite, but determined, e.g.:
+
+> In our initial version of the manuscript, we obviously failed to make clear that ...
+
+or 
+
+> While we value the thorough reading of our manuscript and the helpful comments by this reviewer, we disagree in this point. {add elaborate justification why you disagree}    
 
 ...
 
