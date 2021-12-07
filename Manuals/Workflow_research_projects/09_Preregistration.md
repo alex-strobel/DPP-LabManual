@@ -8,3 +8,5 @@ A very useful resource for learning about why and how to do preregistration is p
 It's an [OPAL](https://bildungsportal.sachsen.de/opal/shiblogin) course for which you need a login from a university in Saxony (for our team the [ZIH](https://tu-dresden.de/zih) login). There seems to be an option for a guest account, I haven't tried yet because of no need to have one ... 
 
 **At AG.DPP, we usually prefer preregistration via OSF over AsPredicted.**
+
+[[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
