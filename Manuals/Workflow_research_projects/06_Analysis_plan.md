@@ -39,3 +39,6 @@ Sometimes, you might see also a BF01. This is simply 1/BF10, and the above thres
 Importantly, you should not take these thresholds as strict rules, they are simply conventions such as *p* < .05. Using Bayesian statistics, we should not make the same mistakes as are often made when employing the frequentist approach. A BF10 = 3.1 is no better BF10 than a BF10 = 2.9 (and never ever state that BF10 = 2.9 is *marginally* moderate evidence for the alternative hypothesis).   
 
 Bayesian analyses can be performed with, e.g., [JASP](https://jasp-stats.org) and the [R package `BayesFactor`](https://github.com/alex-strobel/DPP-LabManual/wiki/R-package-BayesFactor).
+
+[[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
+
