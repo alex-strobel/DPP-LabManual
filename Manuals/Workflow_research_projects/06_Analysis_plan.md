@@ -61,6 +61,9 @@ You will then have to preprocess your data using, in the above example,
 These data will have to be merged via a unified identifier (an ID). Often enough, this ID will be a participant-generated code (consisting of ...) to identify a participant. Yet, also often enough, not all data sources will be identifed by this ID, but by a running number, and there will be a separate file where the ID is associated with the running number.
 
 This is not a good idea. Rather, have a unique ID for every participant via ... <!-- ZEP? pls someone elaborate on that, I have no clue -->
-This means that all separate strands of data (such as, e.g., questionnaire, reaction time  data,  
+This means that all separate strands of data (such as, e.g., questionnaire, reaction time  data ...
+
+So, to make your data as accessible as possible, save all preprocessed data as CSV files, so that all researchers who want to access your data can access it via every platform imaginable.
+
 [[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
 
