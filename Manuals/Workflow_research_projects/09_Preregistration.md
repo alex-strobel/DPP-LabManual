@@ -9,4 +9,15 @@ It's an [OPAL](https://bildungsportal.sachsen.de/opal/shiblogin) course for whic
 
 **At AG.DPP, we usually prefer preregistration via OSF over AsPredicted.**
 
+Also, you should consider to publish your paper as a Registered Report, i.e., you register your research idea and its rationale together with your study design and analysis plan prior to data collection and analysis. While at first glance this may seem to hinder the progress of your research project, in the end it will have been worth it, both in terms of time/effort and financial resources spent for your project. Among the benefits are:
+
+- You have to think twice on why and how do run your project.
+- You will get valuable feedback on your research idea and study design.
+- If accepted, your Registered Report will get published regardless of the results of your study (as long as you adhere to your analysis plan).
+- If rejected, your research idea and/or analysis plan may turn out as not as good an idea that you should devote so much time, effort and resources into it in the first place. We all have some bad ideas or plans now and then ... 
+
+See here for details on Registered Reports:
+
+- [OSF page on Registered Reports](https://www.cos.io/initiatives/registered-reports)
+
 [[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
