@@ -79,9 +79,9 @@ All authors should finally agree on the research questions posed and the hypothe
 - H1: Positive life events correlate with NFC.
 - H2: Negative life events do not correlate with NFC.
 
-H1 translates into a correlation analysis. If *p* < .05, you would *reject* the null hypothesis. H2, however, does not directly translate into a testable hypothesis, because in the frequentist approach you cannot *accept* the null hypothesis. You could state that if the correlation (= effect size) is very small, say, *r* < .10, hypothesis H2 would be confirmed, but still, also rather small effects might be of relevance in your field of study. Another option would be that you use Bayesian statistics that allow to quantify the evidence for or against the null hypothesis.
+H1 translates into a correlation analysis. If *p* < .05, you would *reject* the null hypothesis. H2, however, does not directly translate into a testable hypothesis, because in the frequentist approach you cannot *accept* the null hypothesis. You could state that if the correlation (= effect size) is very small, say, *r* < .10, hypothesis H2 would be confirmed (but still, also rather small effects might be of relevance in your field of study). Another option would be that you use Bayesian statistics that allow to quantify the evidence for or against the null hypothesis. A further aspect why the above hypotheses are not well-formulated is that it is not clear how you operationalize *positive* and *negative life events* on the one hand and *NFC* on the other hand. 
 
-A further aspect why the above hypotheses are not well-formulated is that it is not clear how you operationalize *positive* and *negative life events* on the one hand and *NFC* on the other hand. Taking these issues into account, it would be better to be precise and state:
+Taking these issues into account, it would be better to be precise and state:
 
 *for a frequentist approach*
 
