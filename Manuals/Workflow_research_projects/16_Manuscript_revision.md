@@ -6,9 +6,9 @@ Adressing the reviewers' issues most of the time will indeed help you strengthen
 Discuss the issues raised by the reviewers with your co-authors!
 Pre-structure the revision process and then assign tasks to the other authors! Don't ask for help – assign tasks in a friendly manner and set a clear deadline, e.g.:
 
-> Reviewer 1 asks us to perform analysis X. I guess, A has the most experience in performing X, so please answer this point in the manuscript and the rebuttal letter by {insert date at least two weeks before you have to submit the revision}.   
-> 
-Your rebuttal letter should address all issues in a structured manner!
+> Reviewer 1 asks us to perform analysis X. I guess, A has the most experience in performing X, so dear A, please perform these analyses and answer this point in the manuscript and the rebuttal letter by {insert date at least two weeks before you have to submit the revision}.   
+
+Your rebuttal letter eventually should address all issues in a structured manner!
 
 <!-- add template for rebuttal letter -->
 
