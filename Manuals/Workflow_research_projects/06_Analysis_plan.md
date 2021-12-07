@@ -2,7 +2,11 @@
 
 ## Develop an analysis plan! 
 
-Your analysis plan should ideally be fully scripted ...
+Take your time and choose the most appropriate and *state of the art* analysis routines to answer your research questions or test your hypotheses. Also try to foresee all obstacles that may arise such as uni- or multivariate outliers, decide on how to handle them (ideally by discussing with your colleagues, at least with your [Research Transparency Advisor](01_Research_question.md/#Research-transparency-advisor)   
+
+Your analysis plan should ideally be fully scripted and the analysis script(s) should be provided with your [preregistration](09_Preregistration.md). You could use data from a pilot study for that purpose. If you do not have pilot data, you might want to simulate variables to develop your analysis routines. You can do this quite easily for a number of assumed distributions of your data, and for correlation analysis, you may want to resort to the R script [`randcorr.R`](https://github.com/alex-strobel/DPP-LabManual/blob/main/Functions/randcorr.R). 
+
+In the end, it will really pay to have considered how to test your hypotheses (and they should have been formulated with the statistical tests in mind right from the start, see [Formulation of hypotheses](01_Research_question.md/#Formulation-of-hypotheses)).
 
 ## Prefer open analysis software (e.g. R, JASP)!
 
