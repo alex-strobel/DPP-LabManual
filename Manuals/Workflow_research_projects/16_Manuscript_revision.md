@@ -8,7 +8,9 @@ Pre-structure the revision process and then assign tasks to the other authors! D
 
 > Reviewer 1 asks us to perform analysis X. I guess, A has the most experience in performing X, so dear A, please perform these analyses and answer this point in the manuscript and the rebuttal letter by {insert date at least two weeks before you have to submit the revision}.   
 
-Your rebuttal letter eventually should address all issues raised by the reviewers in a structured manner!
+Your rebuttal letter eventually should address all issues raised by the reviewers in a structured manner! Here is a template on how tp do so:
+
+- add template
 
 <!-- add template for rebuttal letter -->
 
