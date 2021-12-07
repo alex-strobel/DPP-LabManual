@@ -20,6 +20,6 @@ See here for details on Registered Reports:
 
 - [OSF page on Registered Reports](https://www.cos.io/initiatives/registered-reports)
 
-** At AG.DPP, we go for Registered Reports as often as possible!** 
+**At AG.DPP, we go for Registered Reports as often as possible!** 
 
 [[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
