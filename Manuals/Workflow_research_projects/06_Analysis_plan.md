@@ -2,11 +2,11 @@
 
 ## Develop an analysis plan! 
 
-Take your time and choose the most appropriate and *state of the art* analysis routines to answer your research questions or test your hypotheses. Also try to foresee all obstacles that may arise such as uni- or multivariate outliers, decide on how to handle them (ideally by discussing with your colleagues, at least with your [Research Transparency Advisor](01_Research_question.md/#Research-transparency-advisor)   
+Take your time and choose the most appropriate and *state of the art* analysis routines to answer your research questions or test your hypotheses. Also try to foresee all obstacles that may arise during data analysis such as deviations from uni-/multivariate normality or the need to correct for multiple testing and decide on how to proceed in such a case (ideally by discussing with your colleagues, at least with your [Research Transparency Advisor](01_Research_question.md/#Research-transparency-advisor)). You may also consider to run a specification curve analysis (aka forking path or multiverse analysis)<!--add Wiki entry --> where you define a main analysis path, but for for all analysis steps decide (ideally together with your collaborators) on all reasonable alternative options how to proceed and then run all these reasonable analysis paths to check whether your main analysis path leads to similar conclusions as the majority of reasonable alternative analysis paths.
 
-Your analysis plan should ideally be fully scripted and the analysis script(s) should be provided with your [preregistration](09_Preregistration.md). You could use data from a pilot study for that purpose. If you do not have pilot data, you might want to simulate variables to develop your analysis routines. You can do this quite easily for a number of assumed distributions of your data, and for correlation analysis, you may want to resort to the R script [`randcorr.R`](https://github.com/alex-strobel/DPP-LabManual/blob/main/Functions/randcorr.R). 
+Your analysis plan should ideally be fully scripted and the analysis script(s) should be provided with your [preregistration](09_Preregistration.md). You could use data from a pilot study for that purpose. If you do not have pilot data, you might want to simulate variables to develop your analysis routines. In R, you can do this quite easily for a number of assumed distributions of your data, and for correlation analysis, you may want to resort to the R script [`randcorr.R`](https://github.com/alex-strobel/DPP-LabManual/blob/main/Functions/randcorr.R). 
 
-In the end, it will really pay to have considered how to test your hypotheses (and they should have been formulated with the statistical tests in mind right from the start, see [Formulation of hypotheses](01_Research_question.md/#Formulation-of-hypotheses)).
+In the end, it will really pay to have considered how to exactly test your hypotheses (and they should have been formulated with the statistical tests in mind right from the start, see [Formulation of hypotheses](01_Research_question.md/#Formulation-of-hypotheses)). In an ideal world, you should have written your manuscript using [R Markdown](https://github.com/alex-strobel/DPP-LabManual/wiki/R-Markdown) so that when the data are collected and preprocessed, you simply have to click the `knit` button in RStudio to have the Results part ready for getting published.   
 
 ## Prefer open analysis software (e.g. R, JASP)!
 
@@ -43,6 +43,27 @@ Sometimes, you might see also a BF01. This is simply 1/BF10, and the above thres
 Importantly, you should not take these thresholds as strict rules, they are simply conventions such as *p* < .05. Using Bayesian statistics, we should not make the same mistakes as are often made when employing the frequentist approach. A BF10 = 3.1 is no better BF10 than a BF10 = 2.9 (and never ever state that BF10 = 2.9 is *marginally* moderate evidence for the alternative hypothesis).   
 
 Bayesian analyses can be performed with, e.g., [JASP](https://jasp-stats.org) and the [R package `BayesFactor`](https://github.com/alex-strobel/DPP-LabManual/wiki/R-package-BayesFactor).
+
+## Plan how to merge your data
+
+You will be collecting data via a variety of software, e.g.,
+
+- questionnaire data via REDCap
+- Reaction time data via Presentation, PsychoPy or the PsychToolbox
+- EEG and ECG data via BrainVision Recoder
+
+You will then have to preprocess your data using, in the above example,
+
+- questionnaire and reaction time data using R
+- EEG data using BrainVidion Analyzer or eeglab 
+- ECG data via Kubios
+
+These data will have to be merged via a unified identifier (an ID). Often enough, this ID will be a participant-generated code (consisting of ...) to identify a participant. Yet, also often enough, not all data sources will be identifed by this ID, but by a running number, and there will be a separate file where the ID is associated with the running number.
+
+This is not a good idea. Rather, have a unique ID for every participant via ... <!-- ZEP? pls someone elaborate on that, I have no clue -->
+This means that all separate strands of data (such as, e.g., questionnaire, reaction time  data ...
+
+So, to make your data as accessible as possible, save all preprocessed data as CSV files, so that all researchers who want to access your data can access it via every platform imaginable.
 
 [[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
 
