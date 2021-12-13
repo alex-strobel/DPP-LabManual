@@ -14,6 +14,7 @@ Further, REDCap takes several burdens off your shoulders:
 + Fields cannot be left empty unless you allow it, thereby eliminating missings
 + Fields can have only certain ranges, thereby eliminating impossible values
 + Personalized invitations to online questionnaires are sent at time points of your choice and automatically re-sent if the subject hasn't answered within a set time window
++ You will always exactly know how each item was coded because you can export the automatically generated codebook with the click of a button
 + Items can be worded based on a subject's previous responses, eliminating the use of items like "Rate your passion for the ice cream flavour that was your answer three questions ago on a scale of 1 to 10"
 + You can create a project calender to schedule lab sessions with your collaborators
 + Export all data fiels into different data formats like CSV, SPSS, XLS, etc.
