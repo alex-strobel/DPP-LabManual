@@ -10,6 +10,7 @@ The first subsection is the *Participants* section. You may want to start it wit
 
 Or you may have had a convenience sample that for economic reasons was as large as it could be given a limited time to perform your study.  
 
+> Due to time constraints, we recruited as many participants as possible between Oct 2022 and Feb 2023. A total of *N* = 119 participants took part in out study. With this sample size, we were able to detect a correlation of *r* = .32 with a power of 1-&beta; = .95.  
 ...
 
 [[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
