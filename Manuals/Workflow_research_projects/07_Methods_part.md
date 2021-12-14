@@ -10,7 +10,9 @@ The first subsection is the *Participants* section. You may want to start it wit
 
 Or you may have had a convenience sample that for economic reasons was as large as it could be given a limited time to perform your study.  
 
-> Due to time constraints, we recruited as many participants as possible between Oct 2022 and Feb 2023. A total of *N* = 119 participants took part in out study. With this sample size, we were able to detect a correlation of *r* = .32 with a power of 1-&beta; = .95.  
-...
+> Due to time constraints, we recruited as many participants as possible between Oct 2022 and Feb 2023. A total of *N* = 119 participants (X percent female) took part in our study. With this sample size, we were able to detect a correlation of *r* = .32 with a power of 1-&beta; = .95.  
 
+In any case, describe your rationale for determining sample size. Ideally, this rationale should be based on power considerations, but sometimes, you will not be able to meet the sample size you ideally should have. Then, be open about it:
+
+> For the within-subjects analyses, power calculation indicated a sample size of *N* = 50 based on [insert details here],. Yet for btween-subjects analyses,  
 [[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
