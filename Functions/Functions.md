@@ -1,4 +1,4 @@
-# Custom functions at AG.DPP
+# Custom R functions at AG.DPP
 
 This folder contains a number of functions that might come in handy for use in our scripts. So far, it contains the following functions:
 
