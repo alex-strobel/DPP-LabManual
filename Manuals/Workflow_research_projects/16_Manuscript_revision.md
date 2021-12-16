@@ -16,7 +16,17 @@ Your rebuttal letter eventually should address all issues raised by the reviewer
 > 
 > EP1: Please formulate your hypotheses so that they translate into testable statistical hypotheses!
 > 
-> AR1: Thank you for pointing this out. We now specify our hypotheses so that it becomes clear how we intend to test them (see revised manuscript, p. X, lines Y-Z). As an example, instead of assuming that habitual cognitive effort investment has a role in investing cognitive resources depending on task demand, we now state that we hypothesize that habitual cognitive effort investment (i.e., Need fo Cognition, NFC) moderates the effect of task demand (i.e., *n*-back level) on the investment of cognitive resources (i.e., pupil diameter) via an interaction term in a regression model (i.e., pupil diameter ~ *n*-back level * NFC).     
+> AR.EP1: Thank you for pointing this out. We now specify our hypotheses so that it becomes clear how we intend to test them (see revised manuscript, p. X, lines Y-Z). As an example, instead of assuming that habitual cognitive effort investment has a role in investing cognitive resources depending on task demand, we now state that we hypothesize that habitual cognitive effort investment (i.e., Need fo Cognition, NFC) moderates the effect of task demand (i.e., *n*-back level) on the investment of cognitive resources (i.e., pupil diameter) via an interaction term in a regression model (i.e., pupil diameter ~ *n*-back level * NFC, see p. M, lines N-O).
+>
+> ...
+>
+> RP1: I think that the hypotheses could be formulated in a clearer manner.
+>
+> AR.RP1: We fully agree with this point that also the Editor raised (see EP1). We have tried our best to better formulate our hypotheses, also by referring to the statistical method we intend to use to test our hypotheses (see AR.EP1). 
+
+As you cannot be sure whether all people involved get all the reviewers' comments including your answers., it may be a good idea to reiterate what you have done, but keep this short:
+
+> In short, we now specify for all hypotheses, what statistical tests will be performed to test them (see p. M, lines N-O).
 
 <!-- add template for rebuttal letter -->
 
