@@ -1,11 +1,25 @@
 corr_evol <- function(x, y, method = "Pearson", start = 10, step = 1, corridor = "ci", boot = F, boot.R = 1000L, power = F, plot = T, lwd = 1.5, ylim = c(-1,1)) {
 
+  # ===========================================================================
+  #
+  # Purpose: Analyze the evolution of a correlation during data sollection
+  # Author:  Alexander Strobel (alexander.strobel@tu-dresden.de)
+  # Date:    16 Dec 2021
+  # Licence: CC0
+  # Input:   x and y = variables to correlate, plus optional arguments
+  # Output:  a list with a number of data on the evolution of the correlation
+  #
+  # ===========================================================================
+  #
+  # Details:
+  #
   # This function analyzes (and if requested plots) the evolution of a 
   # correlation as a sample comes in along the lines of the article by 
+  #
   # Schönbrodt, F. & Perugini, M. (2013). At what sample size do correlations
   # stabilize? *Journal of Research in Personality, 47*, 609-612.
   # http://dx.doi.org/10.1016/j.jrp.2013.05.009
-  
+  #
   # x and y  = correlated variables  
   # method   = correlation method (Pearson, Spearman, Kendall), 
   #            needs to be provided with uppercase first letter

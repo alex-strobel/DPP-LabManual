@@ -7,4 +7,13 @@ This folder contains a number of functions that might come in handy for use in o
 - [`mspd`](https://github.com/alex-strobel/DPP-LabManual/blob/main/Functions/mspd.R): performs matrix spectral decompostion of a correlation matrix to retrieve the effective number of variables underlying the matrix 
 - [`randcorr`](https://github.com/alex-strobel/DPP-LabManual/blob/main/Functions/randcorr.R): simulates random variables that are correlated to a specified degree
 
-Feel free to add your favourite functions! 
+Feel free to add your favourite functions! Please conform to the [tidyverse style guide](https://style.tidyverse.org/index.html) and add a header containing the following fields:
+
+- Purpose of the function
+- Author
+- Date (of last change)
+- Licence (ideally [CC0](https://creativecommons.org/publicdomain/zero/1.0/))
+- Input
+- Output
+
+Details may be added to help others use your function.

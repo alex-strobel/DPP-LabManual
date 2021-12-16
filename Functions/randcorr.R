@@ -1,5 +1,18 @@
 randcorr <- function(rho,nobs,nvars,precision=0,matrix.found=F) {
-
+  # ===========================================================================
+  #
+  # Purpose: Simulate random correlated variables 
+  # Author:  Alexander Strobel (alexander.strobel@tu-dresden.de)
+  # Date:    16 Dec 2021
+  # Licence: CC0
+  # Input:   rho = a correlation coefficient or matrix, nobs = sample size, 
+  #          nvars = number of correlated variables, precision (see details)  
+  # Output:  a data.frame containing the correlated variables
+  #
+  # ===========================================================================
+  #
+  # Details:
+  #
   # This function returns a matrix of N rows (equaling the number of nobs) by P colums
   # (equaling the number of nvars) that fulfil the requirement to be correlated as
   # specified by the numeric value or matrix rho. If rho is a numeric value, all

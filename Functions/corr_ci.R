@@ -1,7 +1,18 @@
 corr_ci <- function(r, n, alpha = .05, plot = F, main = "", xlim = NULL, varlabels = NULL, cex.axis = 1) {
   
-  # ========================================================================
-  
+  # ===========================================================================
+  #
+  # Purpose: Calculate confidence interval of a correlation
+  # Author:  Alexander Strobel (alexander.strobel@tu-dresden.de)
+  # Date:    16 Dec 2021
+  # Licence: CC0
+  # Input:   r = a correlation coefficient, and N = sample size
+  # Output:  95% confidence interval of correlation
+  #
+  # ===========================================================================
+  #
+  # Details:
+  #  
   # This function calculates confidence intervals (CI) of a correlation, 
   # given:
   #
