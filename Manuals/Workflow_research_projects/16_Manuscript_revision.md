@@ -26,11 +26,9 @@ Your rebuttal letter eventually should address all issues raised by the reviewer
 
 As you cannot be sure whether all people involved get all the reviewers' comments including your answers., it may be a good idea to reiterate what you have done, but keep this short:
 
-> In short, we now specify for all hypotheses, what statistical tests will be performed to test them (see p. M, lines N-O).
+> In short, we now specify for all hypotheses, what statistical tests will be performed to test them (see p. X, lines Y-Z).
 
-<!-- add template for rebuttal letter -->
-
-Generally speaking, thank the editor and the reviewers for valid points and begin your answer to such a point by, e.g.: 
+Generally speaking, thank the editor and the reviewers for valid points (or agree with them) and begin your answer to such a point by, e.g.: 
 
 > We thank the reviewer for directing our attention to this important issue ...
 
@@ -46,7 +44,7 @@ or
 
 > While we value the thorough reading of our manuscript and the helpful comments by this reviewer, we disagree in this point. {add elaborate justification why you disagree}    
 
-<!-- Also, often enough, reviewers raise minor concerns on issues that you can easily address and some major concern on an issue you cannot (such as collecting more data). Then try to address as many minor concerns as thoroughly as possible, even if you might see not point in doing so (e.g., adding some seemingly irrelevant demographic detail) as long as that does not weaken your manuscript (e.g., running a statistical analysis that does not make sense at all), and if you preregistered your analysis plan, you are safe anyway: all what goes beyond this plan, would be an exploratory analysis. ... -->
+Also, often enough, reviewers raise minor concerns on issues that you can easily address and some major concern on an issue you cannot (such as collecting more data). Then try to address as many minor concerns as thoroughly as possible, even if you might see not any point in doing so (e.g., adding some seemingly irrelevant demographic detail) as long as that does not weaken your manuscript (e.g., running a statistical analysis that does not make sense at all), and if you preregistered your analysis plan, you are safe anyway: all what goes beyond this plan, would be an exploratory analysis.
 
 ...
 
