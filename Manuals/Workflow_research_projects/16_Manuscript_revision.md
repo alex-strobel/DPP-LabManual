@@ -2,7 +2,17 @@
 
 Don’t be too upset or angry about the reviews of your manuscript that will arrive after way too long time since you submitted your manuscript! 
 They will most likely be not as positive as you expected.
-Adressing the reviewers' issues most of the time will indeed help you strengthen your manuscript!
+You will most likely be confronted with 
+
+- a somehow frustrated PhD students to whom their supervisors passed the review
+- friendly, but not fully emotionally intelligent people who thought that they would have expertise in your field
+- experts in the field who are beyond being frustrated or being friendly and who do not care about (and indeed question the concept of) emotional intelligence
+- people who are so expert that you feel bad about having submited manuscript in the first place
+- someone who just could not or did not want to say *no* to review your manuscript and now regrets it
+- experts in the field that know you, but aso knwo about your vulnerabilities  
+ 
+There are certainly other types of reviewers, but the latter two types may be the most prominent, and they can be convinced of your manuscript by _a really goofd manuscript_ where you did everything right!
+Yet, even with bad-tempered reviewers, addressing their issues most of the time will nevertheless help you strengthen your manuscript!
 Send the reviews to all co-authors and discuss the issues raised with them!
 Pre-structure the revision process and then assign tasks to the other authors! Don't ask for help – assign tasks in a friendly manner and set a clear deadline, e.g.:
 
