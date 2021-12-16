@@ -8,7 +8,7 @@ Pre-structure the revision process and then assign tasks to the other authors! D
 
 > Dear colleagues,
 > 
-> today I received the reviews of our manuscript on ... (see attachment). I will outline how to proceeed with the revision tomorrow and will notify you. One maor issue is that reviewer 1 asks us to perform analysis X. I guess, A has the most experience in performing X, so dear A, please check whether to perform X makes sense these analyses and answer this point in the manuscript and the rebuttal letter by {insert date at least two weeks before you have to submit the revision}.   
+> today I received the reviews of our manuscript on ... (see attachment). I will outline how to proceed with the revision tomorrow and will notify you. One major issue is that reviewer 1 asks us to perform analysis X. I guess, A has the most experience in performing X, so dear A, please check whether to perform X makes sense these analyses and answer this point in the manuscript and the rebuttal letter by {insert date at least two weeks before you have to submit the revision}.   
 
 Your rebuttal letter eventually should address all issues raised by the reviewers in a structured manner! Here is a template on how to do so:
 
