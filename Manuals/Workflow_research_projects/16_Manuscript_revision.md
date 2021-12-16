@@ -16,7 +16,7 @@ Your rebuttal letter eventually should address all issues raised by the reviewer
 > 
 > **EP1**: Please formulate your hypotheses so that they translate into testable statistical hypotheses!
 > 
-> **AR.EP1**: Thank you for pointing this out. We now specify our hypotheses so that it becomes clear how we intend to test them (see revised manuscript, p. X, lines Y-Z). As an example, instead of assuming that habitual cognitive effort investment has a role in investing cognitive resources depending on task demand, we now state that we hypothesize that habitual cognitive effort investment (i.e., Need fo Cognition, NFC) moderates the effect of task demand (i.e., *n*-back level) on the investment of cognitive resources (i.e., pupil diameter) via an interaction term in a regression model (i.e., pupil diameter ~ *n*-back level * NFC, see p. M, lines N-O).
+> **AR.EP1**: Thank you for pointing this out. We now specify our hypotheses so that it becomes clear how we intend to test them (see revised manuscript, p. X, lines Y-Z). As an example, instead of assuming that habitual cognitive effort investment has a role in investing cognitive resources depending on task demand, we now state that we hypothesize that habitual cognitive effort investment (i.e., Need fo Cognition, NFC) moderates the effect of task demand (i.e., *n*-back level) on the investment of cognitive resources (i.e., pupil diameter) and test this hypothesis via an interaction term in a regression model (i.e., pupil diameter ~ *n*-back level * NFC, see p. M, lines N-O).
 >
 > ...
 >
