@@ -3,10 +3,12 @@
 Don’t be too upset or angry about the reviews of your manuscript that will arrive after way too long time since you submitted your manuscript! 
 They will most likely be not as positive as you expected.
 Adressing the reviewers' issues most of the time will indeed help you strengthen your manuscript!
-Discuss the issues raised by the reviewers with your co-authors!
+Send the reviews to all co-authors and discuss the issues raised with them!
 Pre-structure the revision process and then assign tasks to the other authors! Don't ask for help – assign tasks in a friendly manner and set a clear deadline, e.g.:
 
-> Reviewer 1 asks us to perform analysis X. I guess, A has the most experience in performing X, so dear A, please perform these analyses and answer this point in the manuscript and the rebuttal letter by {insert date at least two weeks before you have to submit the revision}.   
+> Dear colleagues,
+> 
+> today I received the reviews of our manuscript on ... (see attachment). I will outline how to proceeed with the revision tomorrow and will notify you. One maor issue is that reviewer 1 asks us to perform analysis X. I guess, A has the most experience in performing X, so dear A, please check whether to perform X makes sense these analyses and answer this point in the manuscript and the rebuttal letter by {insert date at least two weeks before you have to submit the revision}.   
 
 Your rebuttal letter eventually should address all issues raised by the reviewers in a structured manner! Here is a template on how to do so:
 
