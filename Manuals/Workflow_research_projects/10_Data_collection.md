@@ -1,6 +1,6 @@
 # Data collection
 
-It ist strongle recommended that you use REDCap for data collection. See here for further information:
+It is strongly recommended that you use REDCap for data collection. See here for further information:
 
 - [REDCap wiki entry](https://github.com/alex-strobel/DPP-LabManual/wiki/REDCap)
 - [REDCap workflow](https://github.com/alex-strobel/DPP-LabManual/tree/main/Manuals/REDCap)
