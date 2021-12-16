@@ -30,7 +30,7 @@ As you cannot be sure whether all people involved get all the reviewers' comment
 
 <!-- add template for rebuttal letter -->
 
-Thank the reviewers for valid points and begin your answer to such a point by, e.g.: 
+Generally speaking, thank the editor and the reviewers for valid points and begin your answer to such a point by, e.g.: 
 
 > We thank the reviewer for directing our attention to this important issue ...
 
