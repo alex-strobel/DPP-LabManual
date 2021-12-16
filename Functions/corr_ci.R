@@ -1,5 +1,7 @@
 corr_ci <- function(r, n, alpha = .05, plot = F, main = "", xlim = NULL, varlabels = NULL, cex.axis = 1) {
   
+  # ========================================================================
+  
   # This function calculates confidence intervals (CI) of a correlation, 
   # given:
   #
