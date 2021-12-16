@@ -9,7 +9,7 @@ You may be be confronted with
 - experts in the field who are beyond being frustrated or being friendly and who do not care about (and indeed question the concept of) emotional intelligence
 - people who are so expert that you feel bad about having submited your manuscript in the first place
 - someone who just could not or did not want to say *no* to review your manuscript and now regrets it
-- experts in the field that know you, but aso knwo about your vulnerabilities  
+- experts in the field that know you, but also know about your vulnerabilities (without exploiting them, they simply know about)  
  
 There are certainly other types of reviewers, but the latter two types may be the most prominent, and they can be convinced of your manuscript by _a really goofd manuscript_ where you did everything right!
 Yet, even with bad-tempered reviewers, addressing their issues most of the time will nevertheless help you strengthen your manuscript!
