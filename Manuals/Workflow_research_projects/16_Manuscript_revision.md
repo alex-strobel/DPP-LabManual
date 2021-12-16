@@ -2,7 +2,7 @@
 
 Don’t be too upset or angry about the reviews of your manuscript that will arrive after way too long time since you submitted your manuscript! 
 They will most likely be not as positive as you expected.
-You will most likely be confronted with 
+You may be be confronted with 
 
 - a somehow frustrated PhD students to whom their supervisors passed the review
 - friendly, but not fully emotionally intelligent people who thought that they would have expertise in your field
