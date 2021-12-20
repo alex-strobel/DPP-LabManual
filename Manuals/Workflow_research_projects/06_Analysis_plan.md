@@ -55,7 +55,7 @@ You will be collecting data via a variety of software, e.g.,
 You will then have to preprocess your data using, in the above example,
 
 - questionnaire and reaction time data using R
-- EEG data using BrainVidion Analyzer or eeglab 
+- EEG data using BrainVision Analyzer or eeglab 
 - ECG data via Kubios
 
 These data will have to be merged via a unified identifier (an ID). Often enough, this ID will be a participant-generated code (consisting of ...) to identify a participant. Yet, also often enough, not all data sources will be identifed by this ID, but by a running number, and there will be a separate file where the ID is associated with the running number.
