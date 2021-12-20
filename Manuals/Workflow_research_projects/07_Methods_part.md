@@ -18,6 +18,24 @@ In any case, describe your rationale for determining sample size. Ideally, this 
 
 ## Material
 
+In this section, all material used in the study is described, e.g., questionnaires, experimental paragdigms or stimuli used. 
+Ideally, this is done in a detail that enables other researchers to directly replicate your study. 
+If this is not possible (e.g., because of the word limit of your manuscript), we refer to supplementary methods in the Supplementary Material.
+Often enough, we will use material that we already described in an earlier manuscript, and more likely than not it took us some time to arrive the perfect description of our material back then. 
+While it is generally accepted that authors should omit self-plagiarism, an optimal description of a material or aprocedure---at least in our opinion---can and indeed *should* be reused. 
+So, we may save your standard material descriptions (as Word or text or R Markdown file) and simply copy and paste it in your main manuscript.
+
+### Questionnaires and tests
+
+A good description of a questionnaire or test should contain the following:
+
+- the name and abbreviation of the instrument 
+- a reference to version used (mostly a German translation of some English instrument that if possible should also be referenced)
+- one or two example items (for tests, use the example items given in the test's instructions or describe the task format) 
+- the answering format (e.g., a five point scale ranging from -2 = completely disagree to 2 = completely agree)
+- information on the instrument's reliability, ideally not only its internal consistency, but also its retest-reliability
+- if the word limit allows, a few statements on the validity of the instrument in the present context 
+
 
 
  
