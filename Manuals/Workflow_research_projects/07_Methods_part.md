@@ -14,7 +14,11 @@ Or you may have had a convenience sample that for economic reasons was as large 
 
 In any case, describe your rationale for determining sample size. Ideally, this rationale should be based on power considerations, but sometimes, you will not be able to meet the sample size you ideally should have. Then, be open about it:
 
-> For the within-subjects analyses, a power calculation using G\*Power (Faul et al., 2009) indicated a sample size of *N* = 36 when assuming a medium effect size of *f* = .25, a power of 1-&beta; = .95 and an &alpha;-level of .05. Yet, for the between-subjects analyses, G\*Power indicated a required sample size of *N* = 136 to achive a power 1-&beta; = .95 to detect a medium effect size at the nominal &alpha;-level. Given limited resources to perform our study, we therefore set 1-&beta; to .80 and recruited a sample of *N*=82, still enabling us to detect a medium effect size with adequate power.
+> For the within-subjects analyses, a power calculation using G\*Power (Faul et al., 2009) indicated a sample size of *N* = 36 when assuming a medium effect size of *f* = .25, a power of 1-&beta; = .95 and an &alpha;-level of .05. Yet, for the between-subjects analyses, G\*Power indicated a required sample size of *N* = 136 to achive a power 1-&beta; = .95 to detect a medium effect size at the nominal &alpha;-level. Given limited resources to perform our study, we therefore set 1-&beta; to .80 and recruited a sample of *N* = 82, still enabling us to detect a medium effect size with adequate power.
+
+## Material
+
+
 
  
 [[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
