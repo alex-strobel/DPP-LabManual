@@ -4,22 +4,22 @@ We at AG.DPP always start our Methods part with the [21-word solution](https://g
 
 ## Participants
 
-The first subsection is the *Participants* section. You may want to start it with your power analysis that informed you about your sample size. 
+The first subsection is the *Participants* section. We ideally start it with our power analysis that informed us about our sample size. 
 
 > We assumed an effect size of *r* = .30. With a power of 1-&beta; = .95, the required sample size was *N* = 138 as determined using the R package *pwr* (Champely, 2020). We oversampled by 10% to account for dropouts, technical errors and outliers and therefore recruitied *N* = 150 participants. Of these, two had to be excluded due to technical reasons (EEG recording failed) and three further participants had to be excluded due to untrustworthy answers (e.g., age = 99 or gender = "Boba Fett"), leaving 145 participants (X percent female) with a mean age of ... years (range Y to Z years).
 
-Or you may have had a convenience sample that for economic reasons was as large as it could be given a limited time to perform your study.  
+Or we may have had a convenience sample that for economic reasons was as large as it could be given a limited time to perform your study.  
 
 > Due to time constraints, we recruited as many participants as possible between Oct 2022 and Feb 2023. A total of *N* = 119 participants (67 percent female) took part in our study. With this sample size, we were able to detect a correlation of *r* = .32 with a power of 1-&beta; = .95.  
 
-In any case, describe your rationale for determining sample size. Ideally, this rationale should be based on power considerations, but sometimes, you will not be able to meet the sample size you ideally should have. Then, be open about it:
+In any case, we describe your rationale for determining sample size. Ideally, this rationale should be based on power considerations, but sometimes, you will not be able to meet the sample size you ideally should have. Then, be open about it:
 
 > For the within-subjects analyses, a power calculation using G\*Power (Faul et al., 2009) indicated a sample size of *N* = 36 when assuming a medium effect size of *f* = .25, a power of 1-&beta; = .95 and an &alpha;-level of .05. Yet, for the between-subjects analyses, G\*Power indicated a required sample size of *N* = 136 to achive a power 1-&beta; = .95 to detect a medium effect size at the nominal &alpha;-level. Given limited resources to perform our study, we therefore set 1-&beta; to .80 and recruited a sample of *N* = 82, still enabling us to detect a medium effect size with adequate power.
 
 ## Material
 
 In this section, all material used in the study is described, e.g., questionnaires, experimental paragdigms or stimuli used. 
-Ideally, this is done in a detail that enables other researchers to directly replicate your study. 
+Ideally, this is done in a detail that enables other researchers to directly replicate our study. 
 If this is not possible (e.g., because of the word limit of your manuscript), we refer to supplementary methods in the Supplementary Material.
 Often enough, we will use material that we already described in an earlier manuscript, and more likely than not it took us some time to arrive the perfect description of our material back then. 
 While it is generally accepted that authors should omit self-plagiarism, an optimal description of a material or aprocedure---at least in our opinion---can and indeed *should* be reused. 
