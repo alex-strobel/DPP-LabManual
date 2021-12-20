@@ -53,4 +53,6 @@ Taking these issues into account, it would be better to be precise and state:
 - H0: There is at least moderate evidence for no correlation of the self-reported number of negative life events with the scores on the NFC scale (BF10 < 1/3).
 - H1: There is at least moderate evidence for a correlation of the self-reported number of positive life events with the scores on the NFC scale (BF10 > 3).
 
+tbc ...
+
 [[back](https://github.com/alex-strobel/DPP-LabManual/blob/main/Manuals/Workflow_research_projects/00_How_to_organize_a_research_project.md#organization-of-this-manual)]
