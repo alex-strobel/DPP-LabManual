@@ -39,7 +39,7 @@ A good description of a questionnaire or test should contain the following:
 
 An example for a questionnaire would be:
 
-> *Need for Cognition* (NFC) was assessed with the 16-item short version of the German NFC scale (Bless et al., 1994). Responses to each item (e.g., "Thinking is not my idea of fun", recoded) were recorded on a 7-point Likert scale ranging from -3 (completely disagree) to +3 (completely agree) and were summed to the total NFC score. The scale shows comparably high internal consistency (Cronbach’s &alpha; > .80; Bless et al., 1994, Fleischhauer et al., 2010) and a retest reliability of *r*<sub>tt</sub>  = .83 across 8 to 18 weeks (Fleischhauer et al., 2015). It has been shown to positively correlate with academic performance (r\ge.20; von Stumm & Ackerman, 2015). 
+> *Need for Cognition* (NFC) was assessed with the 16-item short version of the German NFC scale (Bless et al., 1994). Responses to each item (e.g., "Thinking is not my idea of fun", recoded) were recorded on a 7-point Likert scale ranging from -3 (completely disagree) to +3 (completely agree) and were summed to the total NFC score. The scale shows comparably high internal consistency (Cronbach’s &alpha; > .80; Bless et al., 1994, Fleischhauer et al., 2010) and a retest reliability of *r*<sub>tt</sub>  = .83 across 8 to 18 weeks (Fleischhauer et al., 2015). It has been shown to positively correlate with academic performance (r &ge; .20; von Stumm & Ackerman, 2015). 
 
 An example for a test would be:
 
