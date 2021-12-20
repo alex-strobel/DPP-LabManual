@@ -37,13 +37,13 @@ A good description of a questionnaire or test should contain the following:
 - information on the instrument's reliability, ideally not only its internal consistency, but also its retest-reliability
 - if the word limit allows, a few statements on the validity of the instrument in the present context 
 
-An example (in R Markdown) for a questionnaire would be:
+An example for a questionnaire would be:
 
-> *Need for Cognition* (NFC) was assessed with the 16-item short version of the German NFC scale [@Bless1994]. Responses to each item (e.g., "Thinking is not my idea of fun", recoded) were recorded on a 7-point Likert scale ranging from -3 (completely disagree) to +3 (completely agree) and were summed to the total NFC score. The scale shows comparably high internal consistency [Cronbach’s $\alpha$>.80; @Bless1994; @Fleischhauer2010] and a retest reliability of $r_{tt}=.83$ across 8 to 18 weeks [@Fleischhauer2015]. It has been shown to positively correlate with academic performance [$r\ge.20$; vonStumm2015]. 
+> *Need for Cognition* (NFC) was assessed with the 16-item short version of the German NFC scale (Bless et al., 1994). Responses to each item (e.g., "Thinking is not my idea of fun", recoded) were recorded on a 7-point Likert scale ranging from -3 (completely disagree) to +3 (completely agree) and were summed to the total NFC score. The scale shows comparably high internal consistency (Cronbach’s &alpha; > .80; Bless et al., 1994, Fleischhauer et al., 2010) and a retest reliability of *r* = .83 across 8 to 18 weeks (Fleischhauer et al., 2015). It has been shown to positively correlate with academic performance (r\ge.20; von Stumm & Ackerman, 2015). 
 
 An example for a test would be:
 
->
+> Two versions of the *Trail-Making Test* (see, e.g., Lezak, Howieson, Loring, Hannay, & Fischer, 2004) were used to examine mental speed (versions A and B) and task shifting ability (version B only). In version A, the participant is asked to connect 25 numbers scattered across a sheet of paper in ascending order. In version B the task is to connect numbers and letters in alternating order (i.e., 1-A-2-B …). The outcome measure is the time for completion of each version.
 
  
 [[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
