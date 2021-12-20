@@ -43,7 +43,7 @@ An example for a questionnaire would be:
 
 An example for a test would be:
 
-> Two versions of the *Trail-Making Test* (TMT; see, e.g., Lezak et al., 2004) were used to examine mental speed (versions A and B) and task shifting ability (version B only). In version A, the participant is asked to connect 25 numbers scattered across a sheet of paper in ascending order using a pencil. In version B the task is to connect numbers and letters in alternating order (i.e., 1-A-2-B …). The outcome measure is the time for completion of each version in seconds, stopped and rounded downwards by the experimenter using a smartphone. Retest-reliability of the TMT is acceptable to good (part A, *r*<sub>tt</sub> = .75, part B, *r*<sub>tt</sub> = .85; Giovagnoli et al., 1996). The time to complete the TMT positively correlates with age and negatively with fluid intelligence [add ref.].  
+> Two versions of the *Trail-Making Test* (TMT; see, e.g., Lezak et al., 2004) were used to examine mental speed (versions A and B) and task shifting ability (version B only). In version A, the participant is asked to connect 25 numbers scattered across a sheet of paper in ascending order using a pencil. In version B the task is to connect numbers and letters in alternating order (i.e., 1-A-2-B …). The outcome measure is the time for completion of each version in seconds, stopped by the experimenter using a smartphone and rounded downwards. Retest-reliability of the TMT is acceptable to good (part A, *r*<sub>tt</sub> = .75, part B, *r*<sub>tt</sub> = .85; Giovagnoli et al., 1996). The time to complete the TMT positively correlates with age and negatively with fluid intelligence [add ref.].  
 
  
 [[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
