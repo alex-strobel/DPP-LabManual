@@ -51,6 +51,6 @@ Here, we describe the experimental procedure as detailed as possible inluding
 
 - <!-- someone pls write this part -->
 
-Ideally, we provide the code of our experimental parasigm 
+Ideally, we provide the code of our experimental paradigm along with our manuscript. Even if we use proprietary software such as Presentation, the code is plain text, so the important detail is readable to everyone. 
 
 [[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
