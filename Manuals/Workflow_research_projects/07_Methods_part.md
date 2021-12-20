@@ -33,13 +33,17 @@ A good description of a questionnaire or test should contain the following:
 - a reference to version used (mostly a German translation of some English instrument that if possible should also be referenced)
 - one or two example items (for tests, use the example items given in the test's instructions or describe the task format) 
 - the answering format (e.g., a five point scale ranging from -2 = completely disagree to 2 = completely agree)
+- how the total scoer is computed (e.g., as sum or as mean)
 - information on the instrument's reliability, ideally not only its internal consistency, but also its retest-reliability
 - if the word limit allows, a few statements on the validity of the instrument in the present context 
 
-An example (in R Markdown) would be:
+An example (in R Markdown) for a questionnaire would be:
 
-> *Need for Cognition* was assessed with the 16-item short version of the German NFC scale [@Bless1994]. Responses to each item (e.g., "Thinking is not my idea of fun", recoded) were recorded on a 7-point Likert scale ranging from -3 (completely disagree) to +3 (completely agree). The scale shows comparably high internal consistency [Cronbach’s $\alpha$ > .80; @Bless1994; @Fleischhauer2010]. 
+> *Need for Cognition* (NFC) was assessed with the 16-item short version of the German NFC scale [@Bless1994]. Responses to each item (e.g., "Thinking is not my idea of fun", recoded) were recorded on a 7-point Likert scale ranging from -3 (completely disagree) to +3 (completely agree) and were summed to the total NFC score. The scale shows comparably high internal consistency [Cronbach’s $\alpha$>.80; @Bless1994; @Fleischhauer2010] and a retest reliability of $r_{tt}=.83$ across 8 to 18 weeks [@Fleischhauer2015]. It has been shown to positively correlate with academic performance [$r\ge.20$; vonStumm2015]. 
 
+An example for a test would be:
+
+>
 
  
 [[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
