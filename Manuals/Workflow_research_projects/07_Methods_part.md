@@ -36,6 +36,9 @@ A good description of a questionnaire or test should contain the following:
 - information on the instrument's reliability, ideally not only its internal consistency, but also its retest-reliability
 - if the word limit allows, a few statements on the validity of the instrument in the present context 
 
+An example (in R Markdown) would be:
+
+> *Need for Cognition* was assessed with the 16-item short version of the German NFC scale [@Bless1994]. Responses to each item (e.g., "Thinking is not my idea of fun", recoded) were recorded on a 7-point Likert scale ranging from -3 (completely disagree) to +3 (completely agree). The scale shows comparably high internal consistency [Cronbach’s $\alpha$ > .80; @Bless1994; @Fleischhauer2010]. 
 
 
  
