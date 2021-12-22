@@ -36,8 +36,8 @@ Already early in any research project conducted at AG.DPP, all who are or get to
 
 All authors should finally agree on the research questions posed and the hypotheses formulated. Hypotheses should be stated clearly and must be translatable into a statistical test. In the above example: you expect that past positive but not negative life events would be related to NFC. So you might think that your hypotheses could read:
 
+- H0: Negative life events do not correlate with NFC.
 - H1: Positive life events correlate with NFC.
-- H2: Negative life events do not correlate with NFC.
 
 H1 translates into a correlation analysis. If *p* < .05, you would *reject* the null hypothesis. H2, however, does not directly translate into a testable hypothesis, because in the frequentist approach you cannot *accept* the null hypothesis. You could state that if the correlation (= effect size) is very small, say, *r* < .10, hypothesis H2 would be confirmed (but still, also rather small effects might be of relevance in your field of study). Another option would be that you use Bayesian statistics that allow to quantify the evidence for or against the null hypothesis. A further aspect why the above hypotheses are not well-formulated is that it is not clear how you operationalize *positive* and *negative life events* on the one hand and *NFC* on the other hand. 
 
@@ -45,14 +45,14 @@ Taking these issues into account, it would be better to be precise and state:
 
 *for a frequentist approach*
 
+- H0: The self-reported number of Negative life events insignificantly correlates with the scores on the NFC scale, with a negligible effect size (*r* < .10).
 - H1: The self-reported number of positive life events significantly correlates with the scores on the NFC scale, with a medium to large effect size (*r* ≥ .30).
-- H2: The self-reported number of Negative life events insignificantly correlates with the scores on the NFC scale, with a negligible effect size (*r* < .10).
-
 
 *for a Bayesian approach*
 
+- H0: There is at least moderate evidence for no correlation of the self-reported number of negative life events with the scores on the NFC scale (BF10 < 1/3).
 - H1: There is at least moderate evidence for a correlation of the self-reported number of positive life events with the scores on the NFC scale (BF10 > 3).
-- H2: There is at least moderate evidence for no correlation of the self-reported number of negative life events correlates with the scores on the NFC scale (BF10 < 1/3).
+
+tbc ...
 
 [[back](https://github.com/alex-strobel/DPP-LabManual/blob/main/Manuals/Workflow_research_projects/00_How_to_organize_a_research_project.md#organization-of-this-manual)]
-
