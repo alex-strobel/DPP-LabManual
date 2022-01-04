@@ -1,7 +1,5 @@
 # Leitlinien für das Forschungsdatenmanagement (FDM) an der Fakultät Psychologie der TU Dresden
 
-&#222;
-
 ## Änderungsverlauf
 
 | Version |	Datum	     | Änderungen	| Bearbeiter	|
@@ -234,7 +232,7 @@ OSF
   + Beispiel für eine OSF-Struktur, mit der ein Institut seinen Forschungsalltag verwaltet: https://osf.io/n7263  
   + ggf. Link zu einem beispielhaften OSF-Projekt aus der Fakultät Psychologie
 
-Wissensmanagement (Onboarding)
+### Wissensmanagement Onboarding
 + Jede:r neue Mitarbeitende erhält diese FDM-Leitlinien zur Durchsicht (ggf. abzeichnen lassen?)
 + Die FDM-Leitlinien können durch eine individuelle Onboarding-Checkliste mit Informationen zur Arbeitsweise innerhalb einer Forschungsgruppe ergänzt werden 
 Beispiel einer Onboarding-Checkliste 
@@ -245,7 +243,7 @@ Beispiel einer Onboarding-Checkliste
 + Hinweise zum Umgang mit Datenschutz
 + Hinweise zur Verwertung der Daten nach Projekteende+ …
 
-Wissensmanagement (Offboarding)
+### Wissensmanagement Offboarding
 + Der Offboarding-Prozess umfasst die Bereinigung und Übergabe von Daten 
 + Dieser Prozess beginnt 3-6 Monate vor Austritt des Mitarbeitenden und kann unter Mitwirkung der Kontaktstelle Forschungsdaten geplant und durchgeführt werden
 + Die Dokumente aus dem Offboarding sind u.a. Grundlage für das Onboarding des nachfolgenden Mitarbeitenden
