@@ -235,8 +235,8 @@ OSF
 ### Wissensmanagement Onboarding
 + Jede:r neue Mitarbeitende erhält diese FDM-Leitlinien zur Durchsicht (ggf. abzeichnen lassen?)
 + Die FDM-Leitlinien können durch eine individuelle Onboarding-Checkliste mit Informationen zur Arbeitsweise innerhalb einer Forschungsgruppe ergänzt werden 
-Beispiel einer Onboarding-Checkliste 
 
+> Beispiel einer Onboarding-Checkliste 
 + wie werden Dateien benannt
 + wo ist was auf dem Laufwerk zu finden/abzulegen
 + wer in der Gruppe ist Ansprechpartner für welches Thema, welche Software, etc. 
