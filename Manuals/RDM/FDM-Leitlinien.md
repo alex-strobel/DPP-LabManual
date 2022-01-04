@@ -23,9 +23,7 @@
 + [Wissensmanagement Onboarding](#wissensmanagement-onboarding)
 + [Wissensmanagement Offboarding](#wissensmanagement-offboarding)
 
-[Ressourcen/kuratierte Linksammlung/Wiki](#ressourcen/kuratierte-linksammlung/wiki)
-
-[Vorlagen](#vorlagen)
+[Ressourcen und Vorlagen](#ressourcen-und-vorlagen)
 
 ## Zweck der FDM-Leitlinien
 
@@ -292,7 +290,10 @@ Paragraphen mit Bezug zum Forschungsdatenmanagement:<br>
 >+ wer hat Sie bzgl. der Verwendung der Daten häufig kontaktiert?
 >+ wie kann Ihr Nachfolger Sie erreichen?
 
-## Ressourcen/kuratierte Linksammlung/Wiki 
+## Ressourcen und Vorlagen
+
+### Ressourcen
+
 <!-- Format und genaue Bezeichnung sind noch offen. Aktuell steht folgende Lösung im Raum: kuratierte Linkliste auf einer Seite des webCMS der Fakultät Psychologie aufschalten. Alternative: Intranet? (falls Zugriffsbeschränkung sinnvoll). Die Verwendung von z.B. Wiki-Tools ginge einher mit einem erhöhten Administrationsaufwand. Die hier aufgeführten Vorschläge für die Inhalte stammen aus unseren Gesprächen mit den Professuren -->
 + Landing Page mit Neuigkeiten zur Fakultät 
 + Gesammelte Links zu Dokument-Vorlagen aus dieser FDM-Leitlinie
@@ -315,9 +316,9 @@ Paragraphen mit Bezug zum Forschungsdatenmanagement:<br>
   + ggf. Liste mit Weiterbildungsangeboten (Zentrum für Weiterbildung, SLUB, Graduiertenakademie) und nützlichen Links (z.B. zu Video-Tutorials)
   + ggf. Glossar mit Begriffen aus dem Kontext FDM und Fakultät Psychologie
 
-## Vorlagen
+### Vorlagen
 
-### Readme.txt
+#### Readme.txt
 
 ```
 # Title      : README for folder "Raw Data" 
@@ -326,7 +327,7 @@ Paragraphen mit Bezug zum Forschungsdatenmanagement:<br>
 # Description: Contains raw data in ASCII format from study X conducted in 2021 
 ```
 
-### Code Book
+#### Code Book
 
 | Variable name | Description | Range/Units/Values |
 | ------------- | ----------- | ------------------ |
