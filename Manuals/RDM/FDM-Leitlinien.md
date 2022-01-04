@@ -236,38 +236,37 @@ OSF
 + Jede:r neue Mitarbeitende erhält diese FDM-Leitlinien zur Durchsicht (ggf. abzeichnen lassen?)
 + Die FDM-Leitlinien können durch eine individuelle Onboarding-Checkliste mit Informationen zur Arbeitsweise innerhalb einer Forschungsgruppe ergänzt werden 
 
-> Beispiel einer Onboarding-Checkliste 
+>***Beispiel einer Onboarding-Checkliste*** 
 >+ wie werden Dateien benannt
 >+ wo ist was auf dem Laufwerk zu finden/abzulegen
 >+ wer in der Gruppe ist Ansprechpartner für welches Thema, welche Software, etc. 
 >+ Hinweise zum Umgang mit Datenschutz
->+ Hinweise zur Verwertung der Daten nach Projekteende+ …
+>+ Hinweise zur Verwertung der Daten nach Projekteende …
 
 ### Wissensmanagement Offboarding
 + Der Offboarding-Prozess umfasst die Bereinigung und Übergabe von Daten 
 + Dieser Prozess beginnt 3-6 Monate vor Austritt des Mitarbeitenden und kann unter Mitwirkung der Kontaktstelle Forschungsdaten geplant und durchgeführt werden
 + Die Dokumente aus dem Offboarding sind u.a. Grundlage für das Onboarding des nachfolgenden Mitarbeitenden
 
-Beispiel einer Offboarding-Checkliste
-
-Datenbereinigung
-+ nicht mehr benötigte Dateien gelöscht oder archiviert
-+ aufzubewahrende Daten systematisch benannt und abgelegt
-Datendokumentation
-+ worum geht es bei diesem Datensatz/Ordner?
-+ was ist der der Ursprung dieser Daten/dieses Ordners?
-Datenverwendung
-+ für wen sind diese Daten interessant? 
-+ was hätten Sie gerne noch mit diesen Daten gemacht, wenn Sie ein weiteres ½ Jahr bleiben würden?
-+ die Daten sind auf folgende Art zu verwenden (Einsatzzweck/Methode/Software): …
-+ die Daten haben Abhängigkeiten/Schnittstellen zu …
-+ welche Probleme kennen Sie im Zusammenhang mit den Daten? wie sollte Ihr:e Nachfolger:in mit diesen Problemen umgehen?
-+ für welchen Zweck dürfen die Daten unter keinen Umständen eingesetzt werden?
-+ welchen Einstieg würden sie derjenigen Person raten, die zukünftig mit diesen Daten arbeiten wird?
-Soziales Netzwerk
-+ wen haben Sie für Erstellung bzw. Verwendung der Daten häufig kontaktiert?
-+ wer hat Sie bzgl. der Verwendung der Daten häufig kontaktiert?
-+ wie kann Ihr Nachfolger Sie erreichen?
+>***Beispiel einer Offboarding-Checkliste***
+>Datenbereinigung
+>+ nicht mehr benötigte Dateien gelöscht oder archiviert
+>+ aufzubewahrende Daten systematisch benannt und abgelegt
+>Datendokumentation
+>+ worum geht es bei diesem Datensatz/Ordner?
+>+ was ist der der Ursprung dieser Daten/dieses Ordners?
+>Datenverwendung
+>+ für wen sind diese Daten interessant? 
+>+ was hätten Sie gerne noch mit diesen Daten gemacht, wenn Sie ein weiteres ½ Jahr bleiben würden?
+>+ die Daten sind auf folgende Art zu verwenden (Einsatzzweck/Methode/Software): …
+>+ die Daten haben Abhängigkeiten/Schnittstellen zu …
+>+ welche Probleme kennen Sie im Zusammenhang mit den Daten? wie sollte Ihr:e Nachfolger:in mit diesen Problemen >umgehen?
+>+ für welchen Zweck dürfen die Daten unter keinen Umständen eingesetzt werden?
+>+ welchen Einstieg würden sie derjenigen Person raten, die zukünftig mit diesen Daten arbeiten wird?
+>Soziales Netzwerk
+>+ wen haben Sie für Erstellung bzw. Verwendung der Daten häufig kontaktiert?
+>+ wer hat Sie bzgl. der Verwendung der Daten häufig kontaktiert?
+>+ wie kann Ihr Nachfolger Sie erreichen?
 
 ## Ressourcen/kuratierte Linksammlung/Wiki 
 
