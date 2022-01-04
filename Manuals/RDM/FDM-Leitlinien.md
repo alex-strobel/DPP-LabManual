@@ -30,13 +30,13 @@
 
 „Die langfristige Sicherung und Bereitstellung der Forschungsdaten leistet einen Beitrag zur Nachvollziehbarkeit und Qualität der wissenschaftlichen Arbeit und eröffnet wichtige Anschlussmöglichkeiten für die weitere Forschung.“ Quelle: [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/leitlinien_forschungsdaten.pdf)
 
-**Definition von Forschungsdaten** 
+**Definition Forschungsdaten** 
 
-+ „Unter Forschungsdaten werden alle Daten verstanden, die im Zusammenhang mit Forschung gesammelt, beobachtet, abgeleitet, simuliert oder auf andere Weise generiert werden.“ Quelle: Leitlinien für den Umgang mit Forschungsdaten an der TU Dresden
++ „Unter Forschungsdaten werden alle Daten verstanden, die im Zusammenhang mit Forschung gesammelt, beobachtet, abgeleitet, simuliert oder auf andere Weise generiert werden.“ Quelle: [Leitlinien für den Umgang mit Forschungsdaten an der TU Dresden](https://tu-dresden.de/tu-dresden/qualitaetsmanagement/ressourcen/dateien/wisprax/Leitlinien-fuer-den-Umgang-mit-Forschungsdaten-an-der-TU-Dresden.pdf)
 
 **Ziele des Forschungsdatenmanagements**
 
-+ Effizienz und Qualitätssicherung gemäß den Richtlinien zur Sicherung guter wissenschaftlicher Praxis (GWP) der TU Dresden
++ Effizienz und Qualitätssicherung gemäß den [Richtlinien zur Sicherung guter wissenschaftlicher Praxis](https://tu-dresden.de/bu/verkehr/ressourcen/dateien/studium/richtlinien_zur_sicherung_guter_wissenschaftlicher_praxis) (GWP) der TU Dresden
 + Transparenz/Reproduzierbarkeit/Nachnutzung der eigenen Forschung 
 + Rechtliche Vorgaben zum Datenschutz (DSGVO) 
 
@@ -51,26 +51,32 @@
 
 **Unterstützung**
 
-+ Der Help Desk des ZIH der TUD leistet technische Unterstützung: https://tu-dresden.de/zih/dienste/service-desk    
-+ Die gemeinsame Kontaktstelle Forschungsdaten der SLUB und der TUD leistet konzeptionelle Unterstützung: https://tu-dresden.de/forschung-transfer/services-fuer-forschende/kontaktstelle-forschungsdaten 
++ Der [Help Desk des ZIH](https://tu-dresden.de/zih/dienste/service-desk) der TU Dresden leistet technische Unterstützung.    
++ Die gemeinsame [Kontaktstelle Forschungsdaten](https://tu-dresden.de/forschung-transfer/services-fuer-forschende/kontaktstelle-forschungsdaten) der SLUB und der TUD leistet konzeptionelle Unterstützung. 
 
 **Living Document**
 
-+ Diese Leitlinien sind ein Living Document: Fakultätsangehörige sind aufgefordert, dieses Dokument laufend kritisch zu prüfen und Verbesserungen und Ergänzungen unter folgender E-Mail einzubringen: max.meier@musterhausen.com  [Korrekte Mail einsetzten durch FTFP]
++ Diese Leitlinien sind ein Living Document: Alle Fakultätsangehörigen sind aufgefordert, dieses Dokument laufend kritisch zu prüfen und Verbesserungen und Ergänzungen einzubringen, entweder als Contributor zu diesem GitHub Projekt oder via E-Mail. Ansprechparter: alexander.strobel@tu-dresden.de
 
 [nach oben](#inhalt)
 
 ## FDM-Kernprozesse
 
-•	Definition: Kernprozess des FDM sind Maßnahmen, die von den Leitlinien der TUD und DFG gefordert werden.
-•	Leitlinien für den Umgang mit Forschungsdaten an der TU Dresden [Link]
-•	DFG Leitlinien zum Umgang mit Forschungsdaten [Link]
-•	TUD Satzung zur Sicherung guter wissenschaftlicher Praxis [Link]; Paragraphen mit Bezug zum Forschungsdatenmanagement: 
-o	§ 7 Phasenübergreifende Qualitätssicherung im Forschungsprozess
-o	§ 8 Wissenschaftliche Veröffentlichungen
-•	Der Umgang mit Forschungsdaten im Fach Psychologie: Konkretisierung der DFG-Leitlinien [Link] [Einarbeitung relevanter Punkte erfolgt durch FTFP]
+**Definition Kernprozesse** 
+
++ Maßnahmen, die von den Leitlinien der TUD und DFG gefordert werden.
+
+**Basis**
+
++ Leitlinien für den Umgang mit Forschungsdaten an der TU Dresden [Link]
++ DFG Leitlinien zum Umgang mit Forschungsdaten [Link]
++ TUD Satzung zur Sicherung guter wissenschaftlicher Praxis [Link]; Paragraphen mit Bezug zum Forschungsdatenmanagement: 
+++ § 7 Phasenübergreifende Qualitätssicherung im Forschungsprozess
+++ § 8 Wissenschaftliche Veröffentlichungen
++ Der Umgang mit Forschungsdaten im Fach Psychologie: Konkretisierung der DFG-Leitlinien [Link] [Einarbeitung relevanter Punkte erfolgt durch FTFP]
 Datenmanagementplan (DMP) für die Antragstellung , 
-•	vgl. Checkliste/Formular des DMP-Service der Kontaktstelle Forschungsdaten: https://tu-dresden.de/forschung-transfer/services-fuer-forschende/kontaktstelle-forschungsdaten/unser-service/dm-texte/formular   
+
+(vgl. [Checkliste/Formular des DMP-Service der Kontaktstelle Forschungsdaten](https://tu-dresden.de/forschung-transfer/services-fuer-forschende/kontaktstelle-forschungsdaten/unser-service/dm-texte/formular))   
 Datendokumentation , 
 •	Nachvollziehbare Dokumentation ist eine Voraussetzung für die Nachnutzung von Daten 
 •	Der Umfang der Dokumentation richtet sich nach der Zielgruppe: Dokumentationen werden nicht für fachfremdes Personal geschrieben, sondern für Kolleg:innen mit ähnlichem Ausbildungsniveau
