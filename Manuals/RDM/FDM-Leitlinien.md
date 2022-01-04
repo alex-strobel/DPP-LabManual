@@ -30,17 +30,18 @@
 
 „Die langfristige Sicherung und Bereitstellung der Forschungsdaten leistet einen Beitrag zur Nachvollziehbarkeit und Qualität der wissenschaftlichen Arbeit und eröffnet wichtige Anschlussmöglichkeiten für die weitere Forschung.“ Quelle: [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/leitlinien_forschungsdaten.pdf)
 
-Definition von Forschungsdaten 
+**Definition von Forschungsdaten** 
 
 + „Unter Forschungsdaten werden alle Daten verstanden, die im Zusammenhang mit Forschung gesammelt, beobachtet, abgeleitet, simuliert oder auf andere Weise generiert werden.“ Quelle: Leitlinien für den Umgang mit Forschungsdaten an der TU Dresden
 
-Ziele des Forschungsdatenmanagements
+**Ziele des Forschungsdatenmanagements**
 
 + Effizienz und Qualitätssicherung gemäß den Richtlinien zur Sicherung guter wissenschaftlicher Praxis (GWP) der TU Dresden
 + Transparenz/Reproduzierbarkeit/Nachnutzung der eigenen Forschung 
 + Rechtliche Vorgaben zum Datenschutz (DSGVO) 
 
-Ziel dieser Leitlinien
+**Ziel dieser Leitlinien**
+
 + Eine nachvollziehbare Datenorganisation innerhalb der Fakultät für Psychologie inkl. der Organisation des Wissens über diese Daten
 + Es bestehen eine Reihe von Vorgaben für die Arbeit von Forschungsdaten: TUD, DFG und DGSP; diese Leitlinien geben Tipps für die praktische Umsetzung dieser Vorgaben im Forschungsalltag
 + Abgrenzung des Begriffs Forschungsdatenmanagement zu anderen Fachbereichen
@@ -48,15 +49,16 @@ Ziel dieser Leitlinien
 + Verantwortlichkeiten definieren: Jede:r Mitarbeitende ist für die Datenablage sowie Datendokumentation selbst verantwortlich. Die Kontrolle/Sicherstellung der Qualität liegt in der Verantwortung der Teamleitung
 + Open Science: FDM ist eine Voraussetzung für die Nachnutzung von Daten und damit auch eine Voraussetzung für Open Science; FDM ist nicht gleichzusetzen mit Open Science
 
-Unterstützung
+**Unterstützung**
 
 + Der Help Desk des ZIH der TUD leistet technische Unterstützung: https://tu-dresden.de/zih/dienste/service-desk    
 + Die gemeinsame Kontaktstelle Forschungsdaten der SLUB und der TUD leistet konzeptionelle Unterstützung: https://tu-dresden.de/forschung-transfer/services-fuer-forschende/kontaktstelle-forschungsdaten 
 
-Living Document
+**Living Document**
 
 + Diese Leitlinien sind ein Living Document: Fakultätsangehörige sind aufgefordert, dieses Dokument laufend kritisch zu prüfen und Verbesserungen und Ergänzungen unter folgender E-Mail einzubringen: max.meier@musterhausen.com  [Korrekte Mail einsetzten durch FTFP]
 
+[nach oben](#inhalt)
 
 ## FDM-Kernprozesse
 
