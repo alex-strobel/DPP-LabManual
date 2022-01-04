@@ -10,17 +10,20 @@
 ## Inhalt
 
 [Zweck der FDM-Leitlinien](#zweck-der-fdm-leitlinien)
-FDM-Kernprozesse
+
+[FDM-Kernprozesse](#fdm-kernprozesse)
 + Datenmanagementplan (DMP) für die Antragstellung
 + Datendokumentation
 + Datenarchivierung
 + Datenpublikation
 + Datenschutz
-Unterstützende Prozesse für das FDM
+
+[Unterstützende Prozesse für das FDM](#unterstützende-prozesse-für-das-fdm)
 + Datenorganisation
 + Wissensmanagement Onboarding
 + Wissensmanagement Offboarding
-Ressourcen/kuratierte Linksammlung/Wiki
+
+[Ressourcen/kuratierte Linksammlung/Wiki](#ressourcen-kuratierte-linksammlung-wiki)
 
 
 ## Zweck der FDM-Leitlinien
@@ -55,7 +58,8 @@ Living Document
 + Diese Leitlinien sind ein Living Document: Fakultätsangehörige sind aufgefordert, dieses Dokument laufend kritisch zu prüfen und Verbesserungen und Ergänzungen unter folgender E-Mail einzubringen: max.meier@musterhausen.com  [Korrekte Mail einsetzten durch FTFP]
 
 
-2 FDM-Kernprozesse
+## FDM-Kernprozesse
+
 •	Definition: Kernprozess des FDM sind Maßnahmen, die von den Leitlinien der TUD und DFG gefordert werden.
 •	Leitlinien für den Umgang mit Forschungsdaten an der TU Dresden [Link]
 •	DFG Leitlinien zum Umgang mit Forschungsdaten [Link]
@@ -111,7 +115,8 @@ o	Übermittlung via Gruppenlaufwerk: dies setzt die Einrichtung eines Gruppenlau
 o	Übermittlung via Cloudstore-Ordner: auch hier müssen sensible Daten mittels Boxcryptor verschlüsselt werden
 •	Zur Qualitätssicherung kann es sinnvoll sein, eine Liste (z.B. Excel) zu führen, in der die eigenen Datenlieferungen protokolliert werden: welche Daten wurden wann an welchen Partner weitergeleitet?
 
-3 Unterstützende Prozesse für das FDM
+## Unterstützende Prozesse für das FDM
+
 Definition: unterstützende Prozesse ermöglichen die Umsetzung der Kernprozesse. 
 Datenorganisation 
 •	Datenablage  [ergänzen durch FTFP]
@@ -199,7 +204,9 @@ Soziales Netzwerk
 •	wen haben Sie für Erstellung bzw. Verwendung der Daten häufig kontaktiert?
 •	wer hat Sie bzgl. der Verwendung der Daten häufig kontaktiert?
 •	wie kann Ihr Nachfolger Sie erreichen?
-4 Ressourcen/kuratierte Linksammlung/Wiki 
+
+## Ressourcen/kuratierte Linksammlung/Wiki 
+
 •	Landing Page mit Neuigkeiten zur Fakultät 
 •	Gesammelte Links zu Dokument-Vorlagen aus dieser FDM-Leitlinie
 o	Checkliste Onboarding
