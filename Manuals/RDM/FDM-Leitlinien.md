@@ -14,16 +14,16 @@
 [Zweck der FDM-Leitlinien](#zweck-der-fdm-leitlinien)
 
 [FDM-Kernprozesse](#fdm-kernprozesse)
-+ Datenmanagementplan (DMP) für die Antragstellung
-+ Datendokumentation
-+ Datenarchivierung
-+ Datenpublikation
-+ Datenschutz
++ [Datenmanagementplan](#datenmanagementplan)
++ [Datendokumentation](#datendokumentation)
++ [Datenarchivierung](#datenarchivierung)
++ [Datenpublikation](#datenpublikation)
++ [Datenschutz](#datenschutz)
 
 [Unterstützende Prozesse für das FDM](#unterstützende-prozesse-für-das-fdm)
-+ Datenorganisation
-+ Wissensmanagement Onboarding
-+ Wissensmanagement Offboarding
++ [Datenorganisation](#datenorganisation)
++ [Wissensmanagement Onboarding](#wissensmanagement-onboarding)
++ [Wissensmanagement Offboarding](##wissensmanagement-offboarding)
 
 [Ressourcen/kuratierte Linksammlung/Wiki](#ressourcen/kuratierte-linksammlung/wiki)
 
@@ -32,17 +32,17 @@
 
 „Die langfristige Sicherung und Bereitstellung der Forschungsdaten leistet einen Beitrag zur Nachvollziehbarkeit und Qualität der wissenschaftlichen Arbeit und eröffnet wichtige Anschlussmöglichkeiten für die weitere Forschung.“ Quelle: [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/leitlinien_forschungsdaten.pdf)
 
-**Definition Forschungsdaten** 
+***Definition Forschungsdaten*** 
 
 + „Unter Forschungsdaten werden alle Daten verstanden, die im Zusammenhang mit Forschung gesammelt, beobachtet, abgeleitet, simuliert oder auf andere Weise generiert werden.“ Quelle: [Leitlinien für den Umgang mit Forschungsdaten an der TU Dresden](https://tu-dresden.de/tu-dresden/qualitaetsmanagement/ressourcen/dateien/wisprax/Leitlinien-fuer-den-Umgang-mit-Forschungsdaten-an-der-TU-Dresden.pdf)
 
-**Ziele des Forschungsdatenmanagements**
+***Ziele des Forschungsdatenmanagements***
 
 + Effizienz und Qualitätssicherung gemäß den [Richtlinien zur Sicherung guter wissenschaftlicher Praxis](https://tu-dresden.de/bu/verkehr/ressourcen/dateien/studium/richtlinien_zur_sicherung_guter_wissenschaftlicher_praxis) (GWP) der TU Dresden
 + Transparenz/Reproduzierbarkeit/Nachnutzung der eigenen Forschung 
 + Rechtliche Vorgaben zum Datenschutz (DSGVO) 
 
-**Ziel dieser Leitlinien**
+***Ziel dieser Leitlinien***
 
 + Eine nachvollziehbare Datenorganisation innerhalb der Fakultät für Psychologie inkl. der Organisation des Wissens über diese Daten
 + Es bestehen eine Reihe von Vorgaben für die Arbeit von Forschungsdaten: TUD, DFG und DGSP; diese Leitlinien geben Tipps für die praktische Umsetzung dieser Vorgaben im Forschungsalltag
@@ -51,12 +51,12 @@
 + Verantwortlichkeiten definieren: Jede:r Mitarbeitende ist für die Datenablage sowie Datendokumentation selbst verantwortlich. Die Kontrolle/Sicherstellung der Qualität liegt in der Verantwortung der Teamleitung
 + Open Science: FDM ist eine Voraussetzung für die Nachnutzung von Daten und damit auch eine Voraussetzung für Open Science; FDM ist nicht gleichzusetzen mit Open Science
 
-**Unterstützung**
+***Unterstützung***
 
 + Der [Help Desk des ZIH](https://tu-dresden.de/zih/dienste/service-desk) der TU Dresden leistet technische Unterstützung.    
 + Die gemeinsame [Kontaktstelle Forschungsdaten](https://tu-dresden.de/forschung-transfer/services-fuer-forschende/kontaktstelle-forschungsdaten) der SLUB und der TUD leistet konzeptionelle Unterstützung. 
 
-**Living Document**
+***Living Document***
 
 + Diese Leitlinien sind ein Living Document: Alle Fakultätsangehörigen sind aufgefordert, dieses Dokument laufend kritisch zu prüfen und Verbesserungen und Ergänzungen einzubringen, entweder als Contributor zu diesem GitHub Projekt oder via E-Mail. Ansprechparter: alexander.strobel@tu-dresden.de
 
@@ -64,11 +64,11 @@
 
 ## FDM-Kernprozesse
 
-**Definition Kernprozesse** 
+***Definition Kernprozesse*** 
 
 + Maßnahmen, die von den Leitlinien der TUD und DFG gefordert werden.
 
-**Grundlagen**
+***Grundlagen***
 
 + [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/leitlinien_forschungsdaten.pdf)
 + [DGPs-Empfehlungen zum Umgang mit Forschungsdaten im Fach Psychologie](https://econtent.hogrefe.com/doi/10.1026/0033-3042/a000341)<!-- Einarbeitung relevanter Punkte erfolgt durch Team Forschungsdaten der Fakultät Psychologie) -->
@@ -79,26 +79,26 @@ Paragraphen mit Bezug zum Forschungsdatenmanagement:<br>
 § 8 Wissenschaftliche Veröffentlichungen
 
 
-### Datenmanagementplan (DMP) für die Antragstellung
+### Datenmanagementplan
 
-**Grundlage**
+***Grundlage***
 
 + DFG-Leitlinie 1: „Projektplanung und Antragstellung „In einem Antrag sollten die Antragstellenden daher ausführen, welche Forschungsdaten im Verlauf eines wissenschaftlichen Forschungsvorhabens entstehen, erzeugt oder ausgewertet werden […] Die einschlägigen Erläuterungen müssen Informationen zu Datentypen, falls vorhanden zu disziplinspezifischen Standards und zur Wahl geeigneter Repositorien enthalten […]. Zusätzlich werden Angaben zu ggf. betroffenen Rechten Dritter sowie erste Planungen zum zeitlichen Rahmen der Datenveröffentlichung erbeten.“
 + TUD-Leitlinie 3: „Für Projekte mit Forschungsdaten soll, basierend auf allgemeinen und fachspezifischen Richtlinien (z.B. der Fördermittelgeber oder Fachgesellschaften), möglichst schon bei Projektkonzeption bzw. -antragstellung ein „Data Management Plan“ erstellt werden, der den Umgang mit Forschungsdaten dokumentiert.“
 
 **Umsetzung**
 
-+ vgl. [Checkliste/Formular des DMP-Service der Kontaktstelle Forschungsdaten](https://tu-dresden.de/forschung-transfer/services-fuer-forschende/kontaktstelle-forschungsdaten/unser-service/dm-texte/formular)  
++ vgl. [Checkliste/Formular des Datenmanagementplan (DMP) Service der Kontaktstelle Forschungsdaten](https://tu-dresden.de/forschung-transfer/services-fuer-forschende/kontaktstelle-forschungsdaten/unser-service/dm-texte/formular)  
 
 ### Datendokumentation
 
-**Grundlage**
+***Grundlage***
 
 + TUD-Leitlinie 7: „Für die Bereitstellung und Nachnutzung ist es notwendig, die Daten, ihren Entstehungskontext und die benutzten Werkzeuge zu dokumentieren.“
 + TUD-Satzung § 7 (3) „Grundsätzlich sind alle für das Zustandekommen von Forschungsergebnissen relevanten Informationen zu dokumentieren. Dazu gehört auch, soweit dies möglich und zumutbar ist, die den Ergebnissen zugrundeliegenden Forschungsdaten.“
 
 
-**Umsetzung**
+***Umsetzung***
 
 + Nachvollziehbare Dokumentation ist eine Voraussetzung für die Nachnutzung von Daten 
 + Der Umfang der Dokumentation richtet sich nach der Zielgruppe: Dokumentationen werden nicht für fachfremdes Personal geschrieben, sondern für Kolleg:innen mit ähnlichem Ausbildungsniveau
@@ -114,7 +114,7 @@ Paragraphen mit Bezug zum Forschungsdatenmanagement:<br>
 
 ### Datenarchivierung
 
-**Grundlage**
+***Grundlage***
 
 + Einrichtung oder in einer fachlich einschlägigen, überregionalen Infrastruktur für mindestens 10 Jahre archiviert werden.“
 
@@ -126,7 +126,7 @@ Paragraphen mit Bezug zum Forschungsdatenmanagement:<br>
 
 + TUD-Leitlinie 5: „Die TU Dresden verfügt über eine Grundausstattung an Forschungsdateninfrastruktur und stellt damit eine angemessene Aufbewahrung und die technische Verfügbarkeit von digitalen Forschungsdaten sicher“
 
-**Umsetzung**
+***Umsetzung***
 
 +	Zeitpunkt für Archivierung von Forschungsdaten: 
   + nach Projektabschluss bzw. zusammen mit der Veröffentlichung der Forschungsergebnisse
@@ -137,9 +137,9 @@ Paragraphen mit Bezug zum Forschungsdatenmanagement:<br>
   + Verwendung geeigneter Dateiformate: im Falle von proprietären Dateiformaten sollten die Originaldaten zusätzlich in ein offenes Dateiformat exportiert und zusammen archiviert werden (z.B. \*.xlsx + \*.csv)
   + Auswahl einer geeigneten Archivlösung, z.B. [Archivierung am ZIH](https://tu-dresden.de/zih/dienste/service-katalog/arbeitsumgebung/backup_archiv/archivierung_am_zih) der TU Dresden (OpARA oder Zwischenarchiv)
 
-**Datenpublikation** 
+### Datenpublikation 
 
-**Grundlage**
+***Grundlage***
 
 + DFG-Leitlinie 2: „Bereitstellung „Soweit einer Veröffentlichung der Forschungsdaten aus einem DFG-geförderten Projekt Rechte Dritter (insbesondere Datenschutz, Urheberrecht) nicht entgegenstehen, sollten Forschungsdaten so zeitnah wie möglich verfügbar gemacht werden.“
 
@@ -147,6 +147,7 @@ Paragraphen mit Bezug zum Forschungsdatenmanagement:<br>
 
 + TUD-Leitlinie 5: „Die TU Dresden verfügt über eine Grundausstattung an Forschungsdateninfrastruktur und stellt damit eine angemessene Aufbewahrung und die technische Verfügbarkeit von digitalen Forschungsdaten sicher“
 
+***Umsetzung***
 
 + Zeitpunkt für die Veröffentlichung von Forschungsdaten:
   + zu jeder Publikation werden die relevanten Forschungsdaten veröffentlicht 
@@ -158,17 +159,26 @@ Paragraphen mit Bezug zum Forschungsdatenmanagement:<br>
     + Datenrepositorium der TU Dresden: [OpARA](https://opara.zih.tu-dresden.de/)
     + Datenrepositorien mit Fokus Psychologie: ... <!-- Link ergänzen Team Forschungsdaten, z.B. OSF, GitHub, Leibniz Psychology -->
 
-Datenschutz , 
+### Datenschutz
+
+***Grundlage***
+
++ TUD-Leitlinie 6: "Die TU Dresden fördert und unterstützt den freien Zugang zu Forschungsdaten (Open Access) – einerseits im Sinne guter wissenschaftlicher Praxis, andererseits wegen der großen Bedeutung für die optimale Verwertung von Forschungsergebnissen und der Qualität der Forschung. Die Entscheidung für eine Veröffentlichung und deren rechtliche Bedingungen liegt in der Eigenverantwortung der Wissenschaftlerinnen und Wissenschaftler. Der Schutz persönlicher Daten, ethische und urheberrechtliche Belange, Verpflichtungen gegenüber Dritten und Verwertungsinteressen sollen ausgewogen berücksichtigt werden.""
++ TUD Satzung GWP: §7 (6): "Sind in den Primärdaten personenbeziehbare Daten enthalten - Einzelangaben über persönliche oder sachliche Verhältnisse einer bestimmten oder bestimmbaren natürlichen Person – so sind die Merkmale, mit deren Hilfe ein Personenbezug hergestellt werden kann, getrennt zu speichern; die Merkmale sind zu löschen, sobald der Forschungszweck dies zulässt. Insofern sind diese Daten aus den zu archivierenden Primärdaten zu entfernen."
++ TUD Satzung GWP: § 8 (10): "Soll die Veröffentlichung personenbeziehbare Daten enthalten – Einzelangaben über persönliche oder sachliche Verhältnisse einer bestimmten oder bestimmbaren natürlichen Person – so ist dies nur zulässig, wenn die hiervon Betroffenen eingewilligt haben oder dies für die Darstellung von Forschungsergebnissen über Ereignisse der Zeitgeschichte unerlässlich ist und überwiegende schutzwürdige Interessen der Betroffenen nicht entgegenstehen."
+
+***Umsetzung***
+
 + Lizenzen für die Veröffentlichung von Forschungsdaten:
-  + Die meisten Forschungsdaten werden unter Verwendung einer Creative Commons Lizenz veröffentlicht
-  + Im Zweifelsfall: Rücksprache mit der Professur für Urheberrecht und geistige Eigentum der TU Dresden
+  + Die meisten Forschungsdaten werden unter Verwendung einer [Creative Commons Lizenz](https://www.bertelsmann-stiftung.de/fileadmin/files/BSt/Publikationen/Infomaterialien/IN_Freie_Lizenzen_-_einfach_erklaert_Poster_2017_07_20.pdf) veröffentlicht
+  + Im Zweifelsfall: Rücksprache mit der [Professur für Urheberrecht und geistiges Eigentum](https://tu-dresden.de/gsw/phil/irget/jfbimd13/die-professur) der TU Dresden
 + Datennutzungsverträgen
   + Die Überlassung von Forschungsdaten an Dritte sollte durch einen Datennutzungsvertrag abgesichert werden
-  + Der Datenschutzbeauftragte der TU-Dresden, Jens Syckor, unterstützt bei der Ausarbeitung von Datennutzungsverträgen
+  + Der [Datenschutzbeauftragte der TU-Dresden](https://tu-dresden.de/tu-dresden/organisation/gremien-und-beauftragte/beauftragte/datenschutzbeauftragter) unterstützt bei der Ausarbeitung von Datennutzungsverträgen
 + Technische Möglichkeiten für die sichere Übermittlung sensibler Forschungsdaten an externe Partner: 
-  + Übermittlung per verschlüsselter E-Mail: der Secure Mail-Dients des ZIH kann verwendet werden, wenn die Datenmenge nicht zu groß ist
-  + Übermittlung via Gruppenlaufwerk: dies setzt die Einrichtung eines Gruppenlaufwerkes über das Self Service Portal der TU Dresden voraus; für die Kooperationspartner müssen Gast-Logins beantragt und das Gruppenlaufwerk mit entsprechenden Berechtigungen versehen werden; sensible Daten müssen mit Boxcryptor verschlüsselt werden; zum Abruf müssen die externen Partner eine VPN-Verbindung in das Netzwerk der TU Dresden aufbauen 
-  + Übermittlung via Cloudstore-Ordner: auch hier müssen sensible Daten mittels Boxcryptor verschlüsselt werden
+  + Übermittlung per verschlüsselter E-Mail: der [Secure Mail-Dienst des ZIH](https://tu-dresden.de/tu-dresden/organisation/zentrale-universitaetsverwaltung/dezernat-3-zentrale-angelegenheiten/sg-3-5-informationssicherheit/securemail) kann verwendet werden, wenn die Datenmenge nicht zu groß ist
+  + Übermittlung via Gruppenlaufwerk: dies setzt die Einrichtung eines [Gruppenlaufwerkes](https://tu-dresden.de/zih/dienste/service-katalog/arbeitsumgebung/datenspeicher/details) über das [Self Service Portal](https://selfservice.zih.tu-dresden.de/l/index.php/spor/request-form/) der TU Dresden voraus; für die Kooperationspartner müssen Gast-Logins beantragt und das Gruppenlaufwerk mit entsprechenden Berechtigungen versehen werden; sensible Daten müssen mit [Boxcryptor](https://tu-dresden.de/tu-dresden/organisation/zentrale-universitaetsverwaltung/dezernat-3-zentrale-angelegenheiten/sg-3-5-informationssicherheit/tud-cert/dateiverschluesselung-boxcryptor) verschlüsselt werden; zum Abruf müssen die externen Partner eine [VPN-Verbindung](https://tu-dresden.de/zih/dienste/service-katalog/arbeitsumgebung/zugang_datennetz/vpn) in das Netzwerk der TU Dresden aufbauen 
+  + Übermittlung via [Cloudstore](https://tu-dresden.de/zih/dienste/service-katalog/zusammenarbeiten-und-forschen/datenaustausch/cloudstore)-Ordner: auch hier müssen sensible Daten mittels Boxcryptor verschlüsselt werden
 + Zur Qualitätssicherung kann es sinnvoll sein, eine Liste (z.B. Excel) zu führen, in der die eigenen Datenlieferungen protokolliert werden: welche Daten wurden wann an welchen Partner weitergeleitet?
 
 ## Unterstützende Prozesse für das FDM
