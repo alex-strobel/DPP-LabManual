@@ -237,6 +237,7 @@ OSF
 + Die FDM-Leitlinien können durch eine individuelle Onboarding-Checkliste mit Informationen zur Arbeitsweise innerhalb einer Forschungsgruppe ergänzt werden 
 
 >***Beispiel einer Onboarding-Checkliste*** 
+>
 >+ wie werden Dateien benannt
 >+ wo ist was auf dem Laufwerk zu finden/abzulegen
 >+ wer in der Gruppe ist Ansprechpartner für welches Thema, welche Software, etc. 
@@ -249,12 +250,15 @@ OSF
 + Die Dokumente aus dem Offboarding sind u.a. Grundlage für das Onboarding des nachfolgenden Mitarbeitenden
 
 >***Beispiel einer Offboarding-Checkliste***
+>
 >Datenbereinigung
 >+ nicht mehr benötigte Dateien gelöscht oder archiviert
 >+ aufzubewahrende Daten systematisch benannt und abgelegt
+>
 >Datendokumentation
 >+ worum geht es bei diesem Datensatz/Ordner?
 >+ was ist der der Ursprung dieser Daten/dieses Ordners?
+>
 >Datenverwendung
 >+ für wen sind diese Daten interessant? 
 >+ was hätten Sie gerne noch mit diesen Daten gemacht, wenn Sie ein weiteres ½ Jahr bleiben würden?
@@ -263,6 +267,7 @@ OSF
 >+ welche Probleme kennen Sie im Zusammenhang mit den Daten? wie sollte Ihr:e Nachfolger:in mit diesen Problemen >umgehen?
 >+ für welchen Zweck dürfen die Daten unter keinen Umständen eingesetzt werden?
 >+ welchen Einstieg würden sie derjenigen Person raten, die zukünftig mit diesen Daten arbeiten wird?
+>
 >Soziales Netzwerk
 >+ wen haben Sie für Erstellung bzw. Verwendung der Daten häufig kontaktiert?
 >+ wer hat Sie bzgl. der Verwendung der Daten häufig kontaktiert?
