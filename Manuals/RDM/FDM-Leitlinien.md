@@ -2,25 +2,25 @@
 
 ## Änderungsverlauf
 
-| Version |	Datum	| Änderungen	| Bearbeiter	|
-|--------	| -----	| ----------	| ----------	|  
-| 0.1		| 28.07.2021		| Erster Entwurf (Zusammenfassung und Strukturierung der Gespräche mit den Prodessuren der Fakultät Psychologie) | Kontaktstelle Forschungsdaten	| 
-| 0.2		| 10.08.2021		| Neuordnung der Inhalte entlang der FDM-Leitlinien von TUD und DFG	| Kontaktstelle Forschungsdaten	| 
+| Version |	Datum	     | Änderungen	| Bearbeiter	|
+|--------	| ----------	| ----------	| ----------	|  
+| 0.1		   | 28.07.2021	| Erster Entwurf (Zusammenfassung/Strukturierung der Gespräche mit den Professuren der Fakultät Psychologie) | Kontaktstelle Forschungsdaten | 
+| 0.2		   | 10.08.2021	| Neuordnung der Inhalte entlang der FDM-Leitlinien von TUD und DFG	| Kontaktstelle Forschungsdaten	| 
 
 ## Inhalt
 
-1. Zweck der FDM-Leitlinien
-2. FDM-Kernprozesse
+Zweck der FDM-Leitlinien
+FDM-Kernprozesse
 + Datenmanagementplan (DMP) für die Antragstellung
 + Datendokumentation
 + Datenarchivierung
 + Datenpublikation
 + Datenschutz
-3. Unterstützende Prozesse für das FDM
+Unterstützende Prozesse für das FDM
 + Datenorganisation
 + Wissensmanagement Onboarding
 + Wissensmanagement Offboarding
-4. Ressourcen/kuratierte Linksammlung/Wiki
+Ressourcen/kuratierte Linksammlung/Wiki
 
 
 ## 1. Zweck der FDM-Leitlinien
