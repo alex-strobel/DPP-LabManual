@@ -66,31 +66,41 @@
 
 + Maßnahmen, die von den Leitlinien der TUD und DFG gefordert werden.
 
-**Basis**
+**Grundlagen**
 
-+ Leitlinien für den Umgang mit Forschungsdaten an der TU Dresden [Link]
-+ DFG Leitlinien zum Umgang mit Forschungsdaten [Link]
-+ TUD Satzung zur Sicherung guter wissenschaftlicher Praxis [Link]; Paragraphen mit Bezug zum Forschungsdatenmanagement:<br>
++ [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/leitlinien_forschungsdaten.pdf)
++ [DGPs-Empfehlungen zum Umgang mit Forschungsdaten im Fach Psychologie](https://econtent.hogrefe.com/doi/10.1026/0033-3042/a000341)<!-- Einarbeitung relevanter Punkte erfolgt durch Team Forschungsdaten der Fakultät Psychologie) -->
++ [Satzung zur Sicherung guter wissenschaftlicher Praxis](https://tu-dresden.de/tu-dresden/qualitaetsmanagement/ressourcen/dateien/Amtliche-Bekanntmachung.pdf?lang=de) der TU Dresden<br>
++ [Leitlinien für den Umgang mit Forschungsdaten an der TU Dresden](https://tu-dresden.de/tu-dresden/qualitaetsmanagement/ressourcen/dateien/wisprax/Leitlinien-fuer-den-Umgang-mit-Forschungsdaten-an-der-TU-Dresden.pdf)
+Paragraphen mit Bezug zum Forschungsdatenmanagement:<br>
 § 7 Phasenübergreifende Qualitätssicherung im Forschungsprozess<br>
 § 8 Wissenschaftliche Veröffentlichungen
-+ Der Umgang mit Forschungsdaten im Fach Psychologie: Konkretisierung der DFG-Leitlinien [Link] [Einarbeitung relevanter Punkte erfolgt durch FTFP]
-Datenmanagementplan (DMP) für die Antragstellung , 
 
-(vgl. [Checkliste/Formular des DMP-Service der Kontaktstelle Forschungsdaten](https://tu-dresden.de/forschung-transfer/services-fuer-forschende/kontaktstelle-forschungsdaten/unser-service/dm-texte/formular))   
-Datendokumentation , 
-•	Nachvollziehbare Dokumentation ist eine Voraussetzung für die Nachnutzung von Daten 
-•	Der Umfang der Dokumentation richtet sich nach der Zielgruppe: Dokumentationen werden nicht für fachfremdes Personal geschrieben, sondern für Kolleg:innen mit ähnlichem Ausbildungsniveau
-•	Im Idealfall befindet sich in jedem Ordner eine kurze Text-Datei (Readme.txt), die den Inhalt des Ordners beschreibt (auch als „Leseanleitungen“ oder „Ordner-Steckbrief“ bezeichnet)
-•	Allgemeine Dokumentationen sollten an zentraler Stelle (z.B. oberste Hierarchie-Ebene auf dem Gruppenlaufwerk) abgelegt werden; sämtliche Dokumente sollten eindeutig benannt werden; bei vielen Dokumenten kann es sich lohnen, eine Übersicht (z.B. Excel) zu führen (Liste aktuell halten -> verantwortliche Person bestimmen) 
-o	Code-Books:  Erklärungen zur Bedeutung verwendeter Variablen und Abkürzungen 
-o	Manuale: detaillierte Beschreibung von Forschungsabläufen 
-o	Versionskontrolle: Modifikationen an Dateien werden durch Dokumentation, z.B. in einer Word-Datei, erfasst; Ziel ist die Nachvollziehbarkeit, die „Data Lineage“
-o	Skripte (Python, R-Code, Matlab, etc.): relevante Informationen in Header und In-line Kommentare dokumentieren 
-•	Weiterführende Links
-o	Vorlage  Readme.txt
-o	Vorlage Code-Book
-o	Weiterführende Informationen Readme.txt: Guide to writing "readme" style metadata
-Datenarchivierung , , , 
+
+### Datenmanagementplan (DMP) für die Antragstellung
+
+**Grundlage**
+
+TUD-Leitlinie 3: „Für Projekte mit Forschungsdaten soll, basierend auf allgemeinen und fachspezifischen Richtlinien (z.B. der Fördermittelgeber oder Fachgesellschaften), möglichst schon bei Projektkonzeption bzw. -antragstellung ein „Data Management Plan“ erstellt werden, der den Umgang mit Forschungsdaten dokumentiert.“
+
++ vgl. [Checkliste/Formular des DMP-Service der Kontaktstelle Forschungsdaten](https://tu-dresden.de/forschung-transfer/services-fuer-forschende/kontaktstelle-forschungsdaten/unser-service/dm-texte/formular)  
+
+### Datendokumentation
+
++ Nachvollziehbare Dokumentation ist eine Voraussetzung für die Nachnutzung von Daten 
++ Der Umfang der Dokumentation richtet sich nach der Zielgruppe: Dokumentationen werden nicht für fachfremdes Personal geschrieben, sondern für Kolleg:innen mit ähnlichem Ausbildungsniveau
++ Im Idealfall befindet sich in jedem Ordner eine kurze Text-Datei (Readme.txt), die den Inhalt des Ordners beschreibt (auch als „Leseanleitungen“ oder „Ordner-Steckbrief“ bezeichnet)
++ Allgemeine Dokumentationen sollten an zentraler Stelle (z.B. oberste Hierarchie-Ebene auf dem Gruppenlaufwerk) abgelegt werden; sämtliche Dokumente sollten eindeutig benannt werden; bei vielen Dokumenten kann es sich lohnen, eine Übersicht (z.B. Excel) zu führen (Liste aktuell halten -> verantwortliche Person bestimmen) 
+  - Code-Books:  Erklärungen zur Bedeutung verwendeter Variablen und Abkürzungen 
+  - Manuale: detaillierte Beschreibung von Forschungsabläufen 
+  - Versionskontrolle: Modifikationen an Dateien werden durch Dokumentation, z.B. in einer Word-Datei, erfasst; Ziel ist die Nachvollziehbarkeit, die „Data Lineage“
+  - Skripte (Python, R-Code, Matlab, etc.): relevante Informationen in Header und In-line Kommentare dokumentieren 
++ Weiterführende Links
+  - Vorlage Readme.txt (s.a. den [Guide to writing "readme" style metadata](https://data.research.cornell.edu/content/readme))
+  - Vorlage Code-Book
+
+Datenarchivierung
+
 •	Zeitpunkt für Archivierung von Forschungsdaten: 
 o	nach Projektabschluss bzw. zusammen mit der Veröffentlichung der Forschungsergebnisse
 o	in beiden Fällen werden die Daten i.d.R. nicht mehr verändert
