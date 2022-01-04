@@ -70,9 +70,9 @@
 
 + Leitlinien für den Umgang mit Forschungsdaten an der TU Dresden [Link]
 + DFG Leitlinien zum Umgang mit Forschungsdaten [Link]
-+ TUD Satzung zur Sicherung guter wissenschaftlicher Praxis [Link]; Paragraphen mit Bezug zum Forschungsdatenmanagement: 
-++ § 7 Phasenübergreifende Qualitätssicherung im Forschungsprozess
-++ § 8 Wissenschaftliche Veröffentlichungen
++ TUD Satzung zur Sicherung guter wissenschaftlicher Praxis [Link]; Paragraphen mit Bezug zum Forschungsdatenmanagement:<br>
+§ 7 Phasenübergreifende Qualitätssicherung im Forschungsprozess<br>
+§ 8 Wissenschaftliche Veröffentlichungen
 + Der Umgang mit Forschungsdaten im Fach Psychologie: Konkretisierung der DFG-Leitlinien [Link] [Einarbeitung relevanter Punkte erfolgt durch FTFP]
 Datenmanagementplan (DMP) für die Antragstellung , 
 
