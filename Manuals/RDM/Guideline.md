@@ -1,29 +1,31 @@
 # Leitlinien für den Umgang mit Forschungsdaten an der Fakultät Psychologie der TU Dresden
 
-Änderungsverlauf
+## Änderungsverlauf
 
-Version	Datum	Änderungen	Bearbeiter
-0.1	28.07.2021	Erster Entwurf (Zusammenfassung und Strukturierung der Gespräche mit den Prodessuren der Fakultät Psychologie)	Kontaktstelle Forschungsdaten
-0.2	10.08.2021	Neuordnung der Inhalte entlang der FDM-Leitlinien von TUD und DFG 	Kontaktstelle Forschungsdaten
+| Version |	Datum	| Änderungen	| Bearbeiter	|
+|--------	| -----	| ----------	| ----------	|  
+| 0.1		| 28.07.2021		| Erster Entwurf (Zusammenfassung und Strukturierung der Gespräche mit den Prodessuren der Fakultät Psychologie) | Kontaktstelle Forschungsdaten	| 
+| 0.2		| 10.08.2021		| Neuordnung der Inhalte entlang der FDM-Leitlinien von TUD und DFG	| Kontaktstelle Forschungsdaten	| 
+
+## Inhalt
+
+1. Zweck der FDM-Leitlinien
+2. FDM-Kernprozesse
++ Datenmanagementplan (DMP) für die Antragstellung
++ Datendokumentation
++ Datenarchivierung
++ Datenpublikation
++ Datenschutz
+3. Unterstützende Prozesse für das FDM
++ Datenorganisation
++ Wissensmanagement Onboarding
++ Wissensmanagement Offboarding
+4. Ressourcen/kuratierte Linksammlung/Wiki
 
 
+## 1. Zweck der FDM-Leitlinien
 
-1 Zweck der FDM-Leitlinien	1
-2 FDM-Kernprozesse	2
-Datenmanagementplan (DMP) für die Antragstellung,	3
-Datendokumentation,	3
-Datenarchivierung,,,	4
-Datenpublikation,, 	5
-Datenschutz,	5
-3 Unterstützende Prozesse für das FDM	6
-Datenorganisation	6
-Wissensmanagement	8
-Wissensmanagement	8
-4 Ressourcen/kuratierte Linksammlung/Wiki 	9
-
-
-1 Zweck der FDM-Leitlinien 
-„Die langfristige Sicherung und Bereitstellung der Forschungsdaten leistet einen Beitrag zur Nachvollziehbarkeit und Qualität der wissenschaftlichen Arbeit und eröffnet wichtige Anschlussmöglichkeiten für die weitere Forschung.“ Quelle: DFG-Leitlinien zum Umgang mit Forschungsdaten
+„Die langfristige Sicherung und Bereitstellung der Forschungsdaten leistet einen Beitrag zur Nachvollziehbarkeit und Qualität der wissenschaftlichen Arbeit und eröffnet wichtige Anschlussmöglichkeiten für die weitere Forschung.“ Quelle: [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/leitlinien_forschungsdaten.pdf)
 
 Definition von Forschungsdaten 
 •	„Unter Forschungsdaten werden alle Daten verstanden, die im Zusammenhang mit Forschung gesammelt, beobachtet, abgeleitet, simuliert oder auf andere Weise generiert werden.“ Quelle: Leitlinien für den Umgang mit Forschungsdaten an der TU Dresden
