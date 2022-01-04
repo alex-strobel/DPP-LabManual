@@ -1,5 +1,7 @@
 # Leitlinien für das Forschungsdatenmanagement (FDM) an der Fakultät Psychologie der TU Dresden
 
+**Re**se**a**rch **d**ata **m**anagement. **e**xecutive **t**e**xt**
+
 ## Änderungsverlauf
 
 | Version |	Datum	     | Änderungen	| Bearbeiter	|
@@ -27,7 +29,9 @@
 
 ## Zweck der FDM-Leitlinien
 
-„Die langfristige Sicherung und Bereitstellung der Forschungsdaten leistet einen Beitrag zur Nachvollziehbarkeit und Qualität der wissenschaftlichen Arbeit und eröffnet wichtige Anschlussmöglichkeiten für die weitere Forschung.“ Quelle: [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/leitlinien_forschungsdaten.pdf?target=_blank)
+„Die langfristige Sicherung und Bereitstellung der Forschungsdaten leistet einen Beitrag zur Nachvollziehbarkeit und Qualität der wissenschaftlichen Arbeit und eröffnet wichtige Anschlussmöglichkeiten für die weitere Forschung.“ Quelle: [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/leitlinien_forschungsdaten.pdf)
+
+Die vorliegenden Leitlinien sollen dazu beitragen, als Fakultät dem oben formulierten Maßstab gerecht zu werden. 
 
 ***Definition Forschungsdaten*** 
 
@@ -42,11 +46,11 @@
 ***Ziel dieser Leitlinien***
 
 + Eine nachvollziehbare Datenorganisation innerhalb der Fakultät für Psychologie inkl. der Organisation des Wissens über diese Daten
-+ Es bestehen eine Reihe von Vorgaben für die Arbeit von Forschungsdaten: TUD, DFG und DGSP; diese Leitlinien geben Tipps für die praktische Umsetzung dieser Vorgaben im Forschungsalltag
-+ Abgrenzung des Begriffs Forschungsdatenmanagement zu anderen Fachbereichen
++ Es bestehen eine Reihe von Vorgaben für die Arbeit von Forschungsdaten: TUD, DFG und DGPs; diese Leitlinien geben Tipps für die praktische Umsetzung dieser Vorgaben im Forschungsalltag
++ Abgrenzung des Begriffs Forschungsdatenmanagement zu anderen Bereichen
 + Projektmanagement: FDM-Maßnahmen können in die einzelnen Schritte des Forschungsprozesses eingehängt werden; FDM ersetzt nicht die eigentliche Planung des Forschungsprozesses 
 + Verantwortlichkeiten definieren: Jede:r Mitarbeitende ist für die Datenablage sowie Datendokumentation selbst verantwortlich. Die Kontrolle/Sicherstellung der Qualität liegt in der Verantwortung der Teamleitung
-+ Open Science: FDM ist eine Voraussetzung für die Nachnutzung von Daten und damit auch eine Voraussetzung für Open Science; FDM ist nicht gleichzusetzen mit Open Science
++ Open Science: FDM ist eine Voraussetzung für die Nachnutzung von Daten und damit auch eine Voraussetzung für Open Science; FDM ist alledings nicht gleichzusetzen mit Open Science
 
 ***Unterstützung***
 
