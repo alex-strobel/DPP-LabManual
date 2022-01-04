@@ -23,7 +23,7 @@
 + Wissensmanagement Onboarding
 + Wissensmanagement Offboarding
 
-[Ressourcen/kuratierte Linksammlung/Wiki](#ressourcen-kuratierte-linksammlung-wiki)
+[Ressourcen/kuratierte Linksammlung/Wiki](#ressourcen/kuratierte-linksammlung/wiki)
 
 
 ## Zweck der FDM-Leitlinien
