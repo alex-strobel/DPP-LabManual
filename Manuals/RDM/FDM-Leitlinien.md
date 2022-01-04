@@ -21,7 +21,7 @@
 [Unterstützende Prozesse für das FDM](#unterstützende-prozesse-für-das-fdm)
 + [Datenorganisation](#datenorganisation)
 + [Wissensmanagement Onboarding](#wissensmanagement-onboarding)
-+ [Wissensmanagement Offboarding](##wissensmanagement-offboarding)
++ [Wissensmanagement Offboarding](#wissensmanagement-offboarding)
 
 [Ressourcen/kuratierte Linksammlung/Wiki](#ressourcen/kuratierte-linksammlung/wiki)
 
