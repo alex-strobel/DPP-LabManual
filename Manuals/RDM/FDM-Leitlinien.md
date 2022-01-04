@@ -83,170 +83,206 @@ Paragraphen mit Bezug zum Forschungsdatenmanagement:<br>
 
 **Grundlage**
 
-TUD-Leitlinie 3: „Für Projekte mit Forschungsdaten soll, basierend auf allgemeinen und fachspezifischen Richtlinien (z.B. der Fördermittelgeber oder Fachgesellschaften), möglichst schon bei Projektkonzeption bzw. -antragstellung ein „Data Management Plan“ erstellt werden, der den Umgang mit Forschungsdaten dokumentiert.“
++ DFG-Leitlinie 1: „Projektplanung und Antragstellung „In einem Antrag sollten die Antragstellenden daher ausführen, welche Forschungsdaten im Verlauf eines wissenschaftlichen Forschungsvorhabens entstehen, erzeugt oder ausgewertet werden […] Die einschlägigen Erläuterungen müssen Informationen zu Datentypen, falls vorhanden zu disziplinspezifischen Standards und zur Wahl geeigneter Repositorien enthalten […]. Zusätzlich werden Angaben zu ggf. betroffenen Rechten Dritter sowie erste Planungen zum zeitlichen Rahmen der Datenveröffentlichung erbeten.“
++ TUD-Leitlinie 3: „Für Projekte mit Forschungsdaten soll, basierend auf allgemeinen und fachspezifischen Richtlinien (z.B. der Fördermittelgeber oder Fachgesellschaften), möglichst schon bei Projektkonzeption bzw. -antragstellung ein „Data Management Plan“ erstellt werden, der den Umgang mit Forschungsdaten dokumentiert.“
+
+**Umsetzung**
 
 + vgl. [Checkliste/Formular des DMP-Service der Kontaktstelle Forschungsdaten](https://tu-dresden.de/forschung-transfer/services-fuer-forschende/kontaktstelle-forschungsdaten/unser-service/dm-texte/formular)  
 
 ### Datendokumentation
 
+**Grundlage**
+
++ TUD-Leitlinie 7: „Für die Bereitstellung und Nachnutzung ist es notwendig, die Daten, ihren Entstehungskontext und die benutzten Werkzeuge zu dokumentieren.“
++ TUD-Satzung § 7 (3) „Grundsätzlich sind alle für das Zustandekommen von Forschungsergebnissen relevanten Informationen zu dokumentieren. Dazu gehört auch, soweit dies möglich und zumutbar ist, die den Ergebnissen zugrundeliegenden Forschungsdaten.“
+
+
+**Umsetzung**
+
 + Nachvollziehbare Dokumentation ist eine Voraussetzung für die Nachnutzung von Daten 
 + Der Umfang der Dokumentation richtet sich nach der Zielgruppe: Dokumentationen werden nicht für fachfremdes Personal geschrieben, sondern für Kolleg:innen mit ähnlichem Ausbildungsniveau
 + Im Idealfall befindet sich in jedem Ordner eine kurze Text-Datei (Readme.txt), die den Inhalt des Ordners beschreibt (auch als „Leseanleitungen“ oder „Ordner-Steckbrief“ bezeichnet)
 + Allgemeine Dokumentationen sollten an zentraler Stelle (z.B. oberste Hierarchie-Ebene auf dem Gruppenlaufwerk) abgelegt werden; sämtliche Dokumente sollten eindeutig benannt werden; bei vielen Dokumenten kann es sich lohnen, eine Übersicht (z.B. Excel) zu führen (Liste aktuell halten -> verantwortliche Person bestimmen) 
-  - Code-Books:  Erklärungen zur Bedeutung verwendeter Variablen und Abkürzungen 
-  - Manuale: detaillierte Beschreibung von Forschungsabläufen 
-  - Versionskontrolle: Modifikationen an Dateien werden durch Dokumentation, z.B. in einer Word-Datei, erfasst; Ziel ist die Nachvollziehbarkeit, die „Data Lineage“
-  - Skripte (Python, R-Code, Matlab, etc.): relevante Informationen in Header und In-line Kommentare dokumentieren 
+  + Code-Books:  Erklärungen zur Bedeutung verwendeter Variablen und Abkürzungen 
+  + Manuale: detaillierte Beschreibung von Forschungsabläufen 
+  + Versionskontrolle: Modifikationen an Dateien werden durch Dokumentation, z.B. in einer Word-Datei, erfasst; Ziel ist die Nachvollziehbarkeit, die „Data Lineage“
+  + Skripte (Python, R-Code, Matlab, etc.): relevante Informationen in Header und In-line Kommentare dokumentieren 
 + Weiterführende Links
-  - Vorlage Readme.txt (s.a. den [Guide to writing "readme" style metadata](https://data.research.cornell.edu/content/readme))
-  - Vorlage Code-Book
+  + Vorlage Readme.txt (s.a. den [Guide to writing "readme" style metadata](https://data.research.cornell.edu/content/readme))
+  + Vorlage Code-Book
 
-Datenarchivierung
+### Datenarchivierung
 
-•	Zeitpunkt für Archivierung von Forschungsdaten: 
-o	nach Projektabschluss bzw. zusammen mit der Veröffentlichung der Forschungsergebnisse
-o	in beiden Fällen werden die Daten i.d.R. nicht mehr verändert
-•	Vorgehen bei der Datenarchivierung: 
-o	Datenselektion: Guidelines for appraising and selecting research data
-o	Datenaufbereitung (analog zur „Checkliste für die Ablage von Daten auf dem Gruppenlaufwerk“ in Abschnitt 3 „Datenorganisation“); bei personenbezogenen Daten zusätzlich Anonymisierung oder Pseudonymisierung der Forschungsdaten; Unterstützung bietet die Unabhängige Treuhandstelle der TU Dresden  [aktuell im Aufbau ist auch die neue Datentreuhandstelle der TU Dresden: „DD Trust“]
-o	Verwendung geeigneter Dateiformate: im Falle von proprietären Dateiformaten sollten die Originaldaten zusätzlich in ein offenes Dateiformat exportiert und zusammen archiviert werden (z.B. *.xlsx + *.csv)
-o	Auswahl einer geeigneten Archivlösung, z.B. der TU Dresden: OpARA oder Zwischenarchiv
-Datenpublikation , ,  
-•	Zeitpunkt für die Veröffentlichung von Forschungsdaten: 
-o	zu jeder Publikation werden die relevanten Forschungsdaten veröffentlicht. 
-•	Vorgehen bei der Datenpublikation: 
-o	Datenselektion und Datenaufbereitung erfolgt analog zum Vorgehen im Abschnitt „Datenarchivierung“
-o	Lizenzen: bei Verwendung Daten dritter sollten die Daten nur nach Rücksprache mit den Dateneigentümern und unter Verwendung einer geeigneten Lizenz veröffentlicht werden (vgl. Abschnitt „Datenschutz“ weiter unten)
-o	Auswahl eines geeigneten Datenrepositoriums
-	Verzeichnis von Forschungsdatenrepositorien: re3data
-	Datenrepositorium der TU Dresden: OpARA
-	Datenrepositorium mit Fokus Psychologie: [Link ergänzen FTFP]
+**Grundlage**
+
++ Einrichtung oder in einer fachlich einschlägigen, überregionalen Infrastruktur für mindestens 10 Jahre archiviert werden.“
+
++ TUD-Leitlinie 8: „Forschungsdaten, die Grundlage einer Publikation bilden, sollen langfristig in einem geeigneten vertrauenswürdigen Datenarchiv bzw. Repositorium archiviert und/oder geeignet veröffentlicht werden. Sie sind Teil der wissenschaftlichen Reputation der Forschenden.“
+
++ TUD Satzung GWP: § 7 (4) „Primärdaten als Grundlagen für Veröffentlichungen sind auf haltbaren und gesicherten Trägern in der Einrichtung, in der sie entstanden sind, aufzubewahren.“
+
++ TUD Satzung GWP: §7 (5) „In der Regel müssen die Primärdaten für zehn Jahre in der Einrichtung zugänglich bleiben. [...] In der Regel verbleiben die Originaldaten und -unterlagen am Entstehungsort; es können aber Duplikate angefertigt oder Zugangsrechte bestimmt werden. (6) Sind in den Primärdaten personenbeziehbare Daten enthalten – Einzelangaben über persönliche oder sachliche Verhältnisse einer bestimmten oder bestimmbaren natürlichen Person – so sind die Merkmale, mit deren Hilfe ein Personenbezug hergestellt werden kann, getrennt zu speichern; die Merkmale sind zu löschen, sobald der Forschungszweck dies zulässt. Insofern sind diese Daten aus den zu archivierenden Primärdaten zu entfernen. (8) Aus Gründen der Nachvollziehbarkeit, Anschlussfähigkeit der Forschung und Nachnutzbarkeit hinterlegen Wissenschaftler und Wissenschaftlerinnen, wenn immer möglich, die der Publikation zugrundeliegenden Forschungsdaten und zentralen Materialien – den FAIR-Prinzipien („Findable, Accessible, Interoperable, ReUsable“) folgend – zugänglich in anerkannten Archiven und Repositorien.“ 
+
++ TUD-Leitlinie 5: „Die TU Dresden verfügt über eine Grundausstattung an Forschungsdateninfrastruktur und stellt damit eine angemessene Aufbewahrung und die technische Verfügbarkeit von digitalen Forschungsdaten sicher“
+
+**Umsetzung**
+
++	Zeitpunkt für Archivierung von Forschungsdaten: 
+  + nach Projektabschluss bzw. zusammen mit der Veröffentlichung der Forschungsergebnisse
+  + in beiden Fällen werden die Daten i.d.R. nicht mehr verändert
++	Vorgehen bei der Datenarchivierung: 
+  + Datenselektion: Guidelines for appraising and selecting research data
+  + Datenaufbereitung (analog zur „Checkliste für die Ablage von Daten auf dem Gruppenlaufwerk“ in Abschnitt 3 „Datenorganisation“); bei personenbezogenen Daten zusätzlich Anonymisierung oder Pseudonymisierung der Forschungsdaten; Unterstützung bietet die [Unabhängige Treuhandstelle der TU Dresden](https://tu-dresden.de/med/mf/forschung/services-fuer-forschende/unabhaengige-treuhandstelle)  (aktuell im Aufbau ist auch die neue Datentreuhandstelle der TU Dresden: „DD Trust“)
+  + Verwendung geeigneter Dateiformate: im Falle von proprietären Dateiformaten sollten die Originaldaten zusätzlich in ein offenes Dateiformat exportiert und zusammen archiviert werden (z.B. \*.xlsx + \*.csv)
+  + Auswahl einer geeigneten Archivlösung, z.B. [Archivierung am ZIH](https://tu-dresden.de/zih/dienste/service-katalog/arbeitsumgebung/backup_archiv/archivierung_am_zih) der TU Dresden (OpARA oder Zwischenarchiv)
+
+**Datenpublikation** 
+
+**Grundlage**
+
++ DFG-Leitlinie 2: „Bereitstellung „Soweit einer Veröffentlichung der Forschungsdaten aus einem DFG-geförderten Projekt Rechte Dritter (insbesondere Datenschutz, Urheberrecht) nicht entgegenstehen, sollten Forschungsdaten so zeitnah wie möglich verfügbar gemacht werden.“
+
++ Leitlinie 6: „Die TU Dresden fördert und unterstützt den freien Zugang zu Forschungsdaten (Open Access) – einerseits im Sinne guter wissenschaftlicher Praxis, andererseits wegen der großen Bedeutung für die optimale Verwertung von Forschungsergebnissen und der Qualität der Forschung. Die Entscheidung für eine Veröffentlichung und deren rechtliche Bedingungen liegt in der Eigenverantwortung der Wissenschaftlerinnen und Wissenschaftler. Der Schutz persönlicher Daten, ethische und urheberrechtliche Belange, Verpflichtungen gegenüber Dritten und Verwertungsinteressen sollen ausgewogen berücksichtigt werden.“
+
++ TUD-Leitlinie 5: „Die TU Dresden verfügt über eine Grundausstattung an Forschungsdateninfrastruktur und stellt damit eine angemessene Aufbewahrung und die technische Verfügbarkeit von digitalen Forschungsdaten sicher“
+
+
++ Zeitpunkt für die Veröffentlichung von Forschungsdaten:
+  + zu jeder Publikation werden die relevanten Forschungsdaten veröffentlicht 
++ Vorgehen bei der Datenpublikation: 
+  + Datenselektion und Datenaufbereitung erfolgt analog zum Vorgehen im Abschnitt „Datenarchivierung“
+  + Lizenzen: bei Verwendung Daten dritter sollten die Daten nur nach Rücksprache mit den Dateneigentümern und unter Verwendung einer geeigneten Lizenz veröffentlicht werden (vgl. Abschnitt „Datenschutz“ weiter unten)
+  + Auswahl eines geeigneten Datenrepositoriums
+    + Verzeichnis von Forschungsdatenrepositorien: [re3data](https://www.re3data.org/)
+    + Datenrepositorium der TU Dresden: [OpARA](https://opara.zih.tu-dresden.de/)
+    + Datenrepositorien mit Fokus Psychologie: ... <!-- Link ergänzen Team Forschungsdaten, z.B. OSF, GitHub, Leibniz Psychology -->
 
 Datenschutz , 
-•	Lizenzen für die Veröffentlichung von Forschungsdaten:
-o	Die meisten Forschungsdaten werden unter Verwendung einer Creative Commons Lizenz veröffentlicht
-o	Im Zweifelsfall: Rücksprache mit der Professur für Urheberrecht und geistige Eigentum der TU Dresden
-•	Datennutzungsverträgen
-o	Die Überlassung von Forschungsdaten an Dritte sollte durch einen Datennutzungsvertrag abgesichert werden
-o	Der Datenschutzbeauftragte der TU-Dresden, Jens Syckor, unterstützt bei der Ausarbeitung von Datennutzungsverträgen
-•	Technische Möglichkeiten für die sichere Übermittlung sensibler Forschungsdaten an externe Partner: 
-o	Übermittlung per verschlüsselter E-Mail: der Secure Mail-Dients des ZIH kann verwendet werden, wenn die Datenmenge nicht zu groß ist
-o	Übermittlung via Gruppenlaufwerk: dies setzt die Einrichtung eines Gruppenlaufwerkes über das Self Service Portal der TU Dresden voraus; für die Kooperationspartner müssen Gast-Logins beantragt und das Gruppenlaufwerk mit entsprechenden Berechtigungen versehen werden; sensible Daten müssen mit Boxcryptor verschlüsselt werden; zum Abruf müssen die externen Partner eine VPN-Verbindung in das Netzwerk der TU Dresden aufbauen 
-o	Übermittlung via Cloudstore-Ordner: auch hier müssen sensible Daten mittels Boxcryptor verschlüsselt werden
-•	Zur Qualitätssicherung kann es sinnvoll sein, eine Liste (z.B. Excel) zu führen, in der die eigenen Datenlieferungen protokolliert werden: welche Daten wurden wann an welchen Partner weitergeleitet?
++ Lizenzen für die Veröffentlichung von Forschungsdaten:
+  + Die meisten Forschungsdaten werden unter Verwendung einer Creative Commons Lizenz veröffentlicht
+  + Im Zweifelsfall: Rücksprache mit der Professur für Urheberrecht und geistige Eigentum der TU Dresden
++ Datennutzungsverträgen
+  + Die Überlassung von Forschungsdaten an Dritte sollte durch einen Datennutzungsvertrag abgesichert werden
+  + Der Datenschutzbeauftragte der TU-Dresden, Jens Syckor, unterstützt bei der Ausarbeitung von Datennutzungsverträgen
++ Technische Möglichkeiten für die sichere Übermittlung sensibler Forschungsdaten an externe Partner: 
+  + Übermittlung per verschlüsselter E-Mail: der Secure Mail-Dients des ZIH kann verwendet werden, wenn die Datenmenge nicht zu groß ist
+  + Übermittlung via Gruppenlaufwerk: dies setzt die Einrichtung eines Gruppenlaufwerkes über das Self Service Portal der TU Dresden voraus; für die Kooperationspartner müssen Gast-Logins beantragt und das Gruppenlaufwerk mit entsprechenden Berechtigungen versehen werden; sensible Daten müssen mit Boxcryptor verschlüsselt werden; zum Abruf müssen die externen Partner eine VPN-Verbindung in das Netzwerk der TU Dresden aufbauen 
+  + Übermittlung via Cloudstore-Ordner: auch hier müssen sensible Daten mittels Boxcryptor verschlüsselt werden
++ Zur Qualitätssicherung kann es sinnvoll sein, eine Liste (z.B. Excel) zu führen, in der die eigenen Datenlieferungen protokolliert werden: welche Daten wurden wann an welchen Partner weitergeleitet?
 
 ## Unterstützende Prozesse für das FDM
 
 Definition: unterstützende Prozesse ermöglichen die Umsetzung der Kernprozesse. 
 Datenorganisation 
-•	Datenablage  [ergänzen durch FTFP]
-o	Zum Einsatz kommen ZIH-Dienste wie Gruppenlaufwerke oder SharePoint
-o	Für bestimmte Anwendungsfälle kommt REDCap zum Einsatz 
-•	Gruppenlaufwerke/Ordnerstrukturen
-o	Für jedes Gruppenlaufwerk sollte eine Ansprechperson benannt werden und allen Mitarbeitenden bekannt sein; die Ansprechperson steht für Nachfragen zur Verfügung („Wo legt man diese und jene Datei ab?“), die Ansprechperson führt aber auch regelmäßig Qualitätskontrollen auf dem Gruppenlaufwerk durch 
-o	Grundlegende Vorschläge für die Ordnerstruktur:
++ Datenablage  [ergänzen durch FTFP]
+  + Zum Einsatz kommen ZIH-Dienste wie Gruppenlaufwerke oder SharePoint
+  + Für bestimmte Anwendungsfälle kommt REDCap zum Einsatz 
++ Gruppenlaufwerke/Ordnerstrukturen
+  + Für jedes Gruppenlaufwerk sollte eine Ansprechperson benannt werden und allen Mitarbeitenden bekannt sein; die Ansprechperson steht für Nachfragen zur Verfügung („Wo legt man diese und jene Datei ab?“), die Ansprechperson führt aber auch regelmäßig Qualitätskontrollen auf dem Gruppenlaufwerk durch 
+  + Grundlegende Vorschläge für die Ordnerstruktur:
 	Berufliche Daten von privaten Daten trennen
 	Berufliche Daten aufteilen in Forschungsdaten und administrativen Daten 
 	Forschungsdaten aufteilen in Rohdaten, verarbeitete Daten, finale Daten  
-o	Weiterführende Links
+  + Weiterführende Links
 	Link zur Vorlage einer Referenzprojekt-Ordnerstruktur inkl. Readme.txt-Vorlage
 	ggf. BIDS-Dateiablagesystem erwähnen
  
 Checkliste für Datenpflege auf dem Gruppenlaufwerk
 
 Datentransfer
-•	nur relevante Daten auf Gruppenlaufwerk ablegen 
-•	Datei an korrekter Stelle einfügen [im Zweifel nachfragen bei…]
-•	Eindeutig als zusammengehörig erkennbare Pakete aus Daten und Dokumentation schnüren
++ nur relevante Daten auf Gruppenlaufwerk ablegen 
++ Datei an korrekter Stelle einfügen [im Zweifel nachfragen bei…]
++ Eindeutig als zusammengehörig erkennbare Pakete aus Daten und Dokumentation schnüren
 Datenqualität
-•	Datenintegrität prüfen (Dateien nicht korrupt, d.h. lassen sich öffnen)
-•	Verifizierung der verwendeten Maßeinheiten/Abkürzungen gemäß Code-Book 
++ Datenintegrität prüfen (Dateien nicht korrupt, d.h. lassen sich öffnen)
++ Verifizierung der verwendeten Maßeinheiten/Abkürzungen gemäß Code-Book 
 Dokumentation
-•	Ordner/Dateien gemäß Dateinamenskonvention benennen
-•	Codierungen aus Dateinamen und Spaltenköpfen im Code-Book hinterlegen
-•	Code-Book auf Aktualität und Vollständigkeit prüfen
-•	Readme.txt anlegen bzw. aufdatieren
-•	Skripte auskommentieren
-•	Beschreibung des Prozessabläufe in Manualen anlegen bzw. auf Aktualität prüfen
++ Ordner/Dateien gemäß Dateinamenskonvention benennen
++ Codierungen aus Dateinamen und Spaltenköpfen im Code-Book hinterlegen
++ Code-Book auf Aktualität und Vollständigkeit prüfen
++ Readme.txt anlegen bzw. aufdatieren
++ Skripte auskommentieren
++ Beschreibung des Prozessabläufe in Manualen anlegen bzw. auf Aktualität prüfen
 Datenhygiene
-•	10 Minuten pro Woche einplanen für „Datenhygiene“ auf dem Gruppenlaufwerk (z.B. gemeinsam im Team-Meeting)
-•	Fokus-Treffen, um gemeinsam Strukturen für Readme, Gruppenlaufwerke und weitere FDM-Regeln auszuarbeiten
++ 10 Minuten pro Woche einplanen für „Datenhygiene“ auf dem Gruppenlaufwerk (z.B. gemeinsam im Team-Meeting)
++ Fokus-Treffen, um gemeinsam Strukturen für Readme, Gruppenlaufwerke und weitere FDM-Regeln auszuarbeiten
 
 
 REDCap ergänzen durch FTFP
-•	Verwendungszweck: ergänzen durch FTFP, z.B. Erstellung, Durchführung und Auswertung von Umfragen
-•	Datenqualität: semi-automatisierte Dokumentation der Arbeitsschritte durch User-Führung (z.B. automatische Erstellung von Logfiles und Code-Büchern)
-•	Datenschutz: REDCap-Instanzen werden auf Servern des ZIH in Dresen ausgeführt; Kontaktdaten der Probanden werden in einer separaten Anwendung verwaltet (PAMS)
-•	Weiterführende Links:
-o	Links zu REDCap-Vorlagen
-o	Links zu Manualen
++ Verwendungszweck: ergänzen durch FTFP, z.B. Erstellung, Durchführung und Auswertung von Umfragen
++ Datenqualität: semi-automatisierte Dokumentation der Arbeitsschritte durch User-Führung (z.B. automatische Erstellung von Logfiles und Code-Büchern)
++ Datenschutz: REDCap-Instanzen werden auf Servern des ZIH in Dresen ausgeführt; Kontaktdaten der Probanden werden in einer separaten Anwendung verwaltet (PAMS)
++ Weiterführende Links:
+  + Links zu REDCap-Vorlagen
+  + Links zu Manualen
 OSF
-•	Verwendungszweck: ergänzen durch FTFP, z.B. Präregistrierung
-•	Datenqualität: es gelten die gleichen Anforderungen wie bei der Ablage von Daten auf dem Gruppenlaufwerl (analog zur „Checkliste für die Ablage von Daten auf dem Gruppenlaufwerk“ in Abschnitt 3 „Datenorganisation“);
-•	Datenschutz: es können OSF-Server in Frankfurt/Main ausgewählt werden 
-•	Weiterführende Links:
-o	Beispiel für eine OSF-Struktur, mit der ein Institut seinen Forschungsalltag verwaltet: https://osf.io/n7263  
-o	ggf. Link zu einem beispielhaften OSF-Projekt aus der Fakultät Psychologie
++ Verwendungszweck: ergänzen durch FTFP, z.B. Präregistrierung
++ Datenqualität: es gelten die gleichen Anforderungen wie bei der Ablage von Daten auf dem Gruppenlaufwerl (analog zur „Checkliste für die Ablage von Daten auf dem Gruppenlaufwerk“ in Abschnitt 3 „Datenorganisation“);
++ Datenschutz: es können OSF-Server in Frankfurt/Main ausgewählt werden 
++ Weiterführende Links:
+  + Beispiel für eine OSF-Struktur, mit der ein Institut seinen Forschungsalltag verwaltet: https://osf.io/n7263  
+  + ggf. Link zu einem beispielhaften OSF-Projekt aus der Fakultät Psychologie
 
 Wissensmanagement (Onboarding)
-•	Jede:r neue Mitarbeitende erhält diese FDM-Leitlinien zur Durchsicht (ggf. abzeichnen lassen?)
-•	Die FDM-Leitlinien können durch eine individuelle Onboarding-Checkliste mit Informationen zur Arbeitsweise innerhalb einer Forschungsgruppe ergänzt werden 
++ Jede:r neue Mitarbeitende erhält diese FDM-Leitlinien zur Durchsicht (ggf. abzeichnen lassen?)
++ Die FDM-Leitlinien können durch eine individuelle Onboarding-Checkliste mit Informationen zur Arbeitsweise innerhalb einer Forschungsgruppe ergänzt werden 
 Beispiel einer Onboarding-Checkliste 
 
-•	wie werden Dateien benannt
-•	wo ist was auf dem Laufwerk zu finden/abzulegen
-•	wer in der Gruppe ist Ansprechpartner für welches Thema, welche Software, etc. 
-•	Hinweise zum Umgang mit Datenschutz
-•	Hinweise zur Verwertung der Daten nach Projekteende•	…
++ wie werden Dateien benannt
++ wo ist was auf dem Laufwerk zu finden/abzulegen
++ wer in der Gruppe ist Ansprechpartner für welches Thema, welche Software, etc. 
++ Hinweise zum Umgang mit Datenschutz
++ Hinweise zur Verwertung der Daten nach Projekteende+ …
 
 Wissensmanagement (Offboarding)
-•	Der Offboarding-Prozess umfasst die Bereinigung und Übergabe von Daten 
-•	Dieser Prozess beginnt 3-6 Monate vor Austritt des Mitarbeitenden und kann unter Mitwirkung der Kontaktstelle Forschungsdaten geplant und durchgeführt werden
-•	Die Dokumente aus dem Offboarding sind u.a. Grundlage für das Onboarding des nachfolgenden Mitarbeitenden
++ Der Offboarding-Prozess umfasst die Bereinigung und Übergabe von Daten 
++ Dieser Prozess beginnt 3-6 Monate vor Austritt des Mitarbeitenden und kann unter Mitwirkung der Kontaktstelle Forschungsdaten geplant und durchgeführt werden
++ Die Dokumente aus dem Offboarding sind u.a. Grundlage für das Onboarding des nachfolgenden Mitarbeitenden
 
 Beispiel einer Offboarding-Checkliste
 
 Datenbereinigung
-•	nicht mehr benötigte Dateien gelöscht oder archiviert
-•	aufzubewahrende Daten systematisch benannt und abgelegt
++ nicht mehr benötigte Dateien gelöscht oder archiviert
++ aufzubewahrende Daten systematisch benannt und abgelegt
 Datendokumentation
-•	worum geht es bei diesem Datensatz/Ordner?
-•	was ist der der Ursprung dieser Daten/dieses Ordners?
++ worum geht es bei diesem Datensatz/Ordner?
++ was ist der der Ursprung dieser Daten/dieses Ordners?
 Datenverwendung
-•	für wen sind diese Daten interessant? 
-•	was hätten Sie gerne noch mit diesen Daten gemacht, wenn Sie ein weiteres ½ Jahr bleiben würden?
-•	die Daten sind auf folgende Art zu verwenden (Einsatzzweck/Methode/Software): …
-•	die Daten haben Abhängigkeiten/Schnittstellen zu …
-•	welche Probleme kennen Sie im Zusammenhang mit den Daten? wie sollte Ihr:e Nachfolger:in mit diesen Problemen umgehen?
-•	für welchen Zweck dürfen die Daten unter keinen Umständen eingesetzt werden?
-•	welchen Einstieg würden sie derjenigen Person raten, die zukünftig mit diesen Daten arbeiten wird?
++ für wen sind diese Daten interessant? 
++ was hätten Sie gerne noch mit diesen Daten gemacht, wenn Sie ein weiteres ½ Jahr bleiben würden?
++ die Daten sind auf folgende Art zu verwenden (Einsatzzweck/Methode/Software): …
++ die Daten haben Abhängigkeiten/Schnittstellen zu …
++ welche Probleme kennen Sie im Zusammenhang mit den Daten? wie sollte Ihr:e Nachfolger:in mit diesen Problemen umgehen?
++ für welchen Zweck dürfen die Daten unter keinen Umständen eingesetzt werden?
++ welchen Einstieg würden sie derjenigen Person raten, die zukünftig mit diesen Daten arbeiten wird?
 Soziales Netzwerk
-•	wen haben Sie für Erstellung bzw. Verwendung der Daten häufig kontaktiert?
-•	wer hat Sie bzgl. der Verwendung der Daten häufig kontaktiert?
-•	wie kann Ihr Nachfolger Sie erreichen?
++ wen haben Sie für Erstellung bzw. Verwendung der Daten häufig kontaktiert?
++ wer hat Sie bzgl. der Verwendung der Daten häufig kontaktiert?
++ wie kann Ihr Nachfolger Sie erreichen?
 
 ## Ressourcen/kuratierte Linksammlung/Wiki 
 
-•	Landing Page mit Neuigkeiten zur Fakultät 
-•	Gesammelte Links zu Dokument-Vorlagen aus dieser FDM-Leitlinie
-o	Checkliste Onboarding
-o	Checkliste Offboarding
-o	Checkliste für Datenpflege auf dem Gruppenlaufwerk
-o	ggf. Link zu REDCap-Templates
-o	ggf. Link zu OSF-Template
-•	IT-Dienste des ZIH
-o	Buchung von IT-Services des ZUH über das Self Service Portal
-o	Zentrale Datenspeicher der TU Dresden: Gruppenlaufwerke
-o	Verschlüsselung von Laufwerken mit Boxcryptor 
-o	Cloudstore der TU Dresden
-o	Versendung verschlüsselter Mails mit Secure Mail
-•	Datenschutz
-o	Übersicht Creative Commons Lizenzen
-o	Professur für Urheberrecht und geistige Eigentum der TU Dresden
-o	Datenschutzbeauftragte der TU Dresden 
-•	Links mit administrativen Informationen, z.B. Anleitungen zu Verwaltungsabläufen der Fakultät oder Leitfaden für die Anfertigung von Masterarbeiten
-o	ggf. Liste mit Weiterbildungsangeboten (Zentrum für Weiterbildung, SLUB, Graduiertenakademie) und nützlichen Links (z.B. zu Video-Tutorials)
-o	ggf. Glossar mit Begriffen aus dem Kontext FDM und Fakultät Psychologie
++ Landing Page mit Neuigkeiten zur Fakultät 
++ Gesammelte Links zu Dokument-Vorlagen aus dieser FDM-Leitlinie
+  + Checkliste Onboarding
+  + Checkliste Offboarding
+  + Checkliste für Datenpflege auf dem Gruppenlaufwerk
+  + ggf. Link zu REDCap-Templates
+  + ggf. Link zu OSF-Template
++ IT-Dienste des ZIH
+  + Buchung von IT-Services des ZUH über das Self Service Portal
+  + Zentrale Datenspeicher der TU Dresden: Gruppenlaufwerke
+  + Verschlüsselung von Laufwerken mit Boxcryptor 
+  + Cloudstore der TU Dresden
+  + Versendung verschlüsselter Mails mit Secure Mail
++ Datenschutz
+  + Übersicht Creative Commons Lizenzen
+  + Professur für Urheberrecht und geistige Eigentum der TU Dresden
+  + Datenschutzbeauftragte der TU Dresden 
++ Links mit administrativen Informationen, z.B. Anleitungen zu Verwaltungsabläufen der Fakultät oder Leitfaden für die Anfertigung von Masterarbeiten
+  + ggf. Liste mit Weiterbildungsangeboten (Zentrum für Weiterbildung, SLUB, Graduiertenakademie) und nützlichen Links (z.B. zu Video-Tutorials)
+  + ggf. Glossar mit Begriffen aus dem Kontext FDM und Fakultät Psychologie
 
 Vorlagen
  
