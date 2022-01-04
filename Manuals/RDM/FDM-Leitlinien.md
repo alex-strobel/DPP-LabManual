@@ -336,6 +336,7 @@ Paragraphen mit Bezug zum Forschungsdatenmanagement:<br>
 | edu | education | 0 = no university entrance diploma (UED), 1 = UED |
 | job | job | 0 = training/studies, 1 = unemployed, 2 = employed |
 | bfi2_01 | Big Five Inventory 2, Item 1 | -2 = stimme überhaupt nicht zu (fully disagree) to 2 stimme voll und ganz zu (fully agree) |
+| ... | | | 
 
 
  
