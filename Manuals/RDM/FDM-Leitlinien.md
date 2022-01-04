@@ -237,11 +237,11 @@ OSF
 + Die FDM-Leitlinien können durch eine individuelle Onboarding-Checkliste mit Informationen zur Arbeitsweise innerhalb einer Forschungsgruppe ergänzt werden 
 
 > Beispiel einer Onboarding-Checkliste 
-+ wie werden Dateien benannt
-+ wo ist was auf dem Laufwerk zu finden/abzulegen
-+ wer in der Gruppe ist Ansprechpartner für welches Thema, welche Software, etc. 
-+ Hinweise zum Umgang mit Datenschutz
-+ Hinweise zur Verwertung der Daten nach Projekteende+ …
+> + wie werden Dateien benannt
+> + wo ist was auf dem Laufwerk zu finden/abzulegen
+> + wer in der Gruppe ist Ansprechpartner für welches Thema, welche Software, etc. 
+> + Hinweise zum Umgang mit Datenschutz
+> + Hinweise zur Verwertung der Daten nach Projekteende+ …
 
 ### Wissensmanagement Offboarding
 + Der Offboarding-Prozess umfasst die Bereinigung und Übergabe von Daten 
