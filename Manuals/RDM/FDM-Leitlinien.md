@@ -1,5 +1,7 @@
 # Leitlinien für das Forschungsdatenmanagement (FDM) an der Fakultät Psychologie der TU Dresden
 
+<!-- This page has been "parked" here while it is under development. It will be transferred to an own GitHub project as soon as  it is in a prefinal stage and ready for discussion in the Faculty of Psychology. Still, all members of AG.DPP are invited to contribute to it. -->
+
 **R**ichtlinien für **T**ransparentes **F**orschungsdaten-**M**anagement 
 
 ## Änderungsverlauf
@@ -31,7 +33,7 @@
 
 „Die langfristige Sicherung und Bereitstellung der Forschungsdaten leistet einen Beitrag zur Nachvollziehbarkeit und Qualität der wissenschaftlichen Arbeit und eröffnet wichtige Anschlussmöglichkeiten für die weitere Forschung.“ Quelle: [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/leitlinien_forschungsdaten.pdf)
 
-Die vorliegenden Leitlinien sollen dazu beitragen, als Fakultät dem oben formulierten Maßstab gerecht zu werden. 
+Die vorliegenden Leitlinien sollen dazu beitragen, als Fakultät dem oben formulierten Maßstab gerecht zu werden.  
 
 ***Definition Forschungsdaten*** 
 
