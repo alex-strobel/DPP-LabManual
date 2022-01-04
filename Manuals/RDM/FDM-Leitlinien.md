@@ -72,7 +72,7 @@
 + [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/leitlinien_forschungsdaten.pdf)
 + [DGPs-Empfehlungen zum Umgang mit Forschungsdaten im Fach Psychologie](https://econtent.hogrefe.com/doi/10.1026/0033-3042/a000341)<!-- Einarbeitung relevanter Punkte erfolgt durch Team Forschungsdaten der Fakultät Psychologie) -->
 + [Satzung zur Sicherung guter wissenschaftlicher Praxis](https://tu-dresden.de/tu-dresden/qualitaetsmanagement/ressourcen/dateien/Amtliche-Bekanntmachung.pdf?lang=de) der TU Dresden<br>
-+ [Leitlinien für den Umgang mit Forschungsdaten an der TU Dresden](https://tu-dresden.de/tu-dresden/qualitaetsmanagement/ressourcen/dateien/wisprax/Leitlinien-fuer-den-Umgang-mit-Forschungsdaten-an-der-TU-Dresden.pdf)
++ [Leitlinien für den Umgang mit Forschungsdaten an der TU Dresden](https://tu-dresden.de/tu-dresden/qualitaetsmanagement/ressourcen/dateien/wisprax/Leitlinien-fuer-den-Umgang-mit-Forschungsdaten-an-der-TU-Dresden.pdf)<br>
 Paragraphen mit Bezug zum Forschungsdatenmanagement:<br>
 § 7 Phasenübergreifende Qualitätssicherung im Forschungsprozess<br>
 § 8 Wissenschaftliche Veröffentlichungen
