@@ -1,6 +1,6 @@
 # Leitlinien für das Forschungsdatenmanagement (FDM) an der Fakultät Psychologie der TU Dresden
 
-**Re**se**a**rch **d**ata **m**anagement. **e**xecutive **t**e**xt**
+**R**ichtlinien für **T**ransparentes **F**orschungsdaten-**M**anagement 
 
 ## Änderungsverlauf
 
