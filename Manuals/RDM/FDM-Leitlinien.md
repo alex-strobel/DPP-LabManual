@@ -101,13 +101,13 @@ Paragraphen mit Bezug zum Forschungsdatenmanagement:<br>
 + Der Umfang der Dokumentation richtet sich nach der Zielgruppe: Dokumentationen werden nicht für fachfremdes Personal geschrieben, sondern für Kolleg:innen mit ähnlichem Ausbildungsniveau
 + Im Idealfall befindet sich in jedem Ordner eine kurze Text-Datei (Readme.txt), die den Inhalt des Ordners beschreibt (auch als „Leseanleitungen“ oder „Ordner-Steckbrief“ bezeichnet)
 + Allgemeine Dokumentationen sollten an zentraler Stelle (z.B. oberste Hierarchie-Ebene auf dem Gruppenlaufwerk) abgelegt werden; sämtliche Dokumente sollten eindeutig benannt werden; bei vielen Dokumenten kann es sich lohnen, eine Übersicht (z.B. Excel) zu führen (Liste aktuell halten -> verantwortliche Person bestimmen) 
-  + Code-Books:  Erklärungen zur Bedeutung verwendeter Variablen und Abkürzungen 
+  + Code-Books: Erklärungen zur Bedeutung verwendeter Variablen und Abkürzungen <!-- Eine mögliche Vorlage für ein „Code-Book“ bei der Professur „Abhängiges Verhalten“ --> 
   + Manuale: detaillierte Beschreibung von Forschungsabläufen 
-  + Versionskontrolle: Modifikationen an Dateien werden durch Dokumentation, z.B. in einer Word-Datei, erfasst; Ziel ist die Nachvollziehbarkeit, die „Data Lineage“
+  + Versionskontrolle: Modifikationen an Dateien werden durch Dokumentation, z.B. in einer Word-Datei, erfasst; Ziel ist die Nachvollziehbarkeit, die „Data Lineage“ <!-- Beispiel eines solchen Dokuments sind die Readme-Dokumente der der Professur „Arbeitspsychologie“ -->
   + Skripte (Python, R-Code, Matlab, etc.): relevante Informationen in Header und In-line Kommentare dokumentieren 
-+ Weiterführende Links
-  + Vorlage Readme.txt (s.a. den [Guide to writing "readme" style metadata](https://data.research.cornell.edu/content/readme))
-  + Vorlage Code-Book
++ Weiterführende Links <!-- Beispiel eines auskommentiertes R-Skripts bei der Professur „Kognitive Modellierung“ -->
+  + [Vorlage Readme.txt](#readme.txt) (s.a. den [Guide to writing "readme" style metadata](https://data.research.cornell.edu/content/readme))
+  + [Vorlage Code Book](#vorlage-code-book)
 
 ### Datenarchivierung
 
@@ -303,16 +303,16 @@ Paragraphen mit Bezug zum Forschungsdatenmanagement:<br>
   + ggf. Link zu REDCap-Templates
   + ggf. Link zu OSF-Template
 + IT-Dienste des ZIH
-  + Buchung von IT-Services des ZUH über das Self Service Portal
-  + Zentrale Datenspeicher der TU Dresden: Gruppenlaufwerke
-  + Verschlüsselung von Laufwerken mit Boxcryptor 
-  + Cloudstore der TU Dresden
-  + Versendung verschlüsselter Mails mit Secure Mail
+  + Buchung von IT-Services des ZIH über das [Self Service Portal](https://selfservice.zih.tu-dresden.de/l/index.php/spor/request-form/)
+  + Zentrale Datenspeicher der TU Dresden: [Gruppenlaufwerke](https://tu-dresden.de/zih/dienste/service-katalog/arbeitsumgebung/datenspeicher/details)
+  + Verschlüsselung von Laufwerken mit [Boxcryptor](https://tu-dresden.de/tu-dresden/organisation/zentrale-universitaetsverwaltung/dezernat-3-zentrale-angelegenheiten/sg-3-5-informationssicherheit/tud-cert/dateiverschluesselung-boxcryptor) 
+  + [Cloudstore](https://tu-dresden.de/zih/dienste/service-katalog/zusammenarbeiten-und-forschen/datenaustausch/cloudstore) der TU Dresden
+  + Versendung verschlüsselter Mails mit [Secure Mail](https://tu-dresden.de/tu-dresden/organisation/zentrale-universitaetsverwaltung/dezernat-3-zentrale-angelegenheiten/sg-3-5-informationssicherheit/securemail)
 + Datenschutz
-  + Übersicht Creative Commons Lizenzen
-  + Professur für Urheberrecht und geistige Eigentum der TU Dresden
-  + Datenschutzbeauftragte der TU Dresden 
-+ Links mit administrativen Informationen, z.B. Anleitungen zu Verwaltungsabläufen der Fakultät oder Leitfaden für die Anfertigung von Masterarbeiten
+  + Übersicht [Creative Commons Lizenzen](https://www.bertelsmann-stiftung.de/fileadmin/files/BSt/Publikationen/Infomaterialien/IN_Freie_Lizenzen_-_einfach_erklaert_Poster_2017_07_20.pdf) bzw. [Creative Commons Licence Chooser](https://chooser-beta.creativecommons.org)
+  + [Professur für Urheberrecht und geistiges Eigentum](https://tu-dresden.de/gsw/phil/irget/jfbimd13/die-professur) der TU Dresden
+  + [Datenschutzbeauftragte:r](https://tu-dresden.de/tu-dresden/organisation/gremien-und-beauftragte/beauftragte/datenschutzbeauftragter) der TU Dresden 
++ Links mit administrativen Informationen, z.B. Anleitungen zu Verwaltungsabläufen der Fakultät oder Leitfaden für die Anfertigung von [Bachelorarbeiten](https://tu-dresden.de/mn/psychologie/ressourcen/dateien/studium/dokumentencenter/Leitfaden-Anfertigung-Bachelorarbeiten.pdf?lang=de) bzw. [Masterarbeiten](https://tu-dresden.de/mn/psychologie/ressourcen/dateien/studium/dokumentencenter/Leitfaden-Anfertigung-Masterarbeiten.pdf?lang=de)
   + ggf. Liste mit Weiterbildungsangeboten (Zentrum für Weiterbildung, SLUB, Graduiertenakademie) und nützlichen Links (z.B. zu Video-Tutorials)
   + ggf. Glossar mit Begriffen aus dem Kontext FDM und Fakultät Psychologie
 
