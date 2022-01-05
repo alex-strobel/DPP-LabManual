@@ -1,6 +1,7 @@
 ## Ausgangspunkt
 
-„Die langfristige Sicherung und Bereitstellung der Forschungsdaten leistet einen Beitrag zur Nachvollziehbarkeit und Qualität der wissenschaftlichen Arbeit und eröffnet wichtige Anschlussmöglichkeiten für die weitere Forschung.“ Quelle: [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/leitlinien_forschungsdaten.pdf)
+„Die langfristige Sicherung und Bereitstellung der Forschungsdaten leistet einen Beitrag zur Nachvollziehbarkeit und Qualität der wissenschaftlichen Arbeit und eröffnet wichtige Anschlussmöglichkeiten für die weitere Forschung.“<br> 
+Quelle: [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/leitlinien_forschungsdaten.pdf)
 
 Ausgehend von den 2015 formulierten Leitlinien der Deutschen FOrschungsgemeinschaft (DFG) hat die Technische Universität Dresden (TU Dresden) im Jahr 2018 [Leitlinien für den Umgang mit Forschungsdaten an der TU Dresden](https://tu-dresden.de/tu-dresden/qualitaetsmanagement/ressourcen/dateien/wisprax/Leitlinien-fuer-den-Umgang-mit-Forschungsdaten-an-der-TU-Dresden.pdf) beschlossen. Diese sind - ungeachtet der für die Psychologie konkretisierten [Empfehlungen der Deutschen Gesellschaft für Psychologie (DGPs)](https://econtent.hogrefe.com/doi/10.1026/0033-3042/a000341) für den Umgang mit Forschungsdaten aus dem Jahr 2016) - für die Fakultät Psychologie bindend. Sie lauten wie folgt (Version vom 13.06.2018, jeweils mit einem Schlagwort versehen):
 
