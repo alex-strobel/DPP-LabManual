@@ -42,4 +42,4 @@ Die vorliegenden Leitlinien sollen dazu beitragen, als Fakultät dem oben formul
 
 ---
 
-[**Inhaltsverzeichnis**](RTFM_00_Inhalt.md) | [zurück zu **Ausgangspunkt**](RTFM_01_Ausgangspunkt) | [weiter zu **Zweck der Richtlinien**](RTFM_02_Zweck.md)
+[**Inhaltsverzeichnis**](RTFM_00_Inhalt.md) | [zurück zu **Ausgangspunkt**](RTFM_01_Ausgangspunkt.md) | [weiter zu **Zweck der Richtlinien**](RTFM_02_Zweck.md)
