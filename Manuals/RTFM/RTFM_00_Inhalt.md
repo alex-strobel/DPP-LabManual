@@ -5,7 +5,7 @@ aus den [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/downl
 
 ## Inhalt
 
-[Ausgangspunkt]()
+[Ausgangspunkt](RTFM_01_ausgangspunkt.md)
 
 [Zweck der FDM-Leitlinien](#zweck-der-fdm-leitlinien)
 
