@@ -9,14 +9,14 @@ aus den [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/downl
 
 [Ausgangspunkt](RTFM_01_Ausgangspunkt.md)
 
-[Zweck der FDM-Leitlinien](#zweck-der-fdm-leitlinien)
+[Zweck der FDM-Leitlinien](RTFM_02_Zweck.md)
 
-[FDM-Kernprozesse](#fdm-kernprozesse)
-+ [Datenmanagementplan](#datenmanagementplan)
-+ [Datendokumentation](#datendokumentation)
-+ [Datenarchivierung](#datenarchivierung)
-+ [Datenpublikation](#datenpublikation)
-+ [Datenschutz](#datenschutz)
+[FDM-Kernprozesse](RTFM_03_Kernprozesse)
++ [Datenmanagementplan](RTFM_03_Kernprozesse#datenmanagementplan)
++ [Datendokumentation](RTFM_03_Kernprozesse#datendokumentation)
++ [Datenarchivierung](RTFM_03_Kernprozesse#datenarchivierung)
++ [Datenpublikation](RTFM_03_Kernprozesse#datenpublikation)
++ [Datenschutz](RTFM_03_Kernprozesse#datenschutz)
 
 [Unterstützende Prozesse für das FDM](#unterstützende-prozesse-für-das-fdm)
 + [Datenorganisation](#datenorganisation)
