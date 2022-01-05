@@ -116,3 +116,7 @@ aus den [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/downl
 >+ wen haben Sie für Erstellung bzw. Verwendung der Daten häufig kontaktiert?
 >+ wer hat Sie bzgl. der Verwendung der Daten häufig kontaktiert?
 >+ wie kann Ihr Nachfolger Sie erreichen?
+
+---
+
+[**Inhaltsverzeichnis**](RTFM_00_Inhalt.md) | [zurück zu **Kernprozesse**](RTFM_03_Kernprozesse.md) | [weiter zu **Ressourcen und Vorlagen**](RTFM_04_Support.md)

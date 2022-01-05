@@ -125,4 +125,4 @@ Paragraphen mit Bezug zum Forschungsdatenmanagement:<br>
 
 ---
 
-[**Inhaltsverzeichnis**](RTFM_00_Inhalt.md) | [zurück zu **Zweck der Richtlinien**](RTFM_02_Zweck.md) | [weiter zu **Unterstützende Prozesse**](RTFM_04_Supportprozesse.md)
+[**Inhaltsverzeichnis**](RTFM_00_Inhalt.md) | [zurück zu **Zweck der Richtlinien**](RTFM_02_Zweck.md) | [weiter zu **Unterstützende Prozesse**](RTFM_04_Support.md)
