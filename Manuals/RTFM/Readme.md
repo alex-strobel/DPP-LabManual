@@ -24,3 +24,9 @@ aus den [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/downl
 + [Wissensmanagement Offboarding](#wissensmanagement-offboarding)
 
 [Ressourcen und Vorlagen](#ressourcen-und-vorlagen)
+
+## Anmerkung
+
+Alle Mitglieder der Fakultät Psychologie sind eingeladen, an diesem Dokument mitzuarbeiten und es stetig an sich verändernde Bedingungen, neue Erkenntnisse und Werkzeuge des Forschungsdatenmanagements anzupassen. Dies kann entweder in Form einer Contributorship geschehen (die einen GitHub Account voraussetzt), dann bitte den Accountnamen an [Alexander Strobel](mailto:alexander.strobel@tu-dresden.de) mailen mit der Bitte, als Contributor aufgenommen zu werden. Alternativ können Änderungs- oder Verbesserungsvorschläge ebenfalls per Mail an [Alexander Strobel](mailto:alexander.strobel@tu-dresden.de) geschickt werden.
+
+Künftige Weiterentwicklungen umfassen die Erstellung eines Wiki-
