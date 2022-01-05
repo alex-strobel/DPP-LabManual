@@ -1,4 +1,11 @@
-# Ausgangspunkt
+# Richtlinien für Transparenz im Forschungsdaten-Management
+
+> „Die langfristige Sicherung und Bereitstellung der Forschungsdaten leistet einen Beitrag zur Nachvollziehbarkeit und Qualität der wissenschaftlichen Arbeit und eröffnet wichtige Anschlussmöglichkeiten für die weitere Forschung.“
+aus den DFG-Leitlinien zum Umgang mit Forschungsdaten
+
+---
+
+## Ausgangspunkt
 
 Ausgehend von den 2015 formulierten Leitlinien der Deutschen Forschungsgemeinschaft (DFG) hat die Technische Universität Dresden (TU Dresden) im Jahr 2018 [Leitlinien für den Umgang mit Forschungsdaten an der TU Dresden](https://tu-dresden.de/tu-dresden/qualitaetsmanagement/ressourcen/dateien/wisprax/Leitlinien-fuer-den-Umgang-mit-Forschungsdaten-an-der-TU-Dresden.pdf) beschlossen. Diese sind - ungeachtet der für die Psychologie konkretisierten [Empfehlungen der Deutschen Gesellschaft für Psychologie (DGPs)](https://econtent.hogrefe.com/doi/10.1026/0033-3042/a000341) für den Umgang mit Forschungsdaten aus dem Jahr 2016) - für die Fakultät Psychologie bindend. Sie lauten wie folgt (Version vom 13.06.2018, jeweils mit einem Schlagwort versehen):
 
@@ -29,5 +36,7 @@ Gemäß *Leitlinie 2. Verantwortlichkeit* liegt die Verantwortung dafür bei den
 
 Mit den vorliegenden **R**ichtlinien für **T**ransparentes **F**orschungsdaten-**M**anagement (**RTFM**) wird ein Mittelweg beschritten: Alle Elemente eines den Leitlinien der TU Dresden entsprechendenden Forschungsdatenmanagements werden addressiert bzw. konkretisiert, und es werden beispielhaft Vorschläge zu deren Umsetzung unterbreitet. Gleichwohl verbleibt es im Ermessen und der Verantwortung der eigenverantwortlich Forschenden, ihr Forschungsdatenmanagement gemäß der Leitlinien der TU Dresden und der hier unterbreiteten Vorschläge auszugestalten.
 
-# Inhalt
+---
+
+[**Inhaltsverzeichnis**](RTFM_00_Inhalt.md) | [weiter zu **Zweck der Richtlinien**](RTFM_02_Zweck.md)
 
