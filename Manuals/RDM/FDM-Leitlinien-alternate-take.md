@@ -7,7 +7,9 @@ Ausgehend von den 2015 formulierten Leitlinien der Deutschen FOrschungsgemeinsch
 >***Leitlinien***
 >
 >**1. Forschungsdatenmanagement (FDM):** Verantwortungsvolle Forschung geht einher mit einem bewussten und sorgfältigen Umgang mit Forschungsdaten über deren gesamten Lebenszyklus, wie es die DFG in ihren „Leitlinien zum Umgang mit Forschungsdaten“ formuliert. Forschungsdatenmanagement umfasst die Planung, Gewinnung, Verarbeitung, Dokumentation, Publikation und langfristige Aufbewahrung der Daten.
+>
 >**2. Verantwortlichkeit:** Die Verantwortung für das Forschungsdatenmanagement liegt bei den Projektleiterinnen und Projektleitern sowie eigenverantwortlich Forschenden. Die Struktureinheiten (Bereiche, Fakultäten oder Institute) können für ihren Verantwortungsbereich verbindliche Regeln festlegen.
+>
 >**3. Data Management Plan:** Für Projekte mit Forschungsdaten soll, basierend auf allgemeinen und fachspezifischen Richtlinien (z.B. der Fördermittelgeber oder Fachgesellschaften), möglichst schon bei Projektkonzeption bzw. -antragstellung ein „Data Management Plan“ erstellt werden, der den Umgang mit Forschungsdaten
 dokumentiert.
 >**4. Kontaktstelle Forschungsdaten:** Die TU Dresden unterstützt die Wissenschaftlerinnen und Wissenschaftler beim Forschungsdatenmanagement durch eine „Kontaktstelle Forschungsdaten“, die gemeinsam vom ZIH und der SLUB betrieben wird. Sie bietet Beratung bei der Entwicklung von Konzepten und Unterstützung durch Werkzeuge des Forschungs- datenmanagements an. Dafür ist eine frühzeitige Kontaktaufnahme vor oder zu Projektbeginn erforderlich.
