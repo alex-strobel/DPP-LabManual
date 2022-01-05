@@ -119,4 +119,4 @@ aus den [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/downl
 
 ---
 
-[**Inhaltsverzeichnis**](RTFM_00_Inhalt.md) | [zurück zu **Kernprozesse**](RTFM_03_Kernprozesse.md) | [weiter zu **Ressourcen und Vorlagen**](RTFM_04_Support.md)
+[**Inhaltsverzeichnis**](RTFM_00_Inhalt.md) | [zurück zu **FDM-Kernprozesse**](RTFM_03_Kernprozesse.md) | [weiter zu **Ressourcen und Vorlagen**](RTFM_05_Ressourcen.md)

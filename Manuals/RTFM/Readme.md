@@ -18,9 +18,9 @@ aus den [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/downl
 + [Datenpublikation](RTFM_03_Kernprozesse.md#datenpublikation)
 + [Datenschutz](RTFM_03_Kernprozesse.md#datenschutz)
 
-[Unterstützende Prozesse für das FDM](RTFM_04_Support.md)
-+ [Datenorganisation](RTFM_04_Support.md#datenorganisation)
-+ [Wissensmanagement Onboarding](RTFM_04_Support.md#wissensmanagement-onboarding)
-+ [Wissensmanagement Offboarding](RTFM_04_Support.md#wissensmanagement-offboarding)
+[Unterstützende Prozesse für das FDM](#unterstützende-prozesse-für-das-fdm)
++ [Datenorganisation](#datenorganisation)
++ [Wissensmanagement Onboarding](#wissensmanagement-onboarding)
++ [Wissensmanagement Offboarding](#wissensmanagement-offboarding)
 
-[Ressourcen und Vorlagen](RTFM_05_Ressourcen.md)
+[Ressourcen und Vorlagen](#ressourcen-und-vorlagen)
