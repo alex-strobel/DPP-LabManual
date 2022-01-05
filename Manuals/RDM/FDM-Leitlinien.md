@@ -3,7 +3,6 @@
 <!-- This page has been "parked" here while it is under development. It will be transferred to an own GitHub project as soon as  it is in a prefinal stage and ready for discussion in the Faculty of Psychology. Still, all members of AG.DPP are invited to contribute to it. -->
 
   
-
 ## Änderungsverlauf
 
 | Version |	Datum	     | Änderungen	| Bearbeiter	|
