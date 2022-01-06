@@ -7,9 +7,6 @@ aus den [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/downl
 
 ## Zweck der FDM-Leitlinien
 
-> „Die langfristige Sicherung und Bereitstellung der Forschungsdaten leistet einen Beitrag zur Nachvollziehbarkeit und Qualität der wissenschaftlichen Arbeit und eröffnet wichtige Anschlussmöglichkeiten für die weitere Forschung.“<br>
-aus den [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/leitlinien_forschungsdaten.pdf)
-
 Die vorliegenden Leitlinien sollen dazu beitragen, als Fakultät dem oben formulierten Maßstab gerecht zu werden.  
 
 ### Definition Forschungsdaten 
