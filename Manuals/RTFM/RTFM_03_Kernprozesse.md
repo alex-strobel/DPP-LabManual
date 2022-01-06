@@ -25,7 +25,7 @@ Paragraphen mit Bezug zum Forschungsdatenmanagement:<br>
 
 #### Grundlage
 
-+ DFG-Leitlinie 1: „Projektplanung und Antragstellung „In einem Antrag sollten die Antragstellenden daher ausführen, welche Forschungsdaten im Verlauf eines wissenschaftlichen Forschungsvorhabens entstehen, erzeugt oder ausgewertet werden […] Die einschlägigen Erläuterungen müssen Informationen zu Datentypen, falls vorhanden zu disziplinspezifischen Standards und zur Wahl geeigneter Repositorien enthalten […]. Zusätzlich werden Angaben zu ggf. betroffenen Rechten Dritter sowie erste Planungen zum zeitlichen Rahmen der Datenveröffentlichung erbeten.“
++ DFG-Leitlinie 1: „Projektplanung und Antragstellung „In einem Antrag sollten die Antragstellenden daher ausführen, welche Forschungsdaten im Verlauf eines wissenschaftlichen Forschungsvorhabens entstehen, erzeugt oder ausgewertet werden […]. Die einschlägigen Erläuterungen müssen Informationen zu Datentypen, falls vorhanden zu disziplinspezifischen Standards und zur Wahl geeigneter Repositorien enthalten […]. Zusätzlich werden Angaben zu ggf. betroffenen Rechten Dritter sowie erste Planungen zum zeitlichen Rahmen der Datenveröffentlichung erbeten.“
 + TUD-Leitlinie 3: „Für Projekte mit Forschungsdaten soll, basierend auf allgemeinen und fachspezifischen Richtlinien (z.B. der Fördermittelgeber oder Fachgesellschaften), möglichst schon bei Projektkonzeption bzw. -antragstellung ein „Data Management Plan“ erstellt werden, der den Umgang mit Forschungsdaten dokumentiert.“
 
 #### Umsetzung
