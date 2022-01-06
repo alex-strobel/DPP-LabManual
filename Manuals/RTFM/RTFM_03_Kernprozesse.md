@@ -30,7 +30,7 @@ Paragraphen mit Bezug zum Forschungsdatenmanagement:<br>
 
 #### Umsetzung
 
-Relevante Aspekte, auf die in einem Datenmanagementplan eingegangen werden sollte, finden sich hier:
+Relevante Aspekte, auf die in einem Datenmanagementplan <!-- im Satz darüber steht es englisch - vielleicht lieber einheitlich und durchgäng deutsch oder englisch? --> eingegangen werden sollte, finden sich hier:
 
 + [DFG-Checkliste zum Umgang mit Forschungsdaten](https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/forschungsdaten_checkliste_de.pdf) 
 
