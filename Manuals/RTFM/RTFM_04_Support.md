@@ -21,20 +21,20 @@ aus den [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/downl
 #### Umsetzung
 
 + Datenablage  <!-- ergänzen durch Team Forschungsdaten -->
-  + Zum Einsatz kommen ZIH-Dienste wie Gruppenlaufwerke oder SharePoint
-  + Für bestimmte Anwendungsfälle kommt REDCap zum Einsatz 
+  + Zum Einsatz kommen ZIH-Dienste wie Gruppenlaufwerke, Cloudstore oder SharePoint.
+  + Für bestimmte Anwendungsfälle kommt REDCap zum Einsatz. 
 + Gruppenlaufwerke/Ordnerstrukturen
-  + Für jedes Gruppenlaufwerk sollte eine Ansprechperson benannt werden und allen Mitarbeitenden bekannt sein; die Ansprechperson steht für Nachfragen zur Verfügung („Wo legt man diese und jene Datei ab?“), die Ansprechperson führt aber auch regelmäßig Qualitätskontrollen auf dem Gruppenlaufwerk durch 
+  + Für jedes Gruppenlaufwerk sollte eine Ansprechperson benannt werden und allen Mitarbeitenden bekannt sein; die Ansprechperson steht für Nachfragen zur Verfügung („Wo legt man diese und jene Datei ab?“), die Ansprechperson führt regelmäßig Qualitätskontrollen auf dem Gruppenlaufwerk durch 
   + Grundlegende Vorschläge für die Ordnerstruktur:
-    + Berufliche Daten von privaten Daten trennen
-    + Berufliche Daten aufteilen in Forschungsdaten und administrativen Daten 
+    + Berufliche Daten von privaten Daten trennen <!-- ??? -->
+    + Berufliche Daten aufteilen in Forschungsdaten und administrativen Daten <!-- ??? --> 
     + Forschungsdaten aufteilen in Rohdaten, verarbeitete Daten, finale Daten  
   + Weiterführende Links
     + Link zur Vorlage einer Referenzprojekt-Ordnerstruktur inkl. Readme.txt-Vorlage <!-- Folgende Professuren verwenden Ordnerstrukturen, die als Vorlage dienen könnten: „Behaviorale Psychotherapie“ und „Differentielle Psychologie“ -->
     + ggf. [BIDS](https://www.nature.com/articles/sdata201644)-Dateiablagesystem erwähnen
 
 >***Beispiel einer Checkliste für Datenpflege auf dem Gruppenlaufwerk***
-><!-- Mögliche Regelung: jede Forschungsgruppe soll auf Basis dieses Beispiels eine Checkliste ausarbeiten, im Gruppenlaufwerk ablegen, regelmäßig aufdatieren und anwenden -->
+>
 >*Datentransfer*
 >+ nur relevante Daten auf Gruppenlaufwerk ablegen <!-- Definition von „relevant“ ergänzen; im Zweifelsfall: Absprache im jeweiligen Team -->
 >+ Datei an korrekter Stelle einfügen [im Zweifel nachfragen bei…]
@@ -42,12 +42,12 @@ aus den [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/downl
 >
 >*Datenqualität*
 >+ Datenintegrität prüfen (Dateien nicht korrupt, d.h. lassen sich öffnen)
->+ Verifizierung der verwendeten Maßeinheiten/Abkürzungen gemäß Code-Book 
+>+ Verifizierung der verwendeten Maßeinheiten/Abkürzungen gemäß Code Book 
 >
 >*Dokumentation*
 >+ Ordner/Dateien gemäß Dateinamenskonvention benennen
->+ Codierungen aus Dateinamen und Spaltenköpfen im Code-Book hinterlegen
->+ Code-Book auf Aktualität und Vollständigkeit prüfen
+>+ Codierungen aus Dateinamen und Spaltenköpfen im Code Book hinterlegen
+>+ Code Book auf Aktualität und Vollständigkeit prüfen
 >+ Readme.txt anlegen bzw. aufdatieren
 >+ Skripte auskommentieren
 >+ Beschreibung des Prozessabläufe in Manualen anlegen bzw. auf Aktualität prüfen
@@ -56,6 +56,7 @@ aus den [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/downl
 >+ 10 min pro Woche einplanen für „Datenhygiene“ auf dem Gruppenlaufwerk (z.B. gemeinsam im Team-Meeting)
 >+ Fokus-Treffen, um gemeinsam Strukturen für Readme, Gruppenlaufwerke und weitere FDM-Regeln auszuarbeiten
 
+Jede Arbeitsgruppe sollte auf Basis dieses Beispiels eine Checkliste ausarbeiten, im Gruppenlaufwerk ablegen, regelmäßig aufdatieren und anwenden, sofern keine geeigneten alternativen Wegen der Datenpflege beschritten werden (die dann allerdings gleichermaßen für alle Arbeitsgruppenmitglieder verbindlichen, dokumentierten udn gut auffindbaren Regeln unterliegen müssen).
 
 ### REDCap <!-- in Struktur einpflegen/ergänzen durch Team Forschungsdaten -->
 <!-- Ob dieser Unterpunkt in die FDM-Leitlinie einfließen soll und in welchem Umfang ist noch offen; Professur „Differentielle Psychologie“ als Ansprechpartner für Umsetzung von Fragebögen und Schulung von Mitarbeitern bzgl. REDCap -->
