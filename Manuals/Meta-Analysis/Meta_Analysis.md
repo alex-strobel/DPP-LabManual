@@ -60,7 +60,7 @@ Further free software packages for doing meta-analysis are listed and shortly in
 
 ...
 
-In the following example, I use the data (and some adapted code) provided with the following paper:
+In the following example, I use the data (and some adapted code) provided with the following paper on the relationship between axiety measures and the amplitude of the error-related negativity:
 
 > Saunders, B. & Inzlicht, M. (2020). Assessing and adjusting for publication bias in the relationship between anxiety and the error-related negativity. *International Journal of Psychophysiology, 155*, 87-98. https://doi.org/10.1016/j.ijpsycho.2020.05.008.
 
@@ -70,36 +70,45 @@ on the respective OSF project website:
 
 Many thanks to Blair Saunders and Michael Inzlicht!!!
 
-Let us first setup our analyses and then run a meta-analysis using the `meta` package:
+Let us first setup our analyses and then run a meta-analysis using the `metafor` package:
 
 ```
 # required packages ----
-library(meta)      # for meta analysis
 library(metafor)   # for meta analysis
 library(DescTools) # for Fisher Z transformation of correlations
 
 # load data ----
 AnxOverall <- read.delim("https://raw.githubusercontent.com/BlairSaunders/AnxietyERN/master/AnxOverall.csv", header=TRUE, sep = ",")
 
-# run meta-analysis using the meta package ----
-rma_meta = metacor(cor = AnxOverall$r, n = AnxOverall$n, studlab = AnxOverall$id) 
+# run meta-analysis ----
 
-# forest and funnel plot
-forest(rma_meta)
-funnel(rma_meta)
-metabias(rma_meta, method.bias = "Egger")
+# transform correlations to Z scores
+Zscores <- escalc(measure = "ZCOR", ri = AnxOverall$r, ni = AnxOverall$n, data = AnxOverall) 
+
+# now run meta-analysis
+Zmeta <- rma(yi, vi, data = Zscores, slab = AnxOverall$id) 
+
+# get back-transformed effect size estimate and 95% CI 
+Zmeta.predict <- predict(Zmeta, digits = 4, transf = transf.ztor)
+
+# get confidence intervals for heterogeneity measures
+Zmeta.confint <- confint(Zmeta)
 ```
-
+The above code gives the random-effects meta-analysis result of the association between anxiety measures and the amplitude of the error-related negativity, &rho; = -.19, 95% CI [-.24, -.14]. This result may be inaccurate due to possible publication bias, so we need to assess possible publication bias and try to correct for it. Apart from that, there is evidence for heterogeneity across samples, because *Q*(57) = 121.63, *p* < .001. This needs to be adressed as well via, e.g., meta-regression (see below). But first things first. 
 
 # Assessing publication bias 
 
 ## Funnel plot
 
-## Egger’s test for funnel plot asymmetry
+## Eggers test for funnel plot asymmetry
 
-## Trim and Fill method
+## Trim and Fill
 
-## Peter’s test
+## Peters test
 
 ## PET & PEESE
+
+# Adressing heterogeneity
+
+...
 
