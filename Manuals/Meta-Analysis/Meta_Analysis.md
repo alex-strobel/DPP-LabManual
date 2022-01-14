@@ -54,9 +54,9 @@ Further free software packages for doing meta-analysis are listed and shortly in
 
 + [13 Best Free Meta-Analysis Software To Use](https://toptipbio.com/free-meta-analysis-software/)
 
-# Fixed- vs. Random-Effects Meta-Analysis
+# Fixed- vs. random-effects meta-analysis
 
-I will quote the two in my opinion central points of this section here, because they contain the essence of the issue:
+A good introduction into the issue of fixed- and random-effects meta-analysis can be found in section 4.1 of [Harrer and colleagues (2002)](https://bookdown.org/MathiasHarrer/Doing_Meta_Analysis_in_R/pooling-es.html#fem-rem). I will quote the two in my opinion central points of this section here, because they contain the essence of the issue:
 
 > "The idea behind the fixed-effect model is that observed effect sizes may vary from study to study, but this is only because of the sampling error. In reality, their true effect sizes are all the same: they are fixed. [...] The random-effects model assumes that there is not only one true effect size but a distribution of true effect sizes. The goal of the random-effects model is therefore not to estimate the one true effect size of all studies, but the mean of the distribution of true effects." (from section 4.1 in Harrer et al., 2002)
 
