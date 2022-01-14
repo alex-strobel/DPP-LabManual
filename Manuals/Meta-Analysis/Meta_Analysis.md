@@ -106,7 +106,7 @@ Below I shortly introduce several methods for assessing and correcting for publi
 
 In a funnel plot, we plot the effect size against the corresponding standard errors (see Fig. 1A below).
 
-
+![Funnel plots](../Images/Manuals/Meta-Analysis/Funnel_plot.jpeg)
 
 ```
 # apply trim and fill method
