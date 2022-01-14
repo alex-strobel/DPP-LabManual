@@ -2,7 +2,7 @@
 
 [Alexander Strobel](mailto:alexander.strobel@tu-dresden.de)
 
-This is intended to be a quick guide to perform meta-anaylses using R. For a more elaborated and certainly also more accurate coverage of this topic, I strongly recommend:
+This is intended to be a quick guide to perform meta-anaylses using R. For a more elaborated and certainly also more accurate coverage of this topic, I strongly recommend the book on meta-analysis by [Harrer and colleagues (2002)](https://www.routledge.com/Doing-Meta-Analysis-with-R-A-Hands-On-Guide/Harrer-Cuijpers-Furukawa-Ebert/p/book/9780367610074) which can be accessed online here:
 
 + [Doing Meta-Analysis with R: A Hands-On Guide](https://bookdown.org/MathiasHarrer/Doing_Meta_Analysis_in_R/)
 
@@ -40,7 +40,7 @@ From my impression, the two most common R packages for meta-analysis are `meta` 
 
 ## Further recommendations
 
-If you are new to the R environment, you may want to resort to [JASP](https://jasp-stats.org) or [jamovi](https://www.jamovi.org) who both come with meta-analysis modules where using a GUI you can resort to `metafor` functions that do the hard job in the background. This is why below, I will not go into much detail with regard to the `meta` package, but will focus on `metafor`.
+If you are new to the R environment, you may want to resort to [JASP](https://jasp-stats.org) or [jamovi](https://www.jamovi.org) who both come with meta-analysis modules where using a GUI you can resort to `metafor` functions that do the hard job in the background. This is why below, I will not go into much detail with regard to the `meta` package (the book in linked at the outset of this document uses `meta` though), but will focus on `metafor`.
 
 Further free software packages for doing meta-analysis are listed and shortly introduced here:
 
@@ -58,19 +58,17 @@ Further free software packages for doing meta-analysis are listed and shortly in
 
 # Fixed- vs. Random-Effects Meta-Analysis
 
-...
+I will quote the two in my opinion central points of this section here, because they contain the essence of the issue:
 
-In the following example, I use the data (and some adapted code) provided with the following paper on the relationship between axiety measures and the amplitude of the error-related negativity:
+> "The idea behind the fixed-effect model is that observed effect sizes may vary from study to study, but this is only because of the sampling error. In reality, their true effect sizes are all the same: they are fixed. [...] The random-effects model assumes that there is not only one true effect size but a distribution of true effect sizes. The goal of the random-effects model is therefore not to estimate the one true effect size of all studies, but the mean of the distribution of true effects." (from section 4.1 in Harrer et al., 2002)
 
-> Saunders, B. & Inzlicht, M. (2020). Assessing and adjusting for publication bias in the relationship between anxiety and the error-related negativity. *International Journal of Psychophysiology, 155*, 87-98. https://doi.org/10.1016/j.ijpsycho.2020.05.008.
+As an (albeit not undisputed) rule of thumb, one may use the fixed-effects model when there is no between-study heterogeneity (see below) and the random-effects model otherwise - that is (because between-study heterogeneity will be the case more often than not): always.  
 
-on the respective OSF project website:
+In the following example of a random-effects meta-analysis of correlations, I use the data (and some adapted code) provided with the following paper on the relationship between anxiety measures and the amplitude of the error-related negativity at https://osf.io/8m6a2/:
 
-> https://osf.io/8m6a2/
+> Saunders, B. & Inzlicht, M. (2020). Assessing and adjusting for publication bias in the relationship between anxiety and the error-related negativity. *International Journal of Psychophysiology, 155*, 87-98. https://doi.org/10.1016/j.ijpsycho.2020.05.008. 
 
-Many thanks to Blair Saunders and Michael Inzlicht!!!
-
-Let us first setup our analyses and then run a meta-analysis using the `metafor` package:
+Many thanks to Blair Saunders and Michael Inzlicht!!! I recommend to go through their paper ([see here for an open access version](https://discovery.dundee.ac.uk/ws/files/49420569/ERNMeta_IJP_revision.pdf)) alongside with the reproduction of their results below. But first let us setup our analyses and then run a meta-analysis using the `metafor` package:
 
 ```
 # required packages ----
@@ -102,13 +100,7 @@ Below I shortly introduce several methods for assessing and correcting for publi
 
 > Carter, E. C., Schönbrodt, F. D., Gervais, W. M., Hilgard, J. (2019). Correcting for bias in psychology: A comparison of meta-analytic methods. *Advances in Methods and Practices in Psychological Science, 2*(2), 115–144. https://doi.org/10.1177%2F2515245919847196
 
-## Funnel plot
-
-In a funnel plot, we plot the effect size against the corresponding standard errors (see Fig. 1A below).
-
-![Funnel plots](https://github.com/alex-strobel/DPP-LabManual/blob/main/Images/Manuals/Meta-Analysis/funnel-plots.jpg)
-
-**Figure 1.** Funnel plots as tool to assess publication bias. (A) basic funnel plot referenced to the meta-analytically derived efect size (vertical line); (B) funnel plot with virtual studies filled by the trim and fill method; (C) contour-enhanced funnel plot referenced to zero 
+## Funnel plots
 
 ```
 # apply trim and fill method
@@ -122,7 +114,7 @@ funnel(Zmeta, xlim = c(-1.2, 1.2), ylim = c(.4,0), las = 1, legend = T)
 text(-1.2, -0.05, xpd = T, "A", cex=2)
 
 # B: funnel plot with virtual studies filled by the trim and fill method
-funnel(Zmeta.tf, xlim = c(-1.2, 1.2), ylim = c(.4,0), las = 1, legend = T)
+funnel(Zmeta_tf, xlim = c(-1.2, 1.2), ylim = c(.4,0), las = 1, legend = T)
 text(-1.2, -0.05, xpd = T, "B", cex=2)
 
 # C: contour-enhanced funnel plot
@@ -131,9 +123,40 @@ text(-1.2, -0.05, xpd = T, "C", cex=2)
 par(mfrow = c(1, 1))
 ``` 
 
+In a funnel plot (see, e.g., [Egger et al., 1997](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2127453/pdf/9310563.pdf)), the effect sizes of studies entering a meta-analysis is plotted against the corresponding standard errors (see Fig. 1A below). A vertical line indicates the meta-analytically derived effect size at which the plot is centered. The smaller the study, the larger is its standard error. Hence, small studies are located at the bottom of the polot, large studies at the top. Without publication bias, the plot resembles a symmetrical inverted funnel. An asymmetical plot would point to publication bias. As such an assessment is highly subjective, Egger and colleagues developed a regression-based test (see next section). An even more informative way of using a funnel plot for the assessment of publication bias is the so-called *contour-enhanced funnel plot* (Fig. 1C; see [Peters et al., 1997](https://doi.org/10.1016/j.jclinepi.2007.11.010)). This type of funnel plot is not centered at the meta-analytically derived efect size, but at zero (i.e., the effect size under the null hypothesis). Additionally, the plot provides information about regions of significance: all studies in the innermost region (here: white) far from insignificance (*p* > .10), while studies the outermost region are highly significant (*p* < .01). If there are many studies that cluster around conventional significance thresholds and only a few within the innermost region, this would be indicative that insignificant findings have been suppressed.    
+
+![Funnel plots](https://github.com/alex-strobel/DPP-LabManual/blob/main/Images/Manuals/Meta-Analysis/funnel-plots.jpg)
+
+**Figure 1.** Funnel plots as tool to assess publication bias. (A) basic funnel plot centered at the meta-analytically derived efect size (vertical line); (B) funnel plot with virtual studies filled by the trim and fill method; (C) contour-enhanced funnel plot centered at zero 
+
+In the present example, inspection of the funnel plot does not suggest asymmetry, neither for the basic not for the contour-enhanced funnel plot (see Saunders & Inzlicht, 2020)
+
+
 ## Eggers test for funnel plot asymmetry
 
+As said, simply inspecting a funnel plot results in subjective decisions, which is why [Egger and colleagues (1997)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2127453/pdf/9310563.pdf) developed a simple regression based test: the effect size is regressed on its standard error, weighted by the effect size’s inverse variance. In `metafor`, Egger's test in its classical form is performed via 
+
+```
+Zmeta_egger_lm = regtest(Zmeta, model="lm", predictor="sei")
+```
+
+Here the test is significant, *t*(56) = -2.09, *p* = .041. The estimate for the true effect size is the intercept of the fitted regression model, *b* = .046, 95%CI [-0.179, 0.089]. As you can read in the Notes section of the `regtest` help page, this is the same estimate as that obtained using the *precision-effect test* (PET); we will come back to this below. As you also can read in this section, the default of the regtest function is `model = "rma"`, and becuase we have run a random-effects meta-analysis, it seems more appropriate to use this default (just as Saunders and Inzlicht, 2020, did).
+
+```
+Zmeta_egger_rma = regtest(Zmeta)
+```
+
+In this case, the test is not significant, *z* = -1.72, *p* = 0.085, just as descriptively, we could not see any asymmetry in the funnel plot, and the adjusted effect size is *b* = -0.072, 95% CI [-0.210, 0.076]. So regardless of whether Egger's test in its classical form is performed or in its more appropriate random-effects form, the adjusted estimate of the effect size is far lower than the estimate of the random-effects meta-analysis (&rho; = .19, see above). 
+
 ## Trim and Fill
+
+The trim and fill method, developed by [Duvall and Tweedle (2000)](https://doi.org/10.1111/j.0006-341X.2000.00455.x), accounts for and imputes missing studies that make a funnel plot (more) symmetrical (see the white points in Fig. 1B). Based on this procedure, the adjusted effect size can be estimated. To use the authors own words to describe the approach:
+
+> "The trim and fill algorithm is based on a formalization of the qualitative approach using the funnel plot. Simply put, we trim off the asymmetric outlying part of the funnel after estimating how many studies are in the asymmetric part. We then use the symmetric remainder to estimate the true center of the funnel and then replace the trimmed studies and their missing counterparts around the center. The final estimate of the true mean, and also its variance, are then based on the filled funnel plot. (Duvall & Tweedle, 2000, pp.456-457)
+
+```
+
+
 
 ## Peters test
 
