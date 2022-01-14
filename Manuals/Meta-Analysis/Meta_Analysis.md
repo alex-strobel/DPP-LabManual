@@ -96,9 +96,38 @@ Zmeta.confint <- confint(Zmeta)
 ```
 The above code gives the random-effects meta-analysis result of the association between anxiety measures and the amplitude of the error-related negativity, &rho; = -.19, 95% CI [-.24, -.14]. This result may be inaccurate due to possible publication bias, so we need to assess possible publication bias and try to correct for it. Apart from that, there is evidence for heterogeneity across samples, because *Q*(57) = 121.63, *p* < .001. This needs to be adressed as well via, e.g., meta-regression (see below). But first things first. 
 
-# Assessing publication bias 
+# Assessing publication bias
+
+Below I shortly introduce several methods for assessing and correcting for publication bias in meta-analysis. An excellent paper on the performance of these and other methods is:
+
+> Carter, E. C., Schönbrodt, F. D., Gervais, W. M., Hilgard, J. (2019). Correcting for bias in psychology: A comparison of meta-analytic methods. *Advances in Methods and Practices in Psychological Science, 2*(2), 115–144. https://doi.org/10.1177%2F2515245919847196
 
 ## Funnel plot
+
+In a funnel plot, we plot the effect size against the corresponding standard errors (see Fig. 1A below).
+
+
+
+```
+# apply trim and fill method
+Zmeta_tf=trimfill(Zmeta)
+
+# setup plot
+par(mfrow = c(1, 3))
+
+# A: basic funnel plot
+funnel(Zmeta, xlim = c(-1.2, 1.2), ylim = c(.4,0), las = 1, legend = T)
+text(-1.2, -0.05, xpd = T, "A", cex=2)
+
+# B: funnel plot with virtual studies filled by the trim and fill method
+funnel(Zmeta.tf, xlim = c(-1.2, 1.2), ylim = c(.4,0), las = 1, legend = T)
+text(-1.2, -0.05, xpd = T, "B", cex=2)
+
+# C: contour-enhanced funnel plot
+funnel(Zmeta, xlim = c(-1.2, 1.2), ylim = c(.4,0), las = 1, level=c(90, 95, 99), shade=c("white", "gray55", "gray75"), refline=0, legend = TRUE)
+text(-1.2, -0.05, xpd = T, "C", cex=2)
+par(mfrow = c(1, 1))
+``` 
 
 ## Eggers test for funnel plot asymmetry
 
