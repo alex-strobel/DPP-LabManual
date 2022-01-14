@@ -108,6 +108,8 @@ In a funnel plot, we plot the effect size against the corresponding standard err
 
 ![Funnel plots](https://github.com/alex-strobel/DPP-LabManual/blob/main/Images/Manuals/Meta-Analysis/funnel-plots.jpg)
 
+**Figure 1.** Funnel plots as tool to assess publication bias. (A) basic funnel plot referenced to the meta-analytically derived efect size (vertical line); (B) funnel plot with virtual studies filled by the trim and fill method; (C) contour-enhanced funnel plot referenced to zero 
+
 ```
 # apply trim and fill method
 Zmeta_tf=trimfill(Zmeta)
