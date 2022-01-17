@@ -22,7 +22,7 @@ Die vorliegenden Leitlinien sollen dazu beitragen, als Fakultät dem oben formul
 ### Ziel dieser Leitlinien
 
 + Eine nachvollziehbare Datenorganisation innerhalb der Fakultät für Psychologie inkl. der Organisation des Wissens über diese Daten
-+ Es bestehen eine Reihe von Vorgaben für die Arbeit von Forschungsdaten: TUD, DFG und DGPs; diese Leitlinien geben Tipps für die praktische Umsetzung dieser Vorgaben im Forschungsalltag
++ Tipps für die praktische Umsetzung einer Reihe von Vorgaben für die Arbeit mit Forschungsdaten (durch TUD, DFG und DGPs) im Forschungsalltag geben
 + Abgrenzung des Begriffs Forschungsdatenmanagement zu anderen Bereichen
 + Projektmanagement: FDM-Maßnahmen können in die einzelnen Schritte des Forschungsprozesses eingehängt werden; FDM ersetzt nicht die eigentliche Planung des Forschungsprozesses 
 + Verantwortlichkeiten definieren: Jede:r Mitarbeitende ist für die Datenablage sowie Datendokumentation selbst verantwortlich. Die Kontrolle/Sicherstellung der Qualität liegt in der Verantwortung der Teamleitung
