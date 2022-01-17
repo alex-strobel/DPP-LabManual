@@ -26,7 +26,7 @@ Die vorliegenden Leitlinien sollen dazu beitragen, als Fakultät dem oben formul
 + Abgrenzung des Begriffs Forschungsdatenmanagement zu anderen Bereichen
 + Projektmanagement: FDM-Maßnahmen können in die einzelnen Schritte des Forschungsprozesses eingehängt werden; FDM ersetzt nicht die eigentliche Planung des Forschungsprozesses 
 + Verantwortlichkeiten definieren: Jede:r Mitarbeitende ist für die Datenablage sowie Datendokumentation selbst verantwortlich. Die Kontrolle/Sicherstellung der Qualität liegt in der Verantwortung der Teamleitung <!-- Kommentar Denise: das Ziel wäre ja 'nur' "Verantwortlichkeiten definieren", definiert würde es an anderer Stelle in der Leitlinie, noch nicht hier, oder?-->
-+ Open Science: FDM ist eine Voraussetzung für die Nachnutzung von Daten und damit auch eine Voraussetzung für Open (und Reproducible) <!-- Kommentar Christoph: Man könnte es nicht nur auf offene Forschung, sondern auch reproduzierbare Forschung ausweiten, oder? --> Science; FDM ist alledings nicht gleichzusetzen mit Open Science
++ Open Science: FDM ist eine Voraussetzung für die Nachnutzung von Daten und damit auch eine Voraussetzung für Open (und Reproducible) <!-- Kommentar Christoph: Man könnte es nicht nur auf offene Forschung, sondern auch reproduzierbare Forschung ausweiten, oder? --> Science; FDM ist allerdings nicht gleichzusetzen mit Open Science
 
 ### Unterstützung
 
