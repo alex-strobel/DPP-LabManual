@@ -17,7 +17,7 @@ Die vorliegenden Leitlinien sollen dazu beitragen, als Fakultät dem oben formul
 
 + Effizienz und Qualitätssicherung gemäß den [Richtlinien zur Sicherung guter wissenschaftlicher Praxis](https://tu-dresden.de/bu/verkehr/ressourcen/dateien/studium/richtlinien_zur_sicherung_guter_wissenschaftlicher_praxis) (GWP) der TU Dresden
 + Transparenz/Reproduzierbarkeit/Nachnutzung der eigenen Forschung 
-+ Rechtliche Vorgaben zum Datenschutz (DSGVO) 
++ Rechtliche Vorgaben zum Datenschutz (DSGVO) <!-- Kommentar von Denise: sind dies Ziele des FDM im engeren Sinne? Oder 'Rechtliche vorgaben zum Datenschutz einhalten'--> 
 
 ### Ziel dieser Leitlinien
 
