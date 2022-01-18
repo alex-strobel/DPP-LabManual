@@ -63,7 +63,7 @@ Obwohl Datenmanagementpläne vorrangig für Förderanträge zu erstellen sind, w
   + Skripte (Python, R-Code, Matlab, etc.): relevante Informationen in Header und In-line Kommentaren in einem Auflösungsgrad dokumentieren, der die Handhabung der Skripte durch Dritte möglich macht 
 + Versionskontrolle: Modifikationen an Dateien werden durch (digitale) Dokumentation erfasst; Ziel ist die Nachvollziehbarkeit, die „Data Lineage“ <!-- Beispiel eines solchen Dokuments sind die Readme-Dokumente der der Professur „Arbeitspsychologie“ --><!-- kommentar Denise: stimmt das? Hab ich da was zur Versionskontrolle drin? Eigentlich sollen nur die finalen Dokumente/Dateien auf das AO-FDM Laufwerk kopiert werden, diese sind wahrsch. zu jedem Meilenstein andere.--> Bei Nutzung von GitHub als Projektplattform ist die Versionskontrolle bereits "eingebaut".
 
-+ Weiterführende Links <!-- Beispiel eines auskommentiertes R-Skripts bei der Professur „Kognitive Modellierung“ -->
++ Weiterführende Links <!-- Beispiel eines auskommentiertes R-Skripts bei der Professur „Kognitive Modellierung“ --> <!-- Kommentar Denise: links führen noch nicht weiter, ist das gewollt?-->
   + [Vorlage Readme.txt](#readme.txt) (s.a. den [Guide to writing "readme" style metadata](https://data.research.cornell.edu/content/readme))
   + [Vorlage Code Book](#vorlage-code-book)
 
@@ -75,7 +75,7 @@ Obwohl Datenmanagementpläne vorrangig für Förderanträge zu erstellen sind, w
 
 + TUD-Leitlinie 8: „Forschungsdaten, die Grundlage einer Publikation bilden, sollen langfristig in einem geeigneten vertrauenswürdigen Datenarchiv bzw. Repositorium archiviert und/oder geeignet veröffentlicht werden. Sie sind Teil der wissenschaftlichen Reputation der Forschenden.“
 
-+ TUD Satzung GWP: § 7 (4) „Primärdaten als Grundlagen für Veröffentlichungen sind auf haltbaren und gesicherten Trägern in der Einrichtung, in der sie entstanden sind, aufzubewahren.“
++ TUD Satzung GWP: §7 (4) „Primärdaten als Grundlagen für Veröffentlichungen sind auf haltbaren und gesicherten Trägern in der Einrichtung, in der sie entstanden sind, aufzubewahren.“
 
 + TUD Satzung GWP: §7 (5) „In der Regel müssen die Primärdaten für zehn Jahre in der Einrichtung zugänglich bleiben. [...] In der Regel verbleiben die Originaldaten und -unterlagen am Entstehungsort; es können aber Duplikate angefertigt oder Zugangsrechte bestimmt werden. (6) Sind in den Primärdaten personenbeziehbare Daten enthalten – Einzelangaben über persönliche oder sachliche Verhältnisse einer bestimmten oder bestimmbaren natürlichen Person – so sind die Merkmale, mit deren Hilfe ein Personenbezug hergestellt werden kann, getrennt zu speichern; die Merkmale sind zu löschen, sobald der Forschungszweck dies zulässt. Insofern sind diese Daten aus den zu archivierenden Primärdaten zu entfernen. (8) Aus Gründen der Nachvollziehbarkeit, Anschlussfähigkeit der Forschung und Nachnutzbarkeit hinterlegen Wissenschaftler und Wissenschaftlerinnen, wenn immer möglich, die der Publikation zugrundeliegenden Forschungsdaten und zentralen Materialien – den FAIR-Prinzipien („Findable, Accessible, Interoperable, ReUsable“) folgend – zugänglich in anerkannten Archiven und Repositorien.“ 
 
@@ -92,7 +92,8 @@ Obwohl Datenmanagementpläne vorrangig für Förderanträge zu erstellen sind, w
   + in beiden Fällen werden die Daten i.d.R. nicht mehr verändert
 + Vorgehen bei der Datenarchivierung: 
   + Datenselektion: Welche erhobenen Daten sind für die Nachvollziehbarkeit von in einem Projekt gewonnenen Ergebnissen bzw. für die Nachnutzung erforderlich, welche müssen (s.u. [Datenschutz](#datenschutz)) oder können entfernt werden (z.B. Daten, die von Softwareanwendungen automatisch erhoben wurden, deren Berücksichtigung aber voraussichtlich bei einer etwaigen Nachnutzung der Daten keinem wissenschaftlichen Zweck dienlich sein wird, etwa der Browsertyp, in dem ein Online-Survey bearbeitet wurde) 
-  + Datenaufbereitung (analog zur „Checkliste für die Ablage von Daten auf dem Gruppenlaufwerk“ in Abschnitt 3 „Datenorganisation“); bei personenbezogenen Daten zusätzlich Anonymisierung oder Pseudonymisierung der Forschungsdaten; Unterstützung bietet die [Unabhängige Treuhandstelle der TU Dresden](https://tu-dresden.de/med/mf/forschung/services-fuer-forschende/unabhaengige-treuhandstelle) (aktuell im Aufbau ist auch die neue Datentreuhandstelle der TU Dresden: „DD Trust“)<!-- brauchen wir das? -->
+  + Datenaufbereitung (analog zur „Checkliste für die Ablage von Daten auf dem Gruppenlaufwerk“ in Abschnitt 3 „Datenorganisation“) 
+  + bei personenbezogenen Daten zusätzlich Anonymisierung oder Pseudonymisierung der Forschungsdaten; Unterstützung bietet die [Unabhängige Treuhandstelle der TU Dresden](https://tu-dresden.de/med/mf/forschung/services-fuer-forschende/unabhaengige-treuhandstelle) (aktuell im Aufbau ist auch die neue Datentreuhandstelle der TU Dresden: „DD Trust“)<!-- brauchen wir das? --> <!--Kommentar Denise: Da das immer wieder ein Einwand ist, finde ich schon, dass dies hier zur Sprache kommen sollte. Würde ich sogar als ExtraPunkt machen.-->
   + Verwendung geeigneter Dateiformate: im Falle von proprietären Dateiformaten sollten die Originaldaten zusätzlich in ein offenes Dateiformat exportiert und zusammen archiviert werden (z.B. \*.xlsx oder \*.sav + \*.csv)
   + Auswahl einer geeigneten Archivlösung, z.B. [Archivierung am ZIH](https://tu-dresden.de/zih/dienste/service-katalog/arbeitsumgebung/backup_archiv/archivierung_am_zih) der TU Dresden (OpARA oder Zwischenarchiv)
 
