@@ -26,9 +26,9 @@ aus den [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/downl
 + Gruppenlaufwerke/Ordnerstrukturen
   + Für jedes Gruppenlaufwerk sollte eine Ansprechperson benannt werden und allen Mitarbeitenden bekannt sein; die Ansprechperson steht für Nachfragen zur Verfügung („Wo legt man diese und jene Datei ab?“), die Ansprechperson führt regelmäßig Qualitätskontrollen auf dem Gruppenlaufwerk durch 
   + Grundlegende Vorschläge für die Ordnerstruktur:
-    + Berufliche Daten von privaten Daten trennen <!-- ??? -->
-    + Berufliche Daten aufteilen in Forschungsdaten und administrativen Daten <!-- ??? --> 
-    + Forschungsdaten aufteilen in Rohdaten, verarbeitete Daten, finale Daten  
+    + Berufliche Daten von privaten Daten trennen <!-- ??? --><!-- Kommentar Denise: das spielt m.E. hier keine Rolle, diese Richtlinien/Handreichung gilt für Forschungsdaten-->
+    + Berufliche Daten aufteilen in Forschungsdaten und administrativen Daten <!-- ??? --> <!--Kommentar Denise: hier könnte eine genauere Erklärung helfen, dass administrative Daten nur wichtig sind, wenn diese zum besseren Verständnis der Forschungsdaten notwendig sind, so haben wir in der AO ja beschlossen, die Projektanträge/-bewilligungen mit abzulegen um den Projektablauf generell besser nachvollziehbar zu machen-->
+    + Forschungsdaten aufteilen in Rohdaten, verarbeitete Daten, finale Daten  <!-- Analyseskripte, Stimuli und Experimentalskripte noch hinzufügen? oder ist dies genug durch den früheren Punkt Datendokumentation abgedeckt?-->
   + Weiterführende Links
     + Link zur Vorlage einer Referenzprojekt-Ordnerstruktur inkl. Readme.txt-Vorlage <!-- Folgende Professuren verwenden Ordnerstrukturen, die als Vorlage dienen könnten: „Behaviorale Psychotherapie“ und „Differentielle Psychologie“ -->
     + ggf. [BIDS](https://www.nature.com/articles/sdata201644)-Dateiablagesystem erwähnen
@@ -50,19 +50,19 @@ aus den [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/downl
 >+ Code Book auf Aktualität und Vollständigkeit prüfen
 >+ Readme.txt anlegen bzw. aufdatieren
 >+ Skripte auskommentieren
->+ Beschreibung des Prozessabläufe in Manualen anlegen bzw. auf Aktualität prüfen
+>+ Beschreibung der Prozessabläufe in Manualen anlegen bzw. auf Aktualität prüfen
 >
 >*Datenhygiene*
 >+ 10 min pro Woche einplanen für „Datenhygiene“ auf dem Gruppenlaufwerk (z.B. gemeinsam im Team-Meeting)
->+ Fokus-Treffen, um gemeinsam Strukturen für Readme, Gruppenlaufwerke und weitere FDM-Regeln auszuarbeiten
+>+ Fokus-Treffen, um gemeinsam Strukturen/Standards für Readme, Gruppenlaufwerke und weitere FDM-Regeln auszuarbeiten
 
-Jede Arbeitsgruppe sollte auf Basis dieses Beispiels eine Checkliste ausarbeiten, im Gruppenlaufwerk ablegen, regelmäßig aufdatieren und anwenden, sofern keine geeigneten alternativen Wegen der Datenpflege beschritten werden (die dann allerdings gleichermaßen für alle Arbeitsgruppenmitglieder verbindlichen, dokumentierten udn gut auffindbaren Regeln unterliegen müssen).
+Jede Arbeitsgruppe sollte auf Basis dieses Beispiels eine Checkliste ausarbeiten, im Gruppenlaufwerk ablegen, regelmäßig aufdatieren <!-- Kommentar Denise: Was bedeutet das?-->und anwenden, sofern keine geeigneten alternativen Wege der Datenpflege beschritten werden (die dann allerdings gleichermaßen für alle Arbeitsgruppenmitglieder verbindlichen, dokumentierten und gut auffindbaren Regeln unterliegen müssen).
 
 ### REDCap <!-- in Struktur einpflegen/ergänzen durch Team Forschungsdaten -->
 <!-- Ob dieser Unterpunkt in die FDM-Leitlinie einfließen soll und in welchem Umfang ist noch offen; Professur „Differentielle Psychologie“ als Ansprechpartner für Umsetzung von Fragebögen und Schulung von Mitarbeitern bzgl. REDCap -->
 + Verwendungszweck: ergänzen durch Team Forschungsdaten, z.B. Erstellung, Durchführung und Auswertung von Umfragen
 + Datenqualität: semi-automatisierte Dokumentation der Arbeitsschritte durch User-Führung (z.B. automatische Erstellung von Logfiles und Code-Büchern)
-+ Datenschutz: REDCap-Instanzen werden auf Servern des ZIH in Dresen ausgeführt; Kontaktdaten der Probanden werden in einer separaten Anwendung verwaltet (PAMS)
++ Datenschutz: REDCap-Instanzen werden auf Servern des ZIH in Dresden ausgeführt; Kontaktdaten der Probanden werden in einer separaten Anwendung verwaltet (PAMS)
 + Weiterführende Links:
   + Links zu REDCap-Vorlagen
   + Links zu Manualen
@@ -70,6 +70,7 @@ Jede Arbeitsgruppe sollte auf Basis dieses Beispiels eine Checkliste ausarbeiten
 ### OSF
 <!-- Ob dieser Unterpunkt in die FDM-Leitlinie einfließen soll und in welchem Umfang ist noch offen; David Riedel von der Kontaktstelle Forschungsdaten kann als Ansprechpartner dienen: aktuell läuft eine Studie zum Nutzerverhalte und deren Anforderungen an OSF 
  -->
+ <!--Kommentar Denise: Wenn OSF detailliert beschrieben wird, würde nach und nach auch eine Beschreibung von leibniz-psychologie ergänzen. Deren Ziel ist ja, dass die deutschsprachige Psychologie die Angebote dort nutzt. Es bietet sich dort auch guter Support, soweit ich das überblicke. -->
 + Verwendungszweck: ergänzen durch Team Forschungsdaten, z.B. Präregistrierung
 + Datenqualität: es gelten die gleichen Anforderungen wie bei der Ablage von Daten auf dem Gruppenlaufwerl (analog zur „Checkliste für die Ablage von Daten auf dem Gruppenlaufwerk“ in Abschnitt 3 „Datenorganisation“);
 + Datenschutz: es können OSF-Server in Frankfurt/Main ausgewählt werden 
@@ -78,7 +79,7 @@ Jede Arbeitsgruppe sollte auf Basis dieses Beispiels eine Checkliste ausarbeiten
   + ggf. Link zu einem beispielhaften OSF-Projekt aus der Fakultät Psychologie
 
 ### Wissensmanagement Onboarding
-+ Jede:r neue Mitarbeitende erhält diese FDM-Leitlinien zur Durchsicht (ggf. abzeichnen lassen?)<!--Beispiele für solche Dokumente finden sich bei den Professuren „Abhängiges Verhalten“ und „Arbeits- und Organisationspsychologie"-->
++ Jede:r neue Mitarbeitende erhält diese FDM-Leitlinien zur Durchsicht (ggf. abzeichnen lassen?)<!--Beispiele für solche Dokumente finden sich bei den Professuren „Abhängiges Verhalten“ und „Arbeits- und Organisationspsychologie"--> <!--Kommentar Denise: zusätzliche Empfehlung einer unterschriebenen, verbindlichen Vereinbarung zwischen MA/Projektleitung mit der Lehrstuhlleitung? siehe AO-->
 + Die FDM-Leitlinien können durch eine individuelle Onboarding-Checkliste mit Informationen zur Arbeitsweise innerhalb einer Forschungsgruppe ergänzt werden 
 
 >***Beispiel einer Onboarding-Checkliste*** 
@@ -91,8 +92,8 @@ Jede Arbeitsgruppe sollte auf Basis dieses Beispiels eine Checkliste ausarbeiten
 
 ### Wissensmanagement Offboarding
 + Der Offboarding-Prozess umfasst die Bereinigung und Übergabe von Daten 
-+ Dieser Prozess beginnt 3-6 Monate vor Austritt des Mitarbeitenden und kann unter Mitwirkung der [Kontaktstelle Forschungsdaten](https://tu-dresden.de/forschung-transfer/services-fuer-forschende/kontaktstelle-forschungsdaten) geplant und durchgeführt werden
-+ Die Dokumente aus dem Offboarding sind u.a. Grundlage für das Onboarding des nachfolgenden Mitarbeitenden
++ Dieser Prozess beginnt 3-6 Monate vor Austritt der:des Mitarbeitenden und kann unter Mitwirkung der [Kontaktstelle Forschungsdaten](https://tu-dresden.de/forschung-transfer/services-fuer-forschende/kontaktstelle-forschungsdaten) geplant und durchgeführt werden
++ Die Dokumente aus dem Offboarding sind u.a. Grundlage für das Onboarding der:des nachfolgenden Mitarbeitenden
 
 >***Beispiel einer Offboarding-Checkliste***
 ><!-- Mögliche Regelung: jede Forschungsgruppe soll auf Basis dieses Beispiels eine Checkliste ausarbeiten, im Gruppenlaufwerk ablegen, regelmäßig aufdatieren und anwenden; Beispiel für ein solches Dokument findet sich bei der Professur „Arbeits- und Organisationspsychologie“ -->
