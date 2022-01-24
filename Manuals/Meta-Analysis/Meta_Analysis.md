@@ -22,7 +22,7 @@ As with every research project, one tenet of conductiong a meta-analysis is that
 + [criteria for and documentation of study inclusion and exclusion](#study-inclusion-and-exclusion)
 + [manualized coding schemes for effect sizes and study characteristics](#coding-schemes)
 + [choice of the appropriate software tools](#software-for-performing-meta-analysis)
-+ [analysis specifications for conduction a meta-analysis](#fixed-vs-random-effects-meta-analysis)
++ [analysis specifications for conduction a meta-analysis](#fixed--vs-random-effects-meta-analysis)
 + [assessment of potential publication bias](#assessing-publication-bias)
 + [adressing heterogeneity of studies](#adressing-heterogeneity)
 + [assessment of potential moderators (i.e., meta-regression)](#meta-regression)
