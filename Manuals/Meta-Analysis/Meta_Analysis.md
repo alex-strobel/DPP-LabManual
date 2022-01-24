@@ -19,12 +19,12 @@ This pimer is recommended also because of the R package used to demonstrate how 
 As with every research project, one tenet of conductiong a meta-analysis is that our procedure of doing so is described as transparently and replicably as possible. To do so, I strongly encourage to follow the [PRISMA statement](http://www.prisma-statement.org/PRISMAStatement/), a widely adopted guideline for cinducting systematic reviews and meta-analyses. I am (by 2022-01-12) rather unexperienced in meta-analysis, but from my reading, the major issues seem to be: 
 
 + [clearly defined search terms for all eligible databases of interest (e.g., PsycInfo, Web of Knowledge, PubMed, Google Scholar etc.)](#search-terms)
-+ further inclusion and exclusion criteria
-+ rules for documenting inclusion and exclusion
-+ manualized coding schemes for effect sizes and study characteristics
-+ choice of the appropriate software tool and analysis specifications for conduction a meta-analysis
-+ assessment of potential moderators (i.e., meta-regression)
-+ asessment of potential publication bias
++ [criteria for and documentation of study inclusion and exclusion](#study-inclusion-and-exclusion)
++ [manualized coding schemes for effect sizes and study characteristics](#coding-schemes)
++ [choice of the appropriate software tool and analysis specifications for conduction a meta-analysis](#software-for-performing-meta-analysis)
++ [assessment of potential publication bias](#assessing-publication-bias)
++ [adressing heterogeneity of studies](#adressing-heterogeneity)
++ [assessment of potential moderators (i.e., meta-regression)](#meta-regression)
 
 # Search terms
 
@@ -39,6 +39,14 @@ So what to do in this case? One could adjust the search terms, add some restrict
 Well, I trusted my search, as it gave me 35 papers of clear relevance for my research question (plus about two dozens of papers where the relevant variables were assessed, but their bivariate correlations were not reported, so I set them on a list for data requests). But still, my way of searching (and finding) results was by no means transparent or reproducible. Also, I gave up to search any longer after about 110 out of 4000 results. *Google Scholar* per default lists its results by relevance, and between the 90th an 110th result, I encountered a considerable drop in relevant results.
 
 tbc ...
+
+# Study inclusion and exclusion
+
+...
+
+# Coding schemes
+
+...
 
 # Software for performing meta-analysis
 
@@ -216,4 +224,6 @@ Overall, using these methods, we can summarize that there seems some, but no sev
 # Adressing heterogeneity
 
 ...
+
+# Meta-regression
 
