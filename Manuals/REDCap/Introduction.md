@@ -1,5 +1,13 @@
 # Introduction: What is REDCap?
 
+[Josephine Zerna](mailto:josephine.zerna@tu-dresden.de)<br>
+Faculty of Psychology<br>
+TU Dresden
+
+2022-01-24
+
+---
+
 REDCap stands for Research Electronic Data Capture and is a fantastic tool to collect data for your projects.
 You can access it via browser from any device at any time using two-factor authentication.
 Its servers are hosted directly at each university that uses REDCap, so the data is safe and each account and project is managed by the respective university.
