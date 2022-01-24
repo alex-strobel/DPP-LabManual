@@ -4,6 +4,8 @@
 Faculty of Psychology<br>
 TU Dresden
 
+---
+
 ## Basic functions
 
 **Visual Studio Code...**
