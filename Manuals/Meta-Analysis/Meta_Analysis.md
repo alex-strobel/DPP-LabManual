@@ -63,7 +63,7 @@ Further free software packages for doing meta-analysis are listed and shortly in
 
 + [13 Best Free Meta-Analysis Software To Use](https://toptipbio.com/free-meta-analysis-software/)
 
-# Fixed- vs random-effects meta-analysis
+# Fixed- vs. random-effects meta-analysis
 
 A good introduction into the issue of fixed- and random-effects meta-analysis can be found in section 4.1 of [Harrer and colleagues (2002)](https://bookdown.org/MathiasHarrer/Doing_Meta_Analysis_in_R/pooling-es.html#fem-rem). I will quote the two in my opinion central points of this section here, because they contain the essence of the issue:
 
