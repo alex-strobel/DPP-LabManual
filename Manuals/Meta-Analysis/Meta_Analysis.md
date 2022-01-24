@@ -1,6 +1,12 @@
 # Meta-Analysis
 
-[Alexander Strobel](mailto:alexander.strobel@tu-dresden.de)
+[Alexander Strobel](mailto:alexander.strobel@tu-dresden.de)<br>
+Faculty of Psychology<br>
+TU Dresden
+
+Credits go to<br>
+Blair Saunders (University of Dundee)<br>
+Michale Inzlicht (University of Toronto
 
 2022-01-14
 
