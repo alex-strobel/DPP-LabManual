@@ -4,7 +4,7 @@
 Faculty of Psychology<br>
 TU Dresden
 
-[Jens Strehle](mailto:jens.strehle@tu-dresden.de)
+[Jens Strehle](mailto:jens.strehle@tu-dresden.de)<br>
 Center for Information Services and High Performance Computing (ZIH)<br>
 TU Dresden
 
