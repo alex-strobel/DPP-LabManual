@@ -48,7 +48,7 @@ From my impression, the two most common R packages for meta-analysis are `meta` 
 
 ## Further recommendations
 
-If you are new to the R environment, you may want to resort to [JASP](https://jasp-stats.org) or [jamovi](https://www.jamovi.org) who both come with meta-analysis modules where using a GUI you can resort to `metafor` functions that do the hard job in the background. This is why below, I will not go into much detail with regard to the `meta` package (the book in linked at the outset of this document uses `meta` though), but will focus on `metafor`.
+If you are new to the R environment, you may want to resort to [JASP](https://jasp-stats.org) or [jamovi](https://www.jamovi.org) who both come with meta-analysis modules where using a GUI you can resort to `metafor` functions that do the hard job in the background. This is why below, I will not go into much detail with regard to the `meta` package (the book I linked at the outset of this document uses `meta` though), but will focus on `metafor`.
 
 Further free software packages for doing meta-analysis are listed and shortly introduced here:
 

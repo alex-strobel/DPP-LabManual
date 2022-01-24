@@ -17,16 +17,16 @@ Die vorliegenden Leitlinien sollen dazu beitragen, als Fakultät dem oben formul
 
 + Effizienz und Qualitätssicherung gemäß den [Richtlinien zur Sicherung guter wissenschaftlicher Praxis](https://tu-dresden.de/bu/verkehr/ressourcen/dateien/studium/richtlinien_zur_sicherung_guter_wissenschaftlicher_praxis) (GWP) der TU Dresden
 + Transparenz/Reproduzierbarkeit/Nachnutzung der eigenen Forschung 
-+ Rechtliche Vorgaben zum Datenschutz (DSGVO) 
++ Rechtliche Vorgaben zum Datenschutz (DSGVO) <!-- Kommentar von Denise: sind dies Ziele des FDM im engeren Sinne? Oder 'Rechtliche vorgaben zum Datenschutz einhalten'--> 
 
 ### Ziel dieser Leitlinien
 
 + Eine nachvollziehbare Datenorganisation innerhalb der Fakultät für Psychologie inkl. der Organisation des Wissens über diese Daten
-+ Es bestehen eine Reihe von Vorgaben für die Arbeit von Forschungsdaten: TUD, DFG und DGPs; diese Leitlinien geben Tipps für die praktische Umsetzung dieser Vorgaben im Forschungsalltag
++ Tipps für die praktische Umsetzung einer Reihe von Vorgaben für die Arbeit mit Forschungsdaten (durch TUD, DFG und DGPs) im Forschungsalltag geben
 + Abgrenzung des Begriffs Forschungsdatenmanagement zu anderen Bereichen
 + Projektmanagement: FDM-Maßnahmen können in die einzelnen Schritte des Forschungsprozesses eingehängt werden; FDM ersetzt nicht die eigentliche Planung des Forschungsprozesses 
-+ Verantwortlichkeiten definieren: Jede:r Mitarbeitende ist für die Datenablage sowie Datendokumentation selbst verantwortlich. Die Kontrolle/Sicherstellung der Qualität liegt in der Verantwortung der Teamleitung
-+ Open Science: FDM ist eine Voraussetzung für die Nachnutzung von Daten und damit auch eine Voraussetzung für Open (und Reproducible) <!-- Kommentar Christoph: Man könnte es nicht nur auf offene Forschung, sondern auch reproduzierbare Forschung ausweiten, oder? --> Science; FDM ist alledings nicht gleichzusetzen mit Open Science
++ Verantwortlichkeiten definieren: Jede:r Mitarbeitende ist für die Datenablage sowie Datendokumentation selbst verantwortlich. Die Kontrolle/Sicherstellung der Qualität liegt in der Verantwortung der Teamleitung <!-- Kommentar Denise: das Ziel wäre ja 'nur' "Verantwortlichkeiten definieren", definiert würde es an anderer Stelle in der Leitlinie, noch nicht hier, oder?-->
++ Open Science: FDM ist eine Voraussetzung für die Nachnutzung von Daten und damit auch eine Voraussetzung für Open (und Reproducible) <!-- Kommentar Christoph: Man könnte es nicht nur auf offene Forschung, sondern auch reproduzierbare Forschung ausweiten, oder? --> Science; FDM ist allerdings nicht gleichzusetzen mit Open Science
 
 ### Unterstützung
 
