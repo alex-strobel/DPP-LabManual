@@ -1,3 +1,11 @@
+# Visual Studio Code
+
+[Josephine Zerna](mailto:josehine.zerna@tu-dresden.de)<br>
+Faculty of Psychology<br>
+TU Dresden
+
+## Basic functions
+
 **Visual Studio Code...**
 
 * is a beautiful code editor full of incredibly helpful functions
@@ -5,7 +13,7 @@
 * has a great [documentation page](https://code.visualstudio.com/docs) for getting started
 * has loads of [free extensions](https://marketplace.visualstudio.com/VSCode) provided by users or companies to enable more features for the programming language of your choice
 
-**Using VSC to manage your Github repository**
+### Using VSC to manage your Github repository
 
 By opening the local path of your Github repository in VSC, you can use all kinds of useful tools to work on files and push/pull/commit.
 
@@ -38,7 +46,7 @@ Of course you can also push, pull, or fetch anytime manually by clicking on the 
 
 ![alt text](Reference_pictures/VSC_Fetch.PNG)
 
-**Other great features of VSC**
+### Other great features of VSC
 
 While editing markdown files, you can click on the symbol in the upper right corner to open a viewer pane in which all of your syntax appears in its final form.
 
@@ -63,7 +71,6 @@ The find-and-replace functions are fantastic:
 * the button to replace all occurences of that string
 
 ![alt text](Reference_pictures/VSC_Preserve.PNG)
-
 
 Sometimes you want to edit a file and need the exact names of variables that appear a lot earlier or later in the file.
 VSC can save you from endlessly scrolling and forgetting the correct spelling by using the **split-function**.
