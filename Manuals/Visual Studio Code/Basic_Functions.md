@@ -51,7 +51,7 @@ A side-by-side view will open in which you can see deleted and added lines just 
 
 ![alt text](Reference_pictures/VSC_FileComparison.PNG)
 
-The find-and-replace function can be accessed via ctrl+F.
+The **find-and-replace function** can be accessed via ctrl+F.
 If you just want to find something, type it into the field and click enter.
 If you want to replace a string, click on the little angle next to the field, so that the second line opens.
 The find-and-replace functions are fantastic:
@@ -63,3 +63,14 @@ The find-and-replace functions are fantastic:
 * the button to replace all occurences of that string
 
 ![alt text](Reference_pictures/VSC_Preserve.PNG)
+
+
+Sometimes you want to edit a file and need the exact names of variables that appear a lot earlier or later in the file.
+VSC can save you from endlessly scrolling and forgetting the correct spelling by using the **split-function**.
+Simply open the desired file by double-clicking on it in the explorer bar on the left.
+Then, right-click on the tab of the file and select your preferred split view (Split Up/Down/Left/Right).
+Voilá, you now have your file open in two columns side by side.
+You can scroll through your file independently and use the search-function independently, but any kind of change in the file content will be implemented in real-time in the other column, without hopping to that line of code.
+Neat!
+
+![alt text](Reference_pictures/VSC_Split.PNG)
