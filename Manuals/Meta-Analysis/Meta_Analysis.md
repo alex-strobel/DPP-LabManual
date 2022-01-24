@@ -8,6 +8,8 @@ Credits go to<br>
 Blair Saunders (University of Dundee)<br>
 Michale Inzlicht (University of Toronto
 
+---
+
 2022-01-14
 
 This manual is intended to be a quick guide to perform meta-anaylses using R. For a more elaborated and certainly also more accurate coverage of this topic, I strongly recommend the book on meta-analysis by [Harrer and colleagues (2002)](https://www.routledge.com/Doing-Meta-Analysis-with-R-A-Hands-On-Guide/Harrer-Cuijpers-Furukawa-Ebert/p/book/9780367610074) which can be accessed online here:
