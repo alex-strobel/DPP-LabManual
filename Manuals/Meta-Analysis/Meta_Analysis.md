@@ -16,7 +16,7 @@ This pimer is recommended also because of the R package used to demonstrate how 
 
 # Introduction
 
-As with every research project, one tenet of conductiong a meta-analysis is that our procedure of doing so is described as transparently and replicably as possible. I am (by 2022-01-12) rather unexperienced in meta-analysis, but from my reading, the major issues seem to be: 
+As with every research project, one tenet of conductiong a meta-analysis is that our procedure of doing so is described as transparently and replicably as possible. To do so, I strongly encourage to follow the [PRISMA statement](http://www.prisma-statement.org/PRISMAStatement/), a widely adopted guideline for cinducting systematic reviews and meta-analyses. I am (by 2022-01-12) rather unexperienced in meta-analysis, but from my reading, the major issues seem to be: 
 
 + [clearly defined search terms for all eligible databases of interest (e.g., PsycInfo, Web of Knowledge, PubMed, Google Scholar etc.)](#search-terms)
 + further inclusion and exclusion criteria
