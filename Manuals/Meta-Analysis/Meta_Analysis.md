@@ -20,7 +20,7 @@ A short primer on doing meta-analysis that also comes with a well-documented R s
 
 + [From pre-registration to publication: a non-technical primer for conducting a meta-analysis to synthesize correlational data](https://doi.org/10.3389/fpsyg.2015.01549)
 
-This pimer is recommended also because of the R package used to demonstrate how to perform a meta-analysis is the same as that employed here, i.e., `metafor` ([Viechtbauer, 2010](https://www.jstatsoft.org/article/view/v036i03)) 
+This primer is recommended also because of the R package used to demonstrate how to perform a meta-analysis is the same as that employed here, i.e., `metafor` ([Viechtbauer, 2010](https://www.jstatsoft.org/article/view/v036i03)) 
 
 # Introduction
 
