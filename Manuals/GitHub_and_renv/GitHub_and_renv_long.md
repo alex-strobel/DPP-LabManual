@@ -1,5 +1,7 @@
 # Version control and collaboration using GitHub and the `renv` package
 
+---
+
 [Alexander Strobel](mailto:alexander.strobel@tu-dresden.de)<br>
 Faculty of Psychology<br>
 TU Dresden
