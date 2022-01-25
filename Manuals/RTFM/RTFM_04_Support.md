@@ -33,6 +33,7 @@ aus den [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/downl
     + Link zur Vorlage einer Referenzprojekt-Ordnerstruktur inkl. Readme.txt-Vorlage <!-- Folgende Professuren verwenden Ordnerstrukturen, die als Vorlage dienen könnten: „Behaviorale Psychotherapie“ und „Differentielle Psychologie“ -->
     + ggf. [BIDS](https://www.nature.com/articles/sdata201644)-Dateiablagesystem erwähnen
 
+<!--Kommentar Christoph: Frage mich, ob man mal was anschaffen/ergänzen sollte zu Datenablage auf Hardware. Gerade für größere Daten (zB A5) sind Gruppenlaufwerke eher ungünstig. Vielleicht also mal größere Festplatten in einen PC einbauen und diesen dann als (offline) Datenablage nutzen? -->
 >***Beispiel einer Checkliste für Datenpflege auf dem Gruppenlaufwerk***
 >
 >*Datentransfer*
