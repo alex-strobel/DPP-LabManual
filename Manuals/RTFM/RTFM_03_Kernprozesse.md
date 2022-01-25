@@ -39,7 +39,7 @@ Datenmanagement für Förderanträge an, siehe hier:
 
 + vgl. [Checkliste/Formular des Datenmanagementplan (DMP) Service der Kontaktstelle Forschungsdaten](https://tu-dresden.de/forschung-transfer/services-fuer-forschende/kontaktstelle-forschungsdaten/unser-service/dm-texte/formular)  
 
-[Leibniz Psychology](https://leibniz-psychology.org) bietet mit dem Tool *DataWiz* ein "ein Assistenzsystem, das Wissenschaftlern und Wissenschaftlerinnen helfen soll, ihre Daten von Forschungsbeginn an fachgerecht aufzubereiten und zu dokumentieren. Das Tool hilft dabei, Datenmanagementpläne zu erstellen, eigene Forschungsdaten zu verwalten und es ermöglicht auch, Daten im Team zu teilen und später der Fachgemeinschaft zur Nachnutzung zur Verfügung zu stellen. DataWiz ist eine kostenfreie Open-Science-Webanwendung." (Text von der entsprechenden Webseite entnommen)
+[Leibniz Psychology](https://leibniz-psychology.org) bietet mit dem Tool *DataWiz* "ein Assistenzsystem, das Wissenschaftlern und Wissenschaftlerinnen helfen soll, ihre Daten von Forschungsbeginn an fachgerecht aufzubereiten und zu dokumentieren. Das Tool hilft dabei, Datenmanagementpläne zu erstellen, eigene Forschungsdaten zu verwalten und es ermöglicht auch, Daten im Team zu teilen und später der Fachgemeinschaft zur Nachnutzung zur Verfügung zu stellen. DataWiz ist eine kostenfreie Open-Science-Webanwendung." (Text von der entsprechenden Webseite entnommen)
 
 Obwohl Datenmanagementpläne vorrangig für Förderanträge zu erstellen sind, wird empfohlen, für jedwedes Forschungsprojekt einen solchen Plan zu erstellen und für alle Projektbeteiligten einsehbar in einem Projektordner zu hinterlegen (z.B. auf einem Gruppenlaufwerk).
 
