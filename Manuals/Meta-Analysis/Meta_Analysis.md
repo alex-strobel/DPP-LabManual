@@ -6,7 +6,7 @@ TU Dresden
 
 Credits go to<br>
 Blair Saunders (University of Dundee)<br>
-Michale Inzlicht (University of Toronto
+Michael Inzlicht (University of Toronto)
 
 ---
 
