@@ -1,6 +1,6 @@
 # Visual Studio Code
 
-[Josephine Zerna](mailto:josehine.zerna@tu-dresden.de)<br>
+[Josephine Zerna](mailto:josephine.zerna@tu-dresden.de)<br>
 Faculty of Psychology<br>
 TU Dresden
 
