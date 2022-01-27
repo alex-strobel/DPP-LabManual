@@ -22,3 +22,9 @@ The [targets](https://docs.ropensci.org/targets/) package is a pipeline toolkit 
 
 # Motivation
 
+Data analysis and writing of manuscripts in RMarkdown can be slow and frustrating. Your analysis can take several minutes or even hours. You wait and wait only to discover an error in the code or some of the data has changed. Then the waiting starts all over again. With `targets` only parts that have changed are executed - saving the runtime for routines that are already up-to-date.
+
+# Set-up
+
+...
+
