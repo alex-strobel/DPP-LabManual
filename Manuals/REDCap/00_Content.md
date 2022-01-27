@@ -12,6 +12,10 @@ TU Dresden
 
 ---
 
+<p align="center">
+    <img src="pics/redcap_logo.svg" width="300"/>
+</p>
+
 ## Content
 
 [Introduction](01_Introduction.md)
