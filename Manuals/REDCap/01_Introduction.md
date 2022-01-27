@@ -8,7 +8,7 @@ TU Dresden
 
 ---
 
-REDCap stands for Research Electronic Data Capture and is a fantastic tool to collect data for your projects.
+[REDCap](https://www.project-redcap.org/) stands for Research Electronic Data Capture and is a fantastic tool to collect data for your projects.
 You can access it via browser from any device at any time using two-factor authentication.
 Its servers are hosted directly at each university that uses REDCap, so the data is safe and each account and project is managed by the respective university.
 REDCap allows you to have basically your entire project's data all in one place, specifically:
