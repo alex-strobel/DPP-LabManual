@@ -14,6 +14,6 @@ TU Dresden
 
 ## Content
 
-[Introduction](01_introduction.md)
+[Introduction](01_Introduction.md)
 
-[Gain Access](02_access.md)
+[Gain Access](02_Access.md)
