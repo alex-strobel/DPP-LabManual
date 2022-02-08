@@ -13,3 +13,7 @@ Further issues to be implemented comprise
 - **recommended workflows** (e.g., how to set up a workspace in BrainVision Analyzer, how to handle outliers, how to analyze reaction time data)
 
 So if you are a team member and know something about a certain work process, feel free to describe it here! And if your aren't a team member but want to comment on what is written here, please contact [Alexander Strobel](mailto:alexander.strobel@tu-dresden.de). 
+
+---
+
+**Disclaimer**: What is written in this LabManual reflects the (most probably incomplete) understanding of its contributors. Often enough, the routines/suggestions/workflows described here may be idiosyncratic or the result of an incorrect understanding of what we read about some procedure or another or may only apply to certain issues we came across, and sometimes (or in fact, most of the time), rules and regulations and even the usage of terms may have changed since we wrote this, either unbeknowst of or neglected by us. So please, do not rely on what is written here as it was written by some kind of authority. We all fail (some or most of the time). Rather, use the procedures outlied here as some recommendation amongst others, so in any case check back! 
