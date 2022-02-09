@@ -20,4 +20,4 @@ So if you are a team member and know something about a certain work process, fee
 
 ---
 
-**License**: CC 0
+**License**: CC 0 (although we are always happy for getting acknowledged)
