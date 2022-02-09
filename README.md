@@ -10,7 +10,7 @@ Further issues to be implemented comprise
 
 - **information management** (e.g., how to use the central printer/scanner, whom to contact for which purpose, where to find study documents etc.)
 - **administrative tasks** (e.g., what to do if one hires a student assistant, how to create an OPAL course, how to have your seminars evaluated etc.)
-- **recommended workflows** (e.g., how to set up a workspace in BrainVision Analyzer, how to handle outliers, how to analyze reaction time data)
+- **recommended workflows** (e.g., how to set up a workspace in BrainVision Analyzer, [how to handle outliers](https://github.com/alex-strobel/DPP-LabManual/wiki/Outliers), how to analyze reaction time data etc.)
 
 So if you are a team member and know something about a certain work process, feel free to describe it here! And if your aren't a team member but want to comment on what is written here, please contact [Alexander Strobel](mailto:alexander.strobel@tu-dresden.de). 
 
