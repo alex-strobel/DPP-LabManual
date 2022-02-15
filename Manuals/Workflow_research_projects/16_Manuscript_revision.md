@@ -1,5 +1,12 @@
 # Manuscript revision
 
+[Alexander Strobel](alexander.strobel@tu-dresden.de)<br>
+Faculty of Psychology, TU Dresden
+
+2022-12-01
+
+---
+
 Don’t be too upset or angry about the reviews of your manuscript that will arrive after way too long time since you submitted your manuscript! 
 They will most likely be not as positive as you expected.
 You may be be confronted with 
