@@ -45,7 +45,7 @@ par(mfrow = c(1, 2)
 
 except that the code we are writing is intended to be used by R novices. 
 
-Another topic where comments are really helpful is the libraries used in a given script. You may need to read an SPSS data file of questionnaire responses (via, e.g., the `haven` package) and an Excel file with reaction time data (via, e.g., the `readxl` package), want to perform *post-hoc* power analysis (eg., via the `pwr` package), and then – having determined deviation from multivariate normality via Mardia's test implemented in the `psych` package want to run a mediation analysis using the package `lavaan`. In such a case, state in the header of R script:
+Another topic where comments are really helpful is the libraries used in a given script. You may need to read an SPSS data file of questionnaire responses (via, e.g., the `haven` package) and an Excel file with reaction time data (via, e.g., the `readxl` package), want to perform *post-hoc* power analysis (eg., via the `pwr` package), and then – having determined deviation from multivariate normality via Mardia's test implemented in the `psych` package want to run a mediation analysis using the package `lavaan`. In such a case, we state in the header of our R script:
 
 ```
 library(haven)   # for reading SPSS files
@@ -54,9 +54,15 @@ library(psych)   # for Mardia's test
 library(lavaan)  # for mediation analysis
 ```
 
+When using a custom function for, e.g., getting the summary of a `lavaan` fit, this function's purpose might be immediately clear to the knowledgeable user, but not to individuals new to a given procedure, so we write:
 
-
-
+```
+# function for retrieving the summary of a lavaan fit object
+# including fit measures and standardized coefficients
+sm <- function(fit) {
+  return(summary(fit, fit.measures = T, standardized = T)
+}
+```
 
 ## We adhere to common principles when using language.
 
