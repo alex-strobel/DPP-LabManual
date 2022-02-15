@@ -39,7 +39,7 @@ To elaborate on this issue: we do!
 ## We adhere to common principles when using language.
 
 These common principles include that everything said and written should be as accessible and inclusive as possible.
-Accessibility involves that we should always ask ourselvges whether others can understand what we want to convey. 
+Accessibility involves that we should always ask ourselves whether others can understand (correctly) what we want to convey. 
 When we write about *Git* and refer to some *repo*, we might already have lost some of our audience. 
 I even lost a couple of first year students in my lecture when I used the words *aversive* and *appetitive*. 
 Yet, to always express everything in detail may be annoying to others (e.g., when we explain what *aversive* and *appetitive* means). 
@@ -49,8 +49,11 @@ Inclusivity involves that we usually should use a gender-sensitive or gender-neu
 This is easy in English where we speak of a "project leader" or a "participant". 
 Yet, we will have to write informed consent forms or applications for ethical approval in German. 
 Then, the gender-sensitive way to do so is (in accordance with the TU Dresden Guidelines) <!-- add link --> to use "Projektleiter:innen" and "Versuchsteilnehmer:innen". 
-If we fear the usage of the : may annoy some participants (not so much in student samples, but in samples from the general population) and may prompt them to cancel their participation in a, say, online questionnaire, we may consider to use constructions like "Die Projektleitung liegt bei ..." or "Alle, die an der Untersuchung teilnehmen ...".
-This does not mean that we should give in to people who oppose to the usage of gender-sensitive language, but we also should try to include them as well by using gender-neutral language where possible. 
+Details on gender-inclusive language (and also picture content) can be found in the TU Dresden's [Guidelines for Gender-inclusive Communication](https://tu-dresden.de/tu-dresden/organisation/ressourcen/dateien/Gleichstellungsbeauftragte/Unsere-Themen/genderinklusive-kommunikation/leitfaden-genderinklusive-kommunikation-2021).
+We all should do our best to adhere to these guidelines.
+The use of contrustions like "Projektleiter:innen" oder "Studienteilnehmer:innen" most of the time makes communication so much easier. 
+Yet, there may be situatuions in which we fear that the usage of the : may annoy some participants (not so much in student samples, but in samples from the general population) and may prompt them to cancel their participation in a, say, online questionnaire, we may consider to use constructions like "Die Projektleitung liegt bei ..." or "Alle, die an der Untersuchung teilnehmen ...".
+This does not mean that we should give in to people who oppose to the usage of gender-inclusive language, but we also should try to include them as well by using gender-neutral language where possible. 
 After all, we want to have representative samples. 
 Yet, where it is impossible to use gender-neutral language, we will of course use the : construction instead of using the generic masculinum.
 
