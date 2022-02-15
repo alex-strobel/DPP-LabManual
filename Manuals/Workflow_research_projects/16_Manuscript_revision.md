@@ -11,7 +11,7 @@ Don’t be too upset or angry about the reviews of your manuscript that will arr
 They will most likely be not as positive as you expected.
 You may be be confronted with 
 
-- a somehow frustrated PhD students to whom their supervisors passed the review
+- frustrated PhD students to whom their supervisors passed the review
 - friendly, but not fully emotionally intelligent people who thought that they would have expertise in your field
 - experts in the field who are beyond being frustrated or being friendly and who do not care about (and indeed question the concept of) emotional intelligence
 - people who are so expert that you feel bad about having submitted your manuscript in the first place
