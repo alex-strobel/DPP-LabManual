@@ -34,7 +34,29 @@ As yet, we have not arrived at a common framework for how to do so, e.g., prereg
 
 ## We always comment our code.
 
-To elaborate on this issue: we do!
+To elaborate on this issue: *We do!*
+
+To elaborate on this issue a bit further: We do not use sloppy comments like `# get data` or `# run analysis`, but write informative comments such as `# get raw reaction time data` or `# run regression analysis to address hypothesis 2b`. Of course, we do not comment on details that are obvious to readers of our code like 
+
+```
+# set plot window to one row and two columns
+par(mfrow = c(1, 2)
+```
+
+except that the code we are writing is intended to be used by R novices. 
+
+Another topic where comments are really helpful is the libraries used in a given script. You may need to read an SPSS data file of questionnaire responses (via, e.g., the `haven` package) and an Excel file with reaction time data (via, e.g., the `readxl` package), want to perform *post-hoc* power analysis (eg., via the `pwr` package), and then – having determined deviation from multivariate normality via Mardia's test implemented in the `psych` package want to run a mediation analysis using the package `lavaan`. In such a case, state in the header of R script:
+
+```
+library(haven)   # for reading SPSS files
+library(readxl)  # for reading Excel files
+library(psych)   # for Mardia's test
+library(lavaan)  # for mediation analysis
+```
+
+
+
+
 
 ## We adhere to common principles when using language.
 
