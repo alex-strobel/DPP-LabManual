@@ -45,7 +45,7 @@ par(mfrow = c(1, 2)
 
 except that the code we are writing is intended to be used by R novices. 
 
-Another topic where comments are really helpful is the libraries used in a given script. You may need to read an SPSS data file of questionnaire responses (via, e.g., the `haven` package) and an Excel file with reaction time data (via, e.g., the `readxl` package), want to perform *post-hoc* power analysis (eg., via the `pwr` package), and then – having determined deviation from multivariate normality via Mardia's test implemented in the `psych` package want to run a mediation analysis using the package `lavaan`. In such a case, we state in the header of our R script:
+Another topic where comments are really helpful is the libraries used in a given script. You may need to read an SPSS data file of questionnaire responses (via, e.g., the `haven` package) and an Excel file with reaction time data (via, e.g., the `readxl` package), want to perform *post-hoc* power analysis (eg., via the `pwr` package), and then – having determined deviation from multivariate normality via Mardia's test implemented in the `psych` package - want to run a mediation analysis using the package `lavaan`. In such a case, we state in the header of our R script:
 
 ```
 library(haven)   # for reading SPSS files
