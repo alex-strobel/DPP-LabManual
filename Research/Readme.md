@@ -1,0 +1,6 @@
+# Research
+
+In diesem Ordner werden wir alle unsere forschungsbezogenen Routinen sammeln. Das bedeutet, dass vieles von dem, was sich aktuell unter Manuals befindet, hierher wandern wird (was impliziert, dass wir wohl zahlfreiche Links neu setzen müssen). Sorry for that ...
+
+...
+
