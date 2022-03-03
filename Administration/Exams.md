@@ -16,8 +16,8 @@ Anmerkung: Diese Seite ist sicher auf Deutsch sinnvoller, da Begriffe wie *Prüf
 
 - [Katalog](#katalog)
 - [Termine](#termine)
-- []()
-- []()
+- [Anmeldung](#anmeldung)
+- [Abmeldungen und Rücktritte](#abmeldungen-und-rücktritte)
 
 ## Katalog
 
