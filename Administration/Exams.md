@@ -36,3 +36,12 @@ Details zu den Prüfungen (Zeitraum, Inhalte und Ablauf, Bewertungsschema etc.) 
 
 
 ## Termine
+
+Relevant sind hier primär die Prüfungszeiträume der beiden mündlichen Prüfungen, da für diese Beisitzer:innen benötigt werden. Da die Prüfungen in den Semesterferien stattfinden, ist für die Urlaubsplanung wichtig zu wissen, wie die Prüfungszeiträume liegen.
+
+Die mündliche Prüfung im *Bachelor* findet in der Prüfungszeit im Sommersemester statt, laut Prüfungsplan in der vierten Prüfungswoche. Da die erste Prüfungswoche *zwei* Wochen nach Lehrveranstaltungsende startet, heißt das je nach Ende der Vorlesungszeit Ende August/Anfang September. 
+
+Die mündliche Prüfung im *Master* findet der Prüfungszeit im Wintersemester statt, laut Prüfungsplan in der dritten Prüfungswoche. Da die erste Prüfungswoche *eine* Woche nach Lehrveranstaltungsende startet, heißt das je nach Ende der Vorlesungszeit Ende Februar/Anfang März. 
+
+Wiederholungsprüfungen im Bachelor werden Ende Februar/Anfang März des darauffolgenden Semesters angeboten, im Master finden die Wiederholungsprüfungen Ende August/Anfang September des darauffolgenden Semesters statt. Ausnahmen können für Studierende gemacht werden, die sich zum jeweiligen regulären Termin angemeldet (und nicht wieder abgemeldet!) haben, dann aber krank geworden oder durchgefallen sind. Diese werden meist im November (Bachelor) bzw. Mai (Master) geprüft. Sonstige Ausnahmen werden nur sehr restriktiv gemacht. **Diese Ausnahme gilt nur sehr eingeschränkt für Studierende, die ohne Rücktrittsgrund nicht erschienen sind, inbesondere dann, wenn sie sich nicht wenigstens bei uns abgemeldet haben.** Auch sonstige Ausnahmen werden nur sehr restriktiuv gemacht.
+
