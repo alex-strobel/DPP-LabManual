@@ -1,5 +1,7 @@
 # Custom R functions at AG.DPP
 
+> This folder will be moved soon to folder "Research" (make sure to reassign possible links!)
+
 This folder contains a number of functions that might come in handy for use in our scripts. So far, it contains the following functions:
 
 - [`corr_ci`](https://github.com/alex-strobel/DPP-LabManual/blob/main/Functions/corr_ci.R): simply calculates the 95% confidence interval of a given correlation at a given sample size
