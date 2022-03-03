@@ -43,9 +43,16 @@ Die mündliche Prüfung im *Bachelor* findet in der Prüfungszeit im Sommersemes
 
 Die mündliche Prüfung im *Master* findet der Prüfungszeit im Wintersemester statt, laut Prüfungsplan in der dritten Prüfungswoche. Da die erste Prüfungswoche *eine* Woche nach Lehrveranstaltungsende startet, heißt das je nach Ende der Vorlesungszeit Ende Februar/Anfang März. 
 
-Wiederholungsprüfungen im Bachelor werden Ende Februar/Anfang März des darauffolgenden Semesters angeboten, im Master finden die Wiederholungsprüfungen Ende August/Anfang September des darauffolgenden Semesters statt. Ausnahmen können für Studierende gemacht werden, die sich zum jeweiligen regulären Termin angemeldet (und nicht wieder abgemeldet!) haben, dann aber durchgefallen oder krank geworden (s. hierzu auch unten: [Rücktritte](#rücktritte)) sind. Diese werden meist im November (Bachelor) bzw. Mai (Master) geprüft. 
+Wiederholungsprüfungen im Bachelor werden Ende Februar/Anfang März des darauffolgenden Semesters angeboten, im Master finden die Wiederholungsprüfungen Ende August/Anfang September des darauffolgenden Semesters statt. Ausnahmen können für Studierende gemacht werden, die sich zum jeweiligen regulären Termin angemeldet (und nicht wieder abgemeldet!) haben, dann aber durchgefallen oder krank geworden (s. hierzu auch unten: [Rücktritte](#abmeldungen-und-rücktritte)) sind. Diese werden meist im November (Bachelor) bzw. Mai (Master) geprüft. 
 
 **Diese Ausnahme gilt nur sehr eingeschränkt für Studierende, die ohne Rücktrittsgrund nicht erschienen sind, inbesondere dann, wenn sie sich nicht wenigstens bei uns abgemeldet haben.** Auch sonstige Ausnahmen werden nur sehr restriktiv gemacht. Hintergrund ist, dass es über die vergangenen Jahre hinweg zu einer teils dramatischen Häufung von Rücktritten bzw. Nichterscheinen gekommen ist und wir dann im laufenden Semester teilweise mehr Prüfungen abzunehmen hatten als in den Prüfungsperioden. Das war irgendwann neben dem laufenden Semesterbetrieb nicht mehr zu bewältigen.   
 
-# Rücktritte
-...
+## Anmeldung
+
+Die Prüfungsanmeldung läuft aktuell über HISQIS. Sollten Studierende fragen, wann sie sich denn anmeldewn können, bitte an das [Prüfungsamt Psychologie](https://tu-dresden.de/mn/psychologie/studium/pruefungsamt) verweisen. <!-- ggf. übliche Anmeldezeiträume in Erfahrung bringen und hier aufführen -->
+
+## Abmeldungen und Rücktritte
+
+Studierende können sich bis sieben Tage vor einer Prüfung ohne Angabe von Gründen via HISQIS von der Prüfung abmelden. Wenn sich Studierende bei uns melden, um uns über einen Prüfungsrücktritt zu informieren, dann bitte unbedingt auf das offizielle [Prozedere bei einem Rücktritt](https://tu-dresden.de/mn/psychologie/studium/pruefungsamt/abmeldungen-und-ruecktritte) hinweisen!
+
+
