@@ -20,4 +20,4 @@ Hier mal eine grobe Sammlung von Dingen, die zu beschreiben und ggf. zu erläute
 - **TU Dresden Regularien**: Leitbild, Grundordnung, Regeln GWP, Regeln FDM
 - **Wegweiser Ansprechpersonen/Kommissionen**: Grundsätzliches, Lehre, Prüfungen, Beschwerden, Finanzen, Selbstverwaltung etc.
 - **Anschubfinanzierung**: Allgemeines, Template, Hinweise etc. (ggf. zu *Research* packen)
--   
+- ... <!--bitte ergänzen, wann immer jemand noch etwas einfällt, das hier auftauchen sollte -->   
