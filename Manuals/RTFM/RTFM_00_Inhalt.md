@@ -25,4 +25,6 @@ aus den [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/downl
 + [Wissensmanagement Onboarding](RTFM_04_Support.md#wissensmanagement-onboarding)
 + [Wissensmanagement Offboarding](RTFM_04_Support.md#wissensmanagement-offboarding)
 
-[Ressourcen und Vorlagen](RTFM_05_Ressourcen.md)
+[Tools für das FDM](RTFM_05_Tools.md)
+[Ressourcen und Vorlagen](RTFM_06_Ressourcen.md)
+

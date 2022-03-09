@@ -49,6 +49,22 @@ Die vorliegenden Richtlinien beschreiben entlang der Leitlinien der DFG und der 
 + [Wissensmanagement Offboarding](RTFM_04_Support.md#wissensmanagement-offboarding)
 
 [Tools für das FDM](RTFM_05_Tools.md)
++ Tools der TU Dresden
+  + ZIH
+  + Kontaktstelle Forschungsdaten
+  + ORSEE/PaMS
+  + REDCap
+  + Gruppenlaufwerk
+  + OpARA
++ Externe Tools
+  + Leibniz Psychology DataWiz
+  + Open Science Foundation (OSF)
+  + GitHub
++ Individuelle Tools
+  + Labmanuals
+  + Standard Operating Procedures
+  + Checklisten
+
 [Ressourcen und Vorlagen](RTFM_06_Ressourcen.md)
 
 <br>Alle Mitglieder der Fakultät Psychologie sind eingeladen, an diesem Dokument mitzuarbeiten und es stetig an sich verändernde Bedingungen, neue Erkenntnisse und Werkzeuge des Forschungsdatenmanagements anzupassen. Dies kann entweder in Form einer Contributorship geschehen (die einen GitHub Account voraussetzt), dann bitte den Accountnamen an [Alexander Strobel](mailto:alexander.strobel@tu-dresden.de) mailen mit der Bitte, als Contributor aufgenommen zu werden. Alternativ können Änderungs- oder Verbesserungsvorschläge ebenfalls per Mail an [Alexander Strobel](mailto:alexander.strobel@tu-dresden.de) geschickt werden.

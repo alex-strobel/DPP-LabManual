@@ -20,16 +20,9 @@ aus den [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/downl
 
 ### Datenerhebung
 
-#### ORSEE und PAMS
++ **Versuchspersonenmanagement**: Ein effizientes Forschungsdatenmanagement setzt bereits in der Phase der Rekrutierung von Versuchspersonen an. Empfohlen wird dabei die Nutzung von [ORSEE/PaMS](RTFM_05_Tools.md#orseepams). <!-- @JS: bitte groben Ablauf der Koimmunikation von ORSEE und PaMS einfügen --> 
++ **Datenerhebung**: Die Erhebung von Forschungsdaten folgt i.A. spezifischen Voraussetzungen bzw. Erfordernissen der einzelnen Arbeitsgruppen der Fakultät. Typischerweise werden aber in jeden Projekt Selbst- und/oder Fremdauskünfte, experimentelle oder sonstige Verhaltensdaten sowie ggf. (in weitestem Sinne) physiologische Parameter mit Hilfe (peripher)physiologischer oder bildgebender Verfahren erhoben. Diese können z.B. via REDCap zusammengeführt werden. Der Vorteil der Nutzung von REDCap ist dabei u.a., dass REDCap direkt mit PaMS verschaltet ist bzw. verschaltet werden kann und somit personenbezogene Daten in PaMS gespeichert werden, während in REDCap nur die eigentlich projektrelevanten Daten gesammelt werden.
 
-#### REDCap <!-- in Struktur einpflegen/ergänzen durch Team Forschungsdaten -->
-<!-- Ob dieser Unterpunkt in die FDM-Leitlinie einfließen soll und in welchem Umfang ist noch offen; z.B. Professur „Differentielle Psychologie“ als Ansprechpartner für Umsetzung von Fragebögen und Schulung von Mitarbeitern bzgl. REDCap -->
-+ **Verwendungszweck:** <!-- ergänzen durch Team Forschungsdaten --> z.B. Erstellung, Durchführung und Auswertung von Umfragen, Ablaufprotokoll, Datenorganisation (z.B. automatisierter Upload von behavioralen oder EEG-Daten)
-+ **Datenqualität:** semi-automatisierte Dokumentation der Arbeitsschritte durch User-Führung (z.B. automatische Erstellung von Logfiles und Code Books)
-+ **Datenschutz:** REDCap-Instanzen werden auf Servern des ZIH in Dresden ausgeführt; Kontaktdaten der Probanden werden in einer separaten Anwendung verwaltet (PAMS)
-+ **Weiterführende Links:**
-  + Links zu REDCap-Vorlagen
-  + Links zu Manualen 
 ### Datenorganisation
 
 **Grundlage**
@@ -121,4 +114,4 @@ Jede Arbeitsgruppe sollte auf Basis dieses Beispiels eine Checkliste ausarbeiten
 
 ---
 
-[**Inhaltsverzeichnis**](RTFM_00_Inhalt.md) | [zurück zu **FDM-Kernprozesse**](RTFM_03_Kernprozesse.md) | [weiter zu **Ressourcen und Vorlagen**](RTFM_05_Ressourcen.md)
+[**Inhaltsverzeichnis**](RTFM_00_Inhalt.md) | [zurück zu **FDM-Kernprozesse**](RTFM_03_Kernprozesse.md) | [weiter zu **Ressourcen und Vorlagen**](RTFM_06_Ressourcen.md)
