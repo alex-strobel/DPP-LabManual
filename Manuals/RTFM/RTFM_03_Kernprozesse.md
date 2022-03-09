@@ -60,7 +60,6 @@ Obwohl Data Management Plans vorrangig für Förderanträge zu erstellen sind, w
 
 **Umsetzung**
 
-<<<<<<< HEAD
 + **Nachvollziehbarkeit:** Nachvollziehbare Dokumentation ist eine Voraussetzung für die Nachnutzung von Daten. 
 + **Umfang:** Der Umfang der Dokumentation richtet sich nach der Zielgruppe: Dokumentationen werden nicht für fachfremdes Personal geschrieben, sondern für Kolleg:innen mit ähnlichem Ausbildungsniveau.
 + **Readme-Dateien:** Im Idealfall befindet sich in jedem Ordner eine kurze Text-Datei (Readme.txt; für GitHub Repositories eine Readme.md), die den Inhalt des Ordners beschreibt (auch als „Leseanleitungen“ oder „Ordner-Steckbrief“ bezeichnet). Die Verwendung von Word-Dateien (Readme.docx) sollte eher vermieden werden.
