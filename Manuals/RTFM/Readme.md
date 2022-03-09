@@ -43,7 +43,7 @@ Die vorliegenden Richtlinien beschreiben entlang der Leitlinien der DFG und der 
 + [Datenschutz](RTFM_03_Kernprozesse.md#datenschutz)
 
 [Unterstützende Prozesse für das FDM](#unterstützende-prozesse-für-das-fdm)
-+ [Datenerhebung](#datenerhebung)
++ [Datenerhebung](RTFM_04_Support.md#datenerhebung)
 + [Datenorganisation](#datenorganisation)
 + [Wissensmanagement Onboarding](#wissensmanagement-onboarding)
 + [Wissensmanagement Offboarding](#wissensmanagement-offboarding)
