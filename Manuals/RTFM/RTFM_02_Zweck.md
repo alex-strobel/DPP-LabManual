@@ -9,20 +9,21 @@ aus den [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/downl
 
 Die vorliegenden Leitlinien sollen dazu beitragen, als Fakultät dem oben formulierten Maßstab gerecht zu werden.  
 
-### Definition Forschungsdaten 
+### Definition Forschungsdaten
 
 + „Unter Forschungsdaten werden alle Daten verstanden, die im Zusammenhang mit Forschung gesammelt, beobachtet, abgeleitet, simuliert oder auf andere Weise generiert werden.“<br> 
 aus den [Leitlinien für den Umgang mit Forschungsdaten an der TU Dresden](https://tu-dresden.de/tu-dresden/qualitaetsmanagement/ressourcen/dateien/wisprax/Leitlinien-fuer-den-Umgang-mit-Forschungsdaten-an-der-TU-Dresden.pdf)
 
 ### Ziele des Forschungsdatenmanagements
 
++ Umsetzung der Leitlinien zum Forschungsdatenmanagement der DFG und der TU Dresden 
 + Effizienz und Qualitätssicherung gemäß den [Richtlinien zur Sicherung guter wissenschaftlicher Praxis](https://tu-dresden.de/bu/verkehr/ressourcen/dateien/studium/richtlinien_zur_sicherung_guter_wissenschaftlicher_praxis) (GWP) der TU Dresden
 + Transparenz/Reproduzierbarkeit/Nachnutzung der eigenen Forschung 
 + Rechtliche Vorgaben zum Datenschutz (DSGVO) <!-- Kommentar von Denise: sind dies Ziele des FDM im engeren Sinne? Oder 'Rechtliche vorgaben zum Datenschutz einhalten'--> 
 
 ### Ziel dieser Leitlinien
 
-+ Eine nachvollziehbare Datenorganisation innerhalb der Fakultät für Psychologie inkl. der Organisation des Wissens über diese Daten
++ eine nachvollziehbare Datenorganisation innerhalb der Fakultät für Psychologie inkl. der Organisation des Wissens über diese Daten
 + Tipps für die praktische Umsetzung einer Reihe von Vorgaben für die Arbeit mit Forschungsdaten (durch TUD, DFG und DGPs) im Forschungsalltag geben
 + Abgrenzung des Begriffs Forschungsdatenmanagement zu anderen Bereichen
 + Projektmanagement: FDM-Maßnahmen können in die einzelnen Schritte des Forschungsprozesses eingehängt werden; FDM ersetzt nicht die eigentliche Planung des Forschungsprozesses 

@@ -24,25 +24,25 @@ aus den [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/downl
 
 #### REDCap <!-- in Struktur einpflegen/ergänzen durch Team Forschungsdaten -->
 <!-- Ob dieser Unterpunkt in die FDM-Leitlinie einfließen soll und in welchem Umfang ist noch offen; z.B. Professur „Differentielle Psychologie“ als Ansprechpartner für Umsetzung von Fragebögen und Schulung von Mitarbeitern bzgl. REDCap -->
-+ Verwendungszweck: <!-- ergänzen durch Team Forschungsdaten --> z.B. Erstellung, Durchführung und Auswertung von Umfragen, Ablaufprotokoll, Datenorganisation (z.B. automatisierter Upload von behavioralen oder EEG-Daten)
-+ Datenqualität: semi-automatisierte Dokumentation der Arbeitsschritte durch User-Führung (z.B. automatische Erstellung von Logfiles und Code Books)
-+ Datenschutz: REDCap-Instanzen werden auf Servern des ZIH in Dresden ausgeführt; Kontaktdaten der Probanden werden in einer separaten Anwendung verwaltet (PAMS)
-+ Weiterführende Links:
++ **Verwendungszweck:** <!-- ergänzen durch Team Forschungsdaten --> z.B. Erstellung, Durchführung und Auswertung von Umfragen, Ablaufprotokoll, Datenorganisation (z.B. automatisierter Upload von behavioralen oder EEG-Daten)
++ **Datenqualität:** semi-automatisierte Dokumentation der Arbeitsschritte durch User-Führung (z.B. automatische Erstellung von Logfiles und Code Books)
++ **Datenschutz:** REDCap-Instanzen werden auf Servern des ZIH in Dresden ausgeführt; Kontaktdaten der Probanden werden in einer separaten Anwendung verwaltet (PAMS)
++ **Weiterführende Links:**
   + Links zu REDCap-Vorlagen
   + Links zu Manualen 
 ### Datenorganisation
 
 **Grundlage**
 
-+ TUD-Leitlinie 5: „Die TU Dresden verfügt über eine Grundausstattung an Forschungsdateninfrastruktur und stellt damit eine angemessene Aufbewahrung und die technische Verfügbarkeit von digitalen Forschungsdaten sicher“
++ **TUD-Leitlinie 5.** „Die TU Dresden verfügt über eine Grundausstattung an Forschungsdateninfrastruktur und stellt damit eine angemessene Aufbewahrung und die technische Verfügbarkeit von digitalen Forschungsdaten sicher“
 
 
 **Umsetzung**
 
-+ Datenablage  <!-- ergänzen durch Team Forschungsdaten -->
++ **Datenablage**  <!-- ergänzen durch Team Forschungsdaten -->
   + Zum Einsatz kommen ZIH-Dienste wie Gruppenlaufwerke, Cloudstore oder SharePoint.
   + Für bestimmte Anwendungsfälle kommt REDCap zum Einsatz.
-+ Gruppenlaufwerke/Ordnerstrukturen
++ **Gruppenlaufwerke/Ordnerstrukturen**
   + Für jedes Gruppenlaufwerk sollte eine Ansprechperson benannt werden und allen Mitarbeitenden bekannt sein; die Ansprechperson steht für Nachfragen zur Verfügung („Wo legt man diese und jene Datei ab?“), die Ansprechperson führt regelmäßig Qualitätskontrollen auf dem Gruppenlaufwerk durch 
   + Grundlegende Vorschläge für die Ordnerstruktur:
     + Berufliche Daten von privaten Daten trennen <!-- ??? --><!-- Kommentar Denise: das spielt m.E. hier keine Rolle, diese Richtlinien/Handreichung gilt für Forschungsdaten-->
