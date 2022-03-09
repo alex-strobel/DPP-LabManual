@@ -4,8 +4,8 @@ In diesem Ordner sammeln wir Manuals für administrative Aufgaben wie etwa SHK-E
 
 Hier mal eine grobe Sammlung von Dingen, die zu beschreiben und ggf. zu erläutern vielleicht hilfreich sein könnte (in loser Folge):
 
-- **Tutorien**: Tutoren finden/halten; Anträge stellen; Verträge ausarbieten; Tutorien in die reguläre Lehre einbettten und monitoren; Eva.luationen einholen; Berichte abliefern 
-- **SHKs**: SHKs finden/halten; Verträge ausarbieten; was sind SHK-Aufgaben, was nicht (allgemein und für uns); Stundenzettel führen; Einbndung von SHKs in die AG einerseits und in Publikationen andererseits
+- **Tutorien**: Tutoren finden/halten; Anträge stellen; Verträge ausarbeiten; Tutorien in die reguläre Lehre einbettten und monitoren; Eva.luationen einholen; Berichte abliefern 
+- **SHKs**: SHKs finden/halten; Verträge ausarbeiten; was sind SHK-Aufgaben, was nicht (allgemein und für uns); Stundenzettel führen; Einbindung von SHKs in die AG einerseits und in Publikationen andererseits
 - **Projektmitarbeiter:innen**: Leitfaden für Einstellungsgespräche; Prozedere bei Arbeitsverträgen etc. 
 - **Urlaub**: Planung; Anträge; Ansparung
 - **Jahresmitarbeitergespräche**: Material; Planung; Ablauf; Dokumentation
@@ -13,7 +13,7 @@ Hier mal eine grobe Sammlung von Dingen, die zu beschreiben und ggf. zu erläute
 - **Drittmittel (DM)**: DM-Anzeige, -Meldung, -Bewirtschaftung, -Abrechnung; Overhead-Verwendung
 - **Onboarding**: Welche Dinge sind zu beachten, wenn jemand bei uns neu anfängt? (ZIH-Login, Aufnahme als Promovend:in in Fakultät und Graduiertenakademie, Zugang zu Ressourcen materielle und digitaler Natur etc.)
 - **Offboarding**: Welche Dinge sind zu beachten, wenn jemand bei uns aufhört? (Gast-Login für Abschluss von Projekten; Datenübergabe und -dokumentation; evtl. Klärung von Rechten; Austrag aus Gruppen, wenn erforderlich/gewünscht etc.)
-- **Zugangs zu Ressourcen**: ZIH, Gruppenlaufwerk, Discord, Cloud-Dienste, Verteiler, Drucker, Küche, AnyDesk, Lizenzen etc.
+- **Zugang zu Ressourcen**: ZIH, Gruppenlaufwerk, Discord, Cloud-Dienste, Verteiler, Drucker, Küche, AnyDesk, Lizenzen etc.
 - **Team-bezogene Dinge**: Geburtstage, Projekttag, Weihnachtsfeier etc.
 - **Corporate Design**
 - **Allgemeine Ordnungen**: SächsHSFG, Grundordnung, Immatrikulationsordnung, Studien- und Prüungsordnungen Bachelor und Master CAN, Promotionsordnung etc.
