@@ -7,6 +7,7 @@ aus den [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/downl
 
 ## Inhalt
 
+
 [Ausgangspunkt](RTFM_01_Ausgangspunkt.md)
 
 [Zweck der FDM-Leitlinien](RTFM_02_Zweck.md)
@@ -19,6 +20,7 @@ aus den [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/downl
 + [Datenschutz](RTFM_03_Kernprozesse.md#datenschutz)
 
 [Unterstützende Prozesse für das FDM](RTFM_04_Support.md)
++ [Datenerhebung](RTFM_04_Support.md#datenerhebung)
 + [Datenorganisation](RTFM_04_Support.md#datenorganisation)
 + [Wissensmanagement Onboarding](RTFM_04_Support.md#wissensmanagement-onboarding)
 + [Wissensmanagement Offboarding](RTFM_04_Support.md#wissensmanagement-offboarding)
