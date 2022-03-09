@@ -83,7 +83,7 @@ Obwohl Data Management Plans vorrangig für Förderanträge zu erstellen sind, w
 + Versionskontrolle: Modifikationen an Dateien werden durch (digitale) Dokumentation erfasst; Ziel ist die Nachvollziehbarkeit, die „Data Lineage“ <!-- Beispiel eines solchen Dokuments sind die Readme-Dokumente der der Professur „Arbeitspsychologie“ --> <!-- kommentar Denise: stimmt das? Hab ich da was zur Versionskontrolle drin? Eigentlich sollen nur die finalen Dokumente/Dateien auf das AO-FDM Laufwerk kopiert werden, diese sind wahrsch. zu jedem Meilenstein andere... Anm. Alex: Andreas vdD hatte das angemerkt, aber generell, nicht konkret bezogen auf die versionskontrolle. --> Bei Nutzung von GitHub als Projektplattform ist die Versionskontrolle bereits "eingebaut".
 
 + Weiterführende Links <!-- Beispiel eines auskommentiertes R-Skripts bei der Professur „Kognitive Modellierung“ -->
->>>>>>> dbfad1cf1753d9e04c175a531dc785e95247e88a
+
   + [Vorlage Readme.txt](RTFM_05_Ressourcen.md#Vorlagen) (s.a. den [Guide to writing "readme" style metadata](https://data.research.cornell.edu/content/readme))
   + [Vorlage Code Book](RTFM_05_Ressourcen.md#Vorlagen)
 
