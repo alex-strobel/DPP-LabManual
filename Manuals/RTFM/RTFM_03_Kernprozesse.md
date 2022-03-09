@@ -130,6 +130,17 @@ Obwohl Data Management Plans vorrangig für Förderanträge zu erstellen sind, w
       + [GitHub](https://github.com): zunehmend häufiger auch in der Psychologie genutzt, Vorteil gegenüber z.B. OSF ist, dass nicht einzelne Dateien, sondern ganze Forschungsprojekte von Nachnutzenden heruntergeladen (geklont) werden können, Nachteil ist eine zu Beginn etwas verwirrende Struktur und Terminologie
       + [PsychArchives](https://www.psycharchives.org), vorgehalten von Leibniz Psychology ... <!-- noch keine Erfahrungen damit --><!--Kommentar Denise: Vorteil hier könnte die Abbildung des gesamten Forschungszyklus sein, wenn man das möchte: Planung und Analyse von Studien https://www.psychnotebook.org/, Präregistrierung (https://prereg-psych.org/), teilweise Datenerhebung (https://leibniz-psychology.org/angebote/daten-erheben/), Datenarchivierung https://www.psycharchives.org/ mit Datenmanagementsystem https://datawiz.leibniz-psychology.org/, Publikation https://www.psychopen.eu/ -->
 
+
+ >***Überblick OSF***
+>+ Verwendungszweck: ergänzen durch Team Forschungsdaten, z.B. Präregistrierung
+>+ Datenqualität: es gelten die gleichen Anforderungen wie bei der Ablage von Daten auf dem Gruppenlaufwerl (analog zur „Checkliste für die Ablage von Daten auf dem Gruppenlaufwerk“ in Abschnitt 3 „Datenorganisation“);
+>+ Datenschutz: es können OSF-Server in Frankfurt/Main ausgewählt werden 
+>+ Weiterführende Links:
+>   + Beispiel für eine OSF-Struktur, mit der ein Institut seinen Forschungsalltag verwaltet: https://osf.io/n7263  
+>   + ggf. Link zu einem beispielhaften OSF-Projekt aus der Fakultät Psychologie
+<!-- Ob dieser Unterpunkt in die FDM-Leitlinie einfließen soll und in welchem Umfang ist noch offen; David Riedel von der Kontaktstelle Forschungsdaten kann als Ansprechpartner dienen: aktuell läuft eine Studie zum Nutzerverhalte und deren Anforderungen an OSF -->
+<!-- Kommentar Denise: Wenn OSF detailliert beschrieben wird, würde ich nach und nach auch eine Beschreibung von leibniz-psychologie ergänzen. Deren Ziel ist ja, dass die deutschsprachige Psychologie die Angebote dort nutzt. Es bietet sich dort auch guter Support, soweit ich das überblicke. -->
+
 ### Datenschutz
 
 **Grundlage**

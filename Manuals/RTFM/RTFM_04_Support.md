@@ -7,22 +7,41 @@ aus den [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/downl
 
 ## Unterstützende Prozesse für das FDM
 
-#### Definition
+### Definition
 
-+ unterstützende Prozesse ermöglichen die Umsetzung der Kernprozesse 
++ unterstützende Prozesse ermöglichen die Umsetzung der Kernprozesse
 
+### Überblick Unterstützende Prozesse
+
++ [Datenerhebung](#datenerhebung)
++ [Datenorganisation](#datenorganisation)
++ [Wissensmanagement Onboarding](#wissensmanagement-onboarding)
++ [Wissensmanagement Offboarding](#wissensmanagement-offboarding)
+
+### Datenerhebung
+
+#### ORSEE und PAMS
+
+#### REDCap <!-- in Struktur einpflegen/ergänzen durch Team Forschungsdaten -->
+<!-- Ob dieser Unterpunkt in die FDM-Leitlinie einfließen soll und in welchem Umfang ist noch offen; z.B. Professur „Differentielle Psychologie“ als Ansprechpartner für Umsetzung von Fragebögen und Schulung von Mitarbeitern bzgl. REDCap -->
++ Verwendungszweck: <!-- ergänzen durch Team Forschungsdaten --> z.B. Erstellung, Durchführung und Auswertung von Umfragen, Ablaufprotokoll, Datenorganisation (z.B. automatisierter Upload von behavioralen oder EEG-Daten)
++ Datenqualität: semi-automatisierte Dokumentation der Arbeitsschritte durch User-Führung (z.B. automatische Erstellung von Logfiles und Code Books)
++ Datenschutz: REDCap-Instanzen werden auf Servern des ZIH in Dresden ausgeführt; Kontaktdaten der Probanden werden in einer separaten Anwendung verwaltet (PAMS)
++ Weiterführende Links:
+  + Links zu REDCap-Vorlagen
+  + Links zu Manualen 
 ### Datenorganisation
 
-#### Grundlage
+**Grundlage**
 
 + TUD-Leitlinie 5: „Die TU Dresden verfügt über eine Grundausstattung an Forschungsdateninfrastruktur und stellt damit eine angemessene Aufbewahrung und die technische Verfügbarkeit von digitalen Forschungsdaten sicher“
 
 
-#### Umsetzung
+**Umsetzung**
 
 + Datenablage  <!-- ergänzen durch Team Forschungsdaten -->
   + Zum Einsatz kommen ZIH-Dienste wie Gruppenlaufwerke, Cloudstore oder SharePoint.
-  + Für bestimmte Anwendungsfälle kommt REDCap zum Einsatz. 
+  + Für bestimmte Anwendungsfälle kommt REDCap zum Einsatz.
 + Gruppenlaufwerke/Ordnerstrukturen
   + Für jedes Gruppenlaufwerk sollte eine Ansprechperson benannt werden und allen Mitarbeitenden bekannt sein; die Ansprechperson steht für Nachfragen zur Verfügung („Wo legt man diese und jene Datei ab?“), die Ansprechperson führt regelmäßig Qualitätskontrollen auf dem Gruppenlaufwerk durch 
   + Grundlegende Vorschläge für die Ordnerstruktur:
@@ -58,26 +77,6 @@ aus den [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/downl
 >+ Fokus-Treffen, um gemeinsam Strukturen/Standards für Readme, Gruppenlaufwerke und weitere FDM-Regeln auszuarbeiten
 
 Jede Arbeitsgruppe sollte auf Basis dieses Beispiels eine Checkliste ausarbeiten, im Gruppenlaufwerk ablegen, regelmäßig aufdatieren <!-- Kommentar Denise: Was bedeutet das?-->und anwenden, sofern keine geeigneten alternativen Wege der Datenpflege beschritten werden (die dann allerdings gleichermaßen für alle Arbeitsgruppenmitglieder verbindlichen, dokumentierten und gut auffindbaren Regeln unterliegen müssen).
-
-### REDCap <!-- in Struktur einpflegen/ergänzen durch Team Forschungsdaten -->
-<!-- Ob dieser Unterpunkt in die FDM-Leitlinie einfließen soll und in welchem Umfang ist noch offen; Professur „Differentielle Psychologie“ als Ansprechpartner für Umsetzung von Fragebögen und Schulung von Mitarbeitern bzgl. REDCap -->
-+ Verwendungszweck: ergänzen durch Team Forschungsdaten, z.B. Erstellung, Durchführung und Auswertung von Umfragen
-+ Datenqualität: semi-automatisierte Dokumentation der Arbeitsschritte durch User-Führung (z.B. automatische Erstellung von Logfiles und Code-Büchern)
-+ Datenschutz: REDCap-Instanzen werden auf Servern des ZIH in Dresden ausgeführt; Kontaktdaten der Probanden werden in einer separaten Anwendung verwaltet (PAMS)
-+ Weiterführende Links:
-  + Links zu REDCap-Vorlagen
-  + Links zu Manualen
-
-### OSF
-<!-- Ob dieser Unterpunkt in die FDM-Leitlinie einfließen soll und in welchem Umfang ist noch offen; David Riedel von der Kontaktstelle Forschungsdaten kann als Ansprechpartner dienen: aktuell läuft eine Studie zum Nutzerverhalte und deren Anforderungen an OSF 
- -->
- <!--Kommentar Denise: Wenn OSF detailliert beschrieben wird, würde nach und nach auch eine Beschreibung von leibniz-psychologie ergänzen. Deren Ziel ist ja, dass die deutschsprachige Psychologie die Angebote dort nutzt. Es bietet sich dort auch guter Support, soweit ich das überblicke. -->
-+ Verwendungszweck: ergänzen durch Team Forschungsdaten, z.B. Präregistrierung
-+ Datenqualität: es gelten die gleichen Anforderungen wie bei der Ablage von Daten auf dem Gruppenlaufwerl (analog zur „Checkliste für die Ablage von Daten auf dem Gruppenlaufwerk“ in Abschnitt 3 „Datenorganisation“);
-+ Datenschutz: es können OSF-Server in Frankfurt/Main ausgewählt werden 
-+ Weiterführende Links:
-  + Beispiel für eine OSF-Struktur, mit der ein Institut seinen Forschungsalltag verwaltet: https://osf.io/n7263  
-  + ggf. Link zu einem beispielhaften OSF-Projekt aus der Fakultät Psychologie
 
 ### Wissensmanagement Onboarding
 + Jede:r neue Mitarbeitende erhält diese FDM-Leitlinien zur Durchsicht (ggf. abzeichnen lassen?)<!--Beispiele für solche Dokumente finden sich bei den Professuren „Abhängiges Verhalten“ und „Arbeits- und Organisationspsychologie"--> <!--Kommentar Denise: zusätzliche Empfehlung einer unterschriebenen, verbindlichen Vereinbarung zwischen MA/Projektleitung mit der Lehrstuhlleitung? siehe AO-->
