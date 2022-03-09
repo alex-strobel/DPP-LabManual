@@ -121,7 +121,7 @@ Obwohl Data Management Plans vorrangig für Förderanträge zu erstellen sind, w
 
 **Grundlage**
 
-+ **DFG-Leitlinie 2.** „Bereitstellung „Soweit einer Veröffentlichung der Forschungsdaten aus einem DFG-geförderten Projekt Rechte Dritter (insbesondere Datenschutz, Urheberrecht) nicht entgegenstehen, sollten Forschungsdaten so zeitnah wie möglich verfügbar gemacht werden.“
++ **DFG-Leitlinie 2.** „Soweit einer Veröffentlichung der Forschungsdaten aus einem DFG-geförderten Projekt Rechte Dritter (insbesondere Datenschutz, Urheberrecht) nicht entgegenstehen, sollten Forschungsdaten so zeitnah wie möglich verfügbar gemacht werden.“
 
 + **TUD-Leitlinie 6.** „Die TU Dresden fördert und unterstützt den freien Zugang zu Forschungsdaten (Open Access) – einerseits im Sinne guter wissenschaftlicher Praxis, andererseits wegen der großen Bedeutung für die optimale Verwertung von Forschungsergebnissen und der Qualität der Forschung. Die Entscheidung für eine Veröffentlichung und deren rechtliche Bedingungen liegt in der Eigenverantwortung der Wissenschaftlerinnen und Wissenschaftler. Der Schutz persönlicher Daten, ethische und urheberrechtliche Belange, Verpflichtungen gegenüber Dritten und Verwertungsinteressen sollen ausgewogen berücksichtigt werden.“
 
@@ -135,7 +135,7 @@ Obwohl Data Management Plans vorrangig für Förderanträge zu erstellen sind, w
   + Datenselektion und Datenaufbereitung erfolgt analog zum Vorgehen im Abschnitt „Datenarchivierung“
   + Lizensierung der veröffentlichten Forschungsdaten: Die meisten Forschungsdaten werden unter Verwendung einer [Creative Commons Lizenz](https://www.bertelsmann-stiftung.de/fileadmin/files/BSt/Publikationen/Infomaterialien/IN_Freie_Lizenzen_-_einfach_erklaert_Poster_2017_07_20.pdf) veröffentlicht. Dabei sollte die zu vergebende Lizenz stets genau erwogen werden: Die offenste Form der Creative Commons (CC) Lizensierung ist die CC 0 Lizenz, bei der nachnutzende Personen vollkommen frei und ohne Namensnennung der Urheberschaft über die Daten verfügen können; eine ebenfalls sehr offene Lizenz ist CC 4.0 BY, die zumindest die Namensnennung der Urheberschaft (BY = Attribution) verlangt; eine vergleichsweise gängige CC Lizenz ist CC 4.0 BY SA NC, bei der von Nachnutzenden neben der Angabe der Urheberschaft auch verlangt wird, die Daten unter gleichen Bedingungen zu lizensieren (SA = Share Alike) und nur für nicht-kommerzielle Zwecke (NC = Non-Commercial) zu verwenden. Bei Verwendung von Daten Dritter sollten die Daten nur nach Rücksprache mit den Dateneigentümern und unter Verwendung einer geeigneten Lizenz veröffentlicht werden (vgl. Abschnitt „Datenschutz“ weiter unten, siehe auch [Creative Commons Licence Chooser](https://chooser-beta.creativecommons.org)).    
   + **Im Zweifelsfall:** Rücksprache mit der [Professur für Urheberrecht und geistiges Eigentum](https://tu-dresden.de/gsw/phil/irget/jfbimd13/die-professur) der TU Dresden
-  + Auswahl eines geeigneten Datenrepositoriums
+  + **Auswahl eines geeigneten Datenrepositoriums**
     + Verzeichnis von Forschungsdatenrepositorien: [re3data](https://www.re3data.org/)
     + Datenrepositorium der TU Dresden: [OpARA](https://opara.zih.tu-dresden.de/), ist derzeit noch etwas umständlich in der Handhabung, zeichnet sich aber dadurch aus, dass 1. alle Daten auf Servern der TU Dresden liegen und 2. eine unabhängige Überprüfung der Daten und ihrer Dokumentation erfolgt, d.h., die Daten werden kuratiert  
     + Datenrepositorien mit Fokus auf oder häufiger Nutzung in der Psychologie: 
