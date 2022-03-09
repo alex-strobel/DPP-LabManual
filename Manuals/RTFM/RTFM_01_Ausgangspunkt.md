@@ -38,5 +38,5 @@ Mit den vorliegenden **R**ichtlinien für **T**ransparentes **F**orschungsdaten-
 <!-- Kommentar Christoph: Natürlich nicht für die RTFMs relevant, aber was "droht", wenn die RTFMs nicht umgesetzt werden? Hat da die Uni überhaupt Handlungsspielraum in Form von Sanktionen? -->
 ---
 
-[**Inhaltsverzeichnis**](RTFM_00_Inhalt.md) | [weiter zu **Zweck der Richtlinien**](RTFM_02_Zweck.md)
+[**Inhaltsverzeichnis**](RTFM_00_Inhalt.md#inhalt) | [weiter zu **Zweck der Richtlinien**](RTFM_02_Zweck.md)
 
