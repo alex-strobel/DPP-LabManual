@@ -60,6 +60,7 @@ Obwohl Data Management Plans vorrangig für Förderanträge zu erstellen sind, w
 
 **Umsetzung**
 
+<<<<<<< HEAD
 + **Nachvollziehbarkeit:** Nachvollziehbare Dokumentation ist eine Voraussetzung für die Nachnutzung von Daten. 
 + **Umfang:** Der Umfang der Dokumentation richtet sich nach der Zielgruppe: Dokumentationen werden nicht für fachfremdes Personal geschrieben, sondern für Kolleg:innen mit ähnlichem Ausbildungsniveau.
 + **Readme-Dateien:** Im Idealfall befindet sich in jedem Ordner eine kurze Text-Datei (Readme.txt; für GitHub Repositories eine Readme.md), die den Inhalt des Ordners beschreibt (auch als „Leseanleitungen“ oder „Ordner-Steckbrief“ bezeichnet). Die Verwendung von Word-Dateien (Readme.docx) sollte eher vermieden werden.
@@ -71,6 +72,19 @@ Obwohl Data Management Plans vorrangig für Förderanträge zu erstellen sind, w
 + **Versionskontrolle:** Modifikationen an Dateien werden durch (digitale) Dokumentation erfasst; Ziel ist die Nachvollziehbarkeit, die „Data Lineage“. <!-- Beispiel eines solchen Dokuments sind die Readme-Dokumente der der Professur „Arbeitspsychologie“ --> <!-- kommentar Denise: stimmt das? Hab ich da was zur Versionskontrolle drin? Eigentlich sollen nur die finalen Dokumente/Dateien auf das AO-FDM Laufwerk kopiert werden, diese sind wahrsch. zu jedem Meilenstein andere... Anm. Alex: Andreas vdD hatte das angemerkt, aber generell, nicht konkret bezogen auf die versionskontrolle. --> Bei Nutzung von GitHub als Projektplattform ist die Versionskontrolle bereits "eingebaut".
 
 + **Weiterführende Links** <!-- Beispiel eines auskommentiertes R-Skripts bei der Professur „Kognitive Modellierung“ -->
+=======
++ **Nachvollziehbarkeit**: Nachvollziehbare Dokumentation ist eine Voraussetzung für die Nachnutzung von Daten. 
++ **Umfang**: Der Umfang der Dokumentation richtet sich nach der Zielgruppe: Dokumentationen werden nicht für fachfremdes Personal geschrieben, sondern für Kolleg:innen mit ähnlichem Ausbildungsniveau.
++ **Readme**: Im Idealfall befindet sich in jedem Ordner eine kurze Text-Datei (Readme.txt; für GitHub Repositories eine Readme.md), die den Inhalt des Ordners beschreibt (auch als „Leseanleitungen“ oder „Ordner-Steckbrief“ bezeichnet). Die Verwendung von Word-Dateien (Readme.docx) sollte eher vermieden werden.
++ Allgemeine Dokumentationen sollten an zentraler Stelle (z.B. oberste Hierarchie-Ebene auf dem Gruppenlaufwerk) abgelegt werden; sämtliche Dokumente sollten eindeutig benannt werden; bei vielen Dokumenten kann es sich lohnen, eine Übersicht zu führen (Liste aktuell halten -> verantwortliche Person bestimmen)
++ Was sind relevante Dokumente?:
+  + Code-Books: Erklärungen zur Bedeutung verwendeter Variablen und Abkürzungen, der Kodierung der Variablen etc. <!-- Eine mögliche Vorlage für ein „Code-Book“ bei der Professur „Abhängiges Verhalten“ -->. Bei Nutzung von REDCap für die Erhebung und das Management von Forschungsdaten kann ein Code Book automatisiert erstellt werden.  
+  + Manuale/Protokolle: detaillierte Beschreibung von Forschungsabläufen 
+  + Skripte (Python, R-Code, Matlab, etc.): relevante Informationen in Header und In-line Kommentaren in einem Auflösungsgrad dokumentieren, der die Handhabung der Skripte durch Dritte möglich macht 
++ Versionskontrolle: Modifikationen an Dateien werden durch (digitale) Dokumentation erfasst; Ziel ist die Nachvollziehbarkeit, die „Data Lineage“ <!-- Beispiel eines solchen Dokuments sind die Readme-Dokumente der der Professur „Arbeitspsychologie“ --> <!-- kommentar Denise: stimmt das? Hab ich da was zur Versionskontrolle drin? Eigentlich sollen nur die finalen Dokumente/Dateien auf das AO-FDM Laufwerk kopiert werden, diese sind wahrsch. zu jedem Meilenstein andere... Anm. Alex: Andreas vdD hatte das angemerkt, aber generell, nicht konkret bezogen auf die versionskontrolle. --> Bei Nutzung von GitHub als Projektplattform ist die Versionskontrolle bereits "eingebaut".
+
++ Weiterführende Links <!-- Beispiel eines auskommentiertes R-Skripts bei der Professur „Kognitive Modellierung“ -->
+>>>>>>> dbfad1cf1753d9e04c175a531dc785e95247e88a
   + [Vorlage Readme.txt](RTFM_05_Ressourcen.md#Vorlagen) (s.a. den [Guide to writing "readme" style metadata](https://data.research.cornell.edu/content/readme))
   + [Vorlage Code Book](RTFM_05_Ressourcen.md#Vorlagen)
 
