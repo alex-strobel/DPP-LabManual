@@ -60,9 +60,9 @@ Obwohl Data Management Plans vorrangig für Förderanträge zu erstellen sind, w
 
 **Umsetzung**
 
-+ Nachvollziehbare Dokumentation ist eine Voraussetzung für die Nachnutzung von Daten. 
-+ Der Umfang der Dokumentation richtet sich nach der Zielgruppe: Dokumentationen werden nicht für fachfremdes Personal geschrieben, sondern für Kolleg:innen mit ähnlichem Ausbildungsniveau.
-+ Im Idealfall befindet sich in jedem Ordner eine kurze Text-Datei (Readme.txt; für GitHub Repositories eine Readme.md), die den Inhalt des Ordners beschreibt (auch als „Leseanleitungen“ oder „Ordner-Steckbrief“ bezeichnet). Die Verwendung von Word-Dateien (Readme.docx) sollte eher vermieden werden.
++ **Nachvollziehbarkeit**: Nachvollziehbare Dokumentation ist eine Voraussetzung für die Nachnutzung von Daten. 
++ **Umfang**: Der Umfang der Dokumentation richtet sich nach der Zielgruppe: Dokumentationen werden nicht für fachfremdes Personal geschrieben, sondern für Kolleg:innen mit ähnlichem Ausbildungsniveau.
++ **Readme**: Im Idealfall befindet sich in jedem Ordner eine kurze Text-Datei (Readme.txt; für GitHub Repositories eine Readme.md), die den Inhalt des Ordners beschreibt (auch als „Leseanleitungen“ oder „Ordner-Steckbrief“ bezeichnet). Die Verwendung von Word-Dateien (Readme.docx) sollte eher vermieden werden.
 + Allgemeine Dokumentationen sollten an zentraler Stelle (z.B. oberste Hierarchie-Ebene auf dem Gruppenlaufwerk) abgelegt werden; sämtliche Dokumente sollten eindeutig benannt werden; bei vielen Dokumenten kann es sich lohnen, eine Übersicht zu führen (Liste aktuell halten -> verantwortliche Person bestimmen)
 + Was sind relevante Dokumente?:
   + Code-Books: Erklärungen zur Bedeutung verwendeter Variablen und Abkürzungen, der Kodierung der Variablen etc. <!-- Eine mögliche Vorlage für ein „Code-Book“ bei der Professur „Abhängiges Verhalten“ -->. Bei Nutzung von REDCap für die Erhebung und das Management von Forschungsdaten kann ein Code Book automatisiert erstellt werden.  
