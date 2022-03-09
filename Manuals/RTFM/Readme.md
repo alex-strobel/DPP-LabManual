@@ -5,6 +5,10 @@ aus den [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/downl
 
 ---
 
+## Überblick
+
+![Elemente des Forschungsdatenmanagements an der Fakultät Psychologie](Images/Manuals/RTFM/RDM_FacultyPsychology.jpg)
+
 ## Inhalt
 
 [Ausgangspunkt](RTFM_01_Ausgangspunkt.md)
