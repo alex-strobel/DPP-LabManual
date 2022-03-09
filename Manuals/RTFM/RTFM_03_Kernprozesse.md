@@ -21,55 +21,62 @@ Paragraphen mit Bezug zum Forschungsdatenmanagement:<br>
 § 7 Phasenübergreifende Qualitätssicherung im Forschungsprozess<br>
 § 8 Wissenschaftliche Veröffentlichungen
 
-### Datenmanagementplan
+### Überblick Kernprozesse
 
-#### Grundlage
++ [Data Management Plan](#data-management-plan)
++ [Datendokumentation](#datendokumentation)
++ [Datenarchivierung](#datenarchivierung)
++ [Datenpublikation](#datenpublikation)
++ [Datenschutz](#datenschutz)
+
+### Data Management Plan
+
+**Grundlage**
 
 + DFG-Leitlinie 1: „Projektplanung und Antragstellung „In einem Antrag sollten die Antragstellenden daher ausführen, welche Forschungsdaten im Verlauf eines wissenschaftlichen Forschungsvorhabens entstehen, erzeugt oder ausgewertet werden […]. Die einschlägigen Erläuterungen müssen Informationen zu Datentypen, falls vorhanden zu disziplinspezifischen Standards und zur Wahl geeigneter Repositorien enthalten […]. Zusätzlich werden Angaben zu ggf. betroffenen Rechten Dritter sowie erste Planungen zum zeitlichen Rahmen der Datenveröffentlichung erbeten.“
 + TUD-Leitlinie 3: „Für Projekte mit Forschungsdaten soll, basierend auf allgemeinen und fachspezifischen Richtlinien (z.B. der Fördermittelgeber oder Fachgesellschaften), möglichst schon bei Projektkonzeption bzw. -antragstellung ein „Data Management Plan“ erstellt werden, der den Umgang mit Forschungsdaten dokumentiert.“
 
-#### Umsetzung
+**Umsetzung**
 
-Relevante Aspekte, auf die in einem Datenmanagementplan <!-- im Satz darüber steht es englisch - vielleicht lieber einheitlich und durchgäng deutsch oder englisch? --> eingegangen werden sollte, finden sich hier:
+Relevante Aspekte, auf die in einem Data Management Plan eingegangen werden sollte, finden sich hier:
 
 + [DFG-Checkliste zum Umgang mit Forschungsdaten](https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/forschungsdaten_checkliste_de.pdf) 
 
-Die Kontaktstelle Forschungsdaten bietet als kostenlose Dienstleistung die Bereitstellung von Textbausteinen zum
-Datenmanagement für Förderanträge an, siehe hier:
+Die Kontaktstelle Forschungsdaten bietet als kostenlose Dienstleistung die Bereitstellung von Textbausteinen für einen Data Management Plan für Förderanträge an, siehe hier:
 
-+ vgl. [Checkliste/Formular des Datenmanagementplan (DMP) Service der Kontaktstelle Forschungsdaten](https://tu-dresden.de/forschung-transfer/services-fuer-forschende/kontaktstelle-forschungsdaten/unser-service/dm-texte/formular)  
++ vgl. [Checkliste/Formular des Data Management Plan (DMP) Service der Kontaktstelle Forschungsdaten](https://tu-dresden.de/forschung-transfer/services-fuer-forschende/kontaktstelle-forschungsdaten/unser-service/dm-texte/formular)  
 
-[Leibniz Psychology](https://leibniz-psychology.org) bietet mit dem Tool *DataWiz* "ein Assistenzsystem, das Wissenschaftlern und Wissenschaftlerinnen helfen soll, ihre Daten von Forschungsbeginn an fachgerecht aufzubereiten und zu dokumentieren. Das Tool hilft dabei, Datenmanagementpläne zu erstellen, eigene Forschungsdaten zu verwalten und es ermöglicht auch, Daten im Team zu teilen und später der Fachgemeinschaft zur Nachnutzung zur Verfügung zu stellen. DataWiz ist eine kostenfreie Open-Science-Webanwendung." (Text von der entsprechenden Webseite entnommen)
+[Leibniz Psychology](https://leibniz-psychology.org) bietet mit dem Tool *DataWiz* "ein Assistenzsystem, das Wissenschaftlern und Wissenschaftlerinnen helfen soll, ihre Daten von Forschungsbeginn an fachgerecht aufzubereiten und zu dokumentieren. Das Tool hilft dabei, einen Data Management Plan zu erstellen, eigene Forschungsdaten zu verwalten, und es ermöglicht auch, Daten im Team zu teilen und später der Fachgemeinschaft zur Nachnutzung zur Verfügung zu stellen. DataWiz ist eine kostenfreie Open-Science-Webanwendung." (Text von der entsprechenden Webseite entnommen)
 
-Obwohl Datenmanagementpläne vorrangig für Förderanträge zu erstellen sind, wird empfohlen, für jedwedes Forschungsprojekt einen solchen Plan zu erstellen und für alle Projektbeteiligten einsehbar in einem Projektordner zu hinterlegen (z.B. auf einem Gruppenlaufwerk).
+Obwohl Data Management Plans vorrangig für Förderanträge zu erstellen sind, wird empfohlen, für jedwedes Forschungsprojekt einen solchen Plan zu erstellen und für alle Projektbeteiligten einsehbar in einem Projektordner zu hinterlegen (z.B. auf einem Gruppenlaufwerk).
 
 ### Datendokumentation
 
-#### Grundlage
+**Grundlage**
 
 + TUD-Leitlinie 7: „Für die Bereitstellung und Nachnutzung ist es notwendig, die Daten, ihren Entstehungskontext und die benutzten Werkzeuge zu dokumentieren.“
 + TUD-Satzung § 7 (3) „Grundsätzlich sind alle für das Zustandekommen von Forschungsergebnissen relevanten Informationen zu dokumentieren. Dazu gehört auch, soweit dies möglich und zumutbar ist, die den Ergebnissen zugrundeliegenden Forschungsdaten.“
 
 
-#### Umsetzung
+**Umsetzung**
 
 + Nachvollziehbare Dokumentation ist eine Voraussetzung für die Nachnutzung von Daten. 
 + Der Umfang der Dokumentation richtet sich nach der Zielgruppe: Dokumentationen werden nicht für fachfremdes Personal geschrieben, sondern für Kolleg:innen mit ähnlichem Ausbildungsniveau.
 + Im Idealfall befindet sich in jedem Ordner eine kurze Text-Datei (Readme.txt; für GitHub Repositories eine Readme.md), die den Inhalt des Ordners beschreibt (auch als „Leseanleitungen“ oder „Ordner-Steckbrief“ bezeichnet). Die Verwendung von Word-Dateien (Readme.docx) sollte eher vermieden werden.
-+ Allgemeine Dokumentationen sollten an zentraler Stelle (z.B. oberste Hierarchie-Ebene auf dem Gruppenlaufwerk) abgelegt werden; sämtliche Dokumente sollten eindeutig benannt werden; bei vielen Dokumenten kann es sich lohnen, eine Übersicht zu führen (Liste aktuell halten -> verantwortliche Person bestimmen) 
++ Allgemeine Dokumentationen sollten an zentraler Stelle (z.B. oberste Hierarchie-Ebene auf dem Gruppenlaufwerk) abgelegt werden; sämtliche Dokumente sollten eindeutig benannt werden; bei vielen Dokumenten kann es sich lohnen, eine Übersicht zu führen (Liste aktuell halten -> verantwortliche Person bestimmen)
 + Was sind relevante Dokumente?:
   + Code-Books: Erklärungen zur Bedeutung verwendeter Variablen und Abkürzungen, der Kodierung der Variablen etc. <!-- Eine mögliche Vorlage für ein „Code-Book“ bei der Professur „Abhängiges Verhalten“ -->. Bei Nutzung von REDCap für die Erhebung und das Management von Forschungsdaten kann ein Code Book automatisiert erstellt werden.  
   + Manuale/Protokolle: detaillierte Beschreibung von Forschungsabläufen 
   + Skripte (Python, R-Code, Matlab, etc.): relevante Informationen in Header und In-line Kommentaren in einem Auflösungsgrad dokumentieren, der die Handhabung der Skripte durch Dritte möglich macht 
 + Versionskontrolle: Modifikationen an Dateien werden durch (digitale) Dokumentation erfasst; Ziel ist die Nachvollziehbarkeit, die „Data Lineage“ <!-- Beispiel eines solchen Dokuments sind die Readme-Dokumente der der Professur „Arbeitspsychologie“ --> <!-- kommentar Denise: stimmt das? Hab ich da was zur Versionskontrolle drin? Eigentlich sollen nur die finalen Dokumente/Dateien auf das AO-FDM Laufwerk kopiert werden, diese sind wahrsch. zu jedem Meilenstein andere... Anm. Alex: Andreas vdD hatte das angemerkt, aber generell, nicht konkret bezogen auf die versionskontrolle. --> Bei Nutzung von GitHub als Projektplattform ist die Versionskontrolle bereits "eingebaut".
 
-+ Weiterführende Links <!-- Beispiel eines auskommentiertes R-Skripts bei der Professur „Kognitive Modellierung“ --> 
++ Weiterführende Links <!-- Beispiel eines auskommentiertes R-Skripts bei der Professur „Kognitive Modellierung“ -->
   + [Vorlage Readme.txt](RTFM_05_Ressourcen.md#Vorlagen) (s.a. den [Guide to writing "readme" style metadata](https://data.research.cornell.edu/content/readme))
   + [Vorlage Code Book](RTFM_05_Ressourcen.md#Vorlagen)
 
 ### Datenarchivierung
 
-#### Grundlage
+**Grundlage**
 
 + DFG-Leitlinie 3: „Den Regeln der Guten Wissenschaftlichen Praxis folgend sollen Forschungsdaten in der eigenen Einrichtung oder in einer fachlich einschlägigen, überregionalen Infrastruktur für mindestens 10 Jahre archiviert werden.“
 
@@ -81,7 +88,7 @@ Obwohl Datenmanagementpläne vorrangig für Förderanträge zu erstellen sind, w
 
 + TUD-Leitlinie 5: „Die TU Dresden verfügt über eine Grundausstattung an Forschungsdateninfrastruktur und stellt damit eine angemessene Aufbewahrung und die technische Verfügbarkeit von digitalen Forschungsdaten sicher“
 
-#### Umsetzung
+**Umsetzung**
 
 + Zeitpunkt für Archivierung von Forschungsdaten:
   + wenn vorab definierte Projekt-Meilensteine erreicht wurden, z.B.
@@ -97,9 +104,9 @@ Obwohl Datenmanagementpläne vorrangig für Förderanträge zu erstellen sind, w
   + Verwendung geeigneter Dateiformate: im Falle von proprietären Dateiformaten sollten die Originaldaten zusätzlich in ein offenes Dateiformat exportiert und zusammen archiviert werden (z.B. \*.xlsx oder \*.sav + \*.csv)
   + Auswahl einer geeigneten Archivlösung, z.B. [Archivierung am ZIH](https://tu-dresden.de/zih/dienste/service-katalog/arbeitsumgebung/backup_archiv/archivierung_am_zih) der TU Dresden (OpARA oder Zwischenarchiv)
 
-### Datenpublikation 
+### Datenpublikation
 
-#### Grundlage
+**Grundlage**
 
 + DFG-Leitlinie 2: „Bereitstellung „Soweit einer Veröffentlichung der Forschungsdaten aus einem DFG-geförderten Projekt Rechte Dritter (insbesondere Datenschutz, Urheberrecht) nicht entgegenstehen, sollten Forschungsdaten so zeitnah wie möglich verfügbar gemacht werden.“
 
@@ -107,7 +114,7 @@ Obwohl Datenmanagementpläne vorrangig für Förderanträge zu erstellen sind, w
 
 + TUD-Leitlinie 5: „Die TU Dresden verfügt über eine Grundausstattung an Forschungsdateninfrastruktur und stellt damit eine angemessene Aufbewahrung und die technische Verfügbarkeit von digitalen Forschungsdaten sicher“
 
-#### Umsetzung
+**Umsetzung**
 
 + Zeitpunkt für die Veröffentlichung von Forschungsdaten:
   + Zu jeder <!-- Kommentar Denise: akzeptierten/eingereichten?--> Publikation werden die relevanten Forschungsdaten veröffentlicht (und idealerweise auch die Analyseskripte und die verwendeten Materialien zur Datenerhebung, z.B. Fragebögen, Stimuli, Experimentalskripte, sofern sie keinem Copyright unterliegen).  
@@ -125,13 +132,13 @@ Obwohl Datenmanagementpläne vorrangig für Förderanträge zu erstellen sind, w
 
 ### Datenschutz
 
-#### Grundlage
+**Grundlage**
 
 + TUD-Leitlinie 6: "Die TU Dresden fördert und unterstützt den freien Zugang zu Forschungsdaten (Open Access) – einerseits im Sinne guter wissenschaftlicher Praxis, andererseits wegen der großen Bedeutung für die optimale Verwertung von Forschungsergebnissen und der Qualität der Forschung. Die Entscheidung für eine Veröffentlichung und deren rechtliche Bedingungen liegt in der Eigenverantwortung der Wissenschaftlerinnen und Wissenschaftler. Der Schutz persönlicher Daten, ethische und urheberrechtliche Belange, Verpflichtungen gegenüber Dritten und Verwertungsinteressen sollen ausgewogen berücksichtigt werden.""
 + TUD Satzung GWP: §7 (6): "Sind in den Primärdaten personenbeziehbare Daten enthalten - Einzelangaben über persönliche oder sachliche Verhältnisse einer bestimmten oder bestimmbaren natürlichen Person – so sind die Merkmale, mit deren Hilfe ein Personenbezug hergestellt werden kann, getrennt zu speichern; die Merkmale sind zu löschen, sobald der Forschungszweck dies zulässt. Insofern sind diese Daten aus den zu archivierenden Primärdaten zu entfernen."
 + TUD Satzung GWP: §8 (10): "Soll die Veröffentlichung personenbeziehbare Daten enthalten – Einzelangaben über persönliche oder sachliche Verhältnisse einer bestimmten oder bestimmbaren natürlichen Person – so ist dies nur zulässig, wenn die hiervon Betroffenen eingewilligt haben oder dies für die Darstellung von Forschungsergebnissen über Ereignisse der Zeitgeschichte unerlässlich ist und überwiegende schutzwürdige Interessen der Betroffenen nicht entgegenstehen."
 
-#### Umsetzung
+**Umsetzung**
 
 + Anonymisierung bzw. sichere Pseudonymisierung von Daten als essenzieller Schritt des Datenschutzes
   + erfolgt, sobald es keinen wissenschaftlichen Grund mehr für die Zuordnung der Forschungsdaten zu personenbezogenen Daten gibt (also ggf. schon vor der Datenarchivierung, in jedem Fall aber vor der Datenpublikation); Nachteil: eine Löschung von Forschungsdaten einzelner Personen aufgrund einer Rücknahme der Einwilligung in die Datennutzung ist dann nicht mehr möglich, darauf muss in der die Einwilligungserklärung hingewiesen werden! 
