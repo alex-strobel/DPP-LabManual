@@ -85,8 +85,11 @@ Das Tool [*DataWiz*](https://datawiz.leibniz-psychology.org/DataWiz/) von [Leibn
 ### Individuelle Tools
 #### Labmanuals
 
-
+...
 #### Standard Operating Procedures
+
+oder auch *Technisch-organisatorische Maßnahmen (TOM)*
+
 #### Checklisten
 
 
