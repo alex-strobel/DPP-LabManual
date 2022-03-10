@@ -145,6 +145,7 @@ Obwohl Data Management Plans vorrangig für Förderanträge zu erstellen sind, w
       
 ### Datenschutz
 
+
 **Grundlage**
 
 + **TUD-Leitlinie 6.** "Die TU Dresden fördert und unterstützt den freien Zugang zu Forschungsdaten (Open Access) – einerseits im Sinne guter wissenschaftlicher Praxis, andererseits wegen der großen Bedeutung für die optimale Verwertung von Forschungsergebnissen und der Qualität der Forschung. Die Entscheidung für eine Veröffentlichung und deren rechtliche Bedingungen liegt in der Eigenverantwortung der Wissenschaftlerinnen und Wissenschaftler. Der Schutz persönlicher Daten, ethische und urheberrechtliche Belange, Verpflichtungen gegenüber Dritten und Verwertungsinteressen sollen ausgewogen berücksichtigt werden.""
