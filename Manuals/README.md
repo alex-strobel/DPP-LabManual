@@ -66,6 +66,8 @@ If your manual is going to be rather short, a one page manual will most likely b
 
 ...
 
+[up](#table-of-contents)
+
 ## Section 3
 
 ...
@@ -78,8 +80,8 @@ In the case of a multiple page manual, create a root document called `00_Manual_
 
 ```
 [Section 1](01_Section-1.md)
-[Section 2](01_Section-2.md)
-[Section 3](01_Section-3.md)
+[Section 2](02_Section-2.md)
+[Section 3](03_Section-3.md)
 
 ...
 
@@ -96,6 +98,6 @@ At the end of each subdocument, insert links that lead back to the Table of Cont
 
 ## Inserting figures and other content
 
-To avoid indiosyncratic naming conventions for folders containing, e.g., images or other content that you want to display in or link to your manual, add a subfolder `Ressources` to your manual's root folder. 
+To avoid indiosyncratic naming conventions for folders containing, e.g., images or other content that you want to display in or link to your manual, add a subfolder `Ressources` to your manual's root folder. <!-- we might also discuss whether we want to have a separate Ressources folder where we put in all the images etc. -->
 
 
