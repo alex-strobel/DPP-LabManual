@@ -6,7 +6,7 @@ TU Dresden
 
 ---
 
-## Basic function
+## Basic functions
 
 **Visual Studio Code...**
 
