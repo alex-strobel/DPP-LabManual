@@ -10,14 +10,24 @@ Hier mal eine grobe Sammlung von Dingen, die zu beschreiben und ggf. zu erläute
 - **Urlaub**: Planung; Anträge; Ansparung
 - **Jahresmitarbeitergespräche**: Material; Planung; Ablauf; Dokumentation
 - **SAP/SRM/ELSE**: Haushaltsdinge
+- **Beschaffung allg.**: z.B. Labormittel
 - **Drittmittel (DM)**: DM-Anzeige, -Meldung, -Bewirtschaftung, -Abrechnung; Overhead-Verwendung
-- **Onboarding**: Welche Dinge sind zu beachten, wenn jemand bei uns neu anfängt? (ZIH-Login, Aufnahme als Promovend:in in Fakultät und Graduiertenakademie, Zugang zu Ressourcen materielle und digitaler Natur etc.)
+- **Onboarding**: Welche Dinge sind zu beachten, wenn jemand bei uns neu anfängt? (ZIH-Login, Aufnahme als Promovend:in in Fakultät und Graduiertenakademie, Zugang zu Ressourcen materielle und digitaler Natur etc.), digitales Zertifikat
 - **Offboarding**: Welche Dinge sind zu beachten, wenn jemand bei uns aufhört? (Gast-Login für Abschluss von Projekten; Datenübergabe und -dokumentation; evtl. Klärung von Rechten; Austrag aus Gruppen, wenn erforderlich/gewünscht etc.)
 - **Zugang zu Ressourcen**: ZIH, Gruppenlaufwerk, Discord, Cloud-Dienste, Verteiler, Drucker, Küche, AnyDesk, Lizenzen etc.
 - **Team-bezogene Dinge**: Geburtstage, Projekttag, Weihnachtsfeier etc.
-- **Corporate Design**
+- **Corporate Design**: Vorlagen (inkl. Emailsignatur)
 - **Allgemeine Ordnungen**: SächsHSFG, Grundordnung, Immatrikulationsordnung, Studien- und Prüungsordnungen Bachelor und Master CAN, Promotionsordnung etc.
-- **TU Dresden Regularien**: Leitbild, Grundordnung, Regeln GWP, Regeln FDM
+- **TU Dresden Regularien**: Leitbild, Grundordnung, Regeln GWP, Regeln FDM, Zeiten (Semesterablaufpläne, Betriebsruhe etc.)
 - **Wegweiser Ansprechpersonen/Kommissionen**: Grundsätzliches, Lehre, Prüfungen, Beschwerden, Finanzen, Selbstverwaltung etc.
 - **Anschubfinanzierung**: Allgemeines, Template, Hinweise etc. (ggf. zu *Research* packen)
+- **TU Dresden und Familie**
+- **Krankheitsfall/Unfall**
+- **Stellenfinanzierung/Stipendien**: Möglichkeiten, Links, Deadlines ...
+- **Reisekostenanträge/-abrechnungen**: inkl digitale Veranstaltungen
+- **Versuchspersonengelder**
+- **Erste Hilfe/Brandschutz**
+- **Rundschreiben**
+- **Webseite** Grobüberblick CMS, Aufbau von Webseiten, Notwendigkeit engl. Versionen, Verantwortlichkeit allgemeine vs. persönliche Seiten
+- **AG-Kalender** (ggf. zu oben Zugang zu Ressourcen)
 - ... <!--bitte ergänzen, wann immer jemand noch etwas einfällt, das hier auftauchen sollte -->   
