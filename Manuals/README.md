@@ -6,7 +6,7 @@ This folder contains a collection of best-practice routines and guidelines at AG
 
 ## Contribution and attribution
 
-If you created a manual or contributed to it in a substantail way, you are a contributor and the manual's content can and will be attributed to you (including all posssibly erroneous statements and inacccuracies). If you are able and willing to take responsibility for a manuals's content, list your name and contact info in the header of the document, with the following header format:
+If you created a manual or contributed to it in a substantial way, you are a contributor and the manual's content can and will be attributed to you (including all possibly erroneous statements and inaccuracies). If you are able and willing to take responsibility for a manual's content, list your name and contact info in the header of the document, with the following header format:
 
 ```
 # Document title
