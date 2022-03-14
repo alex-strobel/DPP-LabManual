@@ -7,12 +7,14 @@
 It should not be necessary to have a file like this because all of us will agree upon what will be outlined below. 
 Yet, what we might think to agree upon may change over time and who comprises the *all of us* may change as well so that having a written *code of conduct* might be useful in the future.
 
+
 To put it simple:
 
 1. We are a team and as often as possible make collective decisions.
-2. We embrace open science principles and act accordingly.
-3. We always comment our code.
-4. We adhere to common principles when using language, i.e., everything said and written should be as accessible and inclusive as possible. 
+2. We value credible and trustworthy science.
+3. We embrace open science principles and act accordingly.
+4. We always comment our code.
+5. We adhere to common principles when using language, i.e., everything said and written should be as accessible and inclusive as possible. 
 8. ...
 
 To elaborate :
@@ -23,6 +25,10 @@ Still, for certain projects, it will be most efficient if there is one team memb
 This does not necessarily need but eventually often enough will be Alex.
 As Alex tends to postpone decisions, keep him reminded of his duty.
 Still, all team members can take part in any decision, but should also be prepared to do so.
+
+## We value credible and trustworthy science.
+
+We value interesting, creative, and informative research. We strive to method and data transparency, analytic reproducibility and robustness, and effect replicability. A study can be seen as credible or "not yet proven wrong" if other (independent) researchers are unable to identify flaws in study design, data processing, statistical analyses, and replicability. To achieve that, we conduct careful analyses and thorough as well as detailed record-keeping and writing.  
 
 ## We embrace open science principles and act accordingly.
 
