@@ -21,7 +21,7 @@ To elaborate :
 
 Still, for certain projects, it will be most efficient if there is one team member that eventually decides on how to proceed. 
 This does not necessarily need but eventually often enough will be Alex.
-As Alex tends to postpone decisons, keep him reminded of his duty.
+As Alex tends to postpone decisions, keep him reminded of his duty.
 Still, all team members can take part in any decision, but should also be prepared to do so.
 
 ## We embrace open science principles and act accordingly.
@@ -86,8 +86,8 @@ Yet, we will have to write informed consent forms or applications for ethical ap
 Then, the gender-sensitive way to do so is (in accordance with the TU Dresden Guidelines) <!-- add link --> to use "Projektleiter:innen" and "Versuchsteilnehmer:innen". 
 Details on gender-inclusive language (and also picture content) can be found in the TU Dresden's [Guidelines for Gender-inclusive Communication](https://tu-dresden.de/tu-dresden/organisation/ressourcen/dateien/Gleichstellungsbeauftragte/Unsere-Themen/genderinklusive-kommunikation/leitfaden-genderinklusive-kommunikation-2021).
 We all should do our best to adhere to these guidelines.
-The use of contructions like "Projektleiter:innen" oder "Studienteilnehmer:innen" most of the time makes communication so much easier. 
-Yet, there may be situatuions in which we fear that the usage of the : may annoy some participants (not so much in student samples, but in samples from the general population) and may prompt them to cancel their participation in a, say, online questionnaire, we may consider to use constructions like "Die Projektleitung liegt bei ..." or "Alle, die an der Untersuchung teilnehmen ...".
+The use of constructions like "Projektleiter:innen" oder "Studienteilnehmer:innen" most of the time makes communication so much easier. 
+Yet, there may be situations in which we fear that the usage of the : may annoy some participants (not so much in student samples, but in samples from the general population) and may prompt them to cancel their participation in a, say, online questionnaire, we may consider to use constructions like "Die Projektleitung liegt bei ..." or "Alle, die an der Untersuchung teilnehmen ...".
 This does not mean that we should give in to people who oppose to the usage of gender-inclusive language, but we also should try to include them as well by using gender-neutral language where possible. 
 After all, we want to have representative samples. 
 Yet, where it is impossible to use gender-neutral language, we will of course use the : construction instead of using the generic masculinum.
