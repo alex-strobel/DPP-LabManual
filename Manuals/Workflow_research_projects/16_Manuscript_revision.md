@@ -22,7 +22,7 @@ There are certainly other types of reviewers, but of whatever type they may be, 
 And doing everything right starts with a careful planning and conduction of your study (see above) and ends with a thorough read of the Instructions to Authors of the journal you want to submit your manuscript to.
 Yet, even with bad-tempered reviewers, addressing their issues most of the time will help you strengthen your manuscript!
 So, after having initially read the reviews, do not engage in defensive action by writing down several pages of a potential rebuttal letter where you aim to make clear that the reviewers completely missed the point of your manuscript and devaluate all of their comments. 
-It may be that they are wrong in one point or another, but especially if all reviewers agree in one point or another, it is more likely that you are wrong in this point.
+It may be that they are wrong in one point or another, but especially if all reviewers agree in one point or another, it is more likely that you are wrong.
 Just close the review file(s) and sleep on it.
 Then, the next day, read the reviews again, think about the issues raised and about where the reviewers might have a valid point.
 Then send the reviews to all co-authors and discuss the issues raised with them!
