@@ -25,7 +25,7 @@ So, after having initially read the reviews, do not engage in defensive action b
 It may be that they are wrong in one point or another, but especially if all reviewers agree in one point or another, it is more likely that you are wrong.
 Just close the review file(s) and sleep on it.
 Then, the next day, read the reviews again, think about the issues raised and about where the reviewers might have a valid point.
-Then send the reviews to all co-authors and discuss the issues raised with them!
+Afterwards, send the reviews to all co-authors and discuss the issues raised with them!
 Pre-structure the revision process and then assign tasks to the other authors! Don't ask for help – assign tasks in a friendly manner and set a clear deadline, e.g.:
 
 > Dear colleagues,
