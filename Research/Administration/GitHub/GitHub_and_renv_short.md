@@ -14,7 +14,7 @@ Christoph Scheffel and Josephine Zerna (TU Dresden)
 
 This is the short version (approx. 3200 Words, reading time 10-15 min unless you are trying out what is described here in parallel) of the description on how to use GitHub and the `renv` package for collaboratively working on R projects. 
 For readers that might not be familiar with certain topics covered, it refers to other pages such as Wiki entries. 
-If you are relatively new to [R and R Studio](https://github.com/alex-strobel/DPP-LabManual/wiki/R-and-RStudio), [R Markdown](https://github.com/alex-strobel/DPP-LabManual/wiki/R-Markdown) and [GitHub](https://github.com/alex-strobel/DPP-LabManual/wiki/GitHub), it might be better to read the [long version](https://github.com/alex-strobel/DPP-LabManual/blob/main/Manuals/GitHub_and_renv/GitHub_and_renv_long.md) (approx. 5500 words, reading time 20-30 min unless trying out things).
+If you are relatively new to [R and R Studio](https://github.com/alex-strobel/DPP-LabManual/wiki/R-and-RStudio), [R Markdown](https://github.com/alex-strobel/DPP-LabManual/wiki/R-Markdown) and [GitHub](https://github.com/alex-strobel/DPP-LabManual/wiki/GitHub), it might be better to read the [long version](https://github.com/alex-strobel/DPP-LabManual/blob/main/Research/Administration/GitHub/GitHub_and_renv_long.md) (approx. 5500 words, reading time 20-30 min unless trying out things).
 
 ---
 
