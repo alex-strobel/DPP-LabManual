@@ -30,6 +30,8 @@ Still, all team members can take part in any decision, but should also be prepar
 
 We value interesting, creative, and informative research. We strive to method and data transparency, analytic reproducibility and robustness, and effect replicability. A study can be seen as credible or "not yet proven wrong" if other (independent) researchers are unable to identify flaws in study design, data processing, statistical analyses, and replicability. To achieve that, we conduct careful analyses and thorough as well as detailed record-keeping and writing.  
 
+To learn in more detail how to do credible and trustworthy science, we attend workshops on topics related to good scientific practice and reproducibility. See also the [DFG Guidelines for Safeguarding Good Research Practice](https://www.dfg.de/en/research_funding/principles_dfg_funding/good_scientific_practice/) and the [DGPs Guidelines on Data Management and Data Sharing in Psychological Science](https://www.dgps.de/schwerpunkte/transparente-wissenschaft/umgang-mit-forschungsdaten/).
+
 ## We embrace open science principles and act accordingly.
 
 This means that all team members should adhere to the principles stated in the [OSIP Research Transparency Statement](https://tu-dresden.de/mn/psychologie/die-fakultaet/open-science/osip-research-transparency-statement) devised by the Open Science Initiative of the Faculty of Psychology (and ideally should sign it). 
@@ -41,6 +43,13 @@ At its core, this means that whenever possible, we
 
 As yet, we have not arrived at a common framework for how to do so, e.g., preregister at [AsPredicted](https://github.com/alex-strobel/DPP-LabManual/wiki/AsPredicted) or at [OSF](https://github.com/alex-strobel/DPP-LabManual/wiki/OSF), provide open data, code and materials via OSF, [OpARA](https://github.com/alex-strobel/DPP-LabManual/wiki/OpARA) or [GitHub](https://github.com/alex-strobel/DPP-LabManual/wiki/GitHub), or how to request open data and code when reviewing papers <!-- add template -->. 
 Still, everyone of us should try their best to adhere to the principles outlined above and detailed in the OSIP Statement.  
+
+## We scientific misconduct and abuse of power. 
+
+Related to 
+See also the 
+
+https://zenodo.org/record/5126637#.YjIV7C_36L4
 
 ## We always comment our code.
 
