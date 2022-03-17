@@ -14,16 +14,25 @@ Michael Inzlicht (University of Toronto)
 
 ## Table of Contents
 
-- [Outline](#outline)
-- [Introduction](#introduction)
-- [Search terms](#search-terms)
-- [Study inclusion and exclusion](#study-inclusion-and-exclusion)
-- [Coding schemes](#coding-schemes)
-- [Software for performing meta-analysis](#software-for-performing-meta-analysis)
-- [Fixed- and random-effects meta-analysis](#fixed--and-random-effects-meta-analysis)
-- [Assessing publication bias](#assessing-publication-bias)
-- [Adressing heterogeneity](#adressing-heterogeneity)
-- [Meta-regression](#meta-regression)
+- [Meta-Analysis](#meta-analysis)
+  - [Table of Contents](#table-of-contents)
+  - [Outline](#outline)
+  - [Introduction](#introduction)
+  - [Search terms](#search-terms)
+  - [Study inclusion and exclusion](#study-inclusion-and-exclusion)
+  - [Coding schemes](#coding-schemes)
+  - [Software for performing meta-analysis](#software-for-performing-meta-analysis)
+    - [`meta` and `metafor`](#meta-and-metafor)
+    - [Further recommendations](#further-recommendations)
+  - [Fixed- and random-effects meta-analysis](#fixed--and-random-effects-meta-analysis)
+  - [Assessing publication bias](#assessing-publication-bias)
+    - [Funnel plots](#funnel-plots)
+    - [Eggers test for funnel plot asymmetry](#eggers-test-for-funnel-plot-asymmetry)
+    - [Trim and Fill](#trim-and-fill)
+    - [Peters' test](#peters-test)
+    - [PET & PEESE](#pet--peese)
+  - [Adressing heterogeneity](#adressing-heterogeneity)
+  - [Meta-regression](#meta-regression)
 
 ## Outline
 
@@ -41,14 +50,25 @@ This primer is recommended also because of the R package used to demonstrate how
 
 As with every research project, one tenet of conductiong a meta-analysis is that our procedure of doing so is described as transparently and replicably as possible. To do so, I strongly encourage to follow the [PRISMA statement](http://www.prisma-statement.org/PRISMAStatement/), a widely adopted guideline for cinducting systematic reviews and meta-analyses. I am (by 2022-01-12) rather unexperienced in meta-analysis, but from my reading, the major issues seem to be: 
 
-+ [clearly defined search terms for all eligible databases of interest (e.g., PsycInfo, Web of Knowledge, PubMed, Google Scholar etc.)](#search-terms)
-+ [criteria for and documentation of study inclusion and exclusion](#study-inclusion-and-exclusion)
-+ [manualized coding schemes for effect sizes and study characteristics](#coding-schemes)
-+ [choice of the appropriate software tools](#software-for-performing-meta-analysis)
-+ [analysis specifications for conduction a meta-analysis](#fixed--vs-random-effects-meta-analysis)
-+ [assessment of potential publication bias](#assessing-publication-bias)
-+ [adressing heterogeneity of studies](#adressing-heterogeneity)
-+ [assessment of potential moderators (i.e., meta-regression)](#meta-regression)
+- [Meta-Analysis](#meta-analysis)
+  - [Table of Contents](#table-of-contents)
+  - [Outline](#outline)
+  - [Introduction](#introduction)
+  - [Search terms](#search-terms)
+  - [Study inclusion and exclusion](#study-inclusion-and-exclusion)
+  - [Coding schemes](#coding-schemes)
+  - [Software for performing meta-analysis](#software-for-performing-meta-analysis)
+    - [`meta` and `metafor`](#meta-and-metafor)
+    - [Further recommendations](#further-recommendations)
+  - [Fixed- and random-effects meta-analysis](#fixed--and-random-effects-meta-analysis)
+  - [Assessing publication bias](#assessing-publication-bias)
+    - [Funnel plots](#funnel-plots)
+    - [Eggers test for funnel plot asymmetry](#eggers-test-for-funnel-plot-asymmetry)
+    - [Trim and Fill](#trim-and-fill)
+    - [Peters' test](#peters-test)
+    - [PET & PEESE](#pet--peese)
+  - [Adressing heterogeneity](#adressing-heterogeneity)
+  - [Meta-regression](#meta-regression)
 
 ## Search terms
 
@@ -155,7 +175,7 @@ par(mfrow = c(1, 1))
 
 In a funnel plot (see, e.g., [Egger et al., 1997](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2127453/pdf/9310563.pdf)), the effect sizes of studies entering a meta-analysis is plotted against the corresponding standard errors (see Fig. 1A below). A vertical line indicates the meta-analytically derived effect size at which the plot is centered. The smaller the study, the larger is its standard error. Hence, small studies are located at the bottom of the polot, large studies at the top. Without publication bias, the plot resembles a symmetrical inverted funnel. An asymmetical plot would point to publication bias. As such an assessment is highly subjective, Egger and colleagues developed a regression-based test (see next section). An even more informative way of using a funnel plot for the assessment of publication bias is the so-called *contour-enhanced funnel plot* (Fig. 1C; see [Peters et al., 1997](https://doi.org/10.1016/j.jclinepi.2007.11.010)). This type of funnel plot is not centered at the meta-analytically derived efect size, but at zero (i.e., the effect size under the null hypothesis). Additionally, the plot provides information about regions of significance: all studies in the innermost region (here: white) far from insignificance (*p* > .10), while studies the outermost region are highly significant (*p* < .01). If there are many studies that cluster around conventional significance thresholds and only a few within the innermost region, this would be indicative that insignificant findings have been suppressed.    
 
-![Funnel plots](https://github.com/alex-strobel/DPP-LabManual/blob/main/Images/Manuals/Meta-Analysis/funnel-plots.jpg)
+![Funnel plots](Resources/funnel-plots.jpg)
 
 **Figure 1.** Funnel plots as tool to assess publication bias. (A) basic funnel plot centered at the meta-analytically derived efect size (vertical line); (B) funnel plot with virtual studies filled by the trim and fill method; (C) contour-enhanced funnel plot centered at zero 
 
