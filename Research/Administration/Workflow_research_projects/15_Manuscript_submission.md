@@ -47,9 +47,26 @@ Whenever possible, we adhere to the [Publication Guidelines of the TU Dresden](h
 
 ## Submission guidelines
 
-As already mentioned, a decision on the journal you want to submit your mansucrit to, should have already been made before preparing the manuscript in order to format it appropriately. Yet, even if you consulted the submission guidelines ahead of manuscript preparation, you should now again go though these guidelines to make suer you did not miss some important instruction. As an example for such guidelines, see here 
+As already mentioned, a decision on the journal you want to submit your mansucrit to should have already been made before preparing the manuscript in order to format it appropriately. Yet, even if you consulted the submission guidelines ahead of manuscript preparation, you should now go though these guidelines again to make sure you did not miss some important instruction. As an example for such guidelines, see here:
 
-- [Submission guidelines of PLoS ONE](https://journals.plos.org/plosone/s/submission-guidelines)   
+- [Submission guidelines of PLoS ONE](https://journals.plos.org/plosone/s/submission-guidelines)
+
+Among the guidelines, ther will be instructions artwork you are required to upload. What you should always keep in mind when is comes to artwork is:
+- **Prefer vector over raster graphics!**<br>
+If you need to combine vector and raster graphics, save them in high resolution (≥ 300 dpi, format depending on the journal). In doubt, use 1000 dpi *.tif images with LZW compression
+- **Get yourself the right software tools!**<br>
+One for handling vector and one for handling raster graphics. Ideally, they come from the same developer, will be maintained in the foreseeable future, are free and open source or at least do not come with a licence that has to be renewed annually
+- **Consult the relevant artwork guidelines!**<br>
+If in doubt, use RGB color space, 90 mm width for smaller figures that fit on in column (if the journal uses columns anyway) or 180 mm width for larger figures, and serif font (ideally Helvetica)
+- **Think twice when it comes to point and line style and color!**<br>
+Point style should meaningful, lines solid, and different colors should remain distinguishable for everyone under every circumstance
+- **Provide all necessary information, but not all possible information!**
+
+For details on artwork creation dee the following presentation:
+
+- [Graphics: A short guide on how to create figures]()
+
+
 
 ## Consider posting your manuscript as preprint!
 
