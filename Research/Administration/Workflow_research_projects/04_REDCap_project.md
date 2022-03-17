@@ -11,4 +11,4 @@
 
 <!-- @Christoph/Josephine: Please elaborate on this issue (here and/or in the Wiki)! -->
 
-[[back](https://github.com/alex-strobel/DPP-LabManual/blob/main/Manuals/Workflow_research_projects/00_How_to_organize_a_research_project.md#organization-of-this-manual)]
+[[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
