@@ -14,16 +14,16 @@ Michael Inzlicht (University of Toronto)
 
 ## Table of Contents
 
-[Outline](#outline)
-[Introduction](#introduction)
-[Search terms](#search-terms)
-[Study inclusion and exclusion](#study-inclusion-and-exclusion)
-[Coding schemes](#coding-schemes)
-[Software for performing meta-analysis](#software-for-performing-meta-analysis)
-[Fixed- vs. random-effects meta-analysis](#fixed-vs.-random-effects-meta-analysis)
-[Assessing publication bias](#assessing-publication-bias)
-[Adressing heterogeneity](#adressing-heterogeneity)
-[Meta-regression](#meta-regression)
+- [Outline](#outline)
+- [Introduction](#introduction)
+- [Search terms](#search-terms)
+- [Study inclusion and exclusion](#study-inclusion-and-exclusion)
+- [Coding schemes](#coding-schemes)
+- [Software for performing meta-analysis](#software-for-performing-meta-analysis)
+- [Fixed- vs. random-effects meta-analysis](#fixed-vs.-random-effects-meta-analysis)
+- [Assessing publication bias](#assessing-publication-bias)
+- [Adressing heterogeneity](#adressing-heterogeneity)
+- [Meta-regression](#meta-regression)
 
 ## Outline
 
