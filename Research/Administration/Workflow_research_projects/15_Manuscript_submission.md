@@ -62,11 +62,9 @@ If in doubt, use RGB color space, 90 mm width for smaller figures that fit on in
 Point style should meaningful, lines solid, and different colors should remain distinguishable for everyone under every circumstance
 - **Provide all necessary information, but not all possible information!**
 
-For details on artwork creation dee the following presentation:
+For details on artwork creation see the following presentation:
 
-- [Graphics: A short guide on how to create figures]()
-
-
+- [Graphics: A short guide on how to create figures](https://github.com/alex-strobel/DPP-LabManual/blob/main/Research/Administration/Workflow_research_projects/Resources/Graphics/DPP_LM_Graphics.pdf)
 
 ## Consider posting your manuscript as preprint!
 
