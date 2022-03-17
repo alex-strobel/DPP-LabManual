@@ -71,9 +71,12 @@ If your manual is going to be rather short, a one page manual will most likely b
 In the case of a multiple page manual, create a root document called `00_Manual_name.md`, give a general outline of the manual and provide the Table of Contents, linking to the subdocuments like this:
 
 ```
-[Section 1](01_Section-1.md)
-[Section 2](02_Section-2.md)
-[Section 3](03_Section-3.md)
+
+## Table of Contents
+
+- [Section 1](01_Section-1.md)
+- [Section 2](02_Section-2.md)
+- [Section 3](03_Section-3.md)
 
 ...
 
