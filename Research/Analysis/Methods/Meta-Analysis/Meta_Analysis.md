@@ -8,9 +8,24 @@ Credits go to<br>
 Blair Saunders (University of Dundee)<br>
 Michael Inzlicht (University of Toronto)
 
+2022-01-14
+
 ---
 
-2022-01-14
+## Table of Contents
+
+[Outline](#outline)
+[Introduction](#introduction)
+[Search terms](#search-terms)
+[Study inclusion and exclusion](#study-inclusion-and-exclusion)
+[Coding schemes](#coding-schemes)
+[Software for performing meta-analysis](#software-for-performing-meta-analysis)
+[Fixed- vs. random-effects meta-analysis](#fixed-vs.-random-effects-meta-analysis)
+[Assessing publication bias](#assessing-publication-bias)
+[Adressing heterogeneity](#adressing-heterogeneity)
+[Meta-regression](#meta-regression)
+
+## Outline
 
 This manual is intended to be a quick guide to perform meta-anaylses using R. For a more elaborated and certainly also more accurate coverage of this topic, I strongly recommend the book on meta-analysis by [Harrer and colleagues (2002)](https://www.routledge.com/Doing-Meta-Analysis-with-R-A-Hands-On-Guide/Harrer-Cuijpers-Furukawa-Ebert/p/book/9780367610074) which can be accessed online here:
 
@@ -22,7 +37,7 @@ A short primer on doing meta-analysis that also comes with a well-documented R s
 
 This primer is recommended also because of the R package used to demonstrate how to perform a meta-analysis is the same as that employed here, i.e., `metafor` ([Viechtbauer, 2010](https://www.jstatsoft.org/article/view/v036i03)) 
 
-# Introduction
+## Introduction
 
 As with every research project, one tenet of conductiong a meta-analysis is that our procedure of doing so is described as transparently and replicably as possible. To do so, I strongly encourage to follow the [PRISMA statement](http://www.prisma-statement.org/PRISMAStatement/), a widely adopted guideline for cinducting systematic reviews and meta-analyses. I am (by 2022-01-12) rather unexperienced in meta-analysis, but from my reading, the major issues seem to be: 
 
@@ -35,7 +50,7 @@ As with every research project, one tenet of conductiong a meta-analysis is that
 + [adressing heterogeneity of studies](#adressing-heterogeneity)
 + [assessment of potential moderators (i.e., meta-regression)](#meta-regression)
 
-# Search terms
+## Search terms
 
 Yet, (for me and so far) it seems that for meta-analyses, the transparent and replicable way of conducting them (e.g., via a predefined and more or less sophisticated Boolean search term on [*PsycInfo*](https://katalog.slub-dresden.de/id/0-337625549)) leaves one with far fewer eligible studies for inclusion than some idiosyncratic way of browsing through hundreds of papers on [*Google Scholar*](https://scholar.google.de), going through their abstracts, hopefully also their fulltexts, checking their references, then being reminded of some other study of a colleague where the research focus was different, but the variables in question were assessed, and then being reminded of own studies to which the same applies ...
 
@@ -49,21 +64,21 @@ Well, I trusted my search, as it gave me 35 papers of clear relevance for my res
 
 tbc ...
 
-# Study inclusion and exclusion
+## Study inclusion and exclusion
 
 ...
 
-# Coding schemes
+## Coding schemes
 
 ...
 
-# Software for performing meta-analysis
+## Software for performing meta-analysis
 
-## `meta` and `metafor`
+### `meta` and `metafor`
 
 From my impression, the two most common R packages for meta-analysis are `meta` ([Balduzzi, Rücker & Schwarzer, 2019](https://web.archive.org/web/20200307022813id_/https://ebmh.bmj.com/content/ebmental/22/4/153.full.pdf)) and `metafor` ([Viechtbauer, 2010](https://www.jstatsoft.org/article/view/v036i03); see also the [package's web page](https://www.metafor-project.org/doku.php)). `meta` is easier to learn, while `metafor` at first glance seems to be a bit hermetic, so it takes longer to arrive at some level of mastery. Yet, it is more comprehensive (and in fact, `meta` resorts to `metafor` for a number of functions). For details on the commonalities and differences of the packages, see [Lortie and Filazzola (2020)](https://doi.org/10.1002/ece3.6747).
 
-## Further recommendations
+### Further recommendations
 
 If you are new to the R environment, you may want to resort to [JASP](https://jasp-stats.org) or [jamovi](https://www.jamovi.org) who both come with meta-analysis modules where using a GUI you can resort to `metafor` functions that do the hard job in the background. This is why below, I will not go into much detail with regard to the `meta` package (the book I linked at the outset of this document uses `meta` though), but will focus on `metafor`.
 
@@ -71,7 +86,7 @@ Further free software packages for doing meta-analysis are listed and shortly in
 
 + [13 Best Free Meta-Analysis Software To Use](https://toptipbio.com/free-meta-analysis-software/)
 
-# Fixed- vs. random-effects meta-analysis
+## Fixed- vs. random-effects meta-analysis
 
 A good introduction into the issue of fixed- and random-effects meta-analysis can be found in section 4.1 of [Harrer and colleagues (2002)](https://bookdown.org/MathiasHarrer/Doing_Meta_Analysis_in_R/pooling-es.html#fem-rem). I will quote the two in my opinion central points of this section here, because they contain the essence of the issue:
 
@@ -109,13 +124,13 @@ Zmeta.confint <- confint(Zmeta)
 ```
 The above code gives the random-effects meta-analysis result of the association between anxiety measures and the amplitude of the error-related negativity, &rho; = -.19, 95% CI [-.24, -.14]. This result may be inaccurate due to possible publication bias, so we need to assess possible publication bias and try to correct for it. Apart from that, there is evidence for heterogeneity across samples, because *Q*(57) = 121.63, *p* < .001. This needs to be adressed as well via, e.g., meta-regression (see below). But first things first. 
 
-# Assessing publication bias
+## Assessing publication bias
 
 Below I shortly introduce several methods for assessing and correcting for publication bias in meta-analysis. An excellent paper on the performance of these and other methods is:
 
 > Carter, E. C., Schönbrodt, F. D., Gervais, W. M., Hilgard, J. (2019). Correcting for bias in psychology: A comparison of meta-analytic methods. *Advances in Methods and Practices in Psychological Science, 2*(2), 115–144. https://doi.org/10.1177%2F2515245919847196
 
-## Funnel plots
+### Funnel plots
 
 ```
 # apply trim and fill method
@@ -147,7 +162,7 @@ In a funnel plot (see, e.g., [Egger et al., 1997](https://www.ncbi.nlm.nih.gov/p
 In the present example, inspection of the funnel plot does not suggest asymmetry, neither for the basic not for the contour-enhanced funnel plot (see Saunders & Inzlicht, 2020)
 
 
-## Eggers test for funnel plot asymmetry
+### Eggers test for funnel plot asymmetry
 
 As said, simply inspecting a funnel plot results in subjective decisions, which is why [Egger and colleagues (1997)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2127453/pdf/9310563.pdf) developed a simple regression based test: the effect size is regressed on its standard error, weighted by the effect size’s inverse variance. In `metafor`, Egger's test in its classical form is performed via 
 
@@ -172,7 +187,7 @@ Zmeta_egger_rma_es = FisherZInv(unlist(Zmeta_egger_rma[c('est','ci.lb','ci.ub')]
 
 In this case, the test is not significant, *z* = -1.72, *p* = 0.085, just as descriptively, we could not see any asymmetry in the funnel plot, and the adjusted effect size is *b* = -0.072, 95% CI [-0.210, 0.076]. So regardless of whether Egger's test in its classical form is performed (&rho; = -.04) or in its more appropriate random-effects form (&rho = .07), the adjusted estimate of the effect size is far lower than the estimate of the random-effects meta-analysis (&rho; = .19, see above). 
 
-## Trim and Fill
+### Trim and Fill
 
 The trim and fill method, developed by [Duvall and Tweedle (2000)](https://doi.org/10.1111/j.0006-341X.2000.00455.x), accounts for and imputes missing studies that make a funnel plot (more) symmetrical (see the white points in Fig. 1B). Based on this procedure, the adjusted effect size can be estimated. To use the authors own words to describe the approach:
 
@@ -186,7 +201,7 @@ Zmeta_tf_predict <- predict(Zmeta_tf, digits = 3, transf = transf.ztor)
 
 Here, the adjusted effect size does not differ much from the original estimate, &rho; = -.18, 95% CI [-.23, -.13], which is in line with the results of [Carter and colleagues (2019)](https://doi.org/10.1177%2F2515245919847196) that the trim and fill method undercorrects for for small study effects.
 
-## Peters' test
+### Peters' test
 
 Peters' test (see [Peters et al., 2006](https://doi.org/10.1001/jama.295.6.676)) is similar to Egger‘s test, but predicts the true effect size estimate based on the inverse sample size, using sample size as weight. As there appears to exist no direct implementation of the original Peters' test in `metafor`, we need to do some (simple) coding:
 
@@ -211,7 +226,7 @@ inv_n       -4.30156    2.08825  -2.060  0.04407 *
 
 The slope is significant, telling us that sample size is predictive of the effect size, and because the predictor is the *inverse* sample size, the negative slope means that the smaller the sample size, the larger the effect size (needed to obtain significant results that get published). As in Egger's test, the intercept is the adjusted effect size, and because we used Fisher Z transformed correlations for our meta-analysis, we need to backtransform the regression estimate and its 95% CI via `FisherZInv`, resulting in an adjusted effect size of *b* = -.11, 95% CI [-0.19, -0.03].
 
-## PET & PEESE
+### PET & PEESE
 
 PET (precision effect test) predicts the effect size based on the square root of the sampling variance and uses its inverse as weight. PEESE (precision effect estimate with standard errors) predicts the effect size quite similarly as PET, but uses the sampling variance as is as predictor (see [Stanley, 2017](https://doi.org/10.1177/1948550617693062)). Often, these methods are combined in a conditional approach, where the intercept from the PET model is taken as adjusted effect size, when its slope is insignificant. If the slope *is* significant, then a PEESE model is fitted to determine the adjusted effect size, because the PET approach seems to sometimes overcorrect the effect size. 
 
@@ -230,10 +245,10 @@ What we see in the model summary is that the PET slope *is* significant (with an
 
 Overall, using these methods, we can summarize that there seems some, but no severe evidence for publication bias, but that still, using methods to adjust for possible bias reduces the meta-analytically derived effect size to about the half of its original size. This finding goes well with the results of the [Open Science Collaboration (2015)](https://doi.org/10.1126/science.aac4716) that even replicable effects in psychological research are about half of the originally reported.   
 
-# Adressing heterogeneity
+## Adressing heterogeneity
 
 ...
 
-# Meta-regression
+## Meta-regression
 
 ...
