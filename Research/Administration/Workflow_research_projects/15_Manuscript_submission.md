@@ -85,4 +85,8 @@ Yet, to make sure that naïve readers of your preprint do not assume that it is 
 
 This disclaimer has been empirically validated, unfortunately, we forgot by whom ... <!-- if someone knows, please add ref. -->
 
+## Completion of submission
+
+If done with a submission, reward yourself! You know best what will be an adequate reward ...  
+
 [[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
