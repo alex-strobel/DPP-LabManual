@@ -45,10 +45,14 @@ We provide our data and code on an openly accessible repository. Standard option
 
 ### OSF
 
+...
+
 ### GitHub
+
+...
 
 ### OpARA
 
-
+...
 
 [[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
