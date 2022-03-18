@@ -13,26 +13,27 @@ To put it simple:
 1. We are a team and as often as possible make collective decisions.
 2. We value credible and trustworthy science.
 3. We embrace open science principles and act accordingly.
-4. We always comment our code.
-5. We adhere to common principles when using language, i.e., everything said and written should be as accessible and inclusive as possible. 
+4. We condemn scientific misconduct and abuse of power.
+5. We always comment our code.
+6. We adhere to common principles when using language, i.e., everything said and written should be as accessible and inclusive as possible. 
 8. ...
 
 To elaborate :
 
-## We are a team and as often as possible will make collective decisions.
+## 1. We are a team and as often as possible will make collective decisions.
 
 Still, for certain projects, it will be most efficient if there is one team member that eventually decides on how to proceed. 
 This does not necessarily need but eventually often enough will be Alex.
 As Alex tends to postpone decisions, keep him reminded of his duty.
 Still, all team members can take part in any decision, but should also be prepared to do so.
 
-## We value credible and trustworthy science.
+## 2. We value credible and trustworthy science.
 
 We value interesting, creative, and informative research. We strive to method and data transparency, analytic reproducibility and robustness, and effect replicability. A study can be seen as credible or "not yet proven wrong" if other (independent) researchers are unable to identify flaws in study design, data processing, statistical analyses, and replicability. To achieve that, we conduct careful analyses and thorough as well as detailed record-keeping and writing.  
 
 To learn in more detail how to do credible and trustworthy science, we attend workshops on topics related to good scientific practice and reproducibility. See also the [DFG Guidelines for Safeguarding Good Research Practice](https://www.dfg.de/en/research_funding/principles_dfg_funding/good_scientific_practice/) and the [DGPs Guidelines on Data Management and Data Sharing in Psychological Science](https://www.dgps.de/schwerpunkte/transparente-wissenschaft/umgang-mit-forschungsdaten/).
 
-## We embrace open science principles and act accordingly.
+## 3. We embrace open science principles and act accordingly.
 
 This means that all team members should adhere to the principles stated in the [OSIP Research Transparency Statement](https://tu-dresden.de/mn/psychologie/die-fakultaet/open-science/osip-research-transparency-statement) devised by the Open Science Initiative of the Faculty of Psychology (and ideally should sign it). 
 At its core, this means that whenever possible, we 
@@ -44,14 +45,14 @@ At its core, this means that whenever possible, we
 As yet, we have not arrived at a common framework for how to do so, e.g., preregister at [AsPredicted](https://github.com/alex-strobel/DPP-LabManual/wiki/AsPredicted) or at [OSF](https://github.com/alex-strobel/DPP-LabManual/wiki/OSF), provide open data, code and materials via OSF, [OpARA](https://github.com/alex-strobel/DPP-LabManual/wiki/OpARA) or [GitHub](https://github.com/alex-strobel/DPP-LabManual/wiki/GitHub), or how to request open data and code when reviewing papers <!-- add template -->. 
 Still, everyone of us should try their best to adhere to the principles outlined above and detailed in the OSIP Statement.  
 
-## We scientific misconduct and abuse of power. 
+## 4. We condemn scientific misconduct and abuse of power. 
 
 Related to 
 See also the 
 
 https://zenodo.org/record/5126637#.YjIV7C_36L4
 
-## We always comment our code.
+## 5. We always comment our code.
 
 To elaborate on this issue: *We do!*
 
@@ -86,7 +87,7 @@ sm <- function(fit) {
 }
 ```
 
-## We adhere to common principles when using language.
+## 6. We adhere to common principles when using language.
 
 These common principles include that everything said and written should be as accessible and inclusive as possible.
 Accessibility involves that we should always ask ourselves whether others can understand (correctly) what we want to convey. 
