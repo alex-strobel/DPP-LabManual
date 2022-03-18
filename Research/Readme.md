@@ -52,6 +52,7 @@ If your manual is going to be rather short, a one page manual will most likely b
 
 ...
 
+
 [up](#table-of-contents)
 
 ## Section 2
@@ -94,6 +95,7 @@ At the end of each subdocument, insert links that lead back to the Table of Cont
 ## Inserting figures and other content
 
 To avoid indiosyncratic naming conventions for folders containing, e.g., images or other content that you want to display in or link to your manual, add a subfolder `Resources` to your manual's root folder. 
+
 
 
 
