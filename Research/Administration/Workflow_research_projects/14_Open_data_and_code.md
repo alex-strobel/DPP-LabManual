@@ -31,13 +31,60 @@ Also, we always provide a codebook along with our data. A codebook essentially i
 
 | variable | label                        | values                                      |
 | -------- | ---------------------------- | ------------------------------------------- |
-| age      | participants' age            | years                                       |
-| gender   | participants' gender         | 1 = male, 2 = female                        |
+| age      | participants' age in years   | 18                                       |
+| gender   | participants' gender         | 1 = male, 2 = female, 3 = diverse           |
 | nfc_01   | Need for Cognition item 1    | -3 = totally disagree ... 3 = totally agree |
 | ...      |                              |                                             |
 | nfc_sum  | Need for Cognition sum score | possible range -48 - 48                     |
 
 With such a codebook, we ensure not only the transparency of our research, but also make it possible that others can re-use our data for their own purposes.
+
+You can build in a codebook in an R data.frame by setting attributes to the variables of this data.frame, e.g.:
+
+```
+# create arbitrary data.frame
+df = data.frame(age = round(runif(100, 18, 48)), 
+                gender = sample(1:3, 100, replace = T, prob = c(45, 45, 10)), 
+                nfc_01 = round(runif(100, -3, 3)))
+
+# set attributes for variable "age"
+attr(df$age, "variable") = "participants' age in years"
+attr(df$age, "values") = range(df$age)
+
+# set attributes for variable "gender"
+attr(df$gender, "variable") = "participants' gender"
+attr(df$gender, "values") = matrix(1:3, nrow = 1, dimnames = list("value", c("male", "female", "diverse")))
+
+# set attributes for variable "nfc_01"
+attr(df$nfc_01, "variable") = "Need for Cognition item 01"
+attr(df$nfc_01, "values") = matrix(-3:3, nrow = 1, dimnames = list("value", c("totally disagree", "disagree", "somewhat disagree", "neutral", "somewhat agree", "agree", "totally agree")))
+```
+
+Using the `str` command, you can see all the variable names and values:
+
+```
+> str(df)
+'data.frame':	100 obs. of  3 variables:
+ $ age   : num  30 36 19 44 36 32 26 26 23 37 ...
+  ..- attr(*, "variable")= chr "age in years"
+  ..- attr(*, "values")= num [1:2] 18 47
+ $ gender: int  1 2 1 1 2 2 1 2 1 1 ...
+  ..- attr(*, "variable")= chr "participants' gender"
+  ..- attr(*, "values")= int [1, 1:3] 1 2 3
+  .. ..- attr(*, "dimnames")=List of 2
+  .. .. ..$ : chr "value"
+  .. .. ..$ : chr [1:3] "male" "female" "diverse"
+ $ nfc_01: num  2 2 1 1 -2 2 -1 -1 -1 -1 ...
+  ..- attr(*, "variable")= chr "Need for Cognition item 01"
+  ..- attr(*, "values")= int [1, 1:7] -3 -2 -1 0 1 2 3
+  .. ..- attr(*, "dimnames")=List of 2
+  .. .. ..$ : chr "value"
+  .. .. ..$ : chr [1:7] "totally disagree" "disagree" "somewhat disagree" "neutral" ...
+```
+
+If you share your data via an \*.RData file, this will provide the codebook directly built-i to the respectve data.frame. Yet, usually, we share data via a *.csv file. So, you may provide the code for attribute generation via a separate R script as outlined above.
+
+Another option would be to provide the codebook via an JSON file, but none of us has experience with JSON, so that remains an option to explore by yourself. 
 
 ## Repository
 
