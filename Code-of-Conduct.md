@@ -49,8 +49,11 @@ Still, everyone of us should try their best to adhere to the principles outlined
 
 Related to 
 See also the 
-
 https://zenodo.org/record/5126637#.YjIV7C_36L4
+
+1) Machtstrukturen: Weisungsbefugnis (Chef für Mitarbeiter, Mitarbeiter für SHKs/Studierende)
+2) Offene Diskussionskultur
+3) nicht scheuen abweichende Meinungen zu äußern
 
 ## 5. We always comment our code.
 
