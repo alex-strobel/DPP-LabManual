@@ -85,6 +85,21 @@ Yet, to make sure that naïve readers of your preprint do not assume that it is 
 
 This disclaimer has been empirically validated, unfortunately, we forgot by whom ... <!-- if someone knows, please add ref. -->
 
+Another very important aspect to consider about preprints is that you cannot just update the preprint version any time you want.
+It might sound bizarre, but as soon as reviewers have suggested changes to your manuscript and you have implemented them, the manuscript is not solely your own intellectual porperty anymore.
+This means that there are three different types of stages in which you might want to upload a preprint:
+
+1. Before submitting your manuscript to a journal<br>
+&rarr; Yes, please do so!
+2. After the first round of reviews<br>
+&rarr; No, your might get sued.
+3. After it had been type-set by the journal aka your *author proof*<br>
+&rarr; Absolutely not, you will definitely get sued.
+
+Even if you publish Open Access and pay the fee, many journals still have an embargo on your article, which specifies after which period of time (usually 6-12 months) you are allowed to distribute your article by yourself.
+Journals do that, so they can get more clicks on *their* version.
+Always make sure to check the specific Open Access guidelines of the journal that you chose to publish in.
+
 ## Completion of submission
 
 If done with a submission, reward yourself! You know best what will be an adequate reward ...  
