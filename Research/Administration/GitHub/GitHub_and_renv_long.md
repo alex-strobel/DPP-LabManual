@@ -314,16 +314,17 @@ If commit both things at once before committing them, it may be hard to find an 
 ### Install and setup the `here` package
 
 Simply install the `here` package via `install.packages("here")`. 
-Then (as said [above](#Why-you-should-use-the-here-package)) place a file named "flag_root_for_My-Project.txt" in the root directory of your project. 
-Then create a folder called `Data` and put some data in it, say, a file named "df.csv". 
-Also, create a folder called `Code` and save an R script in it with the following commands:
+Then (as said [above](#Why-you-should-use-the-here-package)) place a file named "flag_root_for_My-Project.txt" in the root directory of your project.
+The root directory is the highest folder level of your project, so if you have a folder called `My-Project`, and in it there are several subfolders called `Data`, `Code`, `Manuscript`, etc., make sure you put the flag file in the `AwesomeProject` folder, next to all the subfolders.
+Then put some data in your folder called `Data`, say, a file named "df.csv". 
+And in your folder called `Code` you can have an R script in it with the following commands:
 ```
 library(here)                           # loads here package
-i_am("flag_root_for_My-Project.txt")    # locates the root folder
+here::i_am("flag_root_for_My-Project.txt")    # locates the root folder
 df <- read.csv(here("Data", "df.csv"))  # reads data from folder in that root
 ```
 Execute that code, and the data will be loaded.
-If you now would move your directory to somewhere else, it would still work.
+If you now moved your directory to somewhere else, it would still work, because every path is only tied to the folder structure of your project and not to the location of your project on your computer.
 And if someone else clones your project, it will work as well, and that is exactly what we use the `here` package for. 
 It is important that you put the `i_am` flag into every single file whre you reference to project files. 
 
