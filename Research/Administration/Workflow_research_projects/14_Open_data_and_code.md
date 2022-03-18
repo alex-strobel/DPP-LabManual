@@ -6,6 +6,10 @@
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Codebook](#codebook)
+  - [Repository](#repository)
+    - [OSF](#osf)
+    - [GitHub](#github)
+    - [OpARA](#opara)
 
 ## Introduction
 
@@ -34,5 +38,17 @@ Also, we always provide a codebook along with our data. A codebook essentially i
 | nfc_sum  | Need for Cognition sum score | possible range -48 - 48                     |
 
 With such a codebook, we ensure not only the transparency of our research, but also make it possible that others can re-use our data for their own purposes.
+
+## Repository
+
+We provide our data and code on an openly accessible repository. Standard options for doing so are the Open Science Framework (OSF) and/or GitHub. Another option would be OpARA. In the following, these options are outlined.
+
+### OSF
+
+### GitHub
+
+### OpARA
+
+
 
 [[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
