@@ -4,6 +4,8 @@
 
 2022-03-18
 
+---
+
 It should not be necessary to have a file like this because all of us will agree upon what will be outlined below. 
 Yet, what we might think to agree upon may change over time and who comprises the *all of us* may change as well so that having a written *code of conduct* might be useful in the future.
 

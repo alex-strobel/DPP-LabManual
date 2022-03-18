@@ -23,11 +23,17 @@ Paragraphen mit Bezug zum Forschungsdatenmanagement:<br>
 
 ### Überblick Kernprozesse
 
-+ [Data Management Plan](#data-management-plan)
-+ [Datendokumentation](#datendokumentation)
-+ [Datenarchivierung](#datenarchivierung)
-+ [Datenpublikation](#datenpublikation)
-+ [Datenschutz](#datenschutz)
+- [Richtlinien für Transparenz im Forschungsdaten-Management](#richtlinien-für-transparenz-im-forschungsdaten-management)
+  - [FDM-Kernprozesse](#fdm-kernprozesse)
+    - [Definition Kernprozesse](#definition-kernprozesse)
+    - [Grundlagen](#grundlagen)
+    - [Überblick Kernprozesse](#überblick-kernprozesse)
+    - [Data Management Plan](#data-management-plan)
+    - [Datendokumentation](#datendokumentation)
+- [+ **Weiterführende Links**](#-weiterführende-links)
+    - [Datenarchivierung](#datenarchivierung)
+    - [Datenpublikation](#datenpublikation)
+    - [Datenschutz](#datenschutz)
 
 ### Data Management Plan
 
@@ -164,6 +170,9 @@ Obwohl Data Management Plans vorrangig für Förderanträge zu erstellen sind, w
   + Übermittlung via Gruppenlaufwerk: dies setzt die Einrichtung eines [Gruppenlaufwerkes](https://tu-dresden.de/zih/dienste/service-katalog/arbeitsumgebung/datenspeicher/details) über das [Self Service Portal](https://selfservice.zih.tu-dresden.de/l/index.php/spor/request-form/) der TU Dresden voraus; für die Kooperationspartner müssen Gast-Logins beantragt und das Gruppenlaufwerk mit entsprechenden Berechtigungen versehen werden; sensible Daten müssen mit [Boxcryptor](https://tu-dresden.de/tu-dresden/organisation/zentrale-universitaetsverwaltung/dezernat-3-zentrale-angelegenheiten/sg-3-5-informationssicherheit/tud-cert/dateiverschluesselung-boxcryptor) verschlüsselt werden; zum Abruf müssen die externen Partner eine [VPN-Verbindung](https://tu-dresden.de/zih/dienste/service-katalog/arbeitsumgebung/zugang_datennetz/vpn) in das Netzwerk der TU Dresden aufbauen 
   + Übermittlung via [Cloudstore](https://tu-dresden.de/zih/dienste/service-katalog/zusammenarbeiten-und-forschen/datenaustausch/cloudstore)-Ordner: auch hier müssen sensible Daten mittels Boxcryptor verschlüsselt werden
 + **Qualitätssicherung** kann z.B. dadurch umgesetzt werden, dass die eigenen Datenlieferungen protokolliert werden (welche Daten wurden wann an welchen Partner weitergeleitet)?
+
+
+
 
 ---
 
