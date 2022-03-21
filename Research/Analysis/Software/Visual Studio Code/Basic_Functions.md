@@ -104,9 +104,7 @@ There **built-in tools and/or extensions that support in coding in a given langu
 }
 ```
 
-Or, if you simply pasted an unformatted reference from another BibTeX file, you can auto-format it.
-
-Before:
+Or, if you simply paste an unformatted reference from another BibTeX file, you can auto-format it. This is how your reference looked before:
 
 ```
 @article{Olson1984,
