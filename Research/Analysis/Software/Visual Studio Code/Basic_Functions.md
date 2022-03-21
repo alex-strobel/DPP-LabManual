@@ -63,7 +63,7 @@ A side-by-side view will open in which you can see deleted and added lines just 
 
 ![alt text](Resources/VSC_FileComparison.PNG)
 
-The **find-and-replace function** can be accessed via `Ctrl + F.
+The **find-and-replace function** can be accessed via `Ctrl + F`.
 If you just want to find something, type it into the field and click enter.
 If you want to replace a string, click on the little angle next to the field, so that the second line opens.
 The find-and-replace functions are fantastic:
