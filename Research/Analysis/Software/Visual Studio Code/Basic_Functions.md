@@ -85,3 +85,53 @@ You can scroll through your file independently and use the search-function indep
 Neat!
 
 ![alt text](Resources/VSC_Split.PNG)
+
+You can scroll through your file independently and use the search-function independently, but any kind of change in the file content will be implemented in real-time in the other column, without hopping to that line of code.
+
+
+... 
+
+There **built-in tools and/or extensions that support in coding in a given language** in that they suggest auto-completions, auto-format your code etc. As an example for a BibTeX file: You want to write a new entry for a journal article, simply type `@` and a menu pops up that lets you select from various entry types, such as `@article`, `@book`, `@manual` etc. If you choose, e.g., `@article`, the skeleton of the BibTeX fields relavant for an article entry is generated that you just need to fill with content:
+
+```
+@article{key,
+  author          = {},
+  journal         = {},
+  number          = {},
+  title           = {},
+  volume          = {},
+  year            = {}
+}
+```
+
+Or, if simply pasted an anformatted reference from another BibTeX file, you can auto-format it.
+
+Before:
+
+```
+@article{Olson1984,
+  author = {K. R. Olson and C. J. Camp and D. Fuller},
+  title = {Curiosity and need for cognition},
+  journal = {Psychological Reports},
+  year = {1984},
+  volume = {54},
+  number = {1},
+  pages = {71-74},
+  doi = {10.2466/pr0.1984.54.1.71}
+}
+```
+
+After hitting `Alt + Shift + F` (or `Option + Shift + F` on a Mac), it looks like this:
+
+```
+@article{Olson1984,
+  author  = {K. R. Olson and C. J. Camp and D. Fuller},
+  title   = {Curiosity and need for cognition},
+  journal = {Psychological Reports},
+  year    = {1984},
+  volume  = {54},
+  number  = {1},
+  pages   = {71-74},
+  doi     = {10.2466/pr0.1984.54.1.71}
+}
+```
