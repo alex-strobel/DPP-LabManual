@@ -91,7 +91,7 @@ You can scroll through your file independently and use the search-function indep
 
 ... 
 
-There **built-in tools and/or extensions that support in coding in a given language** in that they suggest auto-completions, auto-format your code etc. As an example for a BibTeX file: You want to write a new entry for a journal article, simply type `@` and a menu pops up that lets you select from various entry types, such as `@article`, `@book`, `@manual` etc. If you choose, e.g., `@article`, the skeleton of the BibTeX fields relavant for an article entry is generated that you just need to fill with content:
+There **built-in tools and/or extensions that support in coding in a given language** in that they suggest auto-completions, auto-format your code etc. As an example for a BibTeX file: You want to write a new entry for a journal article, simply type `@` and a menu pops up that lets you select from various entry types, such as `@article`, `@book`, `@manual` etc. If you choose, e.g., `@article`, the skeleton of the BibTeX fields relevant for an article entry is generated that you just need to fill with content:
 
 ```
 @article{key,
