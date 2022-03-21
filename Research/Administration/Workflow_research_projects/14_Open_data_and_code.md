@@ -88,11 +88,13 @@ Another option would be to provide the codebook via an JSON file, but none of us
 
 ## Repository
 
-We provide our data and code on an openly accessible repository. Standard options for doing so are the Open Science Framework (OSF) and/or GitHub. Another option would be OpARA. In the following, these options are outlined.
+We provide our data and code as well as (ideally) all other materials to reproduce our results on an openly accessible repository. Standard options for doing so are the Open Science Framework (OSF) and/or GitHub. Another option would be OpARA that is hosted by TU Dresden. In the following, these options are outlined.
 
 ### OSF
 
-...
+OSF is short for Open Science Framework, an open platform that supports collaborative research and open science. This section will soon introduce OSF in more detail and provide some information on how to use it. Meanwhile, sign up to OSF and check it out by yourself:
+
+- [Open Science Framework](https://osf.io)
 
 ### GitHub
 
