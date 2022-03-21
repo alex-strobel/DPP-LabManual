@@ -111,7 +111,7 @@ GitHub is great for collaboration on projects that deal (in the broadest sense) 
 
 OpARA is short for Open Access Repository and Archive. It is maintained at the ZIH of the TU Dresden and as such seems like the natural data sharing and archiving solution for our purposes. Well, its complicated ... Read more about the benefits and drawbacks of OpARA here:
 
-- [OpARA amanual page](/Research/Administration/GitHub/GitHub.md)
+- [OpARA amanual page](/Research/Administration/OpARA/OpARA.md)
 
 
 [[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
