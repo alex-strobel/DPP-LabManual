@@ -7,6 +7,7 @@
   - [Introduction](#introduction)
   - [Codebook](#codebook)
   - [Repository](#repository)
+  - [Repository](#repository-1)
     - [OSF](#osf)
     - [GitHub](#github)
     - [OpARA](#opara)
@@ -90,6 +91,10 @@ Another option would be to provide the codebook via an JSON file, but none of us
 
 We provide our data and code as well as (ideally) all other materials to reproduce our results on an openly accessible repository. Standard options for doing so are the Open Science Framework (OSF) and/or GitHub. Another option would be OpARA that is hosted by TU Dresden. In the following, these options are outlined.
 
+## Repository
+
+We provide our data and code as well as (ideally) all other materials to reproduce our results on an openly accessible repository. Standard options for doing so are the Open Science Framework (OSF) and/or GitHub. Another option would be OpARA that is hosted by TU Dresden. In the following, these options are outlined.
+
 ### OSF
 
 OSF is short for Open Science Framework, an open platform that supports collaborative research and open science. To get an introduction to OSF, you may want to read our OSF manual page that introduces OSF in more detail and provides some information on how to use it. 
@@ -105,5 +110,6 @@ GitHub is great for collaboration on projects that deal (in the broadest sense) 
 ### OpARA
 
 ...
+
 
 [[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
