@@ -6,6 +6,8 @@ TU Dresden
 
 ---
 
+<!-- AS: I am not sure whether this manual is best located under Analysis/Software/ because we also use this tool for, e.g., writing articles, editing BibTeX files etc. https://tenor.com/view/we-can-discuss-that-we-can-talk-about-it-discussion-star-talk-gif-star-talk-radio-show-gif-13496462 -->   
+
 ## Basic functions
 
 **Visual Studio Code...**
