@@ -92,13 +92,15 @@ We provide our data and code as well as (ideally) all other materials to reprodu
 
 ### OSF
 
-OSF is short for Open Science Framework, an open platform that supports collaborative research and open science. This section will soon introduce OSF in more detail and provide some information on how to use it. Meanwhile, sign up to OSF and check it out by yourself:
+OSF is short for Open Science Framework, an open platform that supports collaborative research and open science. To get an introduction to OSF, you may want to read our OSF manual page that introduces OSF in more detail and provides some information on how to use it. 
 
-- [Open Science Framework](https://osf.io)
+- [OSF manual page](/Research/Administration/OSF/OSF.md)
 
 ### GitHub
 
-...
+GitHub is great for collaboration on projects that deal (in the broadest sense) with code. Learn more about GitHub here:
+
+- [GitHub manual page]()
 
 ### OpARA
 
