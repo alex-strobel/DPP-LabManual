@@ -100,7 +100,7 @@ OSF is short for Open Science Framework, an open platform that supports collabor
 
 GitHub is great for collaboration on projects that deal (in the broadest sense) with code. Learn more about GitHub here:
 
-- [GitHub manual page]()
+- [GitHub manual page](/Research/Administration/GitHub/GitHub.md)
 
 ### OpARA
 
