@@ -11,9 +11,13 @@ Faculty of Psychology, TU Dresden
 
 ## Table of Contents
 
-- [Background](#background)
-- [How it works](#how-it-works]
-- 
+- [GitHub introduction](#github-introduction)
+  - [Table of Contents](#table-of-contents)
+  - [Background](#background)
+  - [How it works](#how-it-works)
+  - [Install Git](#install-git)
+  - [Integrate Git in RStudio](#integrate-git-in-rstudio)
+  - [Collaborating on projects with GitHub](#collaborating-on-projects-with-github)
 
 ## Background
 
