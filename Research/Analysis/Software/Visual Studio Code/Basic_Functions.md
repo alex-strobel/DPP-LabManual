@@ -6,6 +6,8 @@ TU Dresden
 
 ---
 
+<!-- AS: I am not sure whether this manual is best located under Analysis/Software/ because we also use this tool for, e.g., writing articles, editing BibTeX files etc. https://tenor.com/view/we-can-discuss-that-we-can-talk-about-it-discussion-star-talk-gif-star-talk-radio-show-gif-13496462 -->   
+
 ## Basic functions
 
 **Visual Studio Code...**
@@ -61,7 +63,7 @@ A side-by-side view will open in which you can see deleted and added lines just 
 
 ![alt text](Resources/VSC_FileComparison.PNG)
 
-The **find-and-replace function** can be accessed via ctrl+F.
+The **find-and-replace function** can be accessed via `Ctrl + F`.
 If you just want to find something, type it into the field and click enter.
 If you want to replace a string, click on the little angle next to the field, so that the second line opens.
 The find-and-replace functions are fantastic:
@@ -83,3 +85,51 @@ You can scroll through your file independently and use the search-function indep
 Neat!
 
 ![alt text](Resources/VSC_Split.PNG)
+
+You can scroll through your file independently and use the search-function independently, but any kind of change in the file content will be implemented in real-time in the other column, without hopping to that line of code.
+
+
+... 
+
+There **built-in tools and/or extensions that support in coding in a given language** in that they suggest auto-completions, auto-format your code etc. As an example for a BibTeX file: You want to write a new entry for a journal article, simply type `@` and a menu pops up that lets you select from various entry types, such as `@article`, `@book`, `@manual` etc. If you choose, e.g., `@article`, the skeleton of the BibTeX fields relevant for an article entry is generated that you just need to fill with content:
+
+```
+@article{key,
+  author          = {},
+  journal         = {},
+  number          = {},
+  title           = {},
+  volume          = {},
+  year            = {}
+}
+```
+
+Or, if you simply paste an unformatted reference from another BibTeX file, you can auto-format it. This is how your reference looked before:
+
+```
+@article{Olson1984,
+  author = {K. R. Olson and C. J. Camp and D. Fuller},
+  title = {Curiosity and need for cognition},
+  journal = {Psychological Reports},
+  year = {1984},
+  volume = {54},
+  number = {1},
+  pages = {71-74},
+  doi = {10.2466/pr0.1984.54.1.71}
+}
+```
+
+After hitting `Alt + Shift + F` (or `Option + Shift + F` on a Mac), it looks like this:
+
+```
+@article{Olson1984,
+  author  = {K. R. Olson and C. J. Camp and D. Fuller},
+  title   = {Curiosity and need for cognition},
+  journal = {Psychological Reports},
+  year    = {1984},
+  volume  = {54},
+  number  = {1},
+  pages   = {71-74},
+  doi     = {10.2466/pr0.1984.54.1.71}
+}
+```
