@@ -1,5 +1,8 @@
-# Preprocessing and data merging
+# Preprocessing and Data Merging
 
 ...
 
-[[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
+---
+
+[**Table of Contents**](#README.md) | [back to **Cata Collection**](10_Data_collection.md) | [next to **Data Analysis**](12_Data_analysis.md)
+
