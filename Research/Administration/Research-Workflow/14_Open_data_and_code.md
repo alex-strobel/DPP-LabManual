@@ -1,8 +1,8 @@
-# Open data and code
+# Open Data and Code
 
 ## Table of Contents
 
-- [Open data and code](#open-data-and-code)
+- [Open Data and Code](#open-data-and-code)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Codebook](#codebook)
@@ -84,7 +84,7 @@ Using the `str` command, you can see all the variable names and values:
 
 If you share your data via an \*.RData file, this will provide the codebook directly built-i to the respectve data.frame. Yet, usually, we share data via a *.csv file. So, you may provide the code for attribute generation via a separate R script as outlined above.
 
-Another option would be to provide the codebook via an JSON file, but none of us has experience with JSON, so that remains an option to explore by yourself. 
+Another option would be to provide the codebook via an JSON file, but none of us has experience with JSON, so that remains an option to explore by yourself.
 
 ## Repository
 
@@ -92,7 +92,7 @@ We provide our data and code as well as (ideally) all other materials to reprodu
 
 ### OSF
 
-OSF is short for Open Science Framework, an open platform that supports collaborative research and open science. To get an introduction to OSF, you may want to read our OSF manual page that introduces OSF in more detail and provides some information on how to use it. 
+OSF is short for Open Science Framework, an open platform that supports collaborative research and open science. To get an introduction to OSF, you may want to read our OSF manual page that introduces OSF in more detail and provides some information on how to use it.
 
 - [OSF manual page](/Research/Administration/OSF/OSF.md)
 
@@ -108,5 +108,6 @@ OpARA is short for Open Access Repository and Archive. It is maintained at the Z
 
 - [OpARA manual page](/Research/Administration/OpARA/OpARA.md)
 
+---
 
-[[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
+[**Table of Contents**](#README.md) | [back to **Results and Discussion**](13_Results_and_discussion.md) | [next to **Manuscript Submission**](15_Manuscript_submission.md)
