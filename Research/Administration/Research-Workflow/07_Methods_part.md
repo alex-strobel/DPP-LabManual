@@ -1,4 +1,4 @@
-# Methods part
+# Methods Part
 
 We at AG.DPP always start our Methods part with the [21-word solution](https://github.com/alex-strobel/DPP-LabManual/wiki/21-word-solution), and we make sure that it is correct. 
 
@@ -51,6 +51,8 @@ Here, we describe the experimental procedure as detailed as possible inluding
 
 - <!-- someone pls write this part -->
 
-Ideally, we provide the code of our experimental paradigm along with our manuscript. Even if we use proprietary software such as Presentation, the code is plain text, so the important detail is readable to everyone. 
+Ideally, we provide the code of our experimental paradigm along with our manuscript. Even if we use proprietary software such as Presentation, the code is plain text, so the important detail is readable to everyone.
 
-[[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
+---
+
+[**Table of Contents**](#README.md) | [back to **Analysis Plan**](06_Analysis_plan.md) | [next to **Ethical Approval**](08_Ethical_approval.md)

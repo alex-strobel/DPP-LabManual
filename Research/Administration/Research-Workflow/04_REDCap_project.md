@@ -1,4 +1,4 @@
-# Create a REDCap project
+# Create a REDCap Project
 
 - Create new project in development mode and ask for approval
 - Use templates either in REDCap data base or custom questionnaire collection
@@ -11,4 +11,6 @@
 
 <!-- @Christoph/Josephine: Please elaborate on this issue (here and/or in the Wiki)! -->
 
-[[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
+---
+
+[**Table of Contents**](#README.md) | [back to **Study Design**](03_Study_design.md) | [next to **GitHub Project**](05_GitHub_project.md)

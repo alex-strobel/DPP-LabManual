@@ -1,8 +1,8 @@
-# Research question
+# Research Question
 
 ## Table of Contents
 
-- [Research question](#research-question)
+- [Research Question](#research-question)
   - [Table of Contents](#table-of-contents)
   - [Starting point](#starting-point)
   - [Research Transparency Advisor](#research-transparency-advisor)
@@ -65,4 +65,6 @@ Taking these issues into account, it would be better to be precise and state:
 
 tbc ...
 
-[[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
+---
+
+[**Table of Contents**](#README.md) | [back to **Preamble**](00_Preamble.md) | [next to **Theoretical Part**](02_Theoretical_part.md)
