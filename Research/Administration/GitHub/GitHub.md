@@ -19,6 +19,8 @@ Faculty of Psychology, TU Dresden
   - [Integrate Git in RStudio](#integrate-git-in-rstudio)
   - [Collaborating on projects with GitHub](#collaborating-on-projects-with-github)
 
+---
+
 ## Background
 
 Collaborating with others on research projects requires to have some common working environment. 

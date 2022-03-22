@@ -1,4 +1,15 @@
-# Manuals @ AG.DPP
+# Research manuals
+
+## Table of Contents
+
+- [Research manuals](#research-manuals)
+  - [Table of Contents](#table-of-contents)
+  - [Outline](#outline)
+  - [Contribution and attribution](#contribution-and-attribution)
+  - [Document structure](#document-structure)
+  - [Inserting figures and other content](#inserting-figures-and-other-content)
+
+---
 
 ## Outline 
 
@@ -23,9 +34,9 @@ Date of last edit
 
 ## Table of contents
 
-- [Outline](#outline)
-- [Introduction](#introduction)
-- ...
+- [Document title](#document-title)
+  - [Outline](#outline)
+  - [Introduction](#introduction)
 
 ## Outline
 
@@ -44,9 +55,9 @@ If your manual is going to be rather short, a one page manual will most likely b
 ```
 ## Table of contents
 
-- [Section 1](#section-1)<br>
-- [Section 2](#section-2)<br>
-- [Section 3](#section-3)
+- [Document title](#document-title)
+  - [Section 1](#section-1)<br>
+  - [Section 2](#section-2)
 
 ## Section 1
 
@@ -61,15 +72,12 @@ If your manual is going to be rather short, a one page manual will most likely b
 
 [up](#table-of-contents)
 
-## Section 3
-
-...
-
-[up](#table-of-contents)
 
 ```
 
-In the case of a multiple page manual, create a root document called `00_Manual_name.md`, give a general outline of the manual and provide the Table of Contents, linking to the subdocuments like this:
+Having installed the [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) extension, you can auto-generate a Table of Contents. Just add a second level heading Table of Contents to your markdown document, type the document title as first entry, then hit enter and save the document. This automatically inserts the document structure as Table of Contents. 
+
+In the case of a multiple page manual, create a root document called `00_Manual_name.md` (or perhaps better create a `README.md` as root page), give a general outline of the manual and provide the Table of Contents, linking to the subdocuments like this:
 
 ```
 
