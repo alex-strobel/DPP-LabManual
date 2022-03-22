@@ -22,4 +22,6 @@ See here for details on Registered Reports:
 
 **At AG.DPP, we go for preregistration as often as possible!** 
 
-[[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
+---
+
+[**Table of Contents**](#README.md) | [back to **Ethical Approval**](08_Ethical_approval.md) | [next to **Data Collection**](10_Data_collection.md)
