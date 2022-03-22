@@ -1,4 +1,4 @@
-# Targets (R Package)
+# R Package `targets`
 
 [Christoph Scheffel](mailto:christoph_scheffel@tu-dresden.de)<br>
 Faculty of Psychology
