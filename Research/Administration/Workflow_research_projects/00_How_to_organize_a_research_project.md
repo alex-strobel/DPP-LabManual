@@ -15,8 +15,7 @@ All members of AG.DPP (TU Dresden)
 
 We, the AG.DPP team at the Faculty of Psychology at the TU Dresden are strongly committed to open, transparent and reproducible research. Therefore, each step in every research project is expected to be open, transparent and reproducible - for researchers worldwide, other members of AG.DPP and (most notably) our future selves. Consider yourself working all night and eventually find the solution at 2 am. Your documentation of your work (we shall refer to every piece of work as code henceforth) should ideally inform your future self (at, say, 2 pm the same day) what you were doing, what you came up with and why and what for. So, the *Primary Directive* at AG.DPP is
 
-| **We always comment our code!** |
-| ------------------------------- |
+<center><b>We always comment our code!</b></center><br>
 
 Don't intend to eventually comment your code sometime in the future! Don't expect your code to be comprehensible anyway! Comment what you are about to do even ahead of doing it! Make your work as accessible as it could possibly be and assume that everyone in this world is a moron! Someone who won't understand that you are about to provide a boxplot when you do not comment - ahead of the boxplot command - that you are exactly about to provide a boxplot. It's as simple as that: Always comment your code, because everyone in the world including your future self is a moron!
 
