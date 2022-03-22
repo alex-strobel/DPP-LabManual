@@ -14,19 +14,26 @@ Faculty of Psychology, TU Dresden
   - [Regulations at Technische Universität Dresden](#regulations-at-technische-universität-dresden)
   - [Authorship credit at AG.DPP](#authorship-credit-at-agdpp)
 
+---
 ## Introduction
 
-When it comes to writing a scientific article, there is always the issue of authorship credit. Who contributed what to a research project and does this contribution justify authorship? There seems to be a general agreement across scientific institutions that authorship should be based on 
+When it comes to writing a scientific article, there is always the issue of authorship credit.
+Who contributed what to a research project and does this contribution justify authorship?
+There seems to be a general agreement across scientific institutions that authorship should be based on
 
-1. substantial contributions to a research project 
-2. critical revision of a research article 
-3. final approval of the article version to be published 
+1. substantial contributions to a research project
+2. critical revision of a research article
+3. final approval of the article version to be published
 
-Sometimes, there is a fourth requirement that all authors should take responsibility for all parts of the manuscript. Also, some institutions state that requirements 1 *and* 2 *and* 3 (and possibly 4) are to be met to justify authorship, others use an *or* conjunction. We could go at great lengths here on the (not so) different authorship requirements of institutions like the International Committee of Medical Journal Editors, the American Psychological Association or the Deutsche Gesellschaft für Psychologie etc.. Yet working at the Technische Universität Dresden, their regulations apply to us and are given below. 
+Sometimes, there is a fourth requirement that all authors should take responsibility for all parts of the manuscript.
+Also, some institutions state that requirements 1 *and* 2 *and* 3 (and possibly 4) are to be met to justify authorship, others use an *or* conjunction.
+We could go at great lengths here on the (not so) different authorship requirements of institutions like the International Committee of Medical Journal Editors, the American Psychological Association or the Deutsche Gesellschaft für Psychologie etc.
+Yet working at the Technische Universität Dresden, their regulations apply to us and are given below.
 
 ## Regulations at Technische Universität Dresden
 
-Addressing the [Guidelines for Safeguarding Good Research Practice](https://zenodo.org/record/3923602#.YaY7qS9XZqs) of the Deutsche Forschungsgemeinschaft (DFG), TU Dresden devised new "Statutes for ensuring good scientific practice, for the prevention of scientific misconduct and for dealing with violations" that also include a §8 Scientific publications. It is provided below (so far in German only, a link to the official regulations will be added as soon as they are effective):
+Addressing the [Guidelines for Safeguarding Good Research Practice](https://zenodo.org/record/3923602#.YaY7qS9XZqs) of the Deutsche Forschungsgemeinschaft (DFG), TU Dresden devised new "Statutes for ensuring good scientific practice, for the prevention of scientific misconduct and for dealing with violations" that also include a §8 Scientific publications. 
+It is provided below (so far in German only, a link to the official regulations will be added as soon as they are effective):
 
 1. Grundsätzlich bringen Wissenschaftlerinnen und Wissenschaftler der TU Dresden ihre Forschungsergebnisse in den wissenschaftlichen Diskurs ein. Im Einzelfall kann es jedoch Gründe geben, Ergebnisse nicht öffentlich zugänglich zu machen; diese Entscheidung darf nicht von Dritten abhängen. Wissenschaftlerinnen und Wissenschaftler entscheiden in eigener Verantwortung – unter Berücksichtigung der Gepflogenheiten des betroffenen Fachgebiets –, ob, wie und wo sie ihre Ergebnisse öffentlich zugänglich machen. Unangemessen kleinteilige Publikationen werden dabei vermieden.
 
@@ -73,11 +80,16 @@ Relevant to the issue of authorship are points 3 to 9 above, and they define the
 and gave final approval to the submission of a manuscript and bear joint responsibility for the work. In addition,
 
 - all who have substantially contributed along the lines above must be considered in the decision who will be credited as author or who will be acknowledged for their contribution
-- there are no honorary authorships 
+- there are no honorary authorships
 - obstruction of the publication of scientific results is against the rules of good scientific practice
 
-Still, it will always be a matter of debate what exactly a *substantial* contribution was. Does having had some coarse research idea and then leaving the work to others count as substantial? Is collecting data as a student research assistant without really being involved in the research project substantial? Does a mere revision of a manuscript justify authorship? I guess, it always will depend. 
+Still, it will always be a matter of debate what exactly a *substantial* contribution was.
+Does having had some coarse research idea and then leaving the work to others count as substantial?
+Is collecting data as a student research assistant without really being involved in the research project substantial?
+Does a mere revision of a manuscript justify authorship?
+I guess, it always will depend.
 
-In any case, already early in any research project conducted at AG.DPP, all who are or get to be involved should be asked if they want to be authors of an eventually resulting publication. And if they do, they should do their best to make their contribution *substantial*.
+In any case, already early in any research project conducted at AG.DPP, all who are or get to be involved should be asked if they want to be authors of an eventually resulting publication.
+And if they do, they should do their best to make their contribution *substantial*.
 
 <!-- add case examples -->
