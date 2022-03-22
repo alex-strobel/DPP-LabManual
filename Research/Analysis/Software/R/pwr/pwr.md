@@ -10,7 +10,7 @@ Alpha level is .05 per default, but can be adjusted as well.
 
 Example:
 
-```
+```R
 # install and source pwr
 install.packages("pwr") 
 library(pwr)
@@ -35,9 +35,8 @@ plot(achievedPower)
 
 For all functions of the `pwr` package, type this on the command line:
 
-```
+```R
 ?pwr
 ```
 
 An ideal complement to the `pwr` package is the [R Package `effectsize`](https://github.com/alex-strobel/DPP-LabManual/blob/main/Research/Analysis/Software/R/effectsize/effectsize.md).
-
