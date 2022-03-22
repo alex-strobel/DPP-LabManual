@@ -1,5 +1,15 @@
-# Manuscript submission
+# Manuscript Submission
 
+## Table of Contents
+
+- [Manuscript Submission](#manuscript-submission)
+  - [Table of Contents](#table-of-contents)
+  - [Journal choice](#journal-choice)
+  - [Publication guideline of the TU Dresden](#publication-guideline-of-the-tu-dresden)
+  - [Submission guidelines](#submission-guidelines)
+  - [Submission process](#submission-process)
+  - [Posting the manuscript as a preprint](#posting-the-manuscript-as-a-preprint)
+  - [Completion of submission](#completion-of-submission)
 ## Journal choice
 
 Usually, this choice should be made before start to write a manuscript because all journals have different requirements for manuscript creation in their submission guidelines or may even provide a manuscript template.
@@ -71,7 +81,7 @@ For details on artwork creation see the following presentation:
 Be prepared that the submission process will take some time! Not only it may be the case that the submission system works slowly. You also may be required to provide information and documents you are not prepared to provide (because you didn't read the submission guidelines carefully enough) such as a cover letter, a significance statement, bullet points summarizing the main findings of your research, a praphical abstract etc. Reserve **at least two hours** for manuscript submission and make sure that at least one co-author will be available for consultation in case you are in doubt on one or another step in the submission process.
 
 After you are done with the submission process, you will receive an PDF version of your submission. This PDF ist to be sent immediately to all co-authors to inform them about the completion of the submission and to save it for their records. It's an absolute **must** when submitting a manuscript to send the PDF of te submission to all co-authors!  
-## Consider posting your manuscript as preprint!
+## Posting the manuscript as a preprint
 
 You may want to consider to post your submitted manuscript as a preprint, e.g., on [PsyArXiv](https://psyarxiv.com). We usually do that, because:
 
@@ -104,4 +114,6 @@ Always make sure to check the specific Open Access guidelines of the journal tha
 
 If done with a submission, reward yourself! You know best what will be an adequate reward ...  
 
-[[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
+---
+
+[**Table of Contents**](#README.md) | [back to **Open Data and Code**](14_Open_data_and_code.md) | [next to **Manuscript Revision**](16_Manuscript_revision.md)
