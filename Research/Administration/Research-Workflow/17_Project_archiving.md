@@ -1,4 +1,4 @@
-# Project archiving
+# Project Archiving
 
 - Archive PDF of accepted and published version!
 - Upload accepted/published version on ResearchGate if copyright allows!
