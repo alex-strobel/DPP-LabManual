@@ -12,6 +12,8 @@
   - [R Programming Style Guide](#r-programming-style-guide)
   - [R Markdown](#r-markdown)
 
+---
+
 ## R and RStudio
 
 R is a software environment that is mainly used for statistical computing, but in fact, it is an all-purpose computing environment that is quite similar to MATLAB although the syntax is somewhat but not entirely different. 
@@ -113,4 +115,3 @@ It may also pay to familiarize yourself with the manual.
 
 - [*papaja* Download](https://github.com/crsh/papaja)
 - [*papaja* Manual](http://frederikaust.com/papaja_man/)
-- 
