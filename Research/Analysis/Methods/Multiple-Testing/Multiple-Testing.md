@@ -21,6 +21,8 @@ Faculty of Psychology, TU Dresden
     - [Correction for multiple testing if using confidence intervals](#correction-for-multiple-testing-if-using-confidence-intervals)
   - [Suggested correction methods](#suggested-correction-methods)
 
+---
+
 ## Introduction
 
 When we test a hypothesis using the frequentist approach, we typically say that the test was significant, if *p* < .05.
