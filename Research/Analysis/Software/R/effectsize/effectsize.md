@@ -30,4 +30,4 @@ Check out the options `effectsize` offers:
 ?effectsize
 ```
 
-An ideal complement to `effectsize` is the [R package `pwr`](pwr/pwr).
+An ideal complement to `effectsize` is the [R package `pwr`]([pwr/pwr](https://github.com/alex-strobel/DPP-LabManual/blob/main/Research/Analysis/Software/R/pwr/pwr.md)).
