@@ -4,4 +4,6 @@ Use the approved templates for informed consent and data protection at ... <!-- 
 
 ...
 
-[[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
+---
+
+[**Table of Contents**](#README.md) | [back to **Methods Part**](07_Methods_part.md) | [next to **Preregistration**](09_Preregistration.md)
