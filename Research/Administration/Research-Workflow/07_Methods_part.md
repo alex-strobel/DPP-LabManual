@@ -1,6 +1,20 @@
 # Methods Part
 
-We at AG.DPP always start our Methods part with the [21-word solution](https://github.com/alex-strobel/DPP-LabManual/wiki/21-word-solution), and we make sure that it is correct. 
+## Table of Contents
+
+- [Methods Part](#methods-part)
+  - [Table of Contents](#table-of-contents)
+  - [Participants](#participants)
+  - [Materials](#materials)
+    - [Questionnaires and tests](#questionnaires-and-tests)
+    - [Experimental paradigms](#experimental-paradigms)
+  - [Procedure](#procedure)
+  - [Statistical Analysis](#statistical-analysis)
+  - [Software Citation](#software-citation)
+    - [Citing R, RStudio and R packages](#citing-r-rstudio-and-r-packages)
+    - [Citing other software](#citing-other-software)
+
+We at AG.DPP always start our Methods part with the [21-word solution](https://github.com/alex-strobel/DPP-LabManual/wiki/21-word-solution), and we make sure that it is correct.
 
 ## Participants
 
@@ -16,7 +30,7 @@ In any case, we describe your rationale for determining sample size. Ideally, th
 
 > For the within-subjects analyses, a power calculation using G\*Power (Faul et al., 2009) indicated a sample size of *N* = 36 when assuming a medium effect size of *f* = .25, a power of 1-&beta; = .95 and an &alpha;-level of .05. Yet, for the between-subjects analyses, G\*Power indicated a required sample size of *N* = 136 to achive a power 1-&beta; = .95 to detect a medium effect size at the nominal &alpha;-level. Given limited resources to perform our study, we therefore set 1-&beta; to .80 and recruited a sample of *N* = 82, still enabling us to detect a medium effect size with adequate power.
 
-## Material
+## Materials
 
 In this section, all material used in the study is described, e.g., questionnaires, experimental paragdigms or stimuli used. 
 Ideally, this is done in a detail that enables other researchers to directly replicate our study. 
@@ -29,7 +43,7 @@ So, we may save your standard material descriptions (as Word or text or R Markdo
 
 A good description of a questionnaire or test should contain the following:
 
-- the name and abbreviation of the instrument 
+- the name and abbreviation of the instrument
 - a reference to version used (mostly a German translation of some English instrument that if possible should also be referenced)
 - one or two example items (for tests, use the example items given in the test's instructions or describe the task format) 
 - the answering format (e.g., a five point scale ranging from -2 = completely disagree to 2 = completely agree)
@@ -52,6 +66,89 @@ Here, we describe the experimental procedure as detailed as possible inluding
 - <!-- someone pls write this part -->
 
 Ideally, we provide the code of our experimental paradigm along with our manuscript. Even if we use proprietary software such as Presentation, the code is plain text, so the important detail is readable to everyone.
+
+## Procedure
+
+...
+
+## Statistical Analysis
+
+We describe our analysis steps in the order they were performed (and that order should also match the order in which the results are reported in the Results section). We describe them in a detail that in principle should enable other researchers to reproduce them. This will not always be fully possible, which makes the provision of our data and code all the more necessary. Some minor detail may also be out-sourced to a Supplementary Methods section.
+
+...
+## Software Citation
+
+We always cite the software we use for data acquisition and analysis for at least two reasons:
+
+- **Reproducibility.** When others want to reproduce our analyses, they need to know which software and software version we used for data analysis. If using R, this includes also the R packages you employed including their version. This may not always ensure reproducibility (but see [R package `renv`](https://github.com/alex-strobel/DPP-LabManual/wiki/R-package-renv)), but at least gives a hint on why someone failed to reproduce our results.
+- **Giving credit.** Software developers invest a lot of time in the development and maintenance of their software. Especially when using open software such as [R and RStudio](https://github.com/alex-strobel/DPP-LabManual/wiki/R-and-RStudio) or certain [R packages](https://github.com/alex-strobel/DPP-LabManual/wiki/Recommended-R-packages), it is just matter of respect for the authors an R package to cite them.
+
+### Citing R, RStudio and R packages
+
+To get the appropriate citation for R and RStudio, we type on the command line:
+
+```
+# R
+citation()
+# RStudio
+rstudioapi::versionInfo()$citation
+```
+
+The nice thing here is that this will also return the respective BibTeX entry for use in our [R Markdown](https://github.com/alex-strobel/DPP-LabManual/wiki/R-Markdown) or [LaTeX](https://github.com/alex-strobel/DPP-LabManual/wiki/LaTeX) documents. Yet, this does not give us the respective version numbers. We can retrieve them via:
+
+```
+# R
+R.Version()
+# RStudio
+RStudio.Version()
+```
+
+For a given R package, say, `lavaan`, we type:
+
+```
+citation("lavaan")
+packageVersion("lavaan")
+```
+
+Yet, if we use a large number of R packages, citing them all might blow our Methods section and perhaps our word limit. In this case, we can first try to limit the packages we use and/or report only the really essential ones in the text and list the remaining packages (that we may have used only for one special procedure) in the supplement. For most if not all research reports, we will have a supplement anyway. As an example, here's a sentence from a manuscript I wrote in 2019:
+  
+"We used *RStudio* (version 1.1.463; RStudio Team, 2016) with *R* (version 3.5.2; R Core Team, 2018) for statistical analyses, with the main analyses carried out using the packages *psych* (version 1.8.12; Revelle, 2018) and *lavaan* (version 0.6.5; Rosseel, 2012), see Supplementary Methods for all packages employed." 
+
+The respective references would look like this:
+
+- R Core Team. (2018). *R: A language and environment for statistical computing.* Vienna, Austria: R Foundation for Statistical Computing. Retrieved from https://www.R-project.org/
+- Revelle, W. (2018). *Psych: Procedures for psychological, psychometric, and personality research.* Evanston, Illinois: Northwestern University. Retrieved from https://CRAN.R-project.org/package=psych
+- Rosseel, Y. (2012). lavaan: An R package for structural equation modeling. *Journal of Statistical Software, 48*(2), 1–36. Retrieved from http://www.jstatsoft.org/v48/i02/
+- RStudio Team. (2016). *RStudio: Integrated development environment for R.* Boston, MA: RStudio, Inc. Retrieved from http://www.rstudio.com/
+
+### Citing other software
+
+For other, especially commercial software bundles, you cite the software including its version as well as the company including its location. Here a few examples of commercial software commonly used in our lab, incl. their citations as suggested by the developers:
+
+<!-- 
+pls someone add examples of how to provide this information in the text and how the reference would look like 
+--> 
+
+- BrainVision Analyzer
+> In text: BrainVision Analyzer, Version 2.2.0, Brain Products GmbH, Gilching, Germany
+> In the reference section: BrainVision Analyzer (Version 2.2.0) [Software]. (2019). Gilching, Germany: Brain Products GmbH.
+- BrainVision Recorder
+> In text: BrainVision Recorder, Version 1.23.0001, Brain Products GmbH, Gilching, Germany
+> In the reference section: BrainVision Recorder (Version 1.23.0001) [Software]. (2020). Gilching, Germany: Brain Products GmbH.
+- jamovi
+> In the reference section: The jamovi project (2021). jamovi (Version 1.6) [Computer Software]. Retrieved from https://www.jamovi.org.
+- JASP
+> In the reference section: JASP Team (2021). JASP (Version 0.16) [Computer software].
+- MATLAB
+> In the reference section: MATLAB. (2018). 9.7.0.1190202 (R2019b). Natick, Massachusetts: The MathWorks Inc.
+- SPSS
+> In the reference section: IBM Corp. Released 2020. IBM SPSS Statistics for Windows, Version 27.0. Armonk, NY: IBM Corp.
+
+Not to forget MATLAB plugins such as:
+
+- EEGLAB
+> Delorme, A. & Makeig, S. EEGLAB: An open source toolbox for analysis of single-trial EEG dynamics including independent component analysis. J. Neurosci. Methods 134, 9–21 (2004).
+- SPM
 
 ---
 
