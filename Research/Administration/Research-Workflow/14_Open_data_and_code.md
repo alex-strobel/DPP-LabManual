@@ -7,7 +7,6 @@
   - [Introduction](#introduction)
   - [Codebook](#codebook)
   - [Repository](#repository)
-  - [Repository](#repository-1)
     - [OSF](#osf)
     - [GitHub](#github)
     - [OpARA](#opara)
@@ -42,7 +41,7 @@ With such a codebook, we ensure not only the transparency of our research, but a
 
 You can build in a codebook in an R data.frame by setting attributes to the variables of this data.frame, e.g.:
 
-```
+```R
 # create arbitrary data.frame
 df = data.frame(age = round(runif(100, 18, 48)), 
                 gender = sample(1:3, 100, replace = T, prob = c(45, 45, 10)), 
@@ -63,9 +62,9 @@ attr(df$nfc_01, "values") = matrix(-3:3, nrow = 1, dimnames = list("value", c("t
 
 Using the `str` command, you can see all the variable names and values:
 
-```
+```txt
 > str(df)
-'data.frame':	100 obs. of  3 variables:
+'data.frame':   100 obs. of  3 variables:
  $ age   : num  30 36 19 44 36 32 26 26 23 37 ...
   ..- attr(*, "variable")= chr "age in years"
   ..- attr(*, "values")= num [1:2] 18 47
@@ -86,10 +85,6 @@ Using the `str` command, you can see all the variable names and values:
 If you share your data via an \*.RData file, this will provide the codebook directly built-i to the respectve data.frame. Yet, usually, we share data via a *.csv file. So, you may provide the code for attribute generation via a separate R script as outlined above.
 
 Another option would be to provide the codebook via an JSON file, but none of us has experience with JSON, so that remains an option to explore by yourself. 
-
-## Repository
-
-We provide our data and code as well as (ideally) all other materials to reproduce our results on an openly accessible repository. Standard options for doing so are the Open Science Framework (OSF) and/or GitHub. Another option would be OpARA that is hosted by TU Dresden. In the following, these options are outlined.
 
 ## Repository
 
