@@ -5,6 +5,7 @@
 - [R, RStudio and R Packages](#r-rstudio-and-r-packages)
   - [Table of Contents](#table-of-contents)
   - [R and RStudio](#r-and-rstudio)
+  - [R proramming Style Guide](#r-proramming-style-guide)
   - [Recommended R packages](#recommended-r-packages)
     - [Helper packages](#helper-packages)
     - [Effect size estimation and power analysis](#effect-size-estimation-and-power-analysis)
@@ -32,6 +33,30 @@ The R Project provides an _Introduction to R_, but it is not a short read. For a
 - [Base R Cheat Sheet](https://iqss.github.io/dss-workshops/R/Rintro/base-r-cheat-sheet.pdf)
 
 So far, I could not find a both useful *and* visually appealing introduction to RStudio, just ask the internet if you do not find RStudio's GUI self-explaining.
+
+## R proramming Style Guide
+
+We use the [tidyverse style guide](https://style.tidyverse.org/index.html) for R programming. Every team member is expected to adhere to this style guide as often as possible, as this will greatly facilitate collaboration on code and code review. It is recommended to use [RStudio's R Diagnostics](https://support.rstudio.com/hc/en-us/articles/205753617-Code-Diagnostics) (best to turn on all options). Then, RStudio will display small diagnostics symbols next to the line number that inform you about style such as `expected whitespace around '=' operator`. Sometimes it might be a bit tedious to put whitespaces around operators, because it is so much easier to code ...
+
+```R
+b=boxplot(df,boxwex=.5,staplewex=NA,lty=1,lwd=1.5,outpch=19,outcex=.8,outcol=8)
+```
+
+instead of adhering to the tidyverse style guide and write ...
+
+```R
+b = boxplot(
+  df,
+  boxwex = .5,
+  staplewex = NA,
+  lwd = 1.5,
+  outpch = 19,
+  outcex = .8,
+  outcol = 8
+)
+```
+
+Yet, one can write code just as in the first example above and then hit `Cmd+Shift+A` (Mac) or `Strg+Shift+A` (Windows), and the code will be reformatted as shown in the second example. RStudio uses [Headley Wickham's style guide](http://adv-r.had.co.nz/Style.html), but this guide is very similar to that of the tidyverse (it's the same author). 
 
 ## Recommended R packages
 
