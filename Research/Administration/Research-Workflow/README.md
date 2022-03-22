@@ -1,6 +1,6 @@
 # Research Workflow
 
-This manual is at the core of this LabManual. It outlines how we @AG.DPP aim to perform a research project, starting with the research question and ending with project archiving. It mentions all the things to do and/or to consider as well as the issues to elaborate on along the timeline of a research project:
+This manual is at the core of this LabManual. It outlines how we @AG.DPP perform a research project, starting with the research question and ending with project archiving. It mentions all the things to do and/or to consider as well as the issues to elaborate on along the timeline of a research project:
 
 1. [Pinpoint your research question and formulate your hypotheses](01_Research_question.md)
 2. [Write the theoretical part of your manuscript](02_Theoretical_part.md)
