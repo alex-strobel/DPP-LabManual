@@ -17,4 +17,6 @@ If using Bayesian sequential testing, continuously monitor evolution of Bayes fa
 
 ...
 
-[[back](00_How_to_organize_a_research_project.md#organization-of-this-manual)]
+---
+
+[**Table of Contents**](#README.md) | [back to **Preregistration**](09_Preregistration.md) | [next to **Preprocessing**](11_Preprocessing.md)
