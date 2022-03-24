@@ -21,7 +21,7 @@ The nice thing is that you do not have to create your project anew and upload al
 
 - [Connect GitHub to an OSF project](https://help.osf.io/article/211-connect-github-to-a-project)
 
-Please also read on the issue of blinded review below:
+You may also want to read on the issue of blinded review below:
 
 - [Manuscript Submission: Blinded Review](15_Manuscript_submission#blinded-review)
 
