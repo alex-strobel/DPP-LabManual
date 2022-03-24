@@ -91,7 +91,8 @@ I mean, I do not care if the reviewers know who I am, I am really fond of *open*
 
 Be prepared that the submission process will take some time! Not only it may be the case that the submission system works slowly. You also may be required to provide information and documents you are not prepared to provide (because you didn't read the submission guidelines carefully enough) such as a cover letter, a significance statement, bullet points summarizing the main findings of your research, a praphical abstract etc. Reserve **at least two hours** for manuscript submission and make sure that at least one co-author will be available for consultation in case you are in doubt on one or another step in the submission process.
 
-After you are done with the submission process, you will receive an PDF version of your submission. This PDF ist to be sent immediately to all co-authors to inform them about the completion of the submission and to save it for their records. It's an absolute **must** when submitting a manuscript to send the PDF of te submission to all co-authors!  
+After you are done with the submission process, you will receive an PDF version of your submission. This PDF ist to be sent immediately to all co-authors to inform them about the completion of the submission and to save it for their records. It's an absolute **must** when submitting a manuscript to send the PDF of te submission to all co-authors!
+
 ## Posting the manuscript as a preprint
 
 You may want to consider to post your submitted manuscript as a preprint, e.g., on [PsyArXiv](https://psyarxiv.com). We usually do that, because:
