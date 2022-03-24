@@ -77,7 +77,16 @@ For details on artwork creation see the following presentation:
 
 ## Blinded review
 
-The journal you are submitting to will have a double-blind review policy, meaning that neither authors and reviewers should not ber aware of their identity. If you organize your project as a GitHub project (which is strongly recommended, see [Create GitHub Project](05_GitHub_project)) and write your manuscript using R Markdown with the `papaja` package, things get a little bit complicated, but not that much. Just proceed as follows You will have a R Markdown file with all
+The journal you are submitting to will have a double-blind review policy, meaning that neither authors and reviewers should not be aware of their identity. If you organize your project as a GitHub project (which is strongly recommended, see [Create GitHub Project](05_GitHub_project)) and write your manuscript using R Markdown with the `papaja` package, things get a little bit complicated, but not that much. Just proceed as follows:
+
+- If not already done, create an OSF project and link it to your GitHub project (see [GitHub Project: OSF](05_GitHub_project.md#osf)). This will mirror your GitHub project on OSF, and every change you make to your GitHub project will be automatically be visible on OSF als well. 
+- On OSF, [create a view-only link](https://help.osf.io/article/201-create-a-view-only-link-for-a-project) for this project.
+- If you used R Markdown with `papaja` to create your manuscript, all the identifying information will of course be visible in the `*.Rmd` file. Yet, you can knit your R Markdown file to a PDF by setting the YAML header's `mask` entry to `yes`, so the title page of the knitted PDF does only contain the title. Of course, in your `*.Rmd` file, all the information is still present, so one idea could be to move the `*.Rmd` file(s) temporarily to another folder so that they do not show up on GitHub and OSF until the reviewing process is completed. Then, move the `*.Rmd` files back to your GitHub repo.
+- Still, one issue remains: On OSF, you can view all files also on GitHub (there is a "View file on GitHub" link above each document), and if reviewers would follow this link, they would see your name on GitHub (unless you have a fancy user name on GitHub and do not reveal any information of yourself there, which is not recommended at all). So one option I implemented in a recent manuscript could be to  write in the manuscript:
+  > All data and code for reproducing our analyses are permanently and openly accessible at https://osf.io/34yav/?view_only=3bf5e46b6a444bd8b69300041f838523 (project blinded for review, and to ensure blind review, please do not follow the “View this file on GitHub” link).
+
+I mean, I do not care if the reviewers know who I am, I am really fond of *open* review, but if the journal has a double-blind policy, it is better to accommodate to that.
+
 ## Submission process
 
 Be prepared that the submission process will take some time! Not only it may be the case that the submission system works slowly. You also may be required to provide information and documents you are not prepared to provide (because you didn't read the submission guidelines carefully enough) such as a cover letter, a significance statement, bullet points summarizing the main findings of your research, a praphical abstract etc. Reserve **at least two hours** for manuscript submission and make sure that at least one co-author will be available for consultation in case you are in doubt on one or another step in the submission process.
