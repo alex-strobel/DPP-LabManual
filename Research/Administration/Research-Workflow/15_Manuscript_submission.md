@@ -7,13 +7,14 @@
   - [Journal choice](#journal-choice)
   - [Publication guideline of the TU Dresden](#publication-guideline-of-the-tu-dresden)
   - [Submission guidelines](#submission-guidelines)
+  - [Blinded review](#blinded-review)
   - [Submission process](#submission-process)
   - [Posting the manuscript as a preprint](#posting-the-manuscript-as-a-preprint)
   - [Completion of submission](#completion-of-submission)
 ## Journal choice
 
-Usually, this choice should be made before start to write a manuscript because all journals have different requirements for manuscript creation in their submission guidelines or may even provide a manuscript template.
-Now at the latest is the time to choose an appropriate journal for a given manuscript. 
+Usually, this choice should be made before starting to write a manuscript because all journals have different requirements for manuscript creation in their submission guidelines or may even provide a manuscript template.
+Now at the latest is the time to choose an appropriate journal for a given manuscript.
 
 The criteria for choosing an adequate journal are manifold:
 
@@ -38,7 +39,6 @@ The criteria for choosing an adequate journal are manifold:
   - [PLoS ONE](https://journals.plos.org/plosone/)
   - [BMC Psychology](https://bmcpsychology.biomedcentral.com)
   - [Personality Science](https://ps.psychopen.eu/index.php/ps/index)<br>
-  
 
 - Also, the estimated duration of the review process may matter. Some journals have information on the median duration of the review process or the time between submission and rejection or acceptance. There are also web pages where users enter their experiences with the time it took to review/reject/accept their constribution. Unfortunately, I just can find a link to such a web page ... <!- if someone has such a link, please insert it here -->  
 - A not unimportant issue to consider is whether not only the journal, but the publisher of that journal has a good reputation. Firstly, there are established publishers who engage in questionable publishing practices, i.e., they will charge you, your funders or your readers (or all at once) with as many money they can get (some top publishers world-wide make more money than Apple!). Secondly, there is a vast number of so-called *predatory journals* out there that have no reputation, will print everything after a not so strict review process, and charge you with a comparably high APC. There are lists of predatory journals opn the internet, but some may be outdated, some may be biased, so simply search for "Journal Name & predatory" and use your common sense. So make sure that your target journal is not a *"bad one"*, and if in doubt, ask colleagues.
@@ -49,7 +49,6 @@ So your decision for a target journal should rest on the following consideration
 - Does it have a good reputation?
 - Is it an Open Access journal or has it an option for Open Access (and can you afford the APCs)?
 - Does it have an appropriate impact factor (meaning for our field of research and IF &ge; 3) or (for newly established journals) is about to achieve one in the near future?  
-
 
 ## Publication guideline of the TU Dresden
 
@@ -76,6 +75,9 @@ For details on artwork creation see the following presentation:
 
 - [Graphics: A short guide on how to create figures](https://github.com/alex-strobel/DPP-LabManual/blob/main/Research/Administration/Workflow_research_projects/Resources/Graphics/DPP_LM_Graphics.pdf)
 
+## Blinded review
+
+The journal you are submitting to will have a double-blind review policy, meaning that neither authors and reviewers should not ber aware of their identity. If you organize your project as a GitHub project (which is strongly recommended, see [Create GitHub Project](05_GitHub_project)) and write your manuscript using R Markdown with the `papaja` package, things get a little bit complicated, but not that much. Just proceed as follows You will have a R Markdown file with all
 ## Submission process
 
 Be prepared that the submission process will take some time! Not only it may be the case that the submission system works slowly. You also may be required to provide information and documents you are not prepared to provide (because you didn't read the submission guidelines carefully enough) such as a cover letter, a significance statement, bullet points summarizing the main findings of your research, a praphical abstract etc. Reserve **at least two hours** for manuscript submission and make sure that at least one co-author will be available for consultation in case you are in doubt on one or another step in the submission process.
