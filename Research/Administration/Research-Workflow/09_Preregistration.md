@@ -20,7 +20,7 @@ See here for details on Registered Reports:
 
 - [OSF page on Registered Reports](https://www.cos.io/initiatives/registered-reports)
 
-**At AG.DPP, we go for preregistration as often as possible!** 
+**At AG.DPP, we aim to go for Registered Reports as often as possible!** 
 
 ---
 
