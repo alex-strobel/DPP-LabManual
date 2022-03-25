@@ -1,5 +1,14 @@
 # Theoretical Part
 
+## Table of Contents
+
+- [Theoretical Part](#theoretical-part)
+  - [Table of Contents](#table-of-contents)
+  - [Before you start](#before-you-start)
+    - [Journal choice](#journal-choice)
+    - [Manuscript format](#manuscript-format)
+  - [Formal aspects of your theoretical part](#formal-aspects-of-your-theoretical-part)
+
 ## Before you start
 
 Two issues deserve consideration befaore actually staring to write on a manuscript. The first issue is related to the choice of the appropriate journal you want your manuscript submit to, for several reasons outlined below. The second issue is related to the form in which you want to write your manuscipt. I elaborate on both issues below:
