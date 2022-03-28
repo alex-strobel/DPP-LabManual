@@ -67,6 +67,8 @@ Also, when formulating hypotheses, one should take care to state them in a way t
 
 As an example: You could state as an hypothesis that Need for Cognition will be related to Neuroticism. If you measured Neuroticism with the NEO-PI-R and performed tests on the facet level, you will have run into several problems. The first problems is that you formulated your hypothesis only for one construct (= Neuroticism) and not for six constructs (= the six NEO-PI-R Neuroticism facets) on which you performed your actual tests, so you need to correct for multiple testing of one and the same hypothesis. The second problem is that you did not specify the direction of the relationship, so you need to perform two-sided tests in a case where you could have easily performed one-sided tests. So in this case, it would have been better to state that you expect a *negative* relationship between Need for Cognition and Neuroticism, and that you expect this negative relationship to be most pronounced for the Neuroticism facet of *Vulnerability* (cf. [Fleischhauer et al. 2010](https://journals.sagepub.com/doi/10.1177/0146167209351886?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)).
 
+A final issue on the formulation of hypotheses is that the fancier your hypothesis, the less likely it will confirmed. And an ultimate issue is that - being devoted to critical rationalism *sensu* Popper <!-- insert Ref. --> we should not be aiming at confirming our hypotheses in the first place, but to reject them. 
+
 ---
 
 [**Table of Contents**](#README.md) | [back to **Preamble**](00_Preamble.md) | [next to **Theoretical Part**](02_Theoretical_part.md)
