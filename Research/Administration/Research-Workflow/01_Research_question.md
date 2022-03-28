@@ -22,7 +22,7 @@ During this process, you should also find someone who will act as what we provis
 
 ## Authorship
 
-The RTA will put considerable effort in your paper, so co-authorship of the RTA is justified by all means. But what essentially does define authorship? A discussion of this issue can be found in our [Wiki entry on authorship](https://github.com/alex-strobel/DPP-LabManual/wiki/Authorship). In short:
+The RTA will put considerable effort in your paper, so co-authorship of the RTA is justified by all means. But what essentially does define authorship? A discussion of this issue can be found in out [manual on authorship](https://github.com/alex-strobel/DPP-LabManual/blob/main/Research/Administration/Authorship/Authorship.md). In short:
 
 Authorship requires that someone has contributed *substantially* to
 
