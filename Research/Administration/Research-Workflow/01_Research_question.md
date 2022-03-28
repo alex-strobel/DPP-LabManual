@@ -63,7 +63,9 @@ Taking these issues into account, it would be better to be precise and state:
 - H0: There is at least moderate evidence for no correlation of the self-reported number of negative life events with the scores on the NFC scale (BF10 < 1/3).
 - H1: There is at least moderate evidence for a correlation of the self-reported number of positive life events with the scores on the NFC scale (BF10 > 3).
 
-tbc ...
+Also, when formulating hypotheses, one should take care to state them in a way that minimizes the number of statistical procedures to test them. Otherwise, there will be the necessity to deal with the problem of [multiple testing](https://github.com/alex-strobel/DPP-LabManual/blob/main/Research/Analysis/Methods/Multiple-Testing/Multiple-Testing.md), and having to deal with this problem may drive you crazy. Also, posing *directed* hypotheses will give you the opportunity to conduct on-sided tests (and no one will argue with you whether you just did this because otherwise your test would have returned an insignificant result if you *preregistered your one-sided hypothesis*). So, try to be as specific as you can be when you formulate a hypothesis. 
+
+As an example: You could state that Need for Cognition will be related to Neuroticism. 
 
 ---
 
