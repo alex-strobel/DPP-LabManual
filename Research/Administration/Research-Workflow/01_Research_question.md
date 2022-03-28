@@ -42,7 +42,7 @@ Already early in any research project conducted at AG.DPP, all who are or get to
 
 ## Formulation of hypotheses
 
-<!-- urgently needs revision! -->
+<!-- urgently needs review/revision! -->
 
 All authors should finally agree on the research questions posed and the hypotheses formulated. Hypotheses should be stated clearly and must be translatable into a statistical test. In the above example: you expect that past positive but not negative life events would be related to NFC. So you might think that your hypotheses could read:
 
@@ -65,7 +65,7 @@ Taking these issues into account, it would be better to be precise and state:
 
 Also, when formulating hypotheses, one should take care to state them in a way that minimizes the number of statistical procedures to test them. Otherwise, there will be the necessity to deal with the problem of [multiple testing](https://github.com/alex-strobel/DPP-LabManual/blob/main/Research/Analysis/Methods/Multiple-Testing/Multiple-Testing.md), and having to deal with this problem may drive you crazy. Also, posing *directed* hypotheses will give you the opportunity to conduct one-sided tests, both in the frequentist and the Bayesian approach. So, try to be as specific as you can be when you formulate a hypothesis. 
 
-As an example: You could state as an hypothesis that Need for Cognition will be related to Neuroticism. If you measured Neuroticism with the NEO-PI-R and performed tests on the facet level, you have several problems. The first is that you formulated your hypothesis only for one construct (= Neuroticism) and not for six constructs (= the six NEO-PI-R Neuroticism facets), so you need to correct for multiple testing of ne and the same hypothesis.  
+As an example: You could state as an hypothesis that Need for Cognition will be related to Neuroticism. If you measured Neuroticism with the NEO-PI-R and performed tests on the facet level, you will have run into several problems. The first problems is that you formulated your hypothesis only for one construct (= Neuroticism) and not for six constructs (= the six NEO-PI-R Neuroticism facets) on which you performed your actual tests, so you need to correct for multiple testing of one and the same hypothesis. The second problem is that you did not specify the direction of the relationship, so you need to perform two-sided tests in a case where you could have easily performed one-sided tests. So in this case, it would have been better to state that you expect a *negative* relationship between Need for Cognition and Neuroticism, and that you expect this negative relationship to be most pronounced for the Neuroticism facet of *Vulnerability* (cf. [Fleischhauer et al. 2010](https://journals.sagepub.com/doi/10.1177/0146167209351886?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)).
 
 ---
 
