@@ -157,15 +157,17 @@ Then place a file named "flag_root_for_My-Project.txt" in the root directory of 
 Then create a folder called `Data` and put some data in it, say, a file named "df.csv". 
 Also, create a folder called `Code` and save an R script in it with the following commands:
 ```
-library(here)                           # loads here package
-i_am("flag_root_for_My-Project.txt")    # locates the root folder
-df <- read.csv(here("Data", "df.csv"))  # reads data from folder in that root
+library(here)                                   # loads here package
+here::i_am("flag_root_for_My-Project.txt")      # locates the root folder
+df <- read.csv(here("Data", "df.csv"))          # reads data from folder in that root
 ```
 Execute that code, and the data will be loaded.
 If you now would move your directory to somewhere else, it would still work.
 And if someone else clones your project, it will work as well, and that is exactly what we use the `here` package for. 
 It is important that you put a flag file to be found by the `i_am` function into every single R script where you reference to project files.
 It is even more important to have unique names for the flag files in every single repository, which you can easily achieve by putting the project name into the flag file name.
+
+A note on working with `here` and `renv` at the same time can be found in the [long version](https://github.com/alex-strobel/DPP-LabManual/blob/main/Research/Administration/GitHub/GitHub_and_renv_long.md) of this document.
 
 ### Collaboratively work on projects
 
