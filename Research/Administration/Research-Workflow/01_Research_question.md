@@ -22,7 +22,7 @@ During this process, you should also find someone who will act as what we provis
 
 ## Authorship
 
-The RTA will put considerable effort in your paper, so co-authorship of the RTA is justified by all means. But what essentially does define authorship? A discussion of this issue can be found in our [Wiki entry on authorship](https://github.com/alex-strobel/DPP-LabManual/wiki/Authorship). In short:
+The RTA will put considerable effort in your paper, so co-authorship of the RTA is justified by all means. But what essentially does define authorship? A discussion of this issue can be found in out [manual on authorship](https://github.com/alex-strobel/DPP-LabManual/blob/main/Research/Administration/Authorship/Authorship.md). In short:
 
 Authorship requires that someone has contributed *substantially* to
 
@@ -42,28 +42,32 @@ Already early in any research project conducted at AG.DPP, all who are or get to
 
 ## Formulation of hypotheses
 
-<!-- urgently needs revision! -->
+<!-- urgently needs review/revision! -->
 
 All authors should finally agree on the research questions posed and the hypotheses formulated. Hypotheses should be stated clearly and must be translatable into a statistical test. In the above example: you expect that past positive but not negative life events would be related to NFC. So you might think that your hypotheses could read:
 
 - H0: Negative life events do not correlate with NFC.
 - H1: Positive life events correlate with NFC.
 
-H1 translates into a correlation analysis. If *p* < .05, you would *reject* the null hypothesis. H2, however, does not directly translate into a testable hypothesis, because in the frequentist approach you cannot *accept* the null hypothesis. You could state that if the correlation (= effect size) is very small, say, *r* < .10, hypothesis H2 would be confirmed (but still, also rather small effects might be of relevance in your field of study). Another option would be that you use Bayesian statistics that allow to quantify the evidence for or against the null hypothesis. A further aspect why the above hypotheses are not well-formulated is that it is not clear how you operationalize *positive* and *negative life events* on the one hand and *NFC* on the other hand. 
+These hypotheses would translate into a correlation analysis. If *p* < .05, you would *reject* the null hypothesis. However, if *p* < .05, the frequentist approach does not allow you *accept* the null hypothesis. You could state that if the correlation (= effect size) is very small, say, *r* < .10, the null hypothesis seems more likely to be true, but still, also a rather small effect might be of relevance in your field of study. Another option would be that you use Bayesian statistics that allow to quantify the evidence for or against the null hypothesis. A further aspect why the above hypotheses are not well-formulated is that it is not clear how you operationalize *positive* and *negative life events* on the one hand and *NFC* on the other hand. 
 
 Taking these issues into account, it would be better to be precise and state:
 
 *for a frequentist approach*
 
 - H0: The self-reported number of Negative life events insignificantly correlates with the scores on the NFC scale, with a negligible effect size (*r* < .10).
-- H1: The self-reported number of positive life events significantly correlates with the scores on the NFC scale, with a medium to large effect size (*r* ≥ .30).
+- H1: The self-reported number of positive life events significantly correlates with the scores on the NFC scale, with a small to medium effect size (*r* ≥ .10).
 
 *for a Bayesian approach*
 
 - H0: There is at least moderate evidence for no correlation of the self-reported number of negative life events with the scores on the NFC scale (BF10 < 1/3).
 - H1: There is at least moderate evidence for a correlation of the self-reported number of positive life events with the scores on the NFC scale (BF10 > 3).
 
-tbc ...
+Also, when formulating hypotheses, one should take care to state them in a way that minimizes the number of statistical procedures to test them. Otherwise, there will be the necessity to deal with the problem of [multiple testing](https://github.com/alex-strobel/DPP-LabManual/blob/main/Research/Analysis/Methods/Multiple-Testing/Multiple-Testing.md), and having to deal with this problem may drive you crazy. Also, posing *directed* hypotheses will give you the opportunity to conduct one-sided tests, both in the frequentist and the Bayesian approach. So, try to be as specific as you can be when you formulate a hypothesis. 
+
+As an example: You could state as an hypothesis that Need for Cognition will be related to Neuroticism. If you measured Neuroticism with the NEO-PI-R and performed tests on the facet level, you will have run into several problems. The first problems is that you formulated your hypothesis only for one construct (= Neuroticism) and not for six constructs (= the six NEO-PI-R Neuroticism facets) on which you performed your actual tests, so you need to correct for multiple testing of one and the same hypothesis. The second problem is that you did not specify the direction of the relationship, so you need to perform two-sided tests in a case where you could have easily performed one-sided tests. So in this case, it would have been better to state that you expect a *negative* relationship between Need for Cognition and Neuroticism, and that you expect this negative relationship to be most pronounced for the Neuroticism facet of *Vulnerability* (cf. [Fleischhauer et al. 2010](https://journals.sagepub.com/doi/10.1177/0146167209351886?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)).
+
+A final issue on the formulation of hypotheses is that the fancier your hypothesis, the less likely it will confirmed. And an ultimate issue is that - being devoted to critical rationalism *sensu* Popper <!-- insert Ref. --> we should not be aiming at confirming our hypotheses in the first place, but to reject them. 
 
 ---
 
