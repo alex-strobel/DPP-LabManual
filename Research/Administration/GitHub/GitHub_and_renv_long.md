@@ -247,6 +247,14 @@ renv::init()    # creates a lock-file (make sure to leave the brackets empty!)
 This will initialize the lock-file in the folder, in which your document is stored.
 Do **not** put a subfolder in the style of the `here` package in the brackets behind renv::init, as this will create a new subfolder in a much higher directory, likely your user/documents path.
 You only need the renv::init() command **once**, so execute it in the terminal, don't put it in your script.
+Then, activate the project by calling:
+```
+source(here("Code", "renv", "activate.R"))      # calls the activate function of renv
+```
+Importantly, in this last line you actually need the `here` function.
+In this example, the document you are writing is in a folder called "Code".
+Since renv creates its subfolders and files based on the home of your document, you need to navigate into the "Code" folder and the folder "renv", created by `renv`, to the "activate.R" file.
+This will call all your environmental specifications as (to be) saved in the lock-file.
 Then, when you have installed and loaded the packages that you need for your document, call renv as you normally would:
 ```
 renv::snapshot()    # updates the lock-file (again, leave the brackets empty!)
@@ -259,10 +267,7 @@ here::i_am("flag_root_for_My-Project.txt")      # locates the root folder
 library(renv)                                   # loads the renv package
 source(here("Code", "renv", "activate.R"))      # calls the activate function of renv
 ```
-Importantly, in this last line you actually need the `here` function.
-In this example, the document you are writing is in a folder called "Code".
-Since renv creates its subfolders and files based on the home of your document, you need to navigate into the "Code" folder and the folder "renv", created by `renv`, to the "activate.R" file.
-This will call all your environmental specifications as saved in the lock-file.
+
 
 See the `here` vignette for more details:
 
