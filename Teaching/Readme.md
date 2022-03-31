@@ -14,6 +14,5 @@ In diesem Ordner sammen wir alle Vorgänge rund um die Lehre. Was hier beschrieb
 - **eLearning**: Grundsätze; Tools; Beispiele; Perspektiven (z.B. Flipped Classroom)
 - **jExam**: (ggf. kein Eintrag dazu, weil bald durch SELMA abgelöst)
 - **Technik zur LV-Unterstützung**: Beamer, Moderationskoffer, Owl ...
-- 
-- 
-- ... <!-- bitte ergänzen, wann immer jemand etwas einfällt, das hier erscheinen sollte -->
+
+... <!-- bitte ergänzen, wann immer jemand etwas einfällt, das hier erscheinen sollte -->
