@@ -10,7 +10,7 @@ This LabManual is structured along our three main tasks:
 
 - [Research](https://github.com/alex-strobel/DPP-LabManual/tree/main/Research) (ranging from very general information on [how to perform a research project](https://github.com/alex-strobel/DPP-LabManual/tree/main/Research/Administration/Research-Workflow) to very specific information on [how to handle outliers](https://github.com/alex-strobel/DPP-LabManual/wiki/Outliers) etc.)
 - [Teaching](https://github.com/alex-strobel/DPP-LabManual/tree/main/Teaching) (e.g., how to create an OPAL course, how to have your seminars evaluated etc.)
-- [Administration](https://github.com/alex-strobel/DPP-LabManual-Administration) (e.g., what to do if one hires a student assistan, how to handle work-related travel  etc.; this is a private repository)
+- [Administration](https://github.com/alex-strobel/DPP-LabManual-Administration) (e.g., what to do if one hires a student assistan, how to handle work-related travel  etc.; this is a private repository, though)
 - 
 So if you are a team member and know something about a certain work process, feel free to describe it here! And if your aren't a team member but want to comment on what is written here, please contact [Alexander Strobel](mailto:alexander.strobel@tu-dresden.de).
 
