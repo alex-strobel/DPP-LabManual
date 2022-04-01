@@ -11,6 +11,12 @@
     - [GitHub](#github)
     - [OpARA](#opara)
 
+---
+
+> **Summary.** Whenever possible, we provide open data and code (and ideally also open material). If we provide open data, the data come with a codebodd that explains all variables in sufficient detail. We provide our data and code on a reliable repository such as OSF, GitHub or OpARA.
+
+---
+
 ## Introduction
 
 In accordance with the [OSIP Research Transparency Statement](https://tu-dresden.de/mn/psychologie/die-fakultaet/open-science/osip-research-transparency-statement) devised by the Open Science Initiative of the Faculty of Psychology, we provide open data and code (and all further material necessary to assess the validity of our results or to replicate them) *whenever possible*.
