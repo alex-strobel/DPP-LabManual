@@ -1,5 +1,18 @@
 # Preprocessing and Data Merging
 
+## Table of Contents
+
+- [Preprocessing and Data Merging](#preprocessing-and-data-merging)
+  - [Table of Contents](#table-of-contents)
+  - [Basic workflow](#basic-workflow)
+  - [Workflow if using external software](#workflow-if-using-external-software)
+  - [Merging data](#merging-data)
+
+---
+
+> **Summary.** We strive to provide the raw data together with all code used to preprocess them. Yet, for time-consuming preprocessing routines, we might also provide already preprocessed data that we load into an R Markdown document for the actual statistical analyses. If we use software other than R (especially if it is proprietary software), we provide the preprocessing results in an universally radable format such as a \*.csv file and carefully document our preprocessing steps in an accessible file format as well. We also make sure in advance that data merging from different sources is based on a common participant identifyer.
+
+---
 ## Basic workflow
 
 It is recommended that for all data that do not need to be preprocessed using other software than R, we provide the raw data along with our R scripts to preprocess them. If this preprocessing isn't that time-consuming, data may be preprocessed directly within an R code chunk of an R Markdown manuscript. Yet, often enough, even R-based preprocesing may take some while, which renders it inconvenient to have such preprocessing steps integrated directly into an R Markdown file. In such cases, write an R script, preprocess the data, save them as an *.RData file and load this file into an R Markdown file for reporting of results.
