@@ -1,4 +1,18 @@
-# Data collection
+# Data Collection
+
+## Table of Contents
+
+- [Data Collection](#data-collection)
+  - [Table of Contents](#table-of-contents)
+  - [Before you start](#before-you-start)
+  - [When you start](#when-you-start)
+  - [During data collection](#during-data-collection)
+
+---
+
+> **Summary.** When assessing personal data (i.e., such that would make it possible to identify a given participant), we make sure to adhere to common guidelines for treating such data and also document the data collection priocess and the measures taken to protect such data. It is recommended to recruit and manage participants via ORSEE and to use REDCap for data acquisition and management. During data collection, we continuously perform data quality checks. ...
+
+---
 
 ## Before you start
 
