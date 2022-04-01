@@ -14,7 +14,7 @@
 
 ---
 
-> **Summary.** You may alread consider the appropriate target journal for your manuscript, even if you haven't started the project yet. It also pays to consider in which format you want to write your manuscript. We at AG.DPP strive to use R Markdown as often as possible, for the reasons outlined below - and to use 
+> **Summary.** You may alread consider the appropriate target journal for your manuscript, even if you haven't started the project yet. It also pays to consider in which format you want to write your manuscript. We at AG.DPP strive to use R Markdown as often as possible, for the reasons outlined below. Otherwise, we make sure to use (Word or LaTeX) templates that many journals/publishers offer. As regards the content of our theoretical part, we always strive for a maximum of clarity and conciseness ...
 ## Before you start
 
 Two issues deserve consideration befaore actually staring to write on a manuscript. The first issue is related to the choice of the appropriate journal you want your manuscript submit to, for several reasons outlined below. The second issue is related to the form in which you want to write your manuscipt. I elaborate on both issues below:
