@@ -7,8 +7,14 @@
   - [Before you start](#before-you-start)
     - [Journal choice](#journal-choice)
     - [Manuscript format](#manuscript-format)
+      - [Word](#word)
+      - [LaTeX](#latex)
+      - [R Markdown](#r-markdown)
   - [Formal aspects of your theoretical part](#formal-aspects-of-your-theoretical-part)
 
+---
+
+> **Summary.** You may alread consider the appropriate target journal for your manuscript, even if you haven't started the project yet. It also pays to consider in which format you want to write your manuscript. We at AG.DPP strive to use R Markdown as often as possible, for the reasons outlined below - and to use 
 ## Before you start
 
 Two issues deserve consideration befaore actually staring to write on a manuscript. The first issue is related to the choice of the appropriate journal you want your manuscript submit to, for several reasons outlined below. The second issue is related to the form in which you want to write your manuscipt. I elaborate on both issues below:
@@ -52,13 +58,31 @@ So your decision for a target journal should rest on the following consideration
 
 ### Manuscript format
 
-The simple choice would be to write your manuscript in Word. The nice thing about Word is that you are accustomed to use it, that almost all journals accept or even *require* Word doduments as manuscript files, and that it is easy to collaborate on Word documents by suggesting changes, adding comments etc. The drawback of Word is that you cannot automatically insert results of your statistical analyses, but need to insert them by hand. This is not only error-prone, but also will be a great pain if you make some changes to your analyses. Then, you need to copy and paste all the results anew. 
+#### Word
+
+The simple choice would be to write your manuscript in Word. The nice thing about Word is that you are accustomed to use it, that almost all journals accept or even *require* Word documents as manuscript files, and that it is easy to collaborate on Word documents by suggesting changes, adding comments etc.
+If using Word, make sure to check out whether the journal you tentatively want to submit to has a Word template.
+If so, it will save a lot of time to use this template from the beginning instead of having to copy your text to this template later on including all the hidden formatting stuff that will drive you mad.
+
+The drawback of Word is that you cannot automatically insert results of your statistical analyses, but need to insert them by hand. 
+This is not only error-prone, but also will be a great pain if you make some changes to your analyses. 
+Then, you need to copy and paste all the results anew.
+
+#### LaTeX
+
+It is safe to say that LaTeX is to be preferred over Word, for various reasons. Still, it really takes time to master LaTeX. 
+Nevertheless, to acquire some basic command of LaTeX language will always be a good investment in your scientific future, be it because yome collaborating group uses it, be it that you want to use R Markdown.
+If you know LaTeX anyway, it will be a good idea to continue to use it for many if not all of your papers.
+If you want to submit your manuscript as LaTeX file, again, check out whether the hournal/publisher has a LaTeX template you will be required to use.
+Yet, the problem of a static document (where you need to edit all the numbers if your analyses change) remains.
+
+#### R Markdown
 
 Therefore, we at AG.DPP go for dynamic documents using [R Markdown](https://github.com/alex-strobel/DPP-LabManual/tree/main/Research/Analysis/Software/R#r-markdown). With R Markdown, you write your manuscript *and* analyze your data in one instance, and if you change something in your analysis (e.g., because being forced to do so by a reviewer), the whole manuscript is updated and changes of your results are updated as well, even in tables or figures. So, it is **strongly recommended** to use R Markdown for manuscript creation, and the above link tells you how to do so.
 
 One of the problems you will encounter when using R Markdown is that changes or comments by your co-authors cannot be as easily handled as when you were using Word. Yet, we at AG.DPP use version control via [GitHub](05_GitHub_project.md) anyway for our projects, so this may not be a problem for all of your collaborators who also use GitHub. Still, there will be projects whewre you collaborate with researchers from another lab who do not use GitHub and/or R Markdown, and they will most likely require you to send them a Word document of the manuscript draft for them to review and revise.
 
-Here, the problem starts, because while if using the `papaja` template for creating R Markdown manuscripts (which you should do!), you can render your mansucript as Word doument, but some features of your document might be lost which is especially true for more complicated tables (and be honest: your tables will be as complicated as tables can be!). One option could be to convert the standard PDF output of `papaja` to a Word document via, e.g., <https://www.ilovepdf.com>. This mmay work most of the time, but still, the changes and comments of your collaborators need to be implemented into your R Markdown file by hand, coparing the Word and the R Markdown file instance by instance.
+Here, the problem starts, because while if using the `papaja` template for creating R Markdown manuscripts (which you should do!), you can render your mansucript as Word doument, but some features of your document might be lost which is especially true for more complicated tables (and be honest: your tables will be as complicated as tables can be!). One option could be to convert the standard PDF output of `papaja` to a Word document via, e.g., <https://www.ilovepdf.com>. This may work most of the time, but still, the changes and comments of your collaborators need to be implemented into your R Markdown file by hand, coparing the Word and the R Markdown file instance by instance.
 
 A work-around for such cases is provided by the [`redoc` package](https://noamross.github.io/redoc/articles/mixed-workflows-with-redoc.html). Usually, you compile the output of an (`papaja`-based) R Markdown document as PDF via the YAML header option `output: papaja::apa6_pdf` (don't be afraid if the term *YAML header* sounds strange to right now; it will also sound strange later on, even if you mastered your first R Markdown document using `papaja`). With `redoc` installed, you simply compile your R Markdown document via `output: redoc::redoc`. This creates a Word document (although not in APA style as `papaja` does, but nevermind, this is only for communicating with your co-authors). This document can be send out for review/revision, and via `dedoc(docx)` (enter path and filename of the respective Word document instead of docx), it can be back-translated to a R Markdown file.
 
