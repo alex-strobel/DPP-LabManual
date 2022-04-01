@@ -7,7 +7,13 @@
   - [Results](#results)
   - [Discussion](#discussion)
 
-These sections of your manuscript should follow the same logic and order (that you should already have introduced in your Methods part).
+---
+
+> **Summary.** We always try to implement a common logic and order of arguments/analyses/results/discussion. If we state in the Introduction that want to examine A via X, B via Y, and C via Z, we follow this order both in the Methods and the Results part and also discuss our results in this order in the Discussion part, ideally via appropriate subheadings that reflect what we have written in the Abstract. The Discussion part must include a "Limitations and future directions" and a final "Conclusions" section.
+
+---
+
+These sections of your manuscript should follow the same logic and order (that you should already have introduced in your Methods and ideally already earlier in your Introduction part).
 As stated earlier, the overarching aim when writing a manuscript should be:
 Take care of clarity and conciseness and get comments of your co-authors!
 Specifically for the Results and Discussion part, the following might be of help.

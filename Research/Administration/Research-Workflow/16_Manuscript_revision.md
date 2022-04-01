@@ -1,6 +1,12 @@
 # Manuscript Revision
 
-Don’t be too upset or angry about the reviews of your manuscript that will arrive after way too long time since you submitted your manuscript! 
+---
+
+> **Summary.** Addressing comments made during the review process only can make your manuscfript stronger, either because the revirewers raised important issues or because you had a second thought on some paragraph you wrote, some decision you made or some statistical procedure you employed, only to find out that to the best of your (current) knowledge, you were right. Still, discuss everything with your co-authors! Carefully structure your rebuttal letter, because it might be longer than your manuscript, and it is in your best interest, that the reviewers won't get lost in your rebuttal.
+
+---
+
+Don’t be too upset or angry about the reviews of your manuscript that will arrive after way too long time since you submitted your manuscript!
 They will most likely be not as positive as you expected.
 You may be be confronted with
 

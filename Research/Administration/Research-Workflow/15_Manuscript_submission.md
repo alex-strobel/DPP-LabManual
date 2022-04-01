@@ -11,6 +11,11 @@
   - [Posting the manuscript as a preprint](#posting-the-manuscript-as-a-preprint)
   - [Completion of submission](#completion-of-submission)
 
+---
+
+> **Summary.** When submitting a manuscript, pay attention to all the relevant guidelines, especially the artwork guidelines. In five years from now, when you magnify a figure to 300%, you do not want to see pixels, count on that! Prepare yourself for blinded review, reserver at least two hours for the submission process to (re)create all the files required to be uploaded. Afterwards (or directly before), you might to consider posting your manuscript as a preprint!
+
+---
 ## Publication guideline of the TU Dresden
 
 Whenever possible, we adhere to the [Publication Guidelines of the TU Dresden](https://tu-dresden.de/forschung-transfer/forschungsinformationen/publikationsrichtlinien).
