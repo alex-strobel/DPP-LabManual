@@ -1,4 +1,15 @@
-# Study design
+# Study Design
+
+## Table of Contents
+
+- [Study Design](#study-design)
+  - [Table of Contents](#table-of-contents)
+  - [Consider only variables that are really necessary and assess them in a detail that is justified!](#consider-only-variables-that-are-really-necessary-and-assess-them-in-a-detail-that-is-justified)
+  - [Prefer open materials](#prefer-open-materials)
+  - [Estimate required sample size](#estimate-required-sample-size)
+    - [Consult the literature](#consult-the-literature)
+    - [Run a pilot study](#run-a-pilot-study)
+  - [Consider to use Bayesian sequential testing](#consider-to-use-bayesian-sequential-testing)
 
 Parallel to writing down the rationale of your study, develop a study plan and a protocol.
 Try to anticipate as many details as possible!
@@ -46,6 +57,8 @@ To avoid buying material or asking for permission, open materials can be an opti
 
 ## Estimate required sample size
 
+### Consult the literature
+
 If the literature tells you what effect size to expect, this effect size is most likely inflated due to publication bias. Evidence from replication research (e.g., [Open Science Collaboration, 2015](https://doi.org/10.1126/science.aac4716)) suggests that even replicable effects are about half of the size as those originally reported. It may thus be wise to divide the effect size you found in the literature by two. This may be too conservative if you ground your power calculation on meta-analytically derived effect sizes and use that estimate for your power analysis. Yet, also [meta-analyses suffer from publication bias](https://github.com/alex-strobel/DPP-LabManual/blob/main/Manuals/Meta-Analysis/Meta_Analysis.md#assessing-publication-bias) and may overestimate effect sizes. Thus, it is perhaps a good idea to use the lower bound of the confidence interval of the effect size in question as estimate for your power analysis. Calculate the required sample size with a desired power of at least 80% and a significance level that accounts for possible [multiple testing](https://github.com/alex-strobel/DPP-LabManual/wiki/Correction-for-multiple-testing).
 
 If you have no idea what effect size to expect, Cohen‘s classification most likely will not reflect the typical effect sizes in your area of research. If there are no established guidelines (such as those of [Gignac & Szodorai, 2016](http://dx.doi.org/10.1016/j.paid.2016.06.069), for individual differences research), assume a correlation of *r* = .20 (or any derivative such as an explained variance of .04, see [Fraley & Vazire, 2014](https://doi.org/10.1371/journal.pone.0109019)). A small to medium effect is more likely than a large one.
@@ -56,8 +69,7 @@ For details on power analysis, see the following presentation:
 
 - [Power Analyses](https://github.com/alex-strobel/DPP-LabManual/blob/main/Manuals/Workflow_research_projects/Ressources/PowerAnalyses/DPP_LM_PowerAnalyses.pdf)
 
-
-#### Run a pilot study
+### Run a pilot study
 
 A pilot study does not only help in estimating the effect size you can expect, it also helps to streamline the study protocol, detect unforeseen obstacles, develop an analysis plan using real data etc. Yet, to really get a glimpse what you might expect from the final data set, you should have enough pilot data. Collect as many participants as feasible, as a rule of thumb: at least 16 for experiments, at least 64 for questionnaire studies!
 
