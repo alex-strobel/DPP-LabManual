@@ -4,18 +4,24 @@
 
 - [Study Design](#study-design)
   - [Table of Contents](#table-of-contents)
-  - [Consider only variables that are really necessary and assess them in a detail that is justified!](#consider-only-variables-that-are-really-necessary-and-assess-them-in-a-detail-that-is-justified)
+  - [Consider only variables that are really necessary and assess them in a detail that is justified](#consider-only-variables-that-are-really-necessary-and-assess-them-in-a-detail-that-is-justified)
   - [Prefer open materials](#prefer-open-materials)
   - [Estimate required sample size](#estimate-required-sample-size)
     - [Consult the literature](#consult-the-literature)
     - [Run a pilot study](#run-a-pilot-study)
   - [Consider to use Bayesian sequential testing](#consider-to-use-bayesian-sequential-testing)
 
+---
+
+> **Summary.** Develop your study design carefully! Try to anticipate as many details as possible! Also consider only variables that are really necessary to answer your research question and assess them in a detail that is justified. Always prefer open materials, and if you cannot, buy commercial assessment instruments instead of simply using them (this is a copyright infringement)! Estimate the required sample size either based on the literature (but be aware of publication bias that results in inflated effect sizes) or run a (large enough) pilot study. Also consider to use a sequential testing procedure, e.g., Baysian sequential testing.
+
+---
+
 Parallel to writing down the rationale of your study, develop a study plan and a protocol.
 Try to anticipate as many details as possible!
 Specifically, follow the points below:
 
-## Consider only variables that are really necessary and assess them in a detail that is justified!
+## Consider only variables that are really necessary and assess them in a detail that is justified
 
 Regarding what variables are really neccesary ...
 
