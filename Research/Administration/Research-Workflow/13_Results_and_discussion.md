@@ -1,6 +1,13 @@
 # Results and Discussion
 
-These sections of your manuscript should follow the same logic and order (that you should already have introduced in your Methods part). 
+## Table of Contents
+
+- [Results and Discussion](#results-and-discussion)
+  - [Table of Contents](#table-of-contents)
+  - [Results](#results)
+  - [Discussion](#discussion)
+
+These sections of your manuscript should follow the same logic and order (that you should already have introduced in your Methods part).
 As stated earlier, the overarching aim when writing a manuscript should be:
 Take care of clarity and conciseness and get comments of your co-authors!
 Specifically for the Results and Discussion part, the following might be of help.
