@@ -6,7 +6,7 @@
 - Archive REDCap/GitHub/OSF projects (perhaps link your OSF to your GitHub project)!
 - Add ethical approval to your archive(s) and all further information and material necessary for re-using the data in a FAIR manner!
 - Consider mirroring your project on OpARA!
-- Reward yourself!
+- **Reward yourself!**
 
 ---
 
