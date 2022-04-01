@@ -11,7 +11,7 @@
 
 ---
 
-> **Summary.** One of the most important steps in conducting a research project is to develop an adequate analysis plan. ...
+> **Summary.** One of the most important steps in conducting a research project is to develop an adequate analysis plan. Use *state of the art* analysis routines that are best suited for your research question and type of sample and data. These routines can be fully scripted ideally, they *are already fully scripted* before you even start with data collection. Prefer open analysis software, usually R/R packages! Also consider to use Baysia statistics, as you should be able to reject your null hypothesis which you cannot if using a frequentist approach. And finally, carefully plan in advance how to merge your data if they come from different sources (e.g., questionnaire data collected via REDCap, EEG data collected via BrainVision Analyzer, reaction time data collected using a Presentation or Python script etc.)
 
 ---
 ## Develop an analysis plan
@@ -20,7 +20,7 @@ Take your time and choose the most appropriate and *state of the art* analysis r
 
 Your analysis plan should ideally be fully scripted and the analysis script(s) should be provided with your [preregistration](09_Preregistration.md). You could use data from a pilot study for that purpose. If you do not have pilot data, you might want to simulate variables to develop your analysis routines. In R, you can do this quite easily for a number of assumed distributions of your data, and for correlation analysis, you may want to resort to the R script [`randcorr.R`](https://github.com/alex-strobel/DPP-LabManual/blob/main/Functions/randcorr.R). 
 
-In the end, it will really pay to have considered how to exactly test your hypotheses (and they should have been formulated with the statistical tests in mind right from the start, see [Formulation of hypotheses](01_Research_question.md/#Formulation-of-hypotheses)). In an ideal world, you should have written your manuscript using [R Markdown](https://github.com/alex-strobel/DPP-LabManual/wiki/R-Markdown) so that when the data are collected and preprocessed, you simply have to click the `knit` button in RStudio to have the Results part ready for getting published.   
+In the end, it will really pay to have considered how to exactly test your hypotheses (and they should have been formulated with the statistical tests in mind right from the start, see [Formulation of hypotheses](01_Research_question.md/#Formulation-of-hypotheses)). In an ideal world, you should have written your manuscript using [R Markdown](https://github.com/alex-strobel/DPP-LabManual/wiki/R-Markdown) so that when the data are collected and preprocessed, you simply have to click the `knit` button in RStudio to have the Results part ready for getting published.
 
 ## Prefer open analysis software
 

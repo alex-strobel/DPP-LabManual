@@ -11,7 +11,7 @@
 
 ---
 
-> **Summary.** It is absolutely essential to have a well-formulated research question, better think it over and over than to start your project with an ill-specifeid research question. Also, identify potential collaborators and discuss your question with them. One of them should be assigend to be the Research Transparency Advisor, and all of them (but notnecessarily *only* them) will be potential co-authors of a manuscript that eventually results from your project, so make sure that everyone involved in principle *can* and actually *does* filfil the criteria for athorship.
+> **Summary.** It is absolutely essential to have a well-formulated research question, better think it over and over than to start your project with an ill-specified research question. Also, identify potential collaborators and discuss your question with them. One of them should be assigend to be the so-called Research Transparency Advisor, and all of them (but notnecessarily *only* them) will be potential co-authors of a manuscript that eventually results from your project, so make sure that everyone involved in principle *can* and actually *does* filfil the criteria for athorship.
 
 ---
 ## Starting point
