@@ -1,5 +1,19 @@
-# Analysis plan
+# Analysis Plan
 
+## Table of Contents
+
+- [Analysis Plan](#analysis-plan)
+  - [Table of Contents](#table-of-contents)
+  - [Develop an analysis plan](#develop-an-analysis-plan)
+  - [Prefer open analysis software](#prefer-open-analysis-software)
+  - [Consider to use Bayesian statistics](#consider-to-use-bayesian-statistics)
+  - [Plan how to merge your data](#plan-how-to-merge-your-data)
+
+---
+
+> **Summary.** One of the most important steps in conducting a research project is to develop an adequate analysis plan. ...
+
+---
 ## Develop an analysis plan
 
 Take your time and choose the most appropriate and *state of the art* analysis routines to answer your research questions or test your hypotheses. Also try to foresee all obstacles that may arise during data analysis such as deviations from uni-/multivariate normality or the need to correct for multiple testing and decide on how to proceed in such a case (ideally by discussing with your colleagues, at least with your [Research Transparency Advisor](01_Research_question.md/#Research-transparency-advisor)). You may also consider to run a specification curve analysis (aka forking path or multiverse analysis)<!--add Wiki entry --> where you define a main analysis path, but for for all analysis steps decide (ideally together with your collaborators) on all reasonable alternative options how to proceed and then run all these reasonable analysis paths to check whether your main analysis path leads to similar conclusions as the majority of reasonable alternative analysis paths.
@@ -8,7 +22,7 @@ Your analysis plan should ideally be fully scripted and the analysis script(s) s
 
 In the end, it will really pay to have considered how to exactly test your hypotheses (and they should have been formulated with the statistical tests in mind right from the start, see [Formulation of hypotheses](01_Research_question.md/#Formulation-of-hypotheses)). In an ideal world, you should have written your manuscript using [R Markdown](https://github.com/alex-strobel/DPP-LabManual/wiki/R-Markdown) so that when the data are collected and preprocessed, you simply have to click the `knit` button in RStudio to have the Results part ready for getting published.   
 
-## Prefer open analysis software (e.g. R, JASP)
+## Prefer open analysis software
 
 R is certainly the most frequently used open software environment for (not only) statistical computing and graphics. It comes with several pre-installed packages for basic statistical routines and plotting, but one can also install dedicated packages for more advanced statistics (e.g., psych, lavaan, lme4) and graphics (e.g., ggplot2). The downside is that it has no GUI. Yet, working with R is considerably facilitated if you run it with RStudio. Just install [R](https://www.r-project.org) and [RStudio](https://www.rstudio.com) and read the [R-Intro](https://cran.r-project.org/manuals.html).
 
