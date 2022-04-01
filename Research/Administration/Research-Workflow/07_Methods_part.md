@@ -14,6 +14,12 @@
     - [Citing R, RStudio and R packages](#citing-r-rstudio-and-r-packages)
     - [Citing other software](#citing-other-software)
 
+---
+
+> **Summary.** We use the 21-word solution! Therefore, we need to report how we determined our sample size (ideally, but not necessarily via a power calculation). We also need to report possible data exlusions and therefore need to make sure that they are not done arbitrarily. Furthermore, we need to report al measures in the study such as variables reflecting questionnaire or tests results or indices of performance in experimental paradigms. All measures assessed should be listed even if they are not use of interest in a given manuscript (but assessed for another purpose). The measures of interest should be described in sufficient detail in the Methods section, and the same holds for the study procedure, so that other researchers in principle should be able to replicate our study. Giving as much detail as possible is especially important for our statistical analyses, but if we provide open data and code (what we should always do!), we may skip some of the more specific details, otherwise the Statistical Analyses subsection may become too long. Ah, and we cite all the software we use appropriately!
+
+---
+
 We at AG.DPP always start our Methods part with the [21-word solution](https://github.com/alex-strobel/DPP-LabManual/wiki/21-word-solution), and we make sure that it is correct.
 
 ## Participants
@@ -30,13 +36,15 @@ In any case, we describe your rationale for determining sample size. Ideally, th
 
 > For the within-subjects analyses, a power calculation using G\*Power (Faul et al., 2009) indicated a sample size of *N* = 36 when assuming a medium effect size of *f* = .25, a power of 1-&beta; = .95 and an &alpha;-level of .05. Yet, for the between-subjects analyses, G\*Power indicated a required sample size of *N* = 136 to achive a power 1-&beta; = .95 to detect a medium effect size at the nominal &alpha;-level. Given limited resources to perform our study, we therefore set 1-&beta; to .80 and recruited a sample of *N* = 82, still enabling us to detect a medium effect size with adequate power.
 
+Also, as was already mentioned, consider that there may be data exclusions: for technical reasons or because of missings and outliers. So it is always a good idea 1) to determine criteria for possible data exclusions and 2) to oversample by at least 10%.
+
 ## Materials
 
-In this section, all material used in the study is described, e.g., questionnaires, experimental paragdigms or stimuli used. 
-Ideally, this is done in a detail that enables other researchers to directly replicate our study. 
+In this section, all material used in the study is described, e.g., questionnaires, experimental paragdigms or stimuli used.
+Ideally, this is done in a detail that enables other researchers to directly replicate our study.
 If this is not possible (e.g., because of the word limit of your manuscript), we refer to supplementary methods in the Supplementary Material.
-Often enough, we will use material that we already described in an earlier manuscript, and more likely than not it took us some time to arrive the perfect description of our material back then. 
-While it is generally accepted that authors should omit self-plagiarism, an optimal description of a material or aprocedure---at least in our opinion---can and indeed *should* be reused. 
+Often enough, we will use material that we already described in an earlier manuscript, and more likely than not it took us some time to arrive the perfect description of our material back then.
+While it is generally accepted that authors should omit self-plagiarism, an optimal description of a material or a procedure---at least in our opinion---can and indeed *should* be reused, but a reference should still be given.
 So, we may save your standard material descriptions (as Word or text or R Markdown file) and simply copy and paste it in your main manuscript.
 
 ### Questionnaires and tests
