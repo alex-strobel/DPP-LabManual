@@ -1,5 +1,17 @@
 # Create a GitHub project
 
+## Table of Contents
+
+- [Create a GitHub project](#create-a-github-project)
+  - [Table of Contents](#table-of-contents)
+  - [GitHub](#github)
+  - [OSF](#osf)
+
+---
+
+> **Summary.** It is strongly recommended to always collaborate on research projects via GitHub and ideally set up the project with a reproducable environment. Often, it will also be a good idea to have an OSF profect page that can be easily linked to your GitHub project.
+
+---
 ## GitHub
 
 In order to efficiently organize collaboration on our research projects, we setup a GitHub project and a reproducible R environment using the `renv` package (with a little help from the `here` package). Read these pages to learn how to use GitHub and how to create a reproducible workflow:  
