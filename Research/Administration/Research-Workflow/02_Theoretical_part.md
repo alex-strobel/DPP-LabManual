@@ -19,7 +19,7 @@
 ---
 ## Before you start
 
-Two issues deserve consideration befaore actually staring to write on a manuscript. The first issue is related to the choice of the appropriate journal you want your manuscript submit to, for several reasons outlined below. The second issue is related to the form in which you want to write your manuscipt. I elaborate on both issues below:
+Two issues deserve consideration before actually staring to write on a manuscript. The first issue is related to the choice of the appropriate journal you want your manuscript submit to, for several reasons outlined below. The second issue is related to the form in which you want to write your manuscipt. I elaborate on both issues below:
 
 ### Journal choice
 
