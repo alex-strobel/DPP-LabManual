@@ -6,9 +6,8 @@
 
 ---
 
-It should not be necessary to have a file like this because all of us will agree upon what will be outlined below. 
+It should not be necessary to have a file like this because all of us will agree upon what will be outlined below.
 Yet, what we might think to agree upon may change over time and who comprises the *all of us* may change as well so that having a written *code of conduct* might be useful in the future.
-
 
 To put it simple:
 
@@ -110,7 +109,7 @@ We all should do our best to adhere to these guidelines.
 The use of constructions like "Projektleiter:innen" oder "Studienteilnehmer:innen" most of the time makes communication so much easier. 
 Yet, there may be situations in which we fear that the usage of the : may annoy some participants (not so much in student samples, but in samples from the general population) and may prompt them to cancel their participation in a, say, online questionnaire, we may consider to use constructions like "Die Projektleitung liegt bei ..." or "Alle, die an der Untersuchung teilnehmen ...".
 This does not mean that we should give in to people who oppose to the usage of gender-inclusive language, but we also should try to include them as well by using gender-neutral language where possible. 
-After all, we want to have representative samples. 
+After all, we want to have representative samples.
 Yet, where it is impossible to use gender-neutral language, we will of course use the : construction instead of using the generic masculinum.
 
 tbc ...
