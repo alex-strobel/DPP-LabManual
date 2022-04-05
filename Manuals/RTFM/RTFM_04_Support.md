@@ -13,14 +13,18 @@ aus den [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/downl
 
 ### Überblick Unterstützende Prozesse
 
-+ [Datenerhebung](#datenerhebung)
-+ [Datenorganisation](#datenorganisation)
-+ [Wissensmanagement Onboarding](#wissensmanagement-onboarding)
-+ [Wissensmanagement Offboarding](#wissensmanagement-offboarding)
+- [Richtlinien für Transparenz im Forschungsdaten-Management](#richtlinien-für-transparenz-im-forschungsdaten-management)
+  - [Unterstützende Prozesse für das FDM](#unterstützende-prozesse-für-das-fdm)
+    - [Definition](#definition)
+    - [Überblick Unterstützende Prozesse](#überblick-unterstützende-prozesse)
+    - [Datenerhebung](#datenerhebung)
+    - [Datenorganisation](#datenorganisation)
+    - [Wissensmanagement Onboarding](#wissensmanagement-onboarding)
+    - [Wissensmanagement Offboarding](#wissensmanagement-offboarding)
 
 ### Datenerhebung
 
-+ **Versuchspersonenmanagement**: Ein effizientes Forschungsdatenmanagement setzt bereits in der Phase der Rekrutierung von Versuchspersonen an. Empfohlen wird dabei die Nutzung von [ORSEE/PaMS](RTFM_05_Tools.md#orseepams). <!-- @JS: bitte groben Ablauf der Koimmunikation von ORSEE und PaMS einfügen --> 
++ **Versuchspersonenmanagement**: Ein effizientes Forschungsdatenmanagement setzt bereits in der Phase der Rekrutierung von Versuchspersonen an. Empfohlen wird dabei die Nutzung von [ORSEE/PaMS](RTFM_05_Tools.md#orseepams). <!-- @Jens: bitte groben Ablauf der Kommunikation von ORSEE und PaMS einfügen --> 
 + **Datenerhebung**: Die Erhebung von Forschungsdaten folgt i.A. spezifischen Voraussetzungen bzw. Erfordernissen der einzelnen Arbeitsgruppen der Fakultät. Typischerweise werden aber in jeden Projekt Selbst- und/oder Fremdauskünfte, experimentelle oder sonstige Verhaltensdaten sowie ggf. (in weitestem Sinne) physiologische Parameter mit Hilfe (peripher)physiologischer oder bildgebender Verfahren erhoben. Diese können z.B. via REDCap zusammengeführt werden. Der Vorteil der Nutzung von REDCap ist dabei u.a., dass REDCap direkt mit PaMS verschaltet ist bzw. verschaltet werden kann und somit personenbezogene Daten in PaMS gespeichert werden, während in REDCap nur die eigentlich projektrelevanten Daten gesammelt werden.
 
 ### Datenorganisation
@@ -29,14 +33,13 @@ aus den [DFG-Leitlinien zum Umgang mit Forschungsdaten](https://www.dfg.de/downl
 
 + **TUD-Leitlinie 5.** „Die TU Dresden verfügt über eine Grundausstattung an Forschungsdateninfrastruktur und stellt damit eine angemessene Aufbewahrung und die technische Verfügbarkeit von digitalen Forschungsdaten sicher“
 
-
 **Umsetzung**
 
 + **Datenablage**  <!-- ergänzen durch Team Forschungsdaten -->
-  + Zum Einsatz kommen ZIH-Dienste wie Gruppenlaufwerke, Cloudstore oder SharePoint.
-  + Für bestimmte Anwendungsfälle kommt REDCap zum Einsatz.
+  + Zum Einsatz kommen ZIH-Dienste wie Gruppenlaufwerke, Cloudstore oder SharePoint <!-- Denise: Link zu Tools -->.
+  + Für bestimmte Anwendungsfälle kommt REDCap zum Einsatz <!-- Jens: Link zu Tools -->.
 + **Gruppenlaufwerke/Ordnerstrukturen**
-  + Für jedes Gruppenlaufwerk sollte eine Ansprechperson benannt werden und allen Mitarbeitenden bekannt sein; die Ansprechperson steht für Nachfragen zur Verfügung („Wo legt man diese und jene Datei ab?“), die Ansprechperson führt regelmäßig Qualitätskontrollen auf dem Gruppenlaufwerk durch 
+  + Für jedes Gruppenlaufwerk sollte eine Ansprechperson benannt werden und allen Mitarbeitenden bekannt sein; die Ansprechperson steht für Nachfragen zur Verfügung („Wo legt man diese und jene Datei ab?“), die Ansprechperson führt regelmäßig Qualitätskontrollen auf dem Gruppenlaufwerk durch <!-- Denise: Link zu Tools -->
   + Grundlegende Vorschläge für die Ordnerstruktur:
     + Berufliche Daten von privaten Daten trennen <!-- ??? --><!-- Kommentar Denise: das spielt m.E. hier keine Rolle, diese Richtlinien/Handreichung gilt für Forschungsdaten-->
     + Berufliche Daten aufteilen in Forschungsdaten und administrativen Daten <!-- ??? --> <!--Kommentar Denise: hier könnte eine genauere Erklärung helfen, dass administrative Daten nur wichtig sind, wenn diese zum besseren Verständnis der Forschungsdaten notwendig sind, so haben wir in der AO ja beschlossen, die Projektanträge/-bewilligungen mit abzulegen um den Projektablauf generell besser nachvollziehbar zu machen-->
@@ -73,7 +76,7 @@ Jede Arbeitsgruppe sollte auf Basis dieses Beispiels eine Checkliste ausarbeiten
 
 ### Wissensmanagement Onboarding
 + Jede:r neue Mitarbeitende erhält diese FDM-Leitlinien zur Durchsicht (ggf. abzeichnen lassen?)<!--Beispiele für solche Dokumente finden sich bei den Professuren „Abhängiges Verhalten“ und „Arbeits- und Organisationspsychologie"--> <!--Kommentar Denise: zusätzliche Empfehlung einer unterschriebenen, verbindlichen Vereinbarung zwischen MA/Projektleitung mit der Lehrstuhlleitung? siehe AO-->
-+ Die FDM-Leitlinien können durch eine individuelle Onboarding-Checkliste mit Informationen zur Arbeitsweise innerhalb einer Forschungsgruppe ergänzt werden 
++ Die FDM-Leitlinien können durch eine individuelle Onboarding-Checkliste mit Informationen zur Arbeitsweise innerhalb einer Forschungsgruppe ergänzt werden
 
 >***Beispiel einer Onboarding-Checkliste*** 
 ><!--Mögliche Regelung: jede Forschungsgruppe soll auf Basis dieses Beispiels eine Checkliste ausarbeiten, im Gruppenlaufwerk ablegen, regelmäßig aufdatieren und anwenden-->
@@ -103,7 +106,7 @@ Jede Arbeitsgruppe sollte auf Basis dieses Beispiels eine Checkliste ausarbeiten
 >+ was hätten Sie gerne noch mit diesen Daten gemacht, wenn Sie ein weiteres ½ Jahr bleiben würden?
 >+ die Daten sind auf folgende Art zu verwenden (Einsatzzweck/Methode/Software): …
 >+ die Daten haben Abhängigkeiten/Schnittstellen zu …
->+ welche Probleme kennen Sie im Zusammenhang mit den Daten? wie sollte Ihr:e Nachfolger:in mit diesen Problemen >umgehen?
+>+ welche Probleme kennen Sie im Zusammenhang mit den Daten? wie sollte Ihr:e Nachfolger:in mit diesen Problemen umgehen?
 >+ für welchen Zweck dürfen die Daten unter keinen Umständen eingesetzt werden?
 >+ welchen Einstieg würden sie derjenigen Person raten, die zukünftig mit diesen Daten arbeiten wird?
 >
