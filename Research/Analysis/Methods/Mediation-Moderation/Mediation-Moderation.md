@@ -36,7 +36,7 @@ To test for such a mediation, one simply runs a series of regressions:
 
 In R notation, this would boil down to:
 
-```
+```R
 lm(Y ~ X)      # path c
 lm(Z ~ X)      # path a
 lm(Y ~ X + Z)  # paths b and c' 
@@ -44,9 +44,9 @@ lm(Y ~ X + Z)  # paths b and c'
 
 This series of regressions informs you about the *direct* relationship between *X* and *Y* *without* considering the mediator *Z* (i.e., path *c*) and *with* considering the mediator *Z* (i.e., path *c'*) as well as on the indirect relationship of *X* and *Y* via the mediator *Z*, which is the product of paths *a* and *b*. It follows that:
 
-```
-c' = c - a * b
+```R
+cprime = c - a * b
 ```
 
-which means that the direct (cor)relation of *X* and *Y* is reduced by the amount of the (cor)relations of *X* and *Z* on the one hand and *Y* and *Z* on the other hand.
+which means that the direct (cor)relation of *X* and *Y* is reduced by the amount of the (cor)relations of *X* and *Z* times the (cor)relation of *Y* and *Z*.
 
