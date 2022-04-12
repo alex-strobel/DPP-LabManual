@@ -23,37 +23,36 @@ Faculty of Psychology, TU Dresden
 
 ## Background
 
-Collaborating with others on research projects requires to have some common working environment. 
-You can set up a group drive, but if something changes on that drive, it may not be easy to keep track of these changes. 
-Also, if some change eventually results in a dead end, you may want to go back to a previous point in the "timeline" of your analysis, but it may be not that easy to restore it because you do not know whether all changes since then have to be abandoned or only certain ones. 
-
-Here, version control is really helpful. 
-If there was a system that tracked all changes to the files on your project and would easily allow for reviewing what has changed when by whom, this would be of great benefit. 
+Collaborating with others on research projects requires to have some common working environment.
+You can set up a group drive, but if something changes on that drive, it may not be easy to keep track of these changes.
+Also, if some change eventually results in a dead end, you may want to go back to a previous point in the "timeline" of your analysis, but it may be not that easy to restore it because you do not know whether all changes since then have to be abandoned or only certain ones.
+Here, version control is really helpful.
+If there was a system that tracked all changes to the files on your project and would easily allow for reviewing what has changed when by whom, this would be of great benefit.
 GitHub allows for such a version control. 
-In fact, it has been *made* for it (among other purposes). 
+In fact, it has been *made* for it (among other purposes).
 
 ## How it works
 
-When you create a GitHub project (also called a repository), you create a main branch of your project that is stored both on the GitHub server and locally (just as in nextcloud that is stored on some server, but mirrored locally). 
-In GitHub terms, this main branch is called *main*, one could also call it the main "timeline". 
+When you create a GitHub project (also called a repository), you create a main branch of your project that is stored both on the GitHub server and locally (just as in nextcloud that is stored on some server, but mirrored locally).
+In GitHub terms, this main branch is called *main*, one could also call it the main "timeline".
 You upload files (or *push*) to that main "timeline". 
 This change or alteration is called a *commit*. 
 Each *commit* is stored in a file's history and at least needs to be labeled, but can (ideally) also be commented on. 
 Others may also alter the "timeline" (in GitHub terms: *commit* to the *main*) and you can download (or *pull*) these changes to your local mirror of your research project, have an overview of the history of all *commits*, their summary and perhaps also comments on the *commits*.
 
 You can compare this process to a collaborative work on a Google Document: 
-All team members can edit the document in real time, and every change and comment is visible to all others. 
-You may ask what then is the difference to working with GitHub? 
-Well, a Google Doc is only one file, but you usually work in a project with multiple files involved. 
+All team members can edit the document in real time, and every change and comment is visible to all others.
+You may ask what then is the difference to working with GitHub?
+Well, a Google Doc is only one file, but you usually work in a project with multiple files involved.
 GitHub helps you to keep track on changes made to the project *as a whole*.
 
-Also, GitHub offers a unique feature that you cannot have using Google: 
+Also, GitHub offers a unique feature that you cannot have using Google:
 If someone in your team wants to *commit* changes to the *main* "timeline" (e.g., introduce a new analysis routine or change major parts of a research report), one can create a *branch* of the *main*. 
-When doing so, there still extists the *main* "timeline", but also an altered "timeline", the *branch*. 
+When doing so, there still extists the *main* "timeline", but also an altered "timeline", the *branch*.
 The team member can then *commit* whatever to this alternative "timeline" without changing the *main* "timeline". 
 Once done, the team member creates a so-called *pull request*: 
-All other team members are informed that a change to the *main* "timeline" is suggested, they can review all the changes, comment on them, accept or reject them. 
-When eventually a common consensus has been reached on whether and how to change the *main* "timeline", the new *branch* is merged with the *main*. However, when later on, this change of the "timeline" may end up in a dead end street, one simply restores to earlier versions of the "timeline" ...
+All other team members are informed that a change to the *main* "timeline" is suggested, they can review all the changes, comment on them, accept or reject them.
+When eventually a common consensus has been reached on whether and how to change the *main* "timeline", the new *branch* is merged with the *main*. However, when later on, this change of the "timeline" may end up in a dead end street, one simply restores to earlier versions of the "timeline".
 
 Importantly, all team members work with the same project or repository all the time, they will do so mostly locally on their mirror (or in GitHub terms: *clone*) of the project, but every change is then uploaded to the repository and will be available to all collaborators. 
 In case you eventually choose to share your data and code openly, other researchers do not have to download single files from your, say, OSF project, but can simply *clone* your GitHub project as a whole and store it locally.
