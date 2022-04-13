@@ -2,9 +2,15 @@
 
 **Lab Manual of the Differential and Personality Psychology group (AG.DPP) at TU Dresden**
 
+2022-04-13
+
+---
+
 <!-- For now, I call it the Lab Manual "Miranda" and the one who detects this pun is rewarded with a bottle of wine -->
 
-This LabManual bundles together all the knowledge we as the AG.DPP team have acquired over the years (including knowledge acquired by former team members). It is intended as a knowledge base for all of us who happen to have to go to where others of us (sometimes boldly) have gone before. So far, this manual is still under development and its contents have not yet been finally discussed and agreed upon by all team members. Still, it may already now be used for informing ourselves about new routines at the lab not commonly know to all team members or for instructing new team members (e.g., master students) on how to use certain tools (see the [Wiki](https://github.com/alex-strobel/DPP-LabManual/wiki)) or perform certain routines (e.g., [creating a reproducible environment for collaborative work on research projects](https://github.com/alex-strobel/DPP-LabManual/blob/main/Research/Administration/GitHub/GitHub_and_renv_long.md)).
+This LabManual bundles together all the knowledge we as the AG.DPP team have acquired over the years (including knowledge acquired by former team members). It is intended as a knowledge base for all of us who happen to have to go to where others of us (sometimes boldly) have gone before. Oe may simply browse through the folders of this manual, look up manuals on certian issues via the [Wiki](https://github.com/alex-strobel/DPP-LabManual/wiki), or search this repository via the Search field top left. 
+
+So far, this manual is still under development and some of its contents have not yet been finally discussed and agreed upon by all team members. Still, it may already now be used for informing ourselves about new routines at the lab not commonly know to all team members or for instructing new team members (e.g., master students) on how to use certain tools or perform certain routines.
 
 This LabManual is structured along our three main tasks:
 
@@ -20,4 +26,4 @@ So if you are a team member and know something about a certain work process, fee
 
 ---
 
-**License**: CC 0 (although we are always happy for getting acknowledged)
+**License**: CC 0 (although we are always happy when we get acknowledged)
