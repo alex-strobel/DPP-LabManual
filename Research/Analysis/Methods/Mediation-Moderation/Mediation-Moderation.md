@@ -65,4 +65,20 @@ lm(Y ~ X + M + X:M)
 
 A significant interaction effect `X:M` means evidence for a moderation effect.
 Yet, we still do not know exactly how this interaction looks like.
-We therefore perform a simple slope analysis, i.e., we compare the regression slopes at low vs. high levels of *M* (for a continuous moderator typically one standard deviation below or above the mean).
+We therefore perform a simple slope analysis, i.e., we compare the regression slopes at low vs. high levels of *M* (for a continuous moderator typically one standard deviation below or above the mean). To do so, we need to perform a highly counterintuitive calculation:
+
+```
+M_lo = M + sd(M)
+M_hi = M - sd(M)
+```
+
+If we now include thes newly calculated variables into our regressions, we get the simple slopes for low vs. high levels of the moderator:
+
+```
+lm(Y ~ X + M_lo + X:M_lo) # slope for X gives simple slope for low levels of moderator
+lm(Y ~ X + M_hi + X:M_hi) # slope for X gives simple slope for high levels of moderator
+```
+As said, this is somewhat counterintuitive, but don't ask, just do as outlined. And if in doubt, please consult:
+
+- [David A. Kenny: Moderation](https://davidakenny.net/cm/moderation.htm)
+
