@@ -82,6 +82,7 @@ lm(Y ~ X + M_lo + X:M_lo)
 lm(Y ~ X + M_hi + X:M_hi) 
 ```
 
+
 The result could look like this:
 
 ![Example of a significant moderation effect](Resources/moderation.jpg)
