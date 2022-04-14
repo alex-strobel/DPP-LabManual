@@ -84,7 +84,7 @@ lm(Y ~ X + M_hi + X:M_hi)
 
 The result could look like this:
 
-![Example of a significant moderation effect](Resources/moderation.jpg)
+![Example of a significant moderation effect](Resources/moderation.jpg) <!-- .element height="50%" width="50%" -->
 
 For details on moderation analysis, see:
 
