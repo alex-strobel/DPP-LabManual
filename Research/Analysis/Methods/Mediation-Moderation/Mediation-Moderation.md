@@ -84,6 +84,8 @@ lm(Y ~ X + M_hi + X:M_hi)
 
 The result could look like this:
 
+<img align = "middle" src="Resources/moderation.jpg" width = "400" alt="Italian Trulli">
+
 ![Example of a significant moderation effect](Resources/moderation.jpg)
 
 For details on moderation analysis, see:
