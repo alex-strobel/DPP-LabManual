@@ -13,7 +13,7 @@ This manual is at the core of this LabManual. **All members of AG.DPP are requir
    
 2. [Write the theoretical part of your manuscript](02_Theoretical_part.md)
    
-   You may alread consider the appropriate target journal for your manuscript, even if you haven't started the project yet. It also pays to consider in which format you want to write your manuscript. We at AG.DPP strive to use R Markdown as often as possible, for the reasons outlined below. Otherwise, we make sure to use (Word or LaTeX) templates that many journals/publishers offer. As regards the content of our theoretical part, we always strive for a maximum of clarity and conciseness ...
+   You may already consider the appropriate target journal for your manuscript, even if you haven't started the project yet. It also pays to consider in which format you want to write your manuscript. We at AG.DPP strive to use R Markdown as often as possible, for the reasons outlined below. Otherwise, we make sure to use (Word or LaTeX) templates that many journals/publishers offer. As regards the content of our theoretical part, we always strive for a maximum of clarity and conciseness ...
 
 3. [Develop and refine the study design](03_Study_design.md)
 
