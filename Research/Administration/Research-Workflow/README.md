@@ -9,7 +9,7 @@ This manual is at the core of this LabManual. **All members of AG.DPP are requir
 
 1. [Pinpoint your research question and formulate your hypotheses](01_Research_question.md)
    
-   It is absolutely essential to have a well-formulated research question, better think it over and over than to start your project with an ill-specified research question. Also, identify potential collaborators and discuss your question with them. One of them should be assigend to be the so-called Research Transparency Advisor, and all of them (but notnecessarily *only* them) will be potential co-authors of a manuscript that eventually results from your project, so make sure that everyone involved in principle *can* and actually *does* filfil the criteria for athorship.
+   It is absolutely essential to have a well-formulated research question, better think it over and over than to start your project with an ill-specified research question. Also, identify potential collaborators and discuss your question with them. One of them should be assigned to be the so-called Research Transparency Advisor, and all of them (but not necessarily *only* them) will be potential co-authors of a manuscript that eventually results from your project, so make sure that everyone involved in principle *can* and actually *does* filfil the criteria for authorship.
    
 2. [Write the theoretical part of your manuscript](02_Theoretical_part.md)
    
