@@ -129,8 +129,28 @@ So if your have 3,000 values and your $\cos \theta$ is smaller that the smallest
 13. Derive your significance cut-offs from $p_{adj}$ by multiplying the number of values in the null distribution with half of $p_{adj}$, e.g. the lower cut-off is $3,000 * \frac{0.0028}{2} = 4.2$, and the higher cut-off is $3,000 * (1-\frac{0.0028}{2}) = 2995.8$.
 14. For each actual $\cos \theta$, determine whether its *v* is either smaller than the lower cut-off or larger than the higher cut-off.
 So for an actual $\cos \theta$ to be significant in our example it would either have to be rank position 0, 1, 2, 4, 2,996, 2,997, 2,998, 2,999, 3,000, or NaN.
-15. It is rare for microstate pairs to be beyond the upper limit of the null distribution, because a $\cos \theta$$ approaching 1 implies that two vectors are more similar than those created at random.
+15. It is rare for microstate pairs to be beyond the upper limit of the null distribution, because a $\cos \theta$ approaching 1 implies that two vectors are more similar than those created at random.
 So if it happens, then usually in the first microstate before even perceptual components of cognitive processing have "kicked in".
 
 ### Local differences
+If a microstate differs between conditions (i.e. if the rank of the $\cos \theta$ was significant) then you most likely want to know where exactly it differs on the head.
+The surprising aspect about microstate analysis is that this can easily be done but in some cases the results come up empty. **What??**
+Yep, you heard right: Due to the high-dimensional nature of the vector, i.e. the microstate, tiny little differences per channel accumulate in the high-dimensional space, thereby crossing your significance threshold.
+These differences are truly so tiny that you simply cannot detect them when comparing channels one by one.
+And this is one of the major advantages of microstate analysis compared to event-related potential analysis - with the latter, you would simply assume that there is no difference at all, simply because it does not reach significance on channel level.<br>
+To check your significant microstate pairs for local differences, follow these steps:
+1. Pool the data of each condition, so that you have lots of microstate vectors that are *not* averaged across subjects or epochs.
+2. Make a note of the number of epochs per condition.
+3. For each pair of conditions that you need to compare, randomly select as many epochs as there are in the condition with less epochs from the one with more epochs (*t*-tests require equally sized data).
+4. Compute one two-sided paired sample *t*-test per microstate pair that yielded significant results in the analysis of global differences.
+5. Determine you adjusted *p*-value by dividing your alpha by the number of channels, e.g. $p_{adj} = \frac{0.05}{30} = 0.0017$. 
+6. The resulting *t*- and *p*-value for each channel will tell you whether this channel contributed to the global difference and whether it had higher or lower voltage in condition A or B.<br>
+
+Keep in mind that the channels that show significant *p*-values are likely not the only ones who contributed to the global difference.
+Their difference is large enough to be detected by the *t*-tests, but other channels with smaller differences might have also contributed.
+
 ## That was confusing - are there example scripts?
+
+You can have a look at our article ["EEG microstate analysis of emotion regulation reveals no sequential processing of valence and emotional arousal"](https://www.nature.com/articles/s41598-021-00731-7) for references to other studies and the TANOVA paper.
+The corresponding [Matlab script](https://osf.io/9prmt/) is in the OSF project.
+An adapted version of this script for the EEG Many Pipelines project is here in the LabManual in the closest [Resources folder](Resources/Microstates.m).
