@@ -28,9 +28,11 @@
 
 ### Zotero
 
-Zotero is a free, open-source reference manager and can be downloaded from the [Zotero Website](https://www.zotero.org/). You can easily import entries with the browser add-on, and it is a good reference manager for beginners as it works especially well with Microsoft Word via an add-on.
+Zotero is a free, open-source reference manager and can be downloaded from the [Zotero Website](https://www.zotero.org/).
+You can easily import entries with the browser add-on, and it is a good reference manager for beginners as it works especially well with Microsoft Word via an add-on.
 Zotero allows you to easily access the citation style settings, as well as the appearance of single citations within the text.
-However, every time you re-open the document, it will ask you whether every single changes is _really_ the way you want it, which is slightly annoying. There are also quite a lot of processes going on behind the scenes, so Zotero is slow, and it is not possible to access the citation key of an entry (so Zotero is not suitable for R Markdown) or to permanently change the capitalization of the reference list, because re-opening the document will reset the reference list, but not the in-text citations (which you are asked about in detail).
+However, every time you re-open the document, it will ask you whether every single changes is _really_ the way you want it, which is slightly annoying.
+There are also quite a lot of processes going on behind the scenes, so Zotero is slow, and it is not possible to access the citation key of an entry (so Zotero is not suitable for R Markdown) or to permanently change the capitalization of the reference list, because re-opening the document will reset the reference list, but not the in-text citations (which you are asked about in detail).
 But don't worry, you can easily export you Zotero library into JabRef!
 
 ### BibTeX
@@ -39,7 +41,10 @@ But don't worry, you can easily export you Zotero library into JabRef!
 
 ### JabRef
 
-JabRef is a free, open-source reference manager and can be downloaded from the [JabRef Website](https://www.jabref.org/). It has a modern and intuitive interface, so it is nicer to work with than Zotero. While Zotero works well for writing manuscripts in Microsoft Word, JabRef is a better option for writing in R Markdown, because the export into a *.bib file is smoother and you can easily access and change the citation key of every entry.
+JabRef is a free, open-source reference manager and can be downloaded from the [JabRef Website](https://www.jabref.org/).
+It has a modern and intuitive interface, so it is nicer to work with than Zotero. While Zotero works well for writing manuscripts in Microsoft Word, JabRef is a better option for writing in R Markdown, because the export into a *.bib file is smoother and you can easily access and change the citation key of every entry.
 You can easily import entries by (among other options) using the browser add-on, the DOI, or copy-pasting the BibTeX formatted citation, which is especially useful for R packages and other software.
-Another advantage: JabRefs allows you to change the formatting of multiple entries at once. For example, you want to change the title field of every entry of the type "article" to have only the first word written with a capital letter. While you cannot do this in Zotero, you can do it in JabRef.
+Another advantage: JabRefs allows you to change the formatting of multiple entries at once.
+For example, you want to change the title field of every entry of the type "article" to have only the first word written with a capital letter.
+While you cannot do this in Zotero, you can do it in JabRef.
 Using JabRef for manuscripts written in Microsoft Word is also possible, but not as easy as it is with Zotero, because there is no add-on.
