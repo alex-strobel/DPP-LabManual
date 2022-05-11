@@ -122,4 +122,4 @@ As you do not know the *p*-values in advance, you need to rely on either *Bonfer
 In your preregistration, you could write something like:
 
 > For power calculation, we used a Bonferroni-corrected *p*-value of &alpha;' = .05/6 ~ .008 which together with an assumed effect size of *r* = .30 and a power of 1-&beta; = .95 yielded a sample size of *N* = 196.
->  However, given that the variables in question are correlated, Bonferroni-correction is not appropriate for our correlation analysis, which is why we will use the Holm method to correct for multiple testing in the actual study.
+> However, given that the variables in question are correlated, Bonferroni-correction is not appropriate for our correlation analysis, which is why we will use the Holm method to correct for multiple testing in the actual study.
