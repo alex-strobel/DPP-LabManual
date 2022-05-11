@@ -12,15 +12,18 @@ Faculty of Psychology, TU Dresden
 ## Table of Contents
 
 - [Outliers](#outliers)
+  - [> **Summary.** In what follows, it is argued that it is often enough difficult to define whether a measurement point is an outlier. There may be rational reasons to context-dependently define measurements as outliers, and there are statistical methods to define unibariate or multivariate outliers. Both approaches always imply some subjective decision-making, so we usually refrain from excluding outlier for various the outlined below and rather use robust statistical methods or run our analyses twice, one (for the paper) with all data points and one (for the supplement) with outliers excluded. An exception from this general rule may be made if outlier exlusion results in the convergence of a statistical model that otherwise would not converge.](#-summary-in-what-follows-it-is-argued-that-it-is-often-enough-difficult-to-define-whether-a-measurement-point-is-an-outlier-there-may-be-rational-reasons-to-context-dependently-define-measurements-as-outliers-and-there-are-statistical-methods-to-define-unibariate-or-multivariate-outliers-both-approaches-always-imply-some-subjective-decision-making-so-we-usually-refrain-from-excluding-outlier-for-various-the-outlined-below-and-rather-use-robust-statistical-methods-or-run-our-analyses-twice-one-for-the-paper-with-all-data-points-and-one-for-the-supplement-with-outliers-excluded-an-exception-from-this-general-rule-may-be-made-if-outlier-exlusion-results-in-the-convergence-of-a-statistical-model-that-otherwise-would-not-converge)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Outliers vs. extreme values](#outliers-vs-extreme-values)
   - [A priori definition of outliers](#a-priori-definition-of-outliers)
   - [A posteriori definition of outliers](#a-posteriori-definition-of-outliers)
   - [Excluding multivariate outliers done "properly"](#excluding-multivariate-outliers-done-properly)
+    - [General procedure](#general-procedure)
   - [Not excluding outliers done "properly"](#not-excluding-outliers-done-properly)
     - [Use robust statistics](#use-robust-statistics)
     - [Run your analyses twice](#run-your-analyses-twice)
+  - [Situations where outlier exclusion might be necessary](#situations-where-outlier-exclusion-might-be-necessary)
   - [Take-home message](#take-home-message)
 
 ---
