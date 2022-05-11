@@ -8,14 +8,16 @@ TU Dresden
 
 ## Table of Contents
 
-- [What are microstates?](#what-are-microstates?)
-- [Why should I use microstate analysis?](#why-should-I-use-microstate-analysis?)
-- [What software do I need?](#what-software-do-I-need?)
-- [How should my data look like?](#how-should-my-data-look-like?)
-- [How exactly do you compute microstates?](#how-exactly-do-you-compute-microstates?)
+- [EEG Microstate Analysis](#eeg-microstate-analysis)
+  - [Table of Contents](#table-of-contents)
+  - [What are microstates?](#what-are-microstates)
+  - [Why should I use microstate analysis?](#why-should-i-use-microstate-analysis)
+  - [What software do I need?](#what-software-do-i-need)
+  - [How should my data look like?](#how-should-my-data-look-like)
+  - [How exactly do you compute microstates?](#how-exactly-do-you-compute-microstates)
     - [Global differences](#global-differences)
     - [Local differences](#local-differences)
-- [That was confusing - are there example scripts?](#that-was-confusing---are-there-example-scripts?)
+  - [That was confusing - are there example scripts?](#that-was-confusing---are-there-example-scripts)
 
 ---
 
@@ -23,7 +25,9 @@ TU Dresden
 The term microstate refers to a phenomenon in electroencephalography (EEG) analysis, where the voltage of all channels appears to be relatively stable for several tens of seconds before changing into a different quasi-stable voltage pattern (see [Lehmann, 1987](https://doi.org/10.1016/0013-4694(87)90025-3)).
 This temporal *chunking* of brain activity has lead some researchers to assume that microstates could represent "atoms of thought", i.e. the building blocks that make up cognition.<br>
 This image is a series of microstates (head plots seen from above, colour indicates voltage) from a task-based paradigm, spanning the first 250 ms after stimulus onset:
+
 ![microstate-series](Resources/microstate_series.jpg)
+
 You can see that each microstate is slightly or drastically different in its topographical distribution of activity to the microstate before or after it.
 The image itself is pretty to look at but not really informative, which is why you want to compute comparisons between the microstates of different experimental conditions to see where there are statistical differences (see section on [computation](#how-exactly-do-you-compute-microstates)).
 
@@ -39,9 +43,13 @@ So applying microstate analysis to task-based data is a great way to have a data
 ## What software do I need?
 I strongly recommend using [Matlab](https://de.mathworks.com/products/matlab.html) and its plugin [EEGLAB](https://sccn.ucsd.edu/eeglab/index.php), which offers you both a GUI and the option to use Matlab code.
 Here is an overview of what you can do with EEGLAB from their website:
+
 ![eeglab](Resources/eeglab.png)
+
 You will mainly need code for microstate analysis, because there are no functions for it yet, but we can make use of the excellent data structure offered by EEGLAB:
+
 ![struct](Resources/struct.png)
+
 So that means you will need Matlab coding skills.
 
 ## How should my data look like?
@@ -64,12 +72,13 @@ That also means that if you do preprocessing using the BrainVision Analyzer and 
 If your study contains conditions that are extremely different from each other, e.g. when subjects look at a picture vs when subjects look at words and have to press a key, and you don't intend to compare these two conditions but rather compare things within these conditions, then please do this and all of the steps below separately for these conditions.
 2. Normalize each subject's ERP by dividing it by the global field power of that subject. Global field power is the standard deviation of activity per channel and time point across all epochs.
 Normalizing the ERPs ensures that microstates will be built not by the extremity of the topographical distribution but by its pattern.
-3. Compute the mean across all subjects' normalized ERPs, so you end up with one grandmean of *channels* x *time points* (no need to visualize it, but this is what it should look like):
+3. Compute the mean across all subjects' normalized ERPs, so you end up with one grandmean of *channels* x *time points* (no need to visualize it, but this is what it should look like):<br>
 ![grandmean](Resources/grandmean.png)
 The y-axis is the voltage, the x-axis is the time.
 Each coloured line is one channel.<br>
 In this example, we have 30 channels and 150 sampling points (600 ms with 250 Hz).
 Think of it as 150 different 30-dimensional vectors.
+
 4. Put these vectors into a *k*-means clustering algorithm (supplied by Matlab).
 Depending on your time window, you need to adjust the number of clusters *k* that are being tested.
 If your time window is longer than 500 ms, a lower limit of 2-5 and an upper limit of 20-25 is sensible.
@@ -107,6 +116,7 @@ So for each microstate pair, you compute the cosine similarity.
 And because that in and of itself does not tell you anything about whether it is a significant difference or not, you will create a null distribution of cosine similarities based on the same underlying data.
 The process is called topographical analysis of variance (TANOVA) even though it has nothing to do with a classic ANOVA.
 Follow these steps:
+
 1. Put the epochs (of all subjects) of each condition pair into a pool.
 If you want to compare condition A with B and condition A with C, you will need two pools, one with data from A and B, and one with data from A and C.
 2. Make a note of how many epochs are from condition A, B, and C.
@@ -116,7 +126,7 @@ So if you have your A-B-pool, label one half as A and one half as B.
 To be precise, don't just talk halves but use the number of epochs that you noted down in step 2.
 5. Compute the averages of the newly labelled conditions in the pool.
 6. Turn each condition average into microstates by averaging the corresponding time points, just like you did above in step 8.
-7. Between each microstate pair, i.e. microstate 1 of condition A and microstate 1 of condition B, compute the cosine similarity:
+7. Between each microstate pair, i.e. microstate 1 of condition A and microstate 1 of condition B, compute the cosine similarity:<br>
 $\cos \theta = \frac{|A||B|}{\vec{|A|}\vec{|B|}}$ <br>
 Note that the denominator is referring to the vector’s Euclidean norm.
 8. Repeat steps 1-7 at least 3,000 times to get a null distribution for each microstate pair of your condition comparisons.
