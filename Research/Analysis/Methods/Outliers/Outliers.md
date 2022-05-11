@@ -6,13 +6,10 @@ Faculty of Psychology, TU Dresden
 2022-02-09
 
 ---
-> **Summary.** In what follows, it is argued that it is often enough difficult to define whether a measurement point is an outlier. There may be rational reasons to context-dependently define measurements as outliers, and there are statistical methods to define unibariate or multivariate outliers. Both approaches always imply some subjective decision-making, so we usually refrain from excluding outlier for various the outlined below and rather use robust statistical methods or run our analyses twice, one (for the paper) with all data points and one (for the supplement) with outliers excluded. An exception from this general rule may be made if outlier exlusion results in the convergence of a statistical model that otherwise would not converge.  
----
 
 ## Table of Contents
 
 - [Outliers](#outliers)
-  - [> **Summary.** In what follows, it is argued that it is often enough difficult to define whether a measurement point is an outlier. There may be rational reasons to context-dependently define measurements as outliers, and there are statistical methods to define unibariate or multivariate outliers. Both approaches always imply some subjective decision-making, so we usually refrain from excluding outlier for various the outlined below and rather use robust statistical methods or run our analyses twice, one (for the paper) with all data points and one (for the supplement) with outliers excluded. An exception from this general rule may be made if outlier exlusion results in the convergence of a statistical model that otherwise would not converge.](#-summary-in-what-follows-it-is-argued-that-it-is-often-enough-difficult-to-define-whether-a-measurement-point-is-an-outlier-there-may-be-rational-reasons-to-context-dependently-define-measurements-as-outliers-and-there-are-statistical-methods-to-define-unibariate-or-multivariate-outliers-both-approaches-always-imply-some-subjective-decision-making-so-we-usually-refrain-from-excluding-outlier-for-various-the-outlined-below-and-rather-use-robust-statistical-methods-or-run-our-analyses-twice-one-for-the-paper-with-all-data-points-and-one-for-the-supplement-with-outliers-excluded-an-exception-from-this-general-rule-may-be-made-if-outlier-exlusion-results-in-the-convergence-of-a-statistical-model-that-otherwise-would-not-converge)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Outliers vs. extreme values](#outliers-vs-extreme-values)
@@ -20,7 +17,7 @@ Faculty of Psychology, TU Dresden
   - [A posteriori definition of outliers](#a-posteriori-definition-of-outliers)
   - [Excluding multivariate outliers done "properly"](#excluding-multivariate-outliers-done-properly)
     - [General procedure](#general-procedure)
-  - [Not excluding outliers done "properly"](#not-excluding-outliers-done-properly)
+  - [Not excluding multivariate outliers done "properly"](#not-excluding-multivariate-outliers-done-properly)
     - [Use robust statistics](#use-robust-statistics)
     - [Run your analyses twice](#run-your-analyses-twice)
   - [Situations where outlier exclusion might be necessary](#situations-where-outlier-exclusion-might-be-necessary)
@@ -28,6 +25,9 @@ Faculty of Psychology, TU Dresden
 
 ---
 
+> **Summary.** In what follows, it is argued that it is often enough difficult to define whether a measurement point is an outlier. There may be rational reasons to context-dependently define measurements as outliers, and there are statistical methods to define unibariate or multivariate outliers. Both approaches always imply some subjective decision-making, so we usually refrain from excluding outlier for various the outlined below and rather use robust statistical methods or run our analyses twice, one (for the paper) with all data points and one (for the supplement) with outliers excluded. An exception from this general rule may be made if outlier exlusion results in the convergence of a statistical model that otherwise would not converge.  
+
+---
 ## Introduction
 
 We will often have to deal with data sets that contain participants that in some measure or another exhibit values that we consider as outliers or extreme values.
@@ -97,7 +97,7 @@ Then, for the the squared distances `m$d^2`, it calculates p-values  (`p`) based
 One may want to use more liberal thresholds such as &alpha; = .01 or &alpha; = .05, which results in more "outliers" to be identified as such, but then you may loose a considerable number of participants.
 In any case, **we define your threshold for outlier exclusion in advance**.
 
-## Not excluding outliers done "properly"
+## Not excluding multivariate outliers done "properly"
 
 Or we do not exclude outliers at all, because given the degrees of freedom you have to do so and all the other imponderables outlined above, doing so may be a source of bias.
 If we do not exclude outliers, there are two ways of doing so "properly" (and by setting the *properly* in quotes, it is meant that this is not the only and universally agreed-upon way to do so, just the way I/we recently often did it and were happy with it).
