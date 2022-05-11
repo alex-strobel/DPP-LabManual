@@ -29,6 +29,10 @@ Faculty of Psychology, TU Dresden
 
 ---
 
+> **Summary**. It is absolutely essential to have some discussion of the power issue in every paper that is submitted under our affiliation (and it is regarded as a violation against the rules of good scientific practice if power considerations/calculations are omitted). Ideally, sample size is determined *a priori* based on expected effect sizes (which - more often than not – need to be taken with caution and adjusted) and given a reasonable power (at least 80%, better 95%) and &alpha; threshold (usually .05 or otherwise,  if there is a need to correct for [multiple testing](Research/Analysis/Methods/Multiple-Testing/Multiple-Testing.md)). Otherwise, for convenience samples, the minimum effect size that can be detected given achieved sample size, &alpha; and power level may be stated. Tools and routines for performing power analysis for different purposes are outlined below.
+
+---
+
 ## Introduction
 
 At AG.DPP, it is mandatory that you perform power calculations (or at least elaborate on power considerations) in any study that leaves the lab. If you feel insecure on this issue, please consult the following presentation:
