@@ -72,7 +72,7 @@ M_lo = M + sd(M)
 M_hi = M - sd(M)
 ```
 
-If we now include thes newly calculated variables into our regressions, we get the simple slopes for low vs. high levels of the moderator:
+If we now include these newly calculated variables into our regressions, we get the simple slopes for low vs. high levels of the moderator:
 
 ```R
 # slope for X gives simple slope for low levels of moderator
@@ -84,7 +84,7 @@ lm(Y ~ X + M_hi + X:M_hi)
 
 The result could look like this:
 
-<img align = "middle" src="Resources/moderation.jpg" width = "400" alt="Italian Trulli">
+<img align = "middle" src="Resources/moderation.jpg" width = "400">
 
 
 For details on moderation analysis, see:
