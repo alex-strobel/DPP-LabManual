@@ -94,7 +94,7 @@ If it is not significant, then the next lower *p*-value is compared against &alp
 ### Other correction methods
 
 The `p.adjust` function of the base R *stats* package provides you with a number of common methods to correct for multiple testing.
-Unfortunately, the help-page of this function isn't helpful at all when it comes to understand how these methods work and how they differ.
+Unfortunately, the help page of this function isn't helpful at all when it comes to understand how these methods work and how they differ.
 Yet, you might want to see this as a learning opportunity to find out by yourself ...
 
 ### Correction for multiple testing if using confidence intervals
