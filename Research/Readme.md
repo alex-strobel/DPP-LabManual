@@ -120,7 +120,7 @@ Its features include:
 ### markdownlint
 
 [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) marks so-called markdownlint violations in a markdown document, i.e., instances that deviate from agreed-upon conventions on how to format markdown documents.
-It also informs you what the respective issue is and offers you to fix this so-called markdownlint violation.
+It also informs you what the respective issue is and offers you to fix the violation.
 Using markdownlint greatly improves coding and collaboration in markdown documents.
 
 <!-- main_AG
