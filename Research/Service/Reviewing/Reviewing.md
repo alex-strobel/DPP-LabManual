@@ -12,6 +12,7 @@ TU Dresden
 
 - [Reviewing manuscripts](#reviewing-manuscripts)
   - [Table of Contents](#table-of-contents)
+  - [Why should we review other researchers' manuscripts at all?](#why-should-we-review-other-researchers-manuscripts-at-all)
   - [Which manuscripts we should accept to review](#which-manuscripts-we-should-accept-to-review)
   - [Structure and tone](#structure-and-tone)
   - [Open Science](#open-science)
@@ -22,8 +23,13 @@ TU Dresden
   - [Final remark](#final-remark)
 
 
-## Why should we review at all?
+## Why should we review other researchers' manuscripts at all?
 
+Peer review is one of the pillars of nowadays science system, and (in my opinion) for a reason:
+Experts in the field will have a look on what we have done or (in the case of a Registered Report are about to do) and communicate their opinion about it.
+Ideally, if we made some objective error, the reviewers detect it, so we can correct it.
+Also, if we wrote cumbersome/lengthy sentences, reviewers might suggest to write in a more clear manner (which is especailly important given that we are no native speakers *and* are German natve speakers who like to form *Schachtelsätze*).
+Peer review help authors to revise their manuscripts
 
 
 ## Which manuscripts we should accept to review
