@@ -22,6 +22,10 @@ TU Dresden
   - [Final remark](#final-remark)
 
 
+## Why should we review at all?
+
+
+
 ## Which manuscripts we should accept to review
 
 Peer review is an essential quality assurance measure in science. So, whenever we feel competent to review a manuscript and have enough time to do so in time, we accept a review request. As regards the time constraint, one review per one or two months should be ok. Someone once said to me, one review per manuscript you submitted by yourself in a given time window would be a good rule of thumb. I am not sure whether this works, but one may try ...
