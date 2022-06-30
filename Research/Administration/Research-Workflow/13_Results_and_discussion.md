@@ -48,7 +48,7 @@ Then structure your Discussion section along the lines you discuss your results 
 >
 >...
 >
-> **Publication bias as one reason for our pattern of resuls**
+> **Publication bias as one reason for our pattern of results**
 >
 > ...
 >
