@@ -88,7 +88,7 @@ Using the `str` command, you can see all the variable names and values:
   .. .. ..$ : chr [1:7] "totally disagree" "disagree" "somewhat disagree" "neutral" ...
 ```
 
-If you share your data via an \*.RData file, this will provide the codebook directly built-i to the respectve data.frame. Yet, usually, we share data via a *.csv file. So, you may provide the code for attribute generation via a separate R script as outlined above.
+If you share your data via an \*.RData file, this will provide the codebook directly built-in to the respectve data.frame. Yet, usually, we share data via a *.csv file. So, you may provide the code for attribute generation via a separate R script as outlined above.
 
 Another option would be to provide the codebook via an JSON file, but none of us has experience with JSON, so that remains an option to explore by yourself.
 
