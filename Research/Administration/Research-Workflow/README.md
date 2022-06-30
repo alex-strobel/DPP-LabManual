@@ -57,7 +57,7 @@ This manual is at the core of this LabManual. **All members of AG.DPP are requir
 
 13. [Write the results and discussion part of your manuscript](13_Results_and_discussion.md)
     
-    We always try to implement a common logic and order of arguments/analyses/results/discussion. If we state in the Introduction that want to examine A via X, B via Y, and C via Z, we follow this order both in the Methods and the Results part and also discuss our results in this order in the Discussion part, ideally via appropriate subheadings that reflect what we have written in the Abstract. The Discussion part must include a "Limitations and future directions" and a final "Conclusions" section.
+    We always try to implement a common logic and order of arguments/analyses/results/discussion. If we state in the Introduction that we want to examine A via X, B via Y, and C via Z, we follow this order both in the Methods and the Results part and also discuss our results in this order in the Discussion part, ideally via appropriate subheadings that reflect what we have written in the Abstract. The Discussion part must include a "Limitations and future directions" and a final "Conclusions" section.
 
 14. [Openly provide all data, analysis scripts and ideally material](14_Open_data_and_code.md)
 
