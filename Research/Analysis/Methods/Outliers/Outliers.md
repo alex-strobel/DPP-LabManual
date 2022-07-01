@@ -25,7 +25,7 @@ Faculty of Psychology, TU Dresden
 
 ---
 
-> **Summary.** In what follows, it is argued that it is often enough difficult to define whether a measurement point is an outlier. There may be rational reasons to context-dependently define measurements as outliers, and there are statistical methods to define unibariate or multivariate outliers. Both approaches always imply some subjective decision-making, so we usually refrain from excluding outlier for various the outlined below and rather use robust statistical methods or run our analyses twice, one (for the paper) with all data points and one (for the supplement) with outliers excluded. An exception from this general rule may be made if outlier exlusion results in the convergence of a statistical model that otherwise would not converge.  
+> **Summary.** In what follows, it is argued that it is often enough difficult to define whether a measurement point is an outlier. There may be rational reasons to context-dependently define measurements as outliers, and there are statistical methods to define univariate or multivariate outliers. Both approaches always imply some subjective decision-making, so we usually refrain from excluding outlier for various the outlined below and rather use robust statistical methods or run our analyses twice, one (for the paper) with all data points and one (for the supplement) with outliers excluded. An exception from this general rule may be made if outlier exlusion results in the convergence of a statistical model that otherwise would not converge.  
 
 ---
 ## Introduction
