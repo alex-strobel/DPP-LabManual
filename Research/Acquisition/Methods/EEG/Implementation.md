@@ -33,6 +33,21 @@ When preparing your study, make sure that you have the following points covered:
 - every necessary piece of equipment is functional and in case it suddenly breaks, you have access to spare equipment - e.g. borrowing something from another lab - so your sessions can continue until your equipment is repaired or replaced
 
 ### What to prepare before each session
+
+This is a list of items you will need for every EEG session:
+- A fully charged powerpack
+- An amplifier, connected to the powerpack and your physiology software
+- A plugboard, connected to the amplifier
+- As many electrodes as you need, connected to the plugboard
+- Cotton swabs, preferably one-sided and wooden
+- Cotton rounds
+- Antiseptic solution in an open container (about a third of a shot-glass is enough for one session)
+- Abrasive paste in an open container (a dollop of the size of 1-2 hazelnuts is enough for one session)
+- A syringe with a drawing up needle, filled with electrolyte gel and no air bubbles
+- Plaster tape
+- Measuring tape
+- Tissue box
+
 ### How to inform your participants
 ## During
 ### Picking the correct cap
