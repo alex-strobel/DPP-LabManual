@@ -26,6 +26,12 @@ TU Dresden
 
 ## Before
 ### What to prepare before the study
+
+When preparing your study, make sure that you have the following points covered:
+- theory-driven electrode placement (as there is no point in doing a 64-channel EEG when you are only interested in a small cluster of channels)
+- the computer paradigm is linked with your physiology software (e.g. [BrainVision Recorder](https://brainvision.com/products/recorder/)) and sends unique triggers for all event types, so when looking at the EEG data afterwards, you know exactly when a stimulus appeared on screen and what kind of stimulus it was
+- every necessary piece of equipment is functional and in case it suddenly breaks, you have access to spare equipment - e.g. borrowing something from another lab - so your sessions can continue until your equipment is repaired or replaced
+
 ### What to prepare before each session
 ### How to inform your participants
 ## During
