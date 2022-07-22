@@ -70,7 +70,7 @@ We need to make sure that the electrical resistance at every electrode is very l
 This might take a while depending on your hair and scalp properties, about 20 to 30 minutes for a 30-channel EEG.
 And because standing up with the cap would nullify all our preparation efforts, I would ask you to use the restroom before EEG preparation, so you can remain seated during preparation and the task afterwards.
 
-And even you have said all that, **always** ask the participant whether they have any questions, and tell them that they can ask these questions at **any time**.
+And even if you have said all that, **always** ask the participant whether they have any questions, and tell them that they can ask these questions at **any time**.
 
 ## During
 ### Picking the correct cap
