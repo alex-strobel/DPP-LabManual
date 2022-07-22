@@ -36,3 +36,4 @@ Examples are SPM for the preprocessing and analysis of fMRI data and [EEGLAB](EE
 
 - [EEGLAB](EEGLab/eeglab.md)
 - SPM (to be created)
+  
