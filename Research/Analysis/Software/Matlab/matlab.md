@@ -6,6 +6,7 @@
   - [Table of Contents](#table-of-contents)
   - [Matlab](#matlab)
   - [Matlab toolboxes](#matlab-toolboxes)
+  - [Tutorials for frequently used Matlab toolboxes](#tutorials-for-frequently-used-matlab-toolboxes)
 
 ## Matlab
 
@@ -25,4 +26,9 @@ Probably the most important toolbox for us is the [signal processing toolbox](ht
 Therefore it is recommended to install this toolbox directly from the beginning.
 
 There are other toolboxes that are important to us and have been created by external researchers.
-Examples are SPM for the preprocessing and analysis of fMRI data and [EEGLab](EEGLab/eeglab.md) for the analysis of EEG data.
+Examples are SPM for the preprocessing and analysis of fMRI data and [EEGLAB](EEGLab/eeglab.md) for the analysis of EEG data.
+
+## Tutorials for frequently used Matlab toolboxes
+
+- [EEGLAB](EEGLab/eeglab.md)
+- SPM (to be created)
