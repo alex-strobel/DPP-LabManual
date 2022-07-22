@@ -1,8 +1,10 @@
 # Code of Conduct <!-- Don't know whether we need this ... -->
 
 [Alexander Strobel](mailto:alexander.strobel@tu-dresden.de)
+[Anne Gärtner](mailto:anne_gaertner@tu-dresden.de)
 
-2022-03-18
+2022-07-22
+
 
 ---
 
@@ -17,7 +19,7 @@ To put it simple:
 4. We condemn scientific misconduct and abuse of power.
 5. We always comment our code.
 6. We adhere to common principles when using language, i.e., everything said and written should be as accessible and inclusive as possible. 
-8. ...
+7. ...
 
 To elaborate :
 
@@ -48,13 +50,7 @@ Still, everyone of us should try their best to adhere to the principles outlined
 
 ## 4. We condemn scientific misconduct and abuse of power. 
 
-Related to 
-See also the 
-https://zenodo.org/record/5126637#.YjIV7C_36L4
-
-1) Machtstrukturen: Weisungsbefugnis (Chef für Mitarbeiter, Mitarbeiter für SHKs/Studierende)
-2) Offene Diskussionskultur
-3) nicht scheuen abweichende Meinungen zu äußern
+There are some hierachical structures that we adhere to and which relate to the respective authority to issue directives ("Weisungsbefugnis"). For example, the chairholder is responsible for his/her employees (Postdocs, PhD students) and has the authority to give instructions to them. Postdocs/PhD students, in turn, are authorized to give instructions to students and student assistants. However, we strictly abendom scientific misconduct and abuse of power. We value an open discussion culture: nobody shall be afraid to express dissenting opinions. See this article for fruther information: https://zenodo.org/record/5126637#.YjIV7C_36L4
 
 ## 5. We always comment our code.
 
