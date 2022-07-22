@@ -1,8 +1,10 @@
 # Code of Conduct <!-- Don't know whether we need this ... -->
 
 [Alexander Strobel](mailto:alexander.strobel@tu-dresden.de)
+[Anne Gärtner](mailto:anne_gaertner@tu-dresden.de)
 
-2022-03-18
+2022-07-22
+
 
 ---
 
