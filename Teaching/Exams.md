@@ -1,7 +1,7 @@
 # Prüfungen
 
 [Alexander Strobel](mailto:alexander.strobel@tu-dresden.de)<br>
-Facultät Psychologei<br>
+Fakultät Psychologie<br>
 TU Dresden
 
 2022-03-03
