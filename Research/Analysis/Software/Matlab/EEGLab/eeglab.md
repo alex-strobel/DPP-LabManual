@@ -27,5 +27,7 @@ An extensive, structured programming environment is offered for experienced user
 - Memory requirements
   - 8 Gb RAM is recommended
 - Matlab toolboxes
-  - Signal Processing Toolbox
-  - 
+  - [Signal Processing Toolbox](https://mathworks.com/products/signal.html)
+  - [Statistics Toolbox](https://mathworks.com/products/statistics.html)
+  - [Optimization Toolbox](https://mathworks.com/products/statistics.html)
+  - [Image Processing Toolbox](https://mathworks.com/products/image.html)
