@@ -1,5 +1,9 @@
 # Matlab and Matlab toolboxes
 
+[Christoph Scheffel](mailto:christoph_scheffel@tu-dresden.de)<br>
+Faculty of Psychology<br>
+TU Dresden
+
 ## Table of Contents
 
 - [Matlab and Matlab toolboxes](#matlab-and-matlab-toolboxes)

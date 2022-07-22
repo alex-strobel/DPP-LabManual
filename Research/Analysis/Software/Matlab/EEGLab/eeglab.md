@@ -1,5 +1,9 @@
 # EEGLAB
 
+[Christoph Scheffel](mailto:christoph_scheffel@tu-dresden.de)<br>
+Faculty of Psychology<br>
+TU Dresden
+
 ## Table of Contents
 
 - [EEGLAB](#eeglab)
@@ -20,3 +24,8 @@ An extensive, structured programming environment is offered for experienced user
 ### Requirements
 - runs under any operating system (Linux/Unix, Windows, Mac OSX)
 - requires Matlab version 7.6 (2008b) or later
+- Memory requirements
+  - 8 Gb RAM is recommended
+- Matlab toolboxes
+  - Signal Processing Toolbox
+  - 
