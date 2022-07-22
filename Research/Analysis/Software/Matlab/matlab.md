@@ -2,9 +2,10 @@
 
 ## Table of Contents
 
-- Table of Contents
-- Matlab
-- Matlab toolboxes
+- [Matlab and Matlab toolboxes](#matlab-and-matlab-toolboxes)
+  - [Table of Contents](#table-of-contents)
+  - [Matlab](#matlab)
+  - [Matlab toolboxes](#matlab-toolboxes)
 
 ## Matlab
 
