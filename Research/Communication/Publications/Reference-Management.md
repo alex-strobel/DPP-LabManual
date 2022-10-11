@@ -20,7 +20,7 @@
 
 ### Mendeley
 
-We @AG.DPP avoid using [Mendeley](https://www.mendeley.com), although it comes with no extra costs. It is run by [Elsevier](https://de.wikipedia.org/wiki/Elsevier#Kritik_an_Elsevier) and is likely to aid Elsevier's efforts to track scholars' activities and sell their research profiles.
+We @AG.DPP avoid using [Mendeley](https://www.mendeley.com), although it comes with no extra costs. It is run by [Elsevier](https://de.wikipedia.org/wiki/Elsevier#Kritik_an_Elsevier) and is likely to aid Elsevier's efforts to [track scholars' activities and sell their research profiles](https://www.dgps.de/aktuelles/details/dgps-vorstand-und-kommission-open-science-unterstuetzen-stop-tracking-science-initiative/).
 
 ### Endnote
 
