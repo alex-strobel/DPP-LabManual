@@ -11,6 +11,7 @@
     - [Zotero](#zotero)
     - [BibTeX](#bibtex)
     - [JabRef](#jabref)
+  - [Take-home message](#take-home-message)
 
 ## Introduction
 
@@ -63,7 +64,7 @@ A BibTeX library can be easily written by hand, having the respective references
 Yet, most publishers offer the opportunity to save references to articles in BibTeX format, so there are only minimal edits needed when you paste the downloaded references into your BibTeX library.
 Also, you can fetch BibTeX formatted references using JabRef (see below) or import them from Endnote via the BibTeX Export output style that can be downloaded from the Endnote web site: <https://endnote.com/style_download/bibtex-export/>.
 Double-click it, which should load it into Endnote, and then (under Edit) set it as Output Citation Style.
-Then export your Endnote file via `File > Export` to the desired location (please note that if you want to keep the old name and save the BibTex file to the same folder as the original file this might not work. 
+Then export your Endnote file via `File > Export` to the desired location (please note that if you want to keep the old name and save the BibTex file to the same folder as the original file this might not work.
 Therefore, choose another filename or folder).
 
 In your R Markdown document, you provide the name of the BibTeX library in the so-called YAML header via the `bibliography:` argument. 
@@ -81,8 +82,10 @@ csl: apa7.csl
 ```
 
 Of course, you need to save the BibTeX library and the citation style in the same folder as your manuscript. 
-Once you have set up your BibTeX library, citing is quite straightforward: 
-To cite some reference, just write something like "For the present work, we used recently established effect size guidelines for correlations [@Gignac2016]." to have the reference cited in parentheses or "For the present work, we used the effect size guidelines for correlations recently established by @Gignac2016." for citing the reference directly in the text.   
+Once you have set up your BibTeX library, citing articles in your R Markdown document is quite straightforward: 
+To cite some reference, just write something like "For the present work, we used recently established effect size guidelines for correlations [@Gignac2016]." to have the reference cited in parentheses or "For the present work, we used the effect size guidelines for correlations recently established by @Gignac2016." for citing the reference directly in the text.
+Unfortunately, citing references of a BibTeX file in Microsoft Word is a bit complicated.
+The best option to do so is to use JabRef:
 
 ### JabRef
 
@@ -92,4 +95,13 @@ You can easily import entries by (among other options) using the browser add-on,
 Another advantage: JabRefs allows you to change the formatting of multiple entries at once.
 For example, you want to change the title field of every entry of the type "article" to have only the first word written with a capital letter.
 While you cannot do this in Zotero, you can do it in JabRef.
-Using JabRef for manuscripts written in Microsoft Word is also possible, but not as easy as it is with Zotero, because there is no add-on.
+Using JabRef for manuscripts written in Microsoft Word is also possible, but not as easy as it is with Zotero, because there is no add-on. 
+Yet, it may work if you proceed as described here:
+
+- <https://docs.jabref.org/cite/export-to-microsoft-word>
+
+## Take-home message
+
+If you work collaboratively in a larger group, you will most likely need to work with Word and Endnote, and your university will certainly have a discount for the purchase of the respective licenses.
+If you work in a smaller group and/or can decide what software to use, it is recommended to use R Markdown together with BibTeX, with the latter organized in JabRef.
+If you work in a smaller group of people who insist on using Word, then you should convince all collaborators to use Zotero as reference manager.
