@@ -6,8 +6,8 @@
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Reference Managers](#reference-managers)
-    - [Endnote](#endnote)
     - [Mendeley](#mendeley)
+    - [Endnote](#endnote)
     - [Zotero](#zotero)
     - [BibTeX](#bibtex)
     - [JabRef](#jabref)
@@ -18,13 +18,20 @@
 
 ## Reference Managers
 
-### Endnote
-
-...
-
 ### Mendeley
 
-...
+We @AG.DPP avoid using [Mendeley](https://www.mendeley.com), although it comes with no extra costs. It is run by [Elsevier](https://de.wikipedia.org/wiki/Elsevier#Kritik_an_Elsevier) and is likely to aid Elsevier's efforts to track scholars' activities and sell their research profiles.
+
+### Endnote
+
+We @AG.DPP avoid using [Endnote](https://endnote.com), not only because it comes with some extra costs. 
+It is run by [Clarivate](https://en.wikipedia.org/wiki/Clarivate), and it is not unlikely that they also track scholars' activities and sell research profiles.
+Still, Endnote has its benefits:
+
+- Many scholars use it, so one can easily share libraries.
+- It saves not only references, but also attached the respective PDF files, so you can not only organize your references, but also have all information about them in one place.
+- It can be integrated in *Word* quite nicely via the *Cite While You Write* interface.
+- If working collaboratively (such as in a CRC), it may become necessary to use Endnote.
 
 ### Zotero
 
@@ -37,7 +44,8 @@ But don't worry, you can easily export you Zotero library into JabRef!
 
 ### BibTeX
 
-BibTeX already reads like it has something to do with LaTeX, and indeed, it is the citation solution for LaTeX documents and, hence, also for R Markdown documents. A BibTeX library is a simple text document that contains entries in the following format:
+BibTeX already reads like it has something to do with LaTeX, and indeed, it is the citation solution for LaTeX documents and, hence, also for R Markdown documents. 
+A BibTeX library is a simple text document that contains entries in the following format:
 
 ```
 @Article{Gignac2016,
@@ -51,9 +59,16 @@ doi = {10.1016/j.paid.2016.06.069},
 }
 ```
 
-A BibTeX library can be easily written by hand, having the respective references saved on your computer. Yet, most publishers offer the opportunity to save references to articles in BibTeX format, so there are only minimal edits needed when you paste the downloaded references into your BibTeX library.
+A BibTeX library can be easily written by hand, having the respective references saved on your computer.
+Yet, most publishers offer the opportunity to save references to articles in BibTeX format, so there are only minimal edits needed when you paste the downloaded references into your BibTeX library.
+Also, you can fetch BibTeX formatted references using JabRef (see below) or import them from Endnote via the BibTeX Export output style that can be downloaded from the Endnote web site: <https://endnote.com/style_download/bibtex-export/>.
+Double-click it, which should load it into Endnote, and then (under Edit) set it as Output Citation Style.
+Then export your Endnote file via `File > Export` to the desired location (please note that if you want to keep the old name and save the BibTex file to the same folder as the original file this might not work. 
+Therefore, choose another filename or folder).
 
-In your R Markdown document, you provide the name of the BibTeX library in the so-called YAML header via the `bibliography:` argument. The format of the citation is defined by a Citation Style Language file that needs to be provided in the YAML header as well via the `csl:` argument. As an example:
+In your R Markdown document, you provide the name of the BibTeX library in the so-called YAML header via the `bibliography:` argument. 
+The format of the citation is defined by a Citation Style Language file that needs to be provided in the YAML header as well via the `csl:` argument. 
+As an example:
 
 ```
 ---
@@ -65,7 +80,9 @@ csl: apa7.csl
 ---
 ```
 
-Of course, you need to save the BibTeX library and the citation style in the same folder as your manuscript.
+Of course, you need to save the BibTeX library and the citation style in the same folder as your manuscript. 
+Once you have set up your BibTeX library, citing is quite straightforward: 
+To cite some reference, just write something like "For the present work, we used recently established effect size guidelines for correlations [@Gignac2016]." to have the reference cited in parentheses or "For the present work, we used the effect size guidelines for correlations recently established by @Gignac2016." for citing the reference directly in the text.   
 
 ### JabRef
 
