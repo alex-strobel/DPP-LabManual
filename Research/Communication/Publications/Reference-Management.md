@@ -37,7 +37,35 @@ But don't worry, you can easily export you Zotero library into JabRef!
 
 ### BibTeX
 
-BibTeX already reads like it has something to do with LaTeX, and indeed, it is the citation solution for LaTeX documents and, hence, also for R Markdown documents. A BibTeX library is a simple text document that contains entries in the format 
+BibTeX already reads like it has something to do with LaTeX, and indeed, it is the citation solution for LaTeX documents and, hence, also for R Markdown documents. A BibTeX library is a simple text document that contains entries in the following format:
+
+```
+@Article{Gignac2016,
+author = {G. E. Gignac  and E. T. Szodorai},
+title = {Effect size guidelines for individual differences researchers},
+journal = {Personality and Individual Differences},
+year = {2016},
+volume = {102},
+pages = {74-78},
+doi = {10.1016/j.paid.2016.06.069},
+}
+```
+
+A BibTeX library can be easily written by hand, having the respective references saved on your computer. Yet, most publishers offer the opportunity to save references to articles in BibTeX format, so there are only minimal edits needed when you paste the downloaded references into your BibTeX library.
+
+In your R Markdown document, you provide the name of the BibTeX library in the so-called YAML header via the `bibliography:` argument. The format of the citation is defined by a Citation Style Language file that needs to be provided in the YAML header as well via the `csl:` argument. As an example:
+
+```
+---
+title: "My Manuscript"
+author: "Alexander Strobel"
+output: pdf_document
+bibliography: MyLibrary.bib
+csl: apa7.csl
+---
+```
+
+Of course, you need to save the BibTeX library and the citation style in the same folder as your manuscript.
 
 ### JabRef
 
