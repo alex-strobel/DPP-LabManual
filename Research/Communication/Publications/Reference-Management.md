@@ -14,7 +14,7 @@
 
 ## Introduction
 
-**It is absolutely essential that you use a reference manager!** It not only allows you to store and organize your references, e.g., by bundling them together according to topics, methods, or authors. It also makes it easier to cite them in a manuscript. Because different journals/journal publishers use different citation styles (be it APA, Harvard, or Vancouver style to name but three of the almost endless list of citation styles), it would take you hours if in a given manuscript you wanted to insert your citations in the correct citation style by hand. Even more important: If your manuscript was rejected at Journal A that uses APA style and you wanted to submit it to Journal B that uses a numbered citation sytle such as Vancouver, you literally would need to rewrite your whole manuscript. Using a reference manager enables you to simply select and insert the references you want to cite, have them added to the reference list in the appropriate format and have the whole manuscript re-formatted in case you want to change the citation style.
+**It is absolutely essential that you use a reference manager!** It not only allows you to store and organize your references, e.g., by bundling them together according to topics, methods, or authors. It also makes it easier to cite them in a manuscript. Because different journals/journal publishers use different citation styles (be it APA, Harvard, or Vancouver style to name but three of the almost endless list of citation styles), it would take you hours if in a given manuscript you wanted to insert your citations in the correct citation style by hand. Even more important: If your manuscript was rejected at Journal A that uses APA style and you wanted to submit it to Journal B that uses a numbered citation style such as Vancouver, you literally would need to rewrite your whole manuscript. Using a reference manager enables you to simply select and insert the references you want to cite, have them added to the reference list in the appropriate format and have the whole manuscript re-formatted in case you want to change the citation style.
 
 ## Reference Managers
 
@@ -37,7 +37,7 @@ But don't worry, you can easily export you Zotero library into JabRef!
 
 ### BibTeX
 
-...
+BibTeX already reads like it has something to do with LaTeX, and indeed, it is the citation solution for LaTeX documents and, hence, also for R Markdown documents. A BibTeX library is a simple text document that contains entries in the format 
 
 ### JabRef
 
