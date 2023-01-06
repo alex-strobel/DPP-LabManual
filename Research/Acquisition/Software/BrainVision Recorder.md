@@ -39,6 +39,9 @@ Before data acquisition, impedances have to be checked (under "Impedance check")
 
 ## Data montoring
 
-The last step is to look at the signal under "Monitor" and indicate artifacts to the subject. For example, an EDA response can be triggered by inhaling deeply. Artifacts for ECG can be seen by moving or tighten the arm muscles. EMG acitivity can be seen for smiling (Zygomaticus) or frowning (Corrugator) 
+The last step is to look at the signal under "Monitor" and indicate artifacts to the subject. For example, an EDA response can be triggered by inhaling deeply. Artifacts for ECG can be seen by moving or tighten the arm muscles. EMG acitivity can be seen for smiling (Zygomaticus) or frowning (Corrugator).
 
 ![Figure6](Resources/BV-Recorder-6.png)<br>
+
+Now you can start recording under "Start/Resume Recording" (green triangle)!
+To stop recording, first click "stop recording" (red sqare). To close the window, you first have to click "Stop Monitoring".
