@@ -4,7 +4,7 @@
 Faculty of Psychology<br>
 TU Dresden
 
-The BrainVision Recorder (by Brain Products, [Download](https://www.brainproducts.com/downloads/recorder/)) is a multifunctional recording software for EEG and peripheral physiological (e.g. EDA, EMG, ECG) data. The software is installed on two lab computers.
+The BrainVision Recorder (by Brain Products, [Download here](https://www.brainproducts.com/downloads/recorder/)) is a multifunctional recording software for EEG and peripheral physiological (e.g. EDA, EMG, ECG) data. The software is installed on two computers in the laboratory.
 
 ## Settings
 If you need participants for an experiment and don't have an account yet, please write an informal email to [Pauline Thamm](mailto:pams@tu-dresden.de), asking her to create an admin account for you.
