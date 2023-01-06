@@ -10,7 +10,7 @@ The BrainVision Recorder (by Brain Products, [Download here](https://www.brainpr
 ## Setting up a workspace for peripheral physiological data
 The first step is to create a new workspace or to edit an existing workspace. 
 
-pic 1 here
+![Figure1](Resources/BV-Recorder-1.png)<br>
 
 Next, if the amplifier is connected, the following settings can be defined: number of cannels, sampling rate (e.g. 1000 Hz), and physical channels (the numbers correspond to the numbers on the pegboard). If EDA data will be collected, "Use ExG AUX" (auxiliary EDA module) has to be checked. 
 
