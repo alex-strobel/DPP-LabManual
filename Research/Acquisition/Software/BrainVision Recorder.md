@@ -44,4 +44,4 @@ The last step is to look at the signal under "Monitor" and indicate artifacts to
 ![Figure6](Resources/BV-Recorder-6.png)<br>
 
 Now you can start recording under "Start/Resume Recording" (green triangle)!
-To stop recording, first click "stop recording" (red sqare). To close the window, you first have to click "Stop Monitoring".
+To stop recording, first click "stop recording" (red sqare). To close the window, you first have to click "Stop Monitoring". 
