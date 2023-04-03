@@ -9,6 +9,7 @@
     - [Helper packages](#helper-packages)
     - [Effect size estimation and power analysis](#effect-size-estimation-and-power-analysis)
     - [Statistical analysis](#statistical-analysis)
+    - [Where have all my packages gone?](#where-have-all-my-packages-gone)
   - [R Programming Style Guide](#r-programming-style-guide)
   - [R Markdown](#r-markdown)
 
