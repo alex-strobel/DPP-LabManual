@@ -60,6 +60,53 @@ So far, there are manuals on the following R packages you should have installed:
 - [`lavaan`](lavaan/lavaan) is the package to go for when you want to do structural equation modeling, latent state-trait analysis, latent growth curve or latent change score modeling or or even simple path analysis including mediation analysis
 - [`psych`](psych/psych) offers a lot of functions for individual differences research including calculating reliability and running factor analysis
 
+### Where have all the packages gone?
+
+If you update R (and/or RStudio?), all the packages that do not come with the R installation are gone and yo have to re-install them. While this is certainly to some degree reasonable, it is also extremely annoying. It is therefore recommended to save a list of all the packages installed before any R/RStudio update and then use this list to automatically re-install all your packages. You might want to resort to this code to do so:
+
+```R
+# Upgrade R without losing packages -------------------------------------------
+
+# optional: remove all variables in global environment
+rm(list = ls())
+
+# path to save package information to
+myPath = "/Users/alex/Documents/R"
+
+# before updating R/RStudio, save installed packages
+oldPkgs <- installed.packages()
+oldPkgs[, 1]
+setwd(myPath)
+save.image('oldPkgs')
+
+# now update R/RStudio, then open RStudio again and load list of previously installed packages
+load('oldPkgs')
+setwd(myPath)
+
+# check for differences in prevously and currently installed packages
+newPkgs <- installed.packages()
+cat(paste0(nrow(oldPkgs) - nrow(newPkgs), ' packages need to be re-installed'), fill = T)
+missingPkgs <- setdiff(oldPkgs[, 1], newPkgs[, 1])
+
+# re-install missing packages available on CRAN
+install.packages(missingPkgs)
+nnewPkgs <- installed.packages()
+cat(paste0(nrow(oldPkgs) - nrow(newPkgs), ' packages still missing'), fill = T)
+missingPkgs = setdiff(missingPkgs, newPkgs[, 1])
+
+# install still missing packages from GitHub
+
+# install devtools package if necessary
+if (!"devtools" %in% rownames(installed.packages()))
+install.packages("devtools")
+
+# install the stable papaja development version
+devtools::install_github("crsh/papaja")
+
+# install the latest papaja development snapshot
+devtools::install_github("crsh/papaja@devel")
+
+
 ## R Programming Style Guide
 
 We use the [tidyverse style guide](https://style.tidyverse.org/index.html) for R programming. Every team member is expected to adhere to this style guide as often as possible, as this will greatly facilitate collaboration on code and code review. It is recommended to use [RStudio's R Diagnostics](https://support.rstudio.com/hc/en-us/articles/205753617-Code-Diagnostics) (best to turn on all options). Then, RStudio will display small diagnostics symbols next to the line number that inform you about style such as `expected whitespace around '=' operator`. Sometimes it might be a bit tedious to put whitespaces around operators, because it is so much easier to code ...
