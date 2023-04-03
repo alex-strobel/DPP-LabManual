@@ -60,9 +60,9 @@ So far, there are manuals on the following R packages you should have installed:
 - [`lavaan`](lavaan/lavaan) is the package to go for when you want to do structural equation modeling, latent state-trait analysis, latent growth curve or latent change score modeling or or even simple path analysis including mediation analysis
 - [`psych`](psych/psych) offers a lot of functions for individual differences research including calculating reliability and running factor analysis
 
-### Where have all the packages gone?
+### Where have all my packages gone?
 
-If you update R (and/or RStudio?), all the packages that do not come with the R installation are gone and yo have to re-install them. While this is certainly to some degree reasonable, it is also extremely annoying. It is therefore recommended to save a list of all the packages installed before any R/RStudio update and then use this list to automatically re-install all your packages. You might want to resort to this code to do so:
+If you update R (and/or RStudio?), all the packages that do not come with the R installation are gone and you have to re-install them. While this is certainly to some degree reasonable, it is also extremely annoying. It is therefore recommended to save a list of all the packages installed before any R/RStudio update and then use this list to automatically re-install all your packages. You might want to resort to this code to do so:
 
 ```R
 # Upgrade R without losing packages -------------------------------------------
@@ -146,9 +146,10 @@ You need to remove this individual from the analyses, but then every single corr
 Using R for analysis and Word for reporting, you would be required to check every single coefficient in your table and whether the number of asterisks attached to each coefficient is still valid). 
 Using R Markdown, you simply update your document, and every coefficient will be the correct one and assigned with the correct number of asterisks.  
 
-Christoph and I have developed a course on how to use R Markdown for writing manuscripts:  
+Christoph and I have developed a course on how to use R Markdown for writing manuscripts, but there are other courses around:  
 
-- [R Markdown Course](https://github.com/alex-strobel/R-Markdown.git)
+- [Our R Markdown Course](https://github.com/alex-strobel/R-Markdown.git)
+- [R Markdown for Scientists](https://rmd4sci.njtierney.com)
 
 While we have tried our best to provide you with our knowledge on R Markdown, we consider us still as novices ourselves. 
 So, it may pay to read the R Markdown Guide, and often enough, you may want to refer to the R Markdown Cheat Sheet:
@@ -158,7 +159,8 @@ So, it may pay to read the R Markdown Guide, and often enough, you may want to r
 
 For psychological research reports, there exists a template that renders your R Markdown document in APA style (so far only available for its 6th edition). 
 This template is included in the `papaja` package and you need to install it as described on the author's GitHub site. 
-It may also pay to familiarize yourself with the manual.
+It may also pay to familiarize yourself with the manual and take some introductory tutorial.
 
 - [*papaja* Download](https://github.com/crsh/papaja)
 - [*papaja* Manual](http://frederikaust.com/papaja_man/)
+- [*papaja* Tutorial](https://rpubs.com/izhong/papaja_tutorial)
