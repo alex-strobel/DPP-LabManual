@@ -40,7 +40,7 @@ So far, I could not find a both useful *and* visually appealing introduction to 
 
 ## Recommended R packages
 
-This folder contains manuals on a number of recommended R packages. Not all of the latter have been developed strictly for data analysis purposes, but in the broadest sense, they all serve the purpose of a reproducible data analysis.
+Here is a list recommended R packages. Not all of them have been developed strictly for data analysis purposes, but in the broadest sense, they all serve the purpose of a reproducible data analysis.
 
 So far, there are manuals on the following R packages you should have installed:
 
@@ -106,6 +106,7 @@ devtools::install_github("crsh/papaja")
 
 # install the latest papaja development snapshot
 devtools::install_github("crsh/papaja@devel")
+```
 
 
 ## R Programming Style Guide
