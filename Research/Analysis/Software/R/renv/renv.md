@@ -17,3 +17,5 @@ Learn more about the `renv` package here:
 Learn how to use GitHub and the `renv` package for version control and collaboration here:
 
 - [GitHub and `renv`](https://github.com/alex-strobel/DPP-LabManual/blob/main/Research/Administration/GitHub/GitHub_and_renv_short.md)
+
+Please not that managing projects with `renv` can be a pain in the ass. You may therefore consider other otions such as [`conda`](https://docs.conda.io/en/latest/) or [`docker`](https://www.docker.com) for ensuring computational reproducibility. 
