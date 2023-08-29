@@ -109,4 +109,23 @@ Then you work your changes into the branch.
 
 Additionally, it is important to make sure that you always explicitly close all files when you are done editing! There can be problems if there are some project files – such as R-scripts - open somewhere in the background. Often these are opened in RStudio or VS Code when you start a new session in the background, if they were still open when you last closed the program. Example: A has commented on file 1 and pushed the changes. The next day A works on another file 2, pushes the changes, but in the background, file 1 is still open. At the same time, B wants to incorporate the changes made by A to file 1. This leads to conflicts, because the open file 1 does not correspond to the status that B pushes to Git.
 
-...
+## Loading data from GitHub into R
+
+Usually, you have cloned a given GitHub project and open any data or script file from your local directory. 
+Yet, it may be that you simply want to load, e.g., data directly from a GitHub repo into R. 
+The (seemingly) correct way to do so would be to locate the file on GitHub, copy its URL, and then wrtite in R:
+
+```
+data = read.csv("'https://github.com/your-account/your-project/blob/master/Data/Data.csv', header = T")
+```
+
+Yet, this will result in a warning, and the `data` object will contain anything but your `Data.csv`. 
+To do so correctly, you need to go to your GitHub repo via the browser, locate the file and then hit the `Raw` button in the upper right corner of your browser window. 
+Then the file will be opened in raw mode, you copy the URL of *this* file and use it for import:
+
+```
+data = read.csv('https://raw.githubusercontent.com/your-account/your-project/master/Data/Data.csv', header = T)
+```
+
+Now it works!
+
