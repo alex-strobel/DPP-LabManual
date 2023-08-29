@@ -114,7 +114,7 @@ Additionally, it is important to make sure that you always explicitly close all 
 
 Usually, you have cloned a given GitHub project and open any data or script file from your local directory. 
 Yet, it may be that you simply want to load, e.g., data directly from a GitHub repo into R. 
-The (seemingly) correct way to do so would be to locate the file on GitHub, copy its URL, and then wrtite in R:
+The (seemingly) correct way to do so would be to locate the file on GitHub, copy its URL, and then write in R:
 
 ```
 data = read.csv("'https://github.com/your-account/your-project/blob/master/Data/Data.csv', header = T")
