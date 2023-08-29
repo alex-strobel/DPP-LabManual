@@ -18,6 +18,7 @@ Faculty of Psychology, TU Dresden
   - [Install Git](#install-git)
   - [Integrate Git in RStudio](#integrate-git-in-rstudio)
   - [Collaborating on projects with GitHub](#collaborating-on-projects-with-github)
+  - [Loading data from GitHub into R](#loading-data-from-github-into-R)
 
 ---
 
