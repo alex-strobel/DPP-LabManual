@@ -16,10 +16,13 @@ There are 4 main components to the file structure.
 - server.R
 - ui.R
 - helpers.R
+
 **www folder**
 - containing all pictures
+
 **dict folder**
 - The dict folder containing the text required for all questionaires in .tsv files
+
 **Folder(s) containing questionaire-specific information (currently BFI)**
 - The folder(s) containing the questionaire-specific information (e.g. BFI)
 
