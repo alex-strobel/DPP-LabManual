@@ -6,7 +6,7 @@ The link generated at the end has to have the form
 - http:<area>//141.76.19.82:3838/mediawiki/questionaire_results/?quesid=questionairename&v1=value_scale1&v2=value_scale2
 - e.g. http://141.76.19.82:3838/mediawiki/questionaire_results/?quesid=BFI&v1=3.2&v2=2.8&v3=2.2&v4=3.8&v5=3.0
 
-Participants are automatically sent to this page after finishing the questionaire(s). Currently, this link generation happens in a piece of code that works in the background and is alos responsible for deleting the data of those participants that did not consent to their data being stored. Therefore, if any changes have to be made, please contact Jens Strehle (jens.strehle@tu-dresden.de; The Project-ID is 977). 
+Participants are automatically sent to this page after finishing the questionaire(s). Currently, this link generation happens in a piece of code that works in the background and is alos responsible for deleting the data of those participants that did not consent to their data being stored. Therefore, if any changes have to be made, please contact Jens Strehle (jens.strehle@tu-dresden.de; The Project-ID is currently 977). 
 
 ## Shiny App
 ### File Structure
@@ -30,8 +30,8 @@ There are 4 main components to the file structure.
 **Folder(s) containing questionaire-specific information (currently BFI)**
 - The folder(s) containing the questionaire-specific information (e.g. BFI)
 - Each folder consists of two subdirectories: Dict and Normvalues
-- The Dict folder, works similarly to the Dict folder in the main folder, but the text here is specific to the questionaire. It should contain one column "scalename" which contains the name of the scale in the respective language and another column "scaledescription" which contains a description of what it means to have a high or low value on the corresponding scale.
--   The scaledescription should contain a %quantifier which will be replaced depending on the classification of the value as below average, average or above average with the quantifiers from the text_de.tsv/text_en.tsv files. Therefore the scaledescription should be written in a way in which the sentence with the quantifier placed instead of the %quantifier makes sense (or the structure of how the descriptions are created has to be changed)  
+  - The Dict folder, works similarly to the Dict folder in the main folder, but the text here is specific to the questionaire. It should contain one column "scalename" which contains the name of the scale in the respective language and another column "scaledescription" which contains a description of what it means to have a high or low value on the corresponding scale.
+  - The scaledescription should contain a %quantifier which will be replaced depending on the classification of the value as below average, average or above average with the quantifiers from the text_de.tsv/text_en.tsv files. Therefore the scaledescription should be written in a way in which the sentence with the quantifier placed instead of the %quantifier makes sense (or the structure of how the descriptions are created has to be changed)  
 
 ### Hosting
 The R-Shiny App is currently hosted on the mediawiki server of the methods faculty where the e-Learning Tool is also hosted
