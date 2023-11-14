@@ -11,10 +11,17 @@ Participants are automatically sent to this page after finishing the questionair
 ## Shiny App
 ### File Structure
 There are 4 main components to the file structure.
-- The .R files (server.R, ui.R, helpers.R) that contain the R-Code for the Shiny App
-- The www folder containing all pictures
-- The dict folder containing the text required for all questionaires in .tsv files.
-- The folder(s) containing the questionaire-specific information 
+
+**.R files** 
+- server.R
+- ui.R
+- helpers.R
+**www folder**
+- containing all pictures
+**dict folder**
+- The dict folder containing the text required for all questionaires in .tsv files
+**Folder(s) containing questionaire-specific information (currently BFI)**
+- The folder(s) containing the questionaire-specific information (e.g. BFI)
 
 ### Hosting
 The R-Shiny App is currently hosted on the mediawiki server of the methods faculty where the e-Learning Tool is also hosted
