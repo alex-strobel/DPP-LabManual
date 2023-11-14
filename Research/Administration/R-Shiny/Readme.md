@@ -22,6 +22,7 @@ The login data is
 - IP: 141.76.19.82
 - Username: hannah_pongratz
 - Password: C22,p
+
 After login you will be in a folder called hannah_pongratz. This is not the folder where the shiny-app files have to be. Instead navigate two levels up. There is a directory called srv. In this directory under shiny-server/mediawiki/questionaire-results are all the files.
 Only packages installed on the server can be used. These can be found under usr/local/lib/R/site-library. To install new packages, administrator privileges are needed which the account does not posess. If new packages are required contact Frank Leonhardt (frank.leonhardt@tu-dresden.de), who provides the technical support for the page.
 NOTE: The R-Version installed on the server is 3.6. This can lead to different behavior of the app compared to when it is run locally or hosted on shinyapps.io
