@@ -1,8 +1,8 @@
-### Overview R Shiny App
+# Overview R Shiny App
 ## Questionaire in REDCap
 
 
-# Link Generation
+### Link Generation
 The link generated at the end has to have the form 
 
 http:<area>//141.76.19.82:3838/mediawiki/questionaire_results/?quesid=questionairename&v1=value_scale1&v2=value_scale2
@@ -12,10 +12,10 @@ http:<area>//141.76.19.82:3838/mediawiki/questionaire_results/?quesid=questionai
 Participants are automatically sent to this page after finishing the questionaire(s)
 
 ## Shiny App
-# File Structure
+### File Structure
 
 
-# Hosting
+### Hosting
 The R-Shiny App is currently hosted on the mediawiki server of the methods faculty where the e-Learning Tool is also hosted
 The access to the server works via SSH (Secure Shell). To access it,  you need an FTP-Client (File Transfer Protocol), for example FileZilla and be connected to the TU-Net via VPN
 The login data is 
