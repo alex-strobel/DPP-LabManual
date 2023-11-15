@@ -17,17 +17,17 @@ There are 4 main components to the file structure.
 - server.R (The component that is responsible for the behaviour of the shiny app)
 - helpers.R (Self-written functions, accessed from server.R)
 
-**www folder**
+#### www folder
 - This folder contains all the pictures necessary for the app (currently includes the flags used as icons for the language selectors and the legend icons
 - By default, R shiny apps look for pictures in a folder called wwww, therefore if any additional pictures are required in the future, add them here and do not change the name of the folder
 - If there is an issue with pictures not showing up if the app is run on a server but are visible when run locally, check the capitalization of the filenames.
 - Vector graphics are not supported
 
-**Dict folder**
+#### Dict folder
 - The dict folder containing the text required for all questionaires in .tsv files
 - Any %some_text inside the text stored here are placeholders that are used to place some specific information here later
 
-**Folder(s) containing questionaire-specific information (currently BFI)**
+#### Folder(s) containing questionaire-specific information (currently BFI)
 - The folder(s) containing the questionaire-specific information (e.g. BFI)
 - Each folder consists of two subdirectories:
 - Dict 
