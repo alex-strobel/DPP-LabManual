@@ -55,14 +55,14 @@ The access to the server works via SSH (Secure Shell). To access it,  you need a
 The login data can be found on the group server in 
 
 
-<img src="Resources/filezilla_serversetup.png" width="800">
-![Filezilla Screenshot](Resources/filezilla_serversetup.png) 
+<img src="Resources/filezilla_serversetup.png" width="100%">
 
 After login you will be in a folder called hannah_pongratz. This is **not** the folder where the shiny-app files have to be. Instead navigate two levels up. There is a directory called srv. In this directory under shiny-server/mediawiki/questionaire-results are all the files.
 
 Only packages installed on the server can be used. These can be found under usr/local/lib/R/site-library. To install new packages, administrator privileges are needed which the account does **not** posess. If new packages are required contact Frank Leonhardt (frank.leonhardt@tu-dresden.de), who provides the technical support for the page.
 
 **NOTE**: The R-Version installed on the server is currently 3.6. This can lead to different behavior of the app compared to when it is run locally or hosted on shinyapps.io
-![Filezilla Screenshot](Resources/filezilla_filestructure.png)
+
+<img src="Resources/filezilla_filestructure.png" width="100%">
 
 
