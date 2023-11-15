@@ -46,7 +46,8 @@ There are 4 main components to the file structure.
   - This folder contains the normative values for the overall sample and the different selectable subgroups in .csv files together with a description of the samples in .txt files
   - Each .csv file contains the normative values for one (sub)group for all the scales that are part of the questionaire. It needs to contain at least three columns: Mean, SD and Reliability. For readability purposes there is currently also a column called scalename which contains the name of the corresponding scale, however the values are mapped to the corresponding scales stricly by their order (i.e. row number)
   - The normative values of the total sample are stored in a file called basic.csv directly in the Normvalues folder. This file is absolutly necessary.
-  - All the files containing data concerning a subsample are stored inside a folder that specifies on what basis the subgroups were split (e.g. gender, age, education). The name of the file should be the name of the subgroup (e.g. inside the gender folder, there is a file called men.csv and one called women.csv)
+  - All the files containing data concerning a subsample are stored inside a folder that specifies on what basis the subgroups were split (e.g. gender, age, education; these names cannot contain an underscore!). The name of the file should be the name of the subgroup (e.g. inside the gender folder, there is a file called men.csv and one called women.csv)
+  - For intersecting subgroups (e.g. women with high school diploma), there should be an additional folder which contains the name of both groups (e.g. education_gender) which contains the files for the subgroups, again with the labels separated by an underscore (e.g. women_abitur)
 
 ### Hosting
 The R-Shiny App is currently hosted on the mediawiki server of the methods faculty where the e-Learning Tool is also hosted
