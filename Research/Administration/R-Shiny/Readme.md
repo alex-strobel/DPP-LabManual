@@ -7,10 +7,6 @@
   - [Shiny App](#Shiny-App)
     - [File Structure](#File-Structure)
     - [Hosting](#Hosting)
-    - [Markdown All in One](#markdown-all-in-one)
-    - [markdownlint](#markdownlint)
-
-
 
 ## Questionaire in REDCap
 ### Link Generation
