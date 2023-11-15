@@ -57,7 +57,7 @@ The login data is
 - Username: hannah_pongratz
 - Password: C22,p
 
-![Filezilla Screenschot](Resources/filezilla.png)
+![Filezilla Screenschot](Resources/filezilla_serversetup.png)
 
 After login you will be in a folder called hannah_pongratz. This is **not** the folder where the shiny-app files have to be. Instead navigate two levels up. There is a directory called srv. In this directory under shiny-server/mediawiki/questionaire-results are all the files.
 
