@@ -39,7 +39,7 @@ There are 4 main components to the file structure.
 #### Folder(s) containing questionaire-specific information (currently BFI)
 - The folder(s) containing the questionaire-specific information (e.g. BFI)
 - Each folder consists of two subdirectories:
-- Dict 
+##### Dict 
   - The Dict folder, works similarly to the Dict folder in the main folder, but the text here is specific to the questionaire. It should contain one column "scalename" which contains the name of the scale in the respective language and another column "scaledescription" which contains a description of what it means to have a high or low value on the corresponding scale.
   - The scaledescription should contain a %quantifier which will be replaced depending on the classification of the value as below average, average or above average with the quantifiers from the text_de.tsv/text_en.tsv files. Therefore the scaledescription should be written in a way in which the sentence with the quantifier placed instead of the %quantifier makes sense (or the structure of how the descriptions are created has to be changed)
 - Normvalues
