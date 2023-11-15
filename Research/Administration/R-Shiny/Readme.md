@@ -55,7 +55,7 @@ The access to the server works via SSH (Secure Shell). To access it,  you need a
 The login data can be found on the group server in 
 
 
-<img src="Resources/filezilla_serversetup.png" width="400">
+<img src="Resources/filezilla_serversetup.png" width="800">
 ![Filezilla Screenshot](Resources/filezilla_serversetup.png) 
 
 After login you will be in a folder called hannah_pongratz. This is **not** the folder where the shiny-app files have to be. Instead navigate two levels up. There is a directory called srv. In this directory under shiny-server/mediawiki/questionaire-results are all the files.
