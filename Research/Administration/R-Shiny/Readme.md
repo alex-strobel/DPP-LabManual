@@ -12,7 +12,7 @@ Participants are automatically sent to this page after finishing the questionair
 ### File Structure
 There are 4 main components to the file structure.
 
-**.R files** 
+#### .R files  
 - ui.R (The component that included the definition of the user interface)
 - server.R (The component that is responsible for the behaviour of the shiny app)
 - helpers.R (Self-written functions, accessed from server.R)
