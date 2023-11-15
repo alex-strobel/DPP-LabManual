@@ -53,8 +53,8 @@ There are 4 main components to the file structure.
 The R-Shiny App is currently hosted on the mediawiki server of the methods faculty where the e-Learning Tool is also hosted. Therefore, if the code is changed here this does not automatically result in changes to the app online.
 The access to the server works via SSH (Secure Shell). To access it,  you need an FTP-Client (File Transfer Protocol), for example FileZilla and be connected to the TU-Net via VPN
 The login data can be found on the group server in 
-<img src="Resources/filezilla_serversetup.png" width="100">
-![Filezilla Screenshot](Resources/filezilla_serversetup.png width=100) 
+
+![Filezilla Screenshot](Resources/filezilla_serversetup.png) 
 
 After login you will be in a folder called hannah_pongratz. This is **not** the folder where the shiny-app files have to be. Instead navigate two levels up. There is a directory called srv. In this directory under shiny-server/mediawiki/questionaire-results are all the files.
 
