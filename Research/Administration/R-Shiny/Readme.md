@@ -1,4 +1,16 @@
 # Overview R Shiny App
+- [Research manuals](#research-manuals)
+  - [Table of Contents](Questionaire-in-REDCap)
+  - [Outline](#outline)
+  - [Contribution and attribution](#contribution-and-attribution)
+  - [Document structure](#document-structure)
+  - [Inserting figures and other content](#inserting-figures-and-other-content)
+  - [Recommended VS Code extensions for creating and editing manuals](#recommended-vs-code-extensions-for-creating-and-editing-manuals)
+    - [Markdown All in One](#markdown-all-in-one)
+    - [markdownlint](#markdownlint)
+
+
+
 ## Questionaire in REDCap
 ### Link Generation
 The link generated at the end has to have the form 
