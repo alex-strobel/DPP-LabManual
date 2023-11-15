@@ -50,7 +50,7 @@ There are 4 main components to the file structure.
   - For intersecting subgroups (e.g. women with high school diploma), there should be an additional folder which contains the name of both groups (e.g. education_gender) which contains the files for the subgroups, again with the labels separated by an underscore (e.g. women_abitur)
 
 ### Hosting
-The R-Shiny App is currently hosted on the mediawiki server of the methods faculty where the e-Learning Tool is also hosted
+The R-Shiny App is currently hosted on the mediawiki server of the methods faculty where the e-Learning Tool is also hosted. Therefore, if the code is changed here this does not automatically result in changes to the app online.
 The access to the server works via SSH (Secure Shell). To access it,  you need an FTP-Client (File Transfer Protocol), for example FileZilla and be connected to the TU-Net via VPN
 The login data is 
 - IP: 141.76.19.82
