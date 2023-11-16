@@ -28,7 +28,7 @@ There are 4 main components to the file structure.
 
 #### www folder
 - This folder contains all the pictures necessary for the app (currently includes the flags used as icons for the language selectors and the legend icons)
-- By default, R shiny apps look for pictures in a folder called _wwww_, therefore if any additional pictures are required in the future, add them here and do not change the name of the folder
+- By default, R shiny apps look for pictures in a folder called _www_, therefore if any additional pictures are required in the future, add them here and do not change the name of the folder
 - If there is an issue with pictures not showing up if the app is run on a server but are visible when run locally, check the capitalization of the filenames.
 - Vector graphics are not supported
 
