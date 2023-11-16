@@ -9,6 +9,8 @@
     - [Hosting](#Hosting)
 
 ## Questionaire in REDCap
+The questionaire(s) themselves are currently administered via REDCap. However, this may be changed in the future. As long as the link generated at the end has the same form as specified below, the means of adminsitration does not matter. Before filling out the questionaire(s) people can specify which questionaires they would like to complete and whether they agree to their data being used for research purposes in the future. If they do not consent, they can still complete the questionaires and be shown the results, but their data is deleted immediatly upon completion.
+
 ### Link Generation
 The link generated at the end has to have the form 
 
