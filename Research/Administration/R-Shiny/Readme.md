@@ -40,10 +40,11 @@ There are 4 main components to the file structure.
 - The folder(s) containing the questionaire-specific information (e.g. BFI)
 - Each folder consists of two subdirectories:
 - **Dict** 
-  - The Dict folder, works similarly to the Dict folder in the main folder, but the text here is specific to the questionaire. It should contain one column "scalename" which contains the name of the scale in the respective language and another column "scaledescription" which contains a description of what it means to have a high or low value on the corresponding scale.
-  - The scaledescription should contain a %quantifier which will be replaced depending on the classification of the value as below average, average or above average with the quantifiers from the text_de.tsv/text_en.tsv files. Therefore the scaledescription should be written in a way in which the sentence with the quantifier placed instead of the %quantifier makes sense (or the structure of how the descriptions are created has to be changed)
-- **Normvalues**
-  - This folder contains the normative values for the overall sample and the different selectable subgroups in .csv files together with a description of the samples in .txt files
+  - The Dict folder, works similarly to the Dict folder in the main folder, but the text here is specific to the questionaire. There are two types of files: Those starting with text_test and those starting with sample_
+  - The text_test files contain information about the scales / measured constructs. 
+  - The sample files contain information about the normative samples available. Each .csv file in the Norms folder should have a corresponding entry here
+- **Norms**
+  - This folder contains the normative values for the overall sample and the different selectable subgroups in .csv files
   - Each .csv file contains the normative values for one (sub)group for all the scales that are part of the questionaire. It needs to contain at least three columns: Mean, SD and Reliability. For readability purposes there is currently also a column called scalename which contains the name of the corresponding scale, however the values are mapped to the corresponding scales stricly by their order (i.e. row number)
   - The normative values of the total sample are stored in a file called basic.csv directly in the Normvalues folder. This file is absolutly necessary.
   - All the files containing data concerning a subsample are stored inside a folder that specifies on what basis the subgroups were split (e.g. gender, age, education; these names cannot contain an underscore!). The name of the file should be the name of the subgroup (e.g. inside the gender folder, there is a file called men.csv and one called women.csv)
