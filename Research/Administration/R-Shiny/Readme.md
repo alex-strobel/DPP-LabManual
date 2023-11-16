@@ -49,7 +49,7 @@ There are 4 main components to the file structure.
   - The normative values of the total sample are stored in a file called basic.csv directly in the *Norms* folder. This file is absolutly necessary.
   - All the files containing data concerning a subsample are stored inside a folder that specifies on what basis the subgroups were split (e.g. gender, age, education). The name of the file should be the name of the subgroup (e.g. inside the gender folder, there is a file called men.csv and one called women.csv)
   - For intersecting subgroups (e.g. women with high school diploma), there should be an additional folder which contains the name of both groups (e.g. education_gender) which contains the files for the subgroups, again with the labels separated by an underscore (e.g. women_abitur).
-  - **NOTE**: Because it is assumed, that underscores separate the names of subgroupd, the names of an individual subgroup themselves cannot contain underscores!
+  - **NOTE**: Because it is assumed, that underscores separate the names of subgroups, the names of an individual subgroup themselves cannot contain underscores!
 
 <img src="Resources/selecters.png" width="100%">
 
