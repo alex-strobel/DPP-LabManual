@@ -57,8 +57,8 @@ There are 4 main components to the file structure.
 
 ### Hosting
 The R-Shiny App is currently hosted on the mediawiki server of the methods faculty where the e-Learning Tool is also hosted. Therefore, if the code is changed here this does not automatically result in changes to the app online.
-The access to the server works via SSH (Secure Shell). To access it,  you need an FTP-Client (File Transfer Protocol), for example FileZilla and be connected to the TU-Net via VPN
-The login data can be found on the group server in 
+The access to the server works via SSH (Secure Shell). To access it,  you need an FTP-Client (File Transfer Protocol), for example FileZilla and be connected to the TU-Net via VPN. The IP-adress is 141.76.19.82 and the username is hannah_pongratz.
+The password can be found on the group server.
 
 
 <img src="Resources/filezilla_serversetup.png" width="100%">
