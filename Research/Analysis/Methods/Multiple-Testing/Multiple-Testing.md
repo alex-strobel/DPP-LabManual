@@ -100,8 +100,7 @@ Yet, you might want to see this as a learning opportunity to find out by yoursel
 ### Correction for multiple testing if using confidence intervals
 
 More and more journals discourage the use of *p*-values and request the reporting of confidence intervals (CI), usually the 95% CI.
-If we need to correct for multiple testing, the only way to do so is to adjust the CI accordingly.
-In the above example, our CI would be 1-.05/6 = .99167, i.e., a 99.167 CI (or round up to a 99.2 CI to be even more conservative or round down to a 99% CI to account for the too conservative nature of the Bonferroni correction when measure correlate).
+If you use `psych::corr.test` together with some correction method, the adjusted confidence intervals are stored in the generated object's slot `$ci.adj`.    
 
 ## Suggested correction methods
 
