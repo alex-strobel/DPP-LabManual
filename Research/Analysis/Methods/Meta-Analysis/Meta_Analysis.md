@@ -12,7 +12,7 @@ Michael Inzlicht (University of Toronto)
 
 ---
 
-## Abstract (created using ChatGPT)
+## Abstract*
 
 This tutorial provides a comprehensive, hands-on guide for conducting meta-analyses in psychological research using R. It is primarily aimed at researchers with basic R proficiency who seek a practical entry point into the field of meta-analytic techniques. Emphasizing transparency and reproducibility, the tutorial aligns with established standards such as the PRISMA statement and draws on existing authoritative resources like Harrer et al. (2022) and Quintana (2015).
 
@@ -21,6 +21,8 @@ The guide covers essential methodological steps, including the formulation of se
 Subsequent sections introduce the use of R packages meta and metafor, with a stronger focus on the latter due to its comprehensive functionality. Core statistical models—fixed-effects and random-effects—are explained alongside a worked example analyzing the link between anxiety and error-related negativity (ERN), using data from Saunders & Inzlicht (2020). The tutorial provides annotated R code for data transformation, model fitting, and effect size estimation.
 
 Finally, the guide explores advanced topics such as publication bias assessment (e.g., funnel plots, Egger’s test, Trim and Fill, PET/PEESE) and will address heterogeneity analysis and meta-regression later-on. Illustrated funnel plots and code examples underscore the practical applicability of the tools discussed. Overall, the tutorial serves as a concise yet informative primer for researchers embarking on meta-analytic projects, combining conceptual insights with applied statistical methods.
+
+* created using ChatGPT
 
 ---
 
