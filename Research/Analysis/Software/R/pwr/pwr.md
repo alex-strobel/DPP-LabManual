@@ -1,6 +1,6 @@
 # R package `pwr`
 
-The `pwr` package by lets you do power analysis for most of the analyses types we usually run: 
+The `pwr` package by lets you do power analysis for most of the analysis types we usually run: 
 
 - Providing its functions with an effect size and power returns the sample size needed to detect such an effect with the the desired power.
 - Providing sample size and power returns the mimimum effect size one can detect in this sample with the desired power. 
