@@ -32,7 +32,7 @@ If you need to combine vector and raster graphics, save them in high resolution 
 - **Get yourself the right software tools!**<br>
 One for handling vector and one for handling raster graphics. Ideally, they come from the same developer, will be maintained in the foreseeable future, are free and open source or at least do not come with a licence that has to be renewed annually
 - **Consult the relevant artwork guidelines!**<br>
-If in doubt, use RGB color space, 90 mm width for smaller figures that fit on in column (if the journal uses columns anyway) or 180 mm width for larger figures, and serif font (ideally Helvetica)
+If in doubt, use RGB color space, 90 mm width for smaller figures that fit on in column (if the journal uses columns anyway) or 180 mm width for larger figures, and sans serif font (ideally Helvetica)
 - **Think twice when it comes to point and line style and color!**<br>
 Point style should meaningful, lines solid, and different colors should remain distinguishable for everyone under every circumstance
 - **Provide all necessary information, but not all possible information!**
