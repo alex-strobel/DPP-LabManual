@@ -18,7 +18,7 @@ corr_evol <- function(x, y, method = "Pearson", start = 10, step = 1, corridor =
   #
   # Schönbrodt, F. & Perugini, M. (2013). At what sample size do correlations
   # stabilize? *Journal of Research in Personality, 47*, 609-612.
-  # http://dx.doi.org/10.1016/j.jrp.2013.05.009
+  # [http://dx.doi.org/10.1016/j.jrp.2013.05.009]
   #
   # x and y  = correlated variables  
   # method   = correlation method (Pearson, Spearman, Kendall), 
