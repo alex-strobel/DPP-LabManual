@@ -13,7 +13,7 @@
 
 ---
 
-> **Summary.** When submitting a manuscript, pay attention to all the relevant guidelines, especially the artwork guidelines. In five years from now, when you magnify a figure to 300%, you do not want to see pixels, count on that! Prepare yourself for blinded review, reserver at least two hours for the submission process to (re)create all the files required to be uploaded. Afterwards (or directly before), you might to consider posting your manuscript as a preprint!
+> **Summary.** When submitting a manuscript, pay attention to all the relevant guidelines, especially the artwork guidelines. In five years from now, when you magnify a figure to 300%, you do not want to see pixels, count on that! Prepare yourself for blinded review, reserve at least two hours for the submission process to (re)create all the files required to be uploaded. Afterwards (or directly before), you might to consider posting your manuscript as a preprint!
 
 ---
 ## Publication guideline of the TU Dresden
@@ -22,11 +22,11 @@ Whenever possible, we adhere to the [Publication Guidelines of the TU Dresden](h
 
 ## Submission guidelines
 
-As already mentioned, a decision on the journal you want to submit your mansucrit to should have already been made before preparing the manuscript in order to format it appropriately. Yet, even if you consulted the submission guidelines ahead of manuscript preparation, you should now go though these guidelines again to make sure you did not miss some important instruction. As an example for such guidelines, see here:
+As already mentioned, a decision on the journal you want to submit your manuscript to should have already been made before preparing the manuscript in order to format it appropriately. Yet, even if you consulted the submission guidelines ahead of manuscript preparation, you should now go though these guidelines again to make sure you did not miss some important instruction. As an example for such guidelines, see here:
 
 - [Submission guidelines of PLoS ONE](https://journals.plos.org/plosone/s/submission-guidelines)
 
-Among the guidelines, ther will be instructions artwork you are required to upload. What you should always keep in mind when is comes to artwork is:
+Among the guidelines, there will be instructions for artwork you are required to upload. What you should always keep in mind when is comes to artwork is:
 - **Prefer vector over raster graphics!**<br>
 If you need to combine vector and raster graphics, save them in high resolution (≥ 300 dpi, format depending on the journal). In doubt, use 1000 dpi *.tif images with LZW compression
 - **Get yourself the right software tools!**<br>
