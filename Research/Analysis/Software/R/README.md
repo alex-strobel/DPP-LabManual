@@ -31,6 +31,7 @@ To install R and RStudio, go to:
 - [The R Project for Statistical Computing](https://www.r-project.org)
 - [RStudio](https://www.rstudio.com/products/rstudio/download/) 
 
+Basically, follow the first link above, click on the [download R](https://cran.r-project.org/mirrors.html) link in the first paragraph under "Getting Started", choose an appropriate download mirror (e.g., https://ftp.fau.de/cran/) 
 The R Project provides an _Introduction to R_, but it is not a short read. For a denser overview on the basics of R, you may want to use the cheat sheet below:
 
 - [Introduction to R](https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf)
