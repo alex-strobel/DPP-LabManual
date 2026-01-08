@@ -7,7 +7,6 @@
 ---
 
 This LabManual bundles together all the knowledge we as the AG.DPP team have acquired over the years (including knowledge acquired by former team members). It is intended as a knowledge base for all of us who happen to have to go to where others of us (sometimes boldly) have gone before. One may simply use the table of contents below, browse through the folders of this manual, look up manuals on certain issues via the [Wiki](https://github.com/alex-strobel/DPP-LabManual/wiki), or search this repository via the Search field top left. 
-<!-- I am usure about this, please check -->
 
 So far, this manual is still under development and some of its contents have not yet been finally discussed and agreed upon by all team members. Still, it may already now be used for informing ourselves about new routines at the lab not commonly used by all team members or for instructing new team members (e.g., master students) on how to use certain tools or perform certain routines.
 
