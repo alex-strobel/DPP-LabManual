@@ -11,6 +11,7 @@ Faculty of Psychology, TU Dresden
 
 - [Multiple Testing](#multiple-testing)
   - [Table of Contents](#table-of-contents)
+  - [Abstract](#abstract)
   - [Introduction](#introduction)
   - [Correction methods](#correction-methods)
     - [Bonferroni correction](#bonferroni-correction)
@@ -22,6 +23,12 @@ Faculty of Psychology, TU Dresden
   - [Suggested correction methods](#suggested-correction-methods)
 
 ---
+
+## Abstract
+
+Frequentist hypothesis testing conventionally treats results with p < .05 as statistically significant. However, when the same hypothesis is tested repeatedly—such as correlating multiple related predictors with a single outcome—the probability of false positive findings increases substantially. This repository provides an applied overview of the multiple testing problem and introduces commonly used correction methods, with a particular focus on correlational research in psychology. Using the example of associations between Neuroticism facets and well-being, the text illustrates why uncorrected testing inflates Type I error rates and why naïve correction strategies may be inappropriate when tests are not independent.
+The repository reviews several correction approaches. The Bonferroni correction, although widely used, is shown to be overly conservative when variables are correlated. As an alternative, matrix spectral decomposition is introduced as a method to estimate the effective number of independent tests based on the eigenvalues of a correlation matrix, thereby yielding a less stringent adjustment when predictors overlap substantially. The text further explains sequential procedures such as the Holm correction, which controls the family-wise error rate with greater power than Bonferroni, and False Discovery Rate (FDR) methods, which prioritize controlling the expected proportion of false positives among significant findings.
+In addition, the repository addresses practical issues such as multiple testing when reporting confidence intervals, implementation in R, and the role of correction methods in power analysis and preregistration. Rather than advocating a single “best” method, it offers pragmatic recommendations tailored to research context, audience, and desired level of conservativeness. Overall, the text aims to equip psychology researchers with a principled yet practical understanding of multiple testing corrections and their transparent application in empirical work.
 
 ## Introduction
 
