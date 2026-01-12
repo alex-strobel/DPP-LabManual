@@ -21,7 +21,7 @@ To put it simple:
 6. We adhere to common principles when using language, i.e., everything said and written should be as accessible and inclusive as possible. 
 7. ...
 
-To elaborate :
+To elaborate:
 
 ## 1. We are a team and as often as possible will make collective decisions.
 
@@ -45,12 +45,12 @@ At its core, this means that whenever possible, we
 - provide open data, code, and study materials
 - request or remind to adhere to open science principles as reviewers or committee members 
 
-As yet, we have not arrived at a common framework for how to do so, e.g., preregister at [AsPredicted](https://github.com/alex-strobel/DPP-LabManual/wiki/AsPredicted) or at [OSF](https://github.com/alex-strobel/DPP-LabManual/wiki/OSF), provide open data, code and materials via OSF, [OpARA](https://github.com/alex-strobel/DPP-LabManual/wiki/OpARA) or [GitHub](https://github.com/alex-strobel/DPP-LabManual/wiki/GitHub), or how to request open data and code when reviewing papers <!-- add template -->. 
+As yet, we have not arrived at a common framework for how to do so, e.g., preregister at [AsPredicted](https://github.com/alex-strobel/DPP-LabManual/wiki/AsPredicted) or at [OSF](https://github.com/alex-strobel/DPP-LabManual/wiki/OSF), provide open data, code and materials via OSF, [OpARA](https://github.com/alex-strobel/DPP-LabManual/wiki/OpARA) or [GitHub](https://github.com/alex-strobel/DPP-LabManual/wiki/GitHub), or how to request open data and code when reviewing papers<!-- add template -->. 
 Still, everyone of us should try their best to adhere to the principles outlined above and detailed in the OSIP Statement.  
 
 ## 4. We condemn scientific misconduct and abuse of power. 
 
-There are some hierachical structures that we adhere to and which relate to the respective authority to issue directives ("Weisungsbefugnis"). For example, the chairholder is responsible for his/her employees (Postdocs, PhD students) and has the authority to give instructions to them. Postdocs/PhD students, in turn, are authorized to give instructions to students and student assistants. However, we strictly abendom scientific misconduct and abuse of power. We value an open discussion culture: nobody shall be afraid to express dissenting opinions. See this article for fruther information: https://zenodo.org/record/5126637#.YjIV7C_36L4
+There are some hierachical structures that we adhere to and which relate to the respective authority to issue directives ("Weisungsbefugnis"). For example, the chairholder is responsible for his/her employees (Postdocs, PhD students) and has the authority to give instructions to them. Postdocs/PhD students, in turn, are authorized to give instructions to students and student assistants. However, we strictly abendom scientific misconduct and abuse of power. We value an open discussion culture: nobody shall be afraid to express dissenting opinions. See this article for further information: https://zenodo.org/record/5126637#.YjIV7C_36L4
 
 ## 5. We always comment our code.
 
@@ -61,13 +61,13 @@ Of course, we do not comment on details that are obvious to readers of our code 
 
 ```
 # set plot window to one row and two columns
-par(mfrow = c(1, 2)
+par(mfrow = c(1, 2))
 ```
 
 except that the code we are writing is intended to be used by R novices. 
 
 Another topic where comments are really helpful is the libraries used in a given script. 
-You may need to read an SPSS data file of questionnaire responses (via, e.g., the `haven` package) and an Excel file with reaction time data (via, e.g., the `readxl` package), want to perform *post-hoc* power analysis (eg., via the `pwr` package), and then – having determined deviation from multivariate normality via Mardia's test implemented in the `psych` package - want to run a mediation analysis using the package `lavaan`. 
+You may need to read an SPSS data file of questionnaire responses (via, e.g., the `haven` package) and an Excel file with reaction time data (via, e.g., the `readxl` package), want to perform *post-hoc* power analysis (eg., via the `pwr` package), and then – having determined deviation from multivariate normality via Mardia's test implemented in the `psych` package – want to run a mediation analysis using the package `lavaan`. 
 In such a case, we state in the header of our R script:
 
 ```
