@@ -9,7 +9,7 @@ This manual is at the core of this LabManual. **All members of AG.DPP are requir
 
 1. [Pinpoint your research question and formulate your hypotheses](01_Research_question.md)
    
-   It is absolutely essential to have a well-formulated research question, better think it over and over than to start your project with an ill-specified research question. Also, identify potential collaborators and discuss your question with them. One of them should be assigned to be the so-called Research Transparency Advisor, and all of them (but not necessarily *only* them) will be potential co-authors of a manuscript that eventually results from your project, so make sure that everyone involved in principle *can* and actually *does* filfil the criteria for authorship.
+   It is absolutely essential to have a well-formulated research question, better think it over and over than to start your project with an ill-specified research question. Also, identify potential collaborators and discuss your question with them. One of them should be assigned to be the so-called Research Transparency Advisor, and all of them (but not necessarily *only* them) will be potential co-authors of a manuscript that eventually results from your project, so make sure that everyone involved in principle *can* and actually *does* fullfil the criteria for authorship.
    
 2. [Write the theoretical part of your manuscript](02_Theoretical_part.md)
    
@@ -29,11 +29,11 @@ This manual is at the core of this LabManual. **All members of AG.DPP are requir
 
 6. [Develop an - ideally fully scripted - analysis plan](06_Analysis_plan.md)
    
-   One of the most important steps in conducting a research project is to develop an adequate analysis plan. Use *state of the art* analysis routines that are best suited for your research question and type of sample and data. These routines can be fully scripted ideally, they *are already fully scripted* before you even start with data collection. Prefer open analysis software, usually R/R packages! Also consider to use Baysia statistics, as you should be able to reject your null hypothesis which you cannot if using a frequentist approach. And finally, carefully plan in advance how to merge your data if they come from different sources (e.g., questionnaire data collected via REDCap, EEG data collected via BrainVision Analyzer, reaction time data collected using a Presentation or Python script etc.)
+   One of the most important steps in conducting a research project is to develop an adequate analysis plan. Use *state of the art* analysis routines that are best suited for your research question and type of sample and data. These routines can be fully scripted; ideally, they *are already fully scripted* before you even start with data collection. Prefer open analysis software, usually R/R packages! Also consider to use Baysia statistics, as you should be able to reject your null hypothesis which you cannot if using a frequentist approach. And finally, carefully plan in advance how to merge your data if they come from different sources (e.g., questionnaire data collected via REDCap, EEG data collected via BrainVision Analyzer, reaction time data collected using a Presentation or Python script etc.)
 
 7. [Write the methods part of your manuscript](07_Methods_part.md)
 
-   We use the 21-word solution! Therefore, we need to report how we determined our sample size (ideally, but not necessarily via a power calculation). We also need to report possible data exlusions and therefore need to make sure that they are not done arbitrarily. Furthermore, we need to report al measures in the study such as variables reflecting questionnaire or tests results or indices of performance in experimental paradigms. All measures assessed should be listed even if they are not use of interest in a given manuscript (but assessed for another purpose). The measures of interest should be described in sufficient detail in the Methods section, and the same holds for the study procedure, so that other researchers in principle should be able to replicate our study. Giving as much detail as possible is especially important for our statistical analyses, but if we provide open data and code (what we should always do!), we may skip some of the more specific details, otherwise the Statistical Analyses subsection may become too long. Ah, and we cite all the software we use appropriately!
+   We use the 21-word solution! Therefore, we need to report how we determined our sample size (ideally, but not necessarily via a power calculation). We also need to report possible data exclusions and, therefore, need to make sure that they are not done arbitrarily. Furthermore, we need to report all measures in the study such as variables reflecting questionnaire or test results or indices of performance in experimental paradigms. All measures assessed should be listed even if they are not of interest in a given manuscript (but assessed for another purpose). The measures of interest should be described in sufficient detail in the Methods section, and the same holds for the study procedure, so that other researchers in principle should be able to replicate our study. Giving as much detail as possible is especially important for our statistical analyses, but if we provide open data and code (what we should always do!), we may skip some of the more specific details, otherwise the Statistical Analyses subsection may become too long. Ah, and we cite all the software we use appropriately!
 
 8. [Apply for ethical approval](08_Ethical_approval.md)
 
@@ -45,7 +45,7 @@ This manual is at the core of this LabManual. **All members of AG.DPP are requir
 
 10. [Collect data](10_Data_collection.md)
 
-      When assessing personal data (i.e., such that would make it possible to identify a given participant), we make sure to adhere to common guidelines for treating such data and also document the data collection priocess and the measures taken to protect such data. It is recommended to recruit and manage participants via ORSEE and to use REDCap for data acquisition and management. During data collection, we continuously perform data quality checks. ...
+      When assessing personal data (i.e., such that would make it possible to identify a given participant), we make sure to adhere to common guidelines for treating such data and also document the data collection process and the measures taken to protect such data. It is recommended to recruit and manage participants via ORSEE and to use REDCap for data acquisition and management. During data collection, we continuously perform data quality checks. ...
 
 11. [Preprocess and merge data](11_Preprocessing.md)
     
@@ -61,15 +61,15 @@ This manual is at the core of this LabManual. **All members of AG.DPP are requir
 
 14. [Openly provide all data, analysis scripts and ideally material](14_Open_data_and_code.md)
 
-    Whenever possible, we provide open data and code (and ideally also open material). If we provide open data, the data come with a codebodd that explains all variables in sufficient detail. We provide our data and code on a reliable repository such as OSF, GitHub or OpARA.
+    Whenever possible, we provide open data and code (and ideally also open material). If we provide open data, the data come with a codebook that explains all variables in sufficient detail. We provide our data and code on a reliable repository such as OSF, GitHub or OpARA.
 
 15. [Submit your manuscript along with a preprint](15_Manuscript_submission.md)
 
-      When submitting a manuscript, pay attention to all the relevant guidelines, especially the artwork guidelines. In five years from now, when you magnify a figure to 300%, you do not want to see pixels, count on that! Prepare yourself for blinded review, reserver at least two hours for the submission process to (re)create all the files required to be uploaded. Afterwards (or directly before), you might to consider posting your manuscript as a preprint!
+      When submitting a manuscript, pay attention to all the relevant guidelines, especially the artwork guidelines. In five years from now, when you magnify a figure to 300 %, you do not want to see pixels, count on that! Prepare yourself for blinded review, reserve at least two hours for the submission process to (re)create all the files required to be uploaded. Afterwards (or directly before), you might consider posting your manuscript as a preprint!
 
 16. [Revise your manuscript](16_Manuscript_revision.md)
 
-      Addressing comments made during the review process only can make your manuscfript stronger, either because the revirewers raised important issues or because you had a second thought on some paragraph you wrote, some decision you made or some statistical procedure you employed, only to find out that to the best of your (current) knowledge, you were right. Still, discuss everything with your co-authors! Carefully structure your rebuttal letter, because it might be longer than your manuscript, and it is in your best interest, that the reviewers won't get lost in your rebuttal.
+      Addressing comments made during the review process only can make your manusccript stronger, either because the reviewers raised important issues or because you had a second thought on some paragraph you wrote, some decision you made or some statistical procedure you employed, only to find out that to the best of your (current) knowledge, you were right. Still, discuss everything with your co-authors! Carefully structure your rebuttal letter, because it might be longer than your manuscript, and it is in your best interest that the reviewers won't get lost in your rebuttal.
 
 17. [Archive your project](17_Project_archiving.md)
 
