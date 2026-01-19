@@ -7,6 +7,19 @@ Faculty of Psychology, TU Dresden
 
 ---
 
+## Abstract
+
+This contribution examines the classification and interpretation of effect sizes in psychological research, with a focus on correlation coefficients (*r*), which are most commonly used at AG.DPP. Although Cohen’s (1988) benchmarks for small, medium, and large effects remain influential, growing evidence suggests that these notional guidelines are often inappropriate. Recent meta-analytic and integrative work has therefore proposed empirically derived classification schemes based on the observed distribution of effect sizes within specific subdisciplines of psychology.
+
+The article reviews key findings from treatment research, applied psychology, individual differences, social psychology, and neuroimaging. Across these domains, substantial variability in typical effect sizes emerges, driven by differences in sample size, study design, measurement reliability, and publication practices. In particular, imaging and experimental subfields with small sample sizes tend to report larger effects, a pattern consistent with publication bias. Evidence from preregistered studies further supports this interpretation, showing markedly smaller median effect sizes than non-preregistered research. Additional differences between within- and between-subjects designs reinforce the conclusion that general, discipline-independent benchmarks are of limited utility.
+
+Against this background, the article rises a pragmatic recommendation for AG.DPP. When effects must be categorized, correlations of .10, .20, and .30 are suggested as thresholds for small, medium, and large effects, respectively, following [Gignac and Szodorai (2016)](#references), and are complemented by corresponding power-based sample size considerations.
+
+(Abstract created with ChatGPT)
+
+---
+
+
 ## Table of Contents
 
 - [Effect Sizes](#effect-sizes)
@@ -38,7 +51,7 @@ In another highly interesting study, [Schäfer and Schwarz (2019)](#references) 
 
 ## Recommendation
 
-Given this evidence, if we *must* classify an effect, we at AG.DPP use the thresholds **.10**, **.20**, and **.30** to classify correlations as **small**, **medium**, and **large**, and cite [Gignac and Szodorai (2016)](#references) as reference because they derive their classification from studies from individual differences research. Table 2 gives the sample sizes needed to detect correlations of this size with 80%, 90%, and 95% power (analyses done with the [`pwr` package](https://github.com/alex-strobel/DPP-LabManual/wiki/R-package-pwr)).
+Given this evidence, if we *must* classify an effect, we at AG.DPP use the thresholds **.10**, **.20**, and **.30** to classify correlations as **small**, **medium**, and **large**, and cite [Gignac and Szodorai (2016)](#references) as reference because they derive their classification from studies from individual differences research. Table 2 gives the sample sizes needed to detect correlations of this size with 80%, 90%, and 95% power (analyses done with the [`pwr` package](https://github.com/alex-strobel/DPP-LabManual/blob/main/Research/Analysis/Software/R/pwr/pwr.md)).
 
 **Table 2.** Sample sizes needed to detect small, medium, and large correlations
 
