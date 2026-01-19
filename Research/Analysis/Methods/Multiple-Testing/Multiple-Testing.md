@@ -7,6 +7,18 @@ Faculty of Psychology, TU Dresden
 
 ---
 
+## Abstract
+
+Frequentist hypothesis testing conventionally treats results with p < .05 as statistically significant. However, when the same hypothesis is tested repeatedly—such as correlating multiple related predictors with a single outcome—the probability of false positive findings increases substantially. This repository provides an applied overview of the multiple testing problem and introduces commonly used correction methods, with a particular focus on correlational research in psychology. Using the example of associations between Neuroticism facets and well-being, the text illustrates why uncorrected testing inflates Type I error rates and why naïve correction strategies may be inappropriate when tests are not independent.
+
+The repository reviews several correction approaches. The Bonferroni correction, although widely used, is shown to be overly conservative when variables are correlated. As an alternative, matrix spectral decomposition is introduced as a method to estimate the effective number of independent tests based on the eigenvalues of a correlation matrix, thereby yielding a less stringent adjustment when predictors overlap substantially. The text further explains sequential procedures such as the Holm correction, which controls the family-wise error rate with greater power than Bonferroni, and False Discovery Rate (FDR) methods, which prioritize controlling the expected proportion of false positives among significant findings.
+
+In addition, the repository addresses practical issues such as multiple testing when reporting confidence intervals, implementation in R, and the role of correction methods in power analysis and preregistration. Rather than advocating a single “best” method, it offers pragmatic recommendations tailored to research context, audience, and desired level of conservativeness. Overall, the text aims to equip psychology researchers with a principled yet practical understanding of multiple testing corrections and their transparent application in empirical work.
+
+(Abstract created with ChatGPT)
+
+---
+
 ## Table of Contents
 
 - [Multiple Testing](#multiple-testing)
@@ -24,19 +36,13 @@ Faculty of Psychology, TU Dresden
 
 ---
 
-## Abstract
-
-Frequentist hypothesis testing conventionally treats results with p < .05 as statistically significant. However, when the same hypothesis is tested repeatedly—such as correlating multiple related predictors with a single outcome—the probability of false positive findings increases substantially. This repository provides an applied overview of the multiple testing problem and introduces commonly used correction methods, with a particular focus on correlational research in psychology. Using the example of associations between Neuroticism facets and well-being, the text illustrates why uncorrected testing inflates Type I error rates and why naïve correction strategies may be inappropriate when tests are not independent.
-The repository reviews several correction approaches. The Bonferroni correction, although widely used, is shown to be overly conservative when variables are correlated. As an alternative, matrix spectral decomposition is introduced as a method to estimate the effective number of independent tests based on the eigenvalues of a correlation matrix, thereby yielding a less stringent adjustment when predictors overlap substantially. The text further explains sequential procedures such as the Holm correction, which controls the family-wise error rate with greater power than Bonferroni, and False Discovery Rate (FDR) methods, which prioritize controlling the expected proportion of false positives among significant findings.
-In addition, the repository addresses practical issues such as multiple testing when reporting confidence intervals, implementation in R, and the role of correction methods in power analysis and preregistration. Rather than advocating a single “best” method, it offers pragmatic recommendations tailored to research context, audience, and desired level of conservativeness. Overall, the text aims to equip psychology researchers with a principled yet practical understanding of multiple testing corrections and their transparent application in empirical work.
-
 ## Introduction
 
 When we test a hypothesis using the frequentist approach, we typically say that the test was significant, if *p* < .05.
 Yet, if we test the same hypothesis multiple times, 5% of these tests will produce significant results per chance.
 As an example: You hypothesise that Neuroticism is negatively correlated with overall well-being.
 You assess the former using the NEO-PI-R and the later via the WH0-5 self-report questionnaire.
-If you now correlate the six Neuroticism facts with the WHO-5 total score, you need to correct for multiple testing because you test the same hypothesis six times (for each facet).
+If you now correlate the six Neuroticism facets with the WHO-5 total score, you need to correct for multiple testing because you test the same hypothesis six times (for each facet).
 This page will outline the most commonly used correction methods in our group and will close with a general recommendation.
 
 ## Correction methods
