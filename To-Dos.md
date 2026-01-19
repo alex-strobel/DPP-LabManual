@@ -12,6 +12,12 @@ Here, gaps in existing entries will be listed as of January 2025. Please make su
      - [ ] 9. Preregistration
      - [ ] 10. Data collection
      - [ ] 17. Archive your project
+- [ ] [Meta_Analysis](https://github.com/alex-strobel/DPP-LabManual/blob/main/Research/Analysis/Methods/Meta-Analysis/Meta_Analysis.md)
+     - [ ] Search terms
+     - [ ] Study inclusion and exclusion
+     - [ ] Coding schemes
+     - [ ] Adressing heterogeneity
+     - [ ] Meta-regression 
 
 ## Teaching
 - [ ] [Exams](https://github.com/alex-strobel/DPP-LabManual/blob/main/Teaching/Exams.md) | Prüfberechtigung ergänzen, neue Prüfungszeiträume für B. Sc. einpflegen, SELMA hat HISQIS abgelöst
