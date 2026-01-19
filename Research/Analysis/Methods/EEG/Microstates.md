@@ -4,6 +4,20 @@
 Faculty of Psychology<br>
 TU Dresden
 
+<!-- The following abstract was created with ChatGPT. It needs an educated eye to control for possible mistakes.
+## Abstract
+
+EEG microstate analysis provides a data-driven framework for characterizing transient, quasi-stable patterns of whole-brain electrical activity and their temporal dynamics. Microstates are defined as brief periods during which the scalp voltage topography remains stable before rapidly transitioning to a different configuration. Because each microstate reflects the spatial distribution across all EEG channels, this approach jointly exploits temporal and spatial information and avoids the limitations of channel-restricted analyses such as classic event-related potentials. In particular, microstate analysis mitigates the problem of cognitive subtraction by capturing distributed changes in neural activity that may arise when experimental conditions differ along multiple dimensions.
+
+This manual outlines a practical pipeline for applying microstate analysis to task-based EEG data using MATLAB and EEGLAB. After standard preprocessing and epoching, subject-level ERPs are normalized by global field power and aggregated to a grand mean, which is then segmented into topographical patterns using k-means clustering. Model selection is guided by elbow criteria and microstate duration, balancing goodness of fit against overfitting. The resulting cluster solution is subsequently applied to condition-specific ERPs to derive microstate sequences and mean microstate topographies.
+
+Condition differences are assessed at two complementary levels. Global differences in microstate topography are quantified using cosine similarity and evaluated via permutation-based topographical analysis of variance (TANOVA), yielding robust null distributions for statistical inference. Local differences are examined through channel-wise paired t-tests on microstates that show significant global effects, allowing identification of electrodes that contribute most strongly to observed differences while acknowledging the high-dimensional nature of the signal.
+
+Overall, this approach enables sensitive comparisons of distributed neural dynamics in task-based EEG, extends microstate methodology beyond resting-state paradigms, and provides a principled alternative to purely local or purely temporal analyses.
+
+(Abstract created with ChatGPT)
+-->
+
 ---
 
 ## Table of Contents
