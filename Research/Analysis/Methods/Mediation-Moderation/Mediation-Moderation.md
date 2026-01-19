@@ -7,6 +7,18 @@ Faculty of Psychology, TU Dresden
 
 ---
 
+## Abstract
+
+Mediation and moderation analyses are widely used regression-based techniques in psychological and individual differences research, yet they address fundamentally different research questions. This article provides a concise conceptual and practical introduction to both approaches, clarifying their distinct purposes and typical implementations.
+
+Mediation analysis examines whether the association between an independent variable (*X*) and a dependent variable (*Y*) can be explained, in part or in full, by a third variable (*M*). The core idea is to decompose the total effect of *X* on *Y* into a direct effect and an indirect effect transmitted via the mediator. This is achieved through a series of regression models estimating paths *a*, *b*, *c*, and *c′*, with the indirect effect defined as the product of paths *a* and *b*. Mediation analysis is particularly useful for theory-driven questions about underlying mechanisms, but its interpretation relies on strong assumptions about causal ordering and omitted variables.
+
+Moderation analysis, in contrast, tests whether the strength or direction of the relationship between *X* and *Y* depends on the level of a third variable (*M*). After mean-centering the predictor and moderator, moderation is evaluated by including an interaction term in a regression model. Significant interactions are further examined using simple slope analyses to characterize the relationship between *X* and *Y* at low and high levels of the moderator.
+
+Together, these analyses offer complementary tools: mediation focuses on explanatory pathways, whereas moderation addresses conditional effects and boundary conditions.
+
+---
+
 ## Table of Contents
 
 - [Mediation and Moderation](#mediation-and-moderation)
@@ -48,7 +60,7 @@ cprime = c - a * b
 
 For details on mediation analysis, see:
 
-- [David A. Kenny: Mediation](https://davidakenny.net/cm/mediation.htm)
+- [David A. Kenny: Mediation](https://davidakenny.net/cm/mediate.htm) <!-- link updated Jan 19 2026 -->
 
 ## Moderation analysis
 
