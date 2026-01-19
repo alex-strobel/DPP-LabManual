@@ -17,6 +17,8 @@ Moderation analysis, in contrast, tests whether the strength or direction of the
 
 Together, these analyses offer complementary tools: mediation focuses on explanatory pathways, whereas moderation addresses conditional effects and boundary conditions.
 
+(Abstract created with ChatGPT)
+
 ---
 
 ## Table of Contents
