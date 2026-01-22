@@ -20,6 +20,7 @@ Here, gaps in existing entries will be listed as of January 2025. Please make su
      - [ ] Meta-regression
  - [ ] [Outliers](https://github.com/alex-strobel/DPP-LabManual/blob/main/Research/Analysis/Methods/Outliers/Outliers.md)
 > We exclude them based on Mahalanobis distances. What exactly that means will most certainly be subject of another manual, but for now, it is safe to say that this is the most appropriate way of excluding multivariate outliers (reference missing).
+
 > The benefits and pitfalls of data normalization are another story that will be told another time.
 
 ## Teaching
