@@ -24,7 +24,9 @@ Here, gaps in existing entries will be listed as of January 2025. Please make su
 > The benefits and pitfalls of data normalization are another story that will be told another time.
 
 - [ ] [Power Analysis](https://github.com/alex-strobel/DPP-LabManual/edit/main/Research/Analysis/Methods/Power-Analysis/Power-Analysis.md)
-     - [ ] update link to presentation about power analyses
+     - [ ] Introduction | update link to presentation about power analyses
+     - [ ] Power analysis for special analysis types | Power for mediation analysis
+     - [ ] Concluding remark
 
 ## Teaching
 - [ ] [Exams](https://github.com/alex-strobel/DPP-LabManual/blob/main/Teaching/Exams.md) | Prüfberechtigung ergänzen, neue Prüfungszeiträume für B. Sc. einpflegen, SELMA hat HISQIS abgelöst
