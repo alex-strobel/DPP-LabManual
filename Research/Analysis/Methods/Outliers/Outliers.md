@@ -7,6 +7,16 @@ Faculty of Psychology, TU Dresden
 
 ---
 
+## Abstract
+
+This article addresses the pervasive issue of outliers and extreme values in psychological data analysis and advocates a cautious and principled approach to their treatment. Because it is statistically impossible to determine whether extreme observations originate from the same or a different population, no distinction is drawn between outliers and extreme values; all such observations are treated as outliers. The article contrasts a priori definitions of outliers, which should be theoretically and paradigm-specifically justified and specified before data collection (e.g., implausibly fast reaction times), with a posteriori approaches based on sample-dependent criteria. Univariate exclusion rules (e.g., based on standard deviations or interquartile ranges) are critically evaluated as arbitrary and potentially leading to iterative and biased case removal.
+
+When exclusion is considered, a procedure for identifying multivariate outliers using Mahalanobis distances in combination with Mardia’s test is outlined, with the requirement that decision thresholds be defined in advance. At the same time, routine outlier exclusion is discouraged, as it may introduce bias and reduce the validity of statistical inference. Instead, the use of robust statistical methods (e.g., rank-based correlations, bootstrapping, robust regression, and robust estimation in structural equation modeling) is advocated, as these approaches mitigate the influence of outliers without introducing selection bias. Outlier exclusion is framed as a last resort, primarily in situations such as model non-convergence, and should be transparently documented and preregistered.
+
+(Abstract created with ChatGPT)
+
+---
+
 ## Table of Contents
 
 - [Outliers](#outliers)
@@ -23,9 +33,10 @@ Faculty of Psychology, TU Dresden
   - [Situations where outlier exclusion might be necessary](#situations-where-outlier-exclusion-might-be-necessary)
   - [Take-home message](#take-home-message)
 
----
 
-> **Summary.** In what follows, it is argued that it is often enough difficult to define whether a measurement point is an outlier. There may be rational reasons to context-dependently define measurements as outliers, and there are statistical methods to define univariate or multivariate outliers. Both approaches always imply some subjective decision-making, so we usually refrain from excluding outlier for various reasons outlined below and rather use robust statistical methods or run our analyses twice, one (for the paper) with all data points and one (for the supplement) with outliers excluded. An exception from this general rule may be made if outlier exlusion results in the convergence of a statistical model that otherwise would not converge.  
+<!--
+> **Summary.** In what follows, it is argued that it is often enough difficult to define whether a measurement point is an outlier. There may be rational reasons to context-dependently define measurements as outliers, and there are statistical methods to define univariate or multivariate outliers. Both approaches always imply some subjective decision-making, so we usually refrain from excluding outlier for various reasons outlined below and rather use robust statistical methods or run our analyses twice, one (for the paper) with all data points and one (for the supplement) with outliers excluded. An exception from this general rule may be made if outlier exlusion results in the convergence of a statistical model that otherwise would not converge.
+-->
 
 ---
 ## Introduction
@@ -56,7 +67,7 @@ The upper bound of improbable values, at least for RT-based research, is easier 
 Most of the time, we will have some response deadline, e.g., 1000 ms.
 In this case, all responses made after 1000 ms will be recorded as outliers.
 This approach is also not undisputed because we may have simply set our response deadline too tightly.
-Still, as is was predefined, we cannot fall back to some other criterion (and therefore should not record any RT later than the response deadline so that we are not tempted to extend the deadline on empirical grounds, except for pilot studies).
+Still, as it was predefined, we cannot fall back to some other criterion (and, therefore, should not record any RT later than the response deadline so that we are not tempted to extend the deadline on empirical grounds, except for pilot studies).
 
 In questionnaire- or test-based research, there are no such a priori upper and lower bounds.
 For tests, we could maybe assume that, e.g., a standardized IQ score of < 70 (i.e., - 2 standard deviations below the mean) would be rather improbable when examining psychology students.
@@ -95,7 +106,7 @@ outliers <- function(df, threshold = .001) {
 This - not only poorly, but not at all documented - function first calculates the Mahalanobis distances (`m`).
 Then, for the the squared distances `m$d^2`, it calculates p-values  (`p`) based on a &chi;<sup>2</sup>-distribution with as many degrees of freedom as there are variables under study (`ncol(df)`) and compares them against a given threshold, which in this function is per default &alpha; = .001, which means a rather stringent criterion to exclude outliers (returned in vector `o`).
 One may want to use more liberal thresholds such as &alpha; = .01 or &alpha; = .05, which results in more "outliers" to be identified as such, but then you may loose a considerable number of participants.
-In any case, **we define your threshold for outlier exclusion in advance**.
+In any case, **we define our threshold for outlier exclusion in advance**.
 
 ## Not excluding multivariate outliers done "properly"
 
@@ -110,7 +121,7 @@ Therefore we use *robust* statistics to account for such violations, including b
 - Spearman instead of Pearson correlations
 - bootstrapped mean differences instead of a two-sample *t*-test
 - robust instead of linear regression (e.g., via the `lmrob()` function of the `robust base` package)
-- robust instead of standard Maximum Likelihood estimation in case if structural equation modeling or path analysis
+- robust instead of standard Maximum Likelihood estimation in case of structural equation modeling or path analysis
 
 Generally speaking, bootstrapping is an option for almost all statistical tests, so you might want to go for it instead of having to install yet another R package for solely one purpose.
 My advice would be to *always use robust statistics*.
@@ -126,7 +137,7 @@ The drawback here is that your manuscript gets longer or we need a supplemental 
 
 We should always be aware that some statistical procedures (such as structural equation models, mixed linear models and the like) may surprise us with an error message stating that the model did not converge.
 In such cases, exclusion of outliers may be a solution, while simply normalizing the variables included in our analysis may do as well (but the benefits and pitfalls of data normalization are another story that will be told another time).
-In our data analysis plan/preregistration, we therefore need to consider this necessity and would, e.g., write:
+In our data analysis plan/preregistration, we, therefore, need to consider this necessity and would, e.g., write:
 
 > Deviations from univariate and multivariate normality as assessed using Shapiro-Wilk and Mardia tests will be documented, but no outlier exclusion will be performed unless the mixed linear models employed for hypothesis testing may not converge. If so, we will first try to normalize the variables involved in our models via the RANKIT algorithm <!-- add ref. --> and if our models still do not converge, we will exclude multivariate outliers based on Mahalanobis distances with a cut-off *p*-value = .001.
 
@@ -138,4 +149,4 @@ In our data, there will most likely be some participants that will qualify to co
 2. often there are no objective criteria to define cases as outliers, and
 3. we can always use robust statistics that ameliorate possible distortions due to outliers
 
-it is suggested here to *not exclude* them unless it is clear that their values of some variables are improbable (see the above example for age) or they seem not trustworthy otherwise (such as gender = "Boba Fett", ).
+it is suggested here to *not exclude* them unless it is clear that their values of some variables are improbable (see the above example for age) or they seem not trustworthy otherwise (such as gender = "Boba Fett").
