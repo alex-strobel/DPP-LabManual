@@ -32,8 +32,7 @@ Yet working at the Technische Universität Dresden, their regulations apply to u
 
 ## Regulations at Technische Universität Dresden
 
-Addressing the [Guidelines for Safeguarding Good Research Practice](https://zenodo.org/record/3923602#.YaY7qS9XZqs) of the Deutsche Forschungsgemeinschaft (DFG), TU Dresden devised new "Statutes for ensuring good scientific practice, for the prevention of scientific misconduct and for dealing with violations" that also include a §8 Scientific publications. 
-It is provided below (so far in German only, a link to the official regulations will be added as soon as they are effective):
+Addressing the [Guidelines for Safeguarding Good Research Practice](https://zenodo.org/record/3923602#.YaY7qS9XZqs) of the Deutsche Forschungsgemeinschaft (DFG), TU Dresden devised new "Statutes for ensuring good scientific practice, for the prevention of scientific misconduct and for dealing with violations" that also include a §8 Scientific publications ([link](https://tu-dresden.de/gsw/slk/ressourcen/dateien/studium/ordnungen/dateien/TUD_Satzung_Sicherung-gute-wissenschaftliche-Praxis-2022.pdf?lang=de)).
 
 1. Grundsätzlich bringen Wissenschaftlerinnen und Wissenschaftler der TU Dresden ihre Forschungsergebnisse in den wissenschaftlichen Diskurs ein. Im Einzelfall kann es jedoch Gründe geben, Ergebnisse nicht öffentlich zugänglich zu machen; diese Entscheidung darf nicht von Dritten abhängen. Wissenschaftlerinnen und Wissenschaftler entscheiden in eigener Verantwortung – unter Berücksichtigung der Gepflogenheiten des betroffenen Fachgebiets –, ob, wie und wo sie ihre Ergebnisse öffentlich zugänglich machen. Unangemessen kleinteilige Publikationen werden dabei vermieden.
 
