@@ -1,6 +1,6 @@
 # To Dos
 
-Here, gaps in existing entries will be listed as of January 2025. Please make sure to keep this list up to date.
+Here, gaps in existing entries will be listed as of January 2026. Please make sure to keep this list up to date.
 
 - [ ] [Code of Conduct](https://github.com/alex-strobel/DPP-LabManual/blob/main/Code-of-Conduct.md) | tbc
 
@@ -30,3 +30,19 @@ Here, gaps in existing entries will be listed as of January 2025. Please make su
 
 ## Teaching
 - [ ] [Exams](https://github.com/alex-strobel/DPP-LabManual/blob/main/Teaching/Exams.md) | Prüfberechtigung ergänzen, neue Prüfungszeiträume für B. Sc. einpflegen, SELMA hat HISQIS abgelöst
+
+
+## Wiki
+- [ ] [Credit points](https://github.com/alex-strobel/DPP-LabManual/wiki/Credit-points) | whole entry
+- [ ] [IGOR](https://github.com/alex-strobel/DPP-LabManual/wiki/IGOR) | Twitter?
+- [ ] [LaTeX](https://github.com/alex-strobel/DPP-LabManual/wiki/LaTeX) | whole entry
+- [ ] [Longitudinal thesis plan](https://github.com/alex-strobel/DPP-LabManual/wiki/Longitudinal-thesis-plan) | Still relevant?
+- [ ] [Naming things](https://github.com/alex-strobel/DPP-LabManual/wiki/Naming-things)
+     - [ ] Scientific terms
+     - [ ] Institutions
+     - [ ] Folder structures and files
+- [ ] [OpARA](https://github.com/alex-strobel/DPP-LabManual/wiki/OpARA) | introduce OpARA in more detail
+- [ ] [ORSEE](https://github.com/alex-strobel/DPP-LabManual/wiki/ORSEE) | whole entry 
+- [ ] [SLUB](https://github.com/alex-strobel/DPP-LabManual/wiki/SLUB) | SLUB services
+- [ ] [XNAT](https://github.com/alex-strobel/DPP-LabManual/wiki/XNAT) | whole entry
+- [ ] [ZIH](https://github.com/alex-strobel/DPP-LabManual/wiki/ZIH) | whole entry
