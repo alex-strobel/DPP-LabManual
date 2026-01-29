@@ -160,7 +160,7 @@ While we have tried our best to provide you with our knowledge on R Markdown, we
 So, it may pay to read the R Markdown Guide, and often enough, you may want to refer to the R Markdown Cheat Sheet:
 
 - [R Markdown Guide](https://bookdown.org/yihui/bookdown/)
-- [R Markdown Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+- [R Markdown Cheat Sheet](https://posit.co/wp-content/uploads/2022/10/rmarkdown-1.pdf) <!-- old link: https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf -->
 
 For psychological research reports, there exists a template that renders your R Markdown document in APA style (so far only available for its 6th edition). 
 This template is included in the `papaja` package and you need to install it as described on the author's GitHub site. 
