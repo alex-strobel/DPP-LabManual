@@ -27,6 +27,9 @@ Here, gaps in existing entries will be listed as of January 2026. Please make su
      - [ ] Introduction | update link to presentation about power analyses
      - [ ] Power analysis for special analysis types | Power for mediation analysis
      - [ ] Concluding remark
+ - [ ] [psych R package](https://github.com/alex-strobel/DPP-LabManual/edit/main/Research/Analysis/Software/R/psych/psych.md)
+> For now, you have only performed PCA or factor analysis without telling your procedure how many factors you want to extract. If there is no theory-grounded reason to assume a given number of factors, you need to determine the number of components (for PCA) or factors (for factor analysis). The Eigenvalues > 1 criterion is often used to decide on this question, but you should not use it because (insert reference why it is inferior). 
+ - [ ] randcorr function | to be added, mentioned in [psych R package](https://github.com/alex-strobel/DPP-LabManual/edit/main/Research/Analysis/Software/R/psych/psych.md)  
 
 ## Teaching
 - [ ] [Exams](https://github.com/alex-strobel/DPP-LabManual/blob/main/Teaching/Exams.md) | Prüfberechtigung ergänzen, neue Prüfungszeiträume für B. Sc. einpflegen, SELMA hat HISQIS abgelöst
@@ -42,7 +45,9 @@ Here, gaps in existing entries will be listed as of January 2026. Please make su
      - [ ] Institutions
      - [ ] Folder structures and files
 - [ ] [OpARA](https://github.com/alex-strobel/DPP-LabManual/wiki/OpARA) | introduce OpARA in more detail
-- [ ] [ORSEE](https://github.com/alex-strobel/DPP-LabManual/wiki/ORSEE) | whole entry 
+- [ ] [ORSEE](https://github.com/alex-strobel/DPP-LabManual/wiki/ORSEE) | whole entry
+- [ ] R Markdown | whole entry, mentioned in [R Readme](https://github.com/alex-strobel/DPP-LabManual/blob/main/Research/Analysis/Software/R/README.md)
+- [ ] `renv` package | whole entry, mentioned in [R Readme](https://github.com/alex-strobel/DPP-LabManual/blob/main/Research/Analysis/Software/R/README.md)
 - [ ] [SLUB](https://github.com/alex-strobel/DPP-LabManual/wiki/SLUB) | SLUB services
 - [ ] [XNAT](https://github.com/alex-strobel/DPP-LabManual/wiki/XNAT) | whole entry
 - [ ] [ZIH](https://github.com/alex-strobel/DPP-LabManual/wiki/ZIH) | whole entry
