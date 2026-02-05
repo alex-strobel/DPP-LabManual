@@ -27,7 +27,7 @@ Regarding what variables are really neccesary ...
 
 - those relevant to characterize your sample (age, gender, education will in most cases do) to enable an estimation of the level of generalizability
 - those relevant to answer your research question
-- potential confounders (read this [interresting blog post on confounders](https://towardsdatascience.com/get-a-grip-when-to-add-covariates-in-a-linear-regression-f6a5a47930e5))
+- potential confounders <!--(read this [interresting blog post on confounders](https://towardsdatascience.com/get-a-grip-when-to-add-covariates-in-a-linear-regression-f6a5a47930e5)) Blog post no longer available-->
 
 Regarding the detail of assessment ...
 
@@ -38,24 +38,24 @@ Regarding the detail of assessment ...
 When planning a study with a large sample you may be tempted to assess as many variables you can in order to exploit the data set for a number of publications.
 What sounds like a good idea, may haunt you later on because
 
-- you will need to report all measures in the study in every article based on the study (because in line with the [OSIP Research Transparency Statement](https://tu-dresden.de/mn/psychologie/die-fakultaet/open-science/osip-research-transparency-statement), we always use the 21-word solution ([Simmons et al., 2012](http://dx.doi.org/10.2139/ssrn.2160588)), which may be tiresome
+- you will need to report all measures in the study in every article based on the study (because in line with the [OSIP Research Transparency Statement](https://tu-dresden.de/mn/psychologie/die-fakultaet/open-science/osip-research-transparency-statement), we always use the 21-word solution ([Simmons et al., 2012](http://dx.doi.org/10.2139/ssrn.2160588))), which may be tiresome
 - reviewers will ask why you only used a certain portion of the data for a given paper or may even suspect piecemeal publication
 - having so many variables at hand may also be confusing and may tempt you run exploratory analyses or use covariates that were not planned to be included in the analysis
 
-It is therefore most of the time wise to reduce the number of potential outcome variables and *a priori* covariates to a minimum **or** to write a Data/Project paper ahead of beginning data collection where you describe the larger project, the data collected and the intended use for different research questions and, thus, different research papers. 
+It is, therefore, most of the time wise to reduce the number of potential outcome variables and *a priori* covariates to a minimum **or** to write a Data/Project paper ahead of beginning data collection where you describe the larger project, the data collected and the intended use for different research questions and, thus, different research papers. 
 
 ## Prefer open materials
 
 To foster replicability of our studies, we try to provide open materials, e.g. questionnaires, stimuli etc.
 This is much easier if we use open materials. For questionnaires and tests, a useful resource for open material is:
 
-- [ZIS](https://zis.gesis.org)
+- [ZIS Open Access Repository for Measurement Instruments](https://zis.gesis.org) 
 
-Commercially available materials must not be used for teaching and research unless one has acquired a license to do so, i.e., has bought enough test books/answering sheets for the number of participants in a given study. If you want to use, say, the [*NEO Five Factor Inventory (NEO-FFI)*](https://www.testzentrale.de/shop/neo-fuenf-faktoren-inventar-nach-costa-und-mc-crae.html) in a study where you aim at *N* = 500 participants: Even if you have bought the test from Hogrefe for about 200 €, you cannot simply make 500 copies of the questionnaire. You need to buy the respective number of copies of the questionnaire as well, amounting (as of end 2021) to about 1000 €. For third-party funded research, you should therefore always apply for funding of the respective number of copies of a commercially availabe questionnaire or test. Or, as said, go for free material. 
+Commercially available materials must not be used for teaching and research unless one has acquired a license to do so, i.e., has bought enough test books/answering sheets for the number of participants in a given study. If you want to use, say, the [*NEO Five Factor Inventory (NEO-FFI)*](https://www.testzentrale.de/shop/neo-fuenf-faktoren-inventar-nach-costa-und-mc-crae.html) in a study where you aim at *N* = 500 participants: Even if you have bought the test from Hogrefe for about 200 €, you cannot simply make 500 copies of the questionnaire. You need to buy the respective number of copies of the questionnaire as well, amounting (as of end 2021) to about 1000 €. For third-party funded research, you should, therefore, always apply for funding of the respective number of copies of a commercially availabe questionnaire or test. Or, as said, go for free material. 
 
-You might say "Well, I do not use commercially available questionnaires, all questionnaires I use have been provided openly in scientific publications." I wish you would be right, but in most cases you won't. Read here about the respective regulations for Germany (**strongly recomended reading**):
+You might say "Well, I do not use commercially available questionnaires, all questionnaires I use have been provided openly in scientific publications." I wish you were right, but in most cases you won't be. Read here about the respective regulations for Germany (**strongly recomended reading**):
 
-- [Tests in Lehre und Forschung](https://www.bdp-verband.de/binaries/content/assets/beruf/testrezensionen/dtk_tests_in_lehre_und_forschung.pdf)
+- [Tests in Lehre und Forschung](https://www.bdp-verband.de/fileadmin/user_upload/BDP/website/dokumente/PDF/Profession/DTK/DTK_2019_Broschuere_Testschutz.pdf)
 
 So if you want to use some questionnaire that has been published in a journal, the copyright still lies either with the authors or the publisher (or both). In this case, contact both the author(s) and the publisher to ask for permission to use this questionnaire. Ideally, you ask for a broad permission to use the questionnaire in your research and teaching, hopefully, it is granted.
 
@@ -71,9 +71,11 @@ If you have no idea what effect size to expect, Cohen‘s classification most li
 
 The software used for power analysis makes no difference. Yet, [G\*Power](https://www.psychologie.hhu.de/arbeitsgruppen/allgemeine-psychologie-und-arbeitspsychologie/gpower) is more powerful than other software such as jamovi or the [R package `pwr`](https://github.com/alex-strobel/DPP-LabManual/wiki/R-package-pwr) under R. If there is no power analysis software for your specific effect size, run simulations.
 
-For details on power analysis, see the following presentation:
+<!--For details on power analysis, see the following presentation:
 
 - [Power Analyses](https://github.com/alex-strobel/DPP-LabManual/blob/main/Manuals/Workflow_research_projects/Ressources/PowerAnalyses/DPP_LM_PowerAnalyses.pdf)
+
+Presentation no longer available -->
 
 ### Run a pilot study
 
@@ -81,7 +83,7 @@ A pilot study does not only help in estimating the effect size you can expect, i
 
 ## Consider to use Bayesian sequential testing
 
-Bayesian sequential testing allows you to collect your data most efficiently. Basically, one regularly checks the incoming data using Bayesian statistics and stops data collection if some prespecified Bayes Factor is achieved. For details, see [Schönbrodt et al. (2018)](https://osf.io/w3s3s/).
+Bayesian sequential testing allows you to collect your data most efficiently. Basically, one regularly checks the incoming data using Bayesian statistics and stops data collection if some prespecified Bayes Factor is achieved. For details, see [Schönbrodt et al. (2017)](https://doi.org/10.1037/met0000061).
 
 ---
 
