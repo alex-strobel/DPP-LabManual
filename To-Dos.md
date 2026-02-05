@@ -29,7 +29,15 @@ Here, gaps in existing entries will be listed as of January 2026. Please make su
      - [ ] Concluding remark
  - [ ] [psych R package](https://github.com/alex-strobel/DPP-LabManual/edit/main/Research/Analysis/Software/R/psych/psych.md)
 > For now, you have only performed PCA or factor analysis without telling your procedure how many factors you want to extract. If there is no theory-grounded reason to assume a given number of factors, you need to determine the number of components (for PCA) or factors (for factor analysis). The Eigenvalues > 1 criterion is often used to decide on this question, but you should not use it because (insert reference why it is inferior). 
- - [ ] randcorr function | to be added, mentioned in [psych R package](https://github.com/alex-strobel/DPP-LabManual/edit/main/Research/Analysis/Software/R/psych/psych.md)  
+- [ ] randcorr function | to be added, mentioned in [psych R package](https://github.com/alex-strobel/DPP-LabManual/edit/main/Research/Analysis/Software/R/psych/psych.md)
+- [ ] Research Flow - [Theoretical-part](https://github.com/alex-strobel/DPP-LabManual/edit/main/Research/Administration/Research-Workflow/02_Theoretical_part.md)
+    - [ ] link to web page where users enter their experiences with the time it took to review/reject/accept their contribution.
+    - [ ] Formal aspects of your theoretical part
+- [ ] Research Flow - [Study design](https://github.com/alex-strobel/DPP-LabManual/edit/main/Research/Administration/Research-Workflow/03_Study_design.md) | insert link to presentation on power analysis (see comment)
+- [ ] Research Flow - [REDCap Project](https://github.com/alex-strobel/DPP-LabManual/blob/main/Research/Administration/Research-Workflow/04_REDCap_project.md)
+- [ ] Research Flow - [Analysis Plan](https://github.com/alex-strobel/DPP-LabManual/edit/main/Research/Administration/Research-Workflow/06_Analysis_plan.md)
+    - [ ] update link to randcorr.R script
+    - [ ] revise section [Plan how to merge your data](https://github.com/alex-strobel/DPP-LabManual/blob/main/Research/Administration/Research-Workflow/06_Analysis_plan.md#plan-how-to-merge-your-data)
 
 ## Teaching
 - [ ] [Exams](https://github.com/alex-strobel/DPP-LabManual/blob/main/Teaching/Exams.md) | Prüfberechtigung ergänzen, neue Prüfungszeiträume für B. Sc. einpflegen, SELMA hat HISQIS abgelöst
