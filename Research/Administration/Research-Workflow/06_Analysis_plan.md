@@ -11,7 +11,7 @@
 
 ---
 
-> **Summary.** One of the most important steps in conducting a research project is to develop an adequate analysis plan. Use *state of the art* analysis routines that are best suited for your research question and type of sample and data. These routines can be fully scripted ideally, they *are already fully scripted* before you even start with data collection. Prefer open analysis software, usually R/R packages! Also consider to use Baysia statistics, as you should be able to reject your null hypothesis which you cannot if using a frequentist approach. And finally, carefully plan in advance how to merge your data if they come from different sources (e.g., questionnaire data collected via REDCap, EEG data collected via BrainVision Analyzer, reaction time data collected using a Presentation or Python script etc.)
+> **Summary.** One of the most important steps in conducting a research project is to develop an adequate analysis plan. Use *state of the art* analysis routines that are best suited for your research question and type of sample and data. These routines can be fully scripted; ideally, they *already are fully scripted* before you even start with data collection. Prefer open analysis software, usually R/R packages! Also consider to use Bayesian statistics, as you should be able to reject your null hypothesis which you cannot if using a frequentist approach. And, finally, carefully plan in advance how to merge your data if they come from different sources (e.g., questionnaire data collected via REDCap, EEG data collected via BrainVision Analyzer, reaction time data collected using a Presentation or Python script, etc.)
 
 ---
 ## Develop an analysis plan
@@ -20,7 +20,7 @@ Take your time and choose the most appropriate and *state of the art* analysis r
 
 Your analysis plan should ideally be fully scripted and the analysis script(s) should be provided with your [preregistration](09_Preregistration.md). You could use data from a pilot study for that purpose. If you do not have pilot data, you might want to simulate variables to develop your analysis routines. In R, you can do this quite easily for a number of assumed distributions of your data, and for correlation analysis, you may want to resort to the R script [`randcorr.R`](https://github.com/alex-strobel/DPP-LabManual/blob/main/Functions/randcorr.R). 
 
-In the end, it will really pay to have considered how to exactly test your hypotheses (and they should have been formulated with the statistical tests in mind right from the start, see [Formulation of hypotheses](01_Research_question.md/#Formulation-of-hypotheses)). In an ideal world, you should have written your manuscript using [R Markdown](https://github.com/alex-strobel/DPP-LabManual/wiki/R-Markdown) so that when the data are collected and preprocessed, you simply have to click the `knit` button in RStudio to have the Results part ready for getting published.
+In the end, it will really pay to have considered how to exactly test your hypotheses (and they should have been formulated with the statistical tests in mind right from the start, see [Formulation of hypotheses](01_Research_question.md/#Formulation-of-hypotheses)). In an ideal world, you should have written your manuscript using [R Markdown](https://github.com/alex-strobel/DPP-LabManual/tree/main/Research/Analysis/Software/R#r-markdown) so that when the data are collected and preprocessed, you simply have to click the `knit` button in RStudio to have the Results part ready for getting published.
 
 ## Prefer open analysis software
 
@@ -28,7 +28,7 @@ R is certainly the most frequently used open software environment for (not only)
 
 JASP is an open-source project developed by Eric-Jan Wagenmakers and his team. It is supported by the University of Amsterdam and the Center for Open Science. It has a user-friendly interface and offers standard analysis routines for both frequentist and Bayesian statistics. Yet, for a number of more advanced statistics such as structural equation modeling or mixed models, you have to rely on integrated modules which often are R-based, so one will still have to learn R. Just install [JASP](https://jasp-stats.org) and make sure to regularly check for updates.
 
-Your analysis plan should ideally be fully scripted. When programming in R, adhere to the [tidyverse style guide](https://github.com/alex-strobel/DPP-LabManual/wiki/R-programming-style-guide)!
+Your analysis plan should ideally be fully scripted. When programming in R, adhere to the [tidyverse style guide](https://github.com/alex-strobel/DPP-LabManual/tree/main/Research/Analysis/Software/R#r-programming-style-guide)!
 
 ## Consider to use Bayesian statistics
 
@@ -56,7 +56,7 @@ According to, e.g., [Wetzels et al. (2015)](https://doi.org/10.1002/978111862539
 Sometimes, you might see also a BF01. This is simply 1/BF10, and the above thresholds would reverse, i.e., a BF01 > 10 would be strong evidence for the H0. 
 Importantly, you should not take these thresholds as strict rules, they are simply conventions such as *p* < .05. Using Bayesian statistics, we should not make the same mistakes as are often made when employing the frequentist approach. A BF10 = 3.1 is no better BF10 than a BF10 = 2.9 (and never ever state that BF10 = 2.9 is *marginally* moderate evidence for the alternative hypothesis).   
 
-Bayesian analyses can be performed with, e.g., [JASP](https://jasp-stats.org) and the [R package `BayesFactor`](https://github.com/alex-strobel/DPP-LabManual/wiki/R-package-BayesFactor).
+Bayesian analyses can be performed with, e.g., [JASP](https://jasp-stats.org) and the [R package `BayesFactor`](https://github.com/alex-strobel/DPP-LabManual/blob/main/Research/Analysis/Software/R/BayesFactor/BayesFactor.md).
 
 ## Plan how to merge your data
 
