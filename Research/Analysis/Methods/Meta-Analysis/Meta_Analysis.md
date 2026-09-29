@@ -279,7 +279,7 @@ Overall, using these methods, we can summarize that there seems some, but no sev
 ...
 
 ## References
-- Balduzzi, S., Rücker, G., & Schwarzer, G. (2019). How to prform a meta-analysis with R: a pracitcal tutorial. *BMJ Mental Health, 22*(4), 153-160. https://doi.org/10.1136/ebmental-2019-300117
+- Balduzzi, S., Rücker, G., & Schwarzer, G. (2019). How to prform a meta-analysis with R: a practical tutorial. *BMJ Mental Health, 22*(4), 153-160. https://doi.org/10.1136/ebmental-2019-300117
 <!-- Buecker et al. -->
 - Carter, E. C., Schönbrodt, F. D., Gervais, W. M., & Hilgard, J. (2019). Correcting for bias in psychology: A comparison of meta-analytic methods. *Advances in Methods and Practices in Psychological Science, 2*(2), 115–144. https://doi.org/10.1177/2515245919847196
 - Duval, S., & Tweedie, R. (2000). Trim and Fill: A Simple Funnel-Plot-Based Method of Testing and Adjusting for Publication Bias in Meta-Analysis. *Biometrics, 56*(2), 455-463. https://doi.org/10.1111/j.0006-341X.2000.00455.x
